@@ -1,0 +1,386 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dictionary>
+
+  <!-- Define the alphabet below. -->
+  <alphabet>ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyzÀÁÂÄÇÈÉÊËÌÍÎÏÑÒÓÔÖÙÚÛÜàáâäçèéêëìíîïñòóôöùúûüß</alphabet>
+
+  <sdefs>
+    <!-- Define symbol definitions within <sdef> here. -->
+    <sdef n="n"     c="Noun"/>
+    <sdef n="p1" 	c="First person"/> 
+    <sdef n="p2" 	c="Second person"/> 
+    <sdef n="p3" 	c="Third person"/> 
+    <sdef n="prn" 	c="Pronoun"/> 
+    <sdef n="frm" 	c="Formal"/> 
+    <sdef n="m" 	c="Masculine"/> 
+    <sdef n="f" 	c="Feminine"/> 
+    <sdef n="nt" 	c="Neuter"/> 
+    <sdef n="mf" 	c="Masculine-Feminine"/> 
+    <sdef n="mfn" 	c="Masculine/feminine/neuter"/> 
+    <sdef n="det" 	c="Determiner"/> 
+    <sdef n="num" 	c="Numeral / Number"/> 
+    <sdef n="ord" 	c="Ordinal"/> 
+    <sdef n="qnt" 	c="Quantifier"/> 
+    <sdef n="rel" 	c="Relative"/> 
+    <sdef n="ind" 	c="Indefinite"/> 
+    <sdef n="itg" 	c="Interrogative"/> 
+    <sdef n="dem" 	c="Demonstrative"/> 
+    <sdef n="pers" 	c="Personal (pronoun)"/> 
+    <sdef n="def" 	c="Definite"/> 
+    <sdef n="pos" 	c="Possessive"/> 
+    <sdef n="acc" 	c="Accusative"/> 
+    <sdef n="dat" 	c="Dative"/> 
+    <sdef n="gen" 	c="Genitive"/> 
+    <sdef n="nom" 	c="Nominative"/> 
+    <sdef n="attr"  c="Attributive"/>
+    <sdef n="sg"    c="Singular"/>
+    <sdef n="pl"    c="Plural"/>
+    <sdef n="sp" 	c="Singular/Plural"/> 
+    <sdef n="vblex" 	c="Lexical verb"/> 
+    <sdef n="vbser" 	c="The verb 'to be'"/> 
+    <sdef n="vbhaver" 	c="The verb 'to have'"/> 
+    <sdef n="vbmod" 	c="Modal verb"/> 
+    <sdef n="vaux" 	c="Auxilliary verb"/> 
+    <sdef n="pprs" 	c="Present participle"/> 
+    <sdef n="inf" 	c="Infinitive"/> 
+    <sdef n="pri" 	c="Present indicative"/> 
+    <sdef n="prs" 	c="Present subjunctive"/> 
+    <sdef n="imp" 	c="Imperative"/> 
+    <sdef n="pii" /> 
+    <sdef n="pis" /> 
+    <sdef n="pp" 	c="Participle"/> 
+    <sdef n="pr" 	c="Preposition"/> 
+    <sdef n="sent" 	c="End of sentence"/> 
+    <sdef n="cm" 	c="Comma"/> 
+    <sdef n="lpar" 	c="Left parenthesis"/> 
+    <sdef n="rpar" 	c="Right parenthesis"/> 
+    <sdef n="guio" 	c="Hyphen"/> 
+    <sdef n="lquot" 	c="Left quote"/> 
+    <sdef n="rquot" 	c="Right quote"/> 
+    <sdef n="percent" 	c="Percentage"/> 
+    <sdef n="apos" 	c="Apostrophe"/> 
+  </sdefs>
+
+  <pardefs>
+
+<!-- SECTION: Punctuation -->
+
+<pardef n="separa">
+  <e r="LR"><re>[.\?;:!]</re><p><l></l><r><s n="sent"/></r></p></e>
+  <e r="RL"><p><l><a/></l>      <r></r></p><re>[.\?;:!]</re><p><l></l><r><s n="sent"/></r></p></e>
+</pardef>
+
+<pardef n="quot">
+  <e>       <re>[„«]</re><p><l></l><r><s n="lquot"/></r></p></e>
+  <e>       <re>[“»]</re><p><l></l><r><s n="rquot"/></r></p></e>
+</pardef>
+
+<pardef n="cometa">
+  <e>       <re>[’'‘]</re><p><l></l><r><s n="apos"/></r></p></e>
+</pardef>
+
+<pardef n="guionet">
+  <e>       <p><l>-</l>         <r>-<s n="guio"/></r></p></e>
+  <e>       <p><l>–</l>         <r>–<s n="guio"/></r></p></e>
+</pardef>
+
+<pardef n="coma">
+  <e>       <p><l>,</l>         <r>,<s n="cm"/></r></p></e>
+</pardef>
+
+<pardef n="paresq">
+  <e>       <re>[\(\[]</re><p><l></l><r><s n="lpar"/></r></p></e>
+</pardef>
+
+<pardef n="pardret">
+  <e>       <re>[\)\]]</re><p><l></l><r><s n="rpar"/></r></p></e>
+</pardef>
+
+<pardef n="numeros">
+  <e>       <re>[0-9]+(([.,: ][0-9]+)+)?</re><p><l></l><r><s n="num"/></r></p></e>
+</pardef>
+
+<pardef n="ordinals">
+  <e>       <re>[0-9]+</re><p><l>.</l><r>.<s n="num"/><s n="ord"/></r></p></e>
+</pardef>
+
+
+<!-- SECTION: Pronouns -->
+
+<pardef n="/ech__prn">
+  <e>       <p><l>ech</l>       <r>ech<s n="prn"/><s n="pers"/><s n="p1"/><s n="mf"/><s n="sg"/><s n="nom"/></r></p></e>
+  <e>       <p><l>mir</l>       <r>ech<s n="prn"/><s n="pers"/><s n="p1"/><s n="mf"/><s n="sg"/><s n="dat"/></r></p></e>
+  <e>       <p><l>mer</l>       <r>ech<s n="prn"/><s n="pers"/><s n="p1"/><s n="mf"/><s n="sg"/><s n="dat"/></r></p></e>
+  <e>       <p><l>mech</l>      <r>ech<s n="prn"/><s n="pers"/><s n="p1"/><s n="mf"/><s n="sg"/><s n="acc"/></r></p></e>
+</pardef>
+<pardef n="/du__prn">
+  <e>       <p><l>du</l>        <r>du<s n="prn"/><s n="pers"/><s n="p2"/><s n="mf"/><s n="sg"/><s n="nom"/></r></p></e>
+  <e>       <p><l>de</l>        <r>du<s n="prn"/><s n="pers"/><s n="p2"/><s n="mf"/><s n="sg"/><s n="nom"/></r></p></e>
+  <e>       <p><l>dir</l>       <r>du<s n="prn"/><s n="pers"/><s n="p2"/><s n="mf"/><s n="sg"/><s n="dat"/></r></p></e>
+  <e>       <p><l>der</l>       <r>du<s n="prn"/><s n="pers"/><s n="p2"/><s n="mf"/><s n="sg"/><s n="dat"/></r></p></e>
+  <e>       <p><l>dech</l>      <r>du<s n="prn"/><s n="pers"/><s n="p2"/><s n="mf"/><s n="sg"/><s n="acc"/></r></p></e>
+</pardef>
+<pardef n="/hien__prn">
+  <e>       <p><l>hien</l>      <r>hien<s n="prn"/><s n="pers"/><s n="p3"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
+  <e>       <p><l>en</l>        <r>hien<s n="prn"/><s n="pers"/><s n="p3"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
+  <e>       <p><l>him</l>       <r>hien<s n="prn"/><s n="pers"/><s n="p3"/><s n="m"/><s n="sg"/><s n="dat"/></r></p></e>
+  <e>       <p><l>em</l>        <r>hien<s n="prn"/><s n="pers"/><s n="p3"/><s n="m"/><s n="sg"/><s n="dat"/></r></p></e>
+  <e>       <p><l>hien</l>      <r>hien<s n="prn"/><s n="pers"/><s n="p3"/><s n="m"/><s n="sg"/><s n="acc"/></r></p></e>
+  <e>       <p><l>en</l>        <r>hien<s n="prn"/><s n="pers"/><s n="p3"/><s n="m"/><s n="sg"/><s n="acc"/></r></p></e>
+</pardef>
+<pardef n="/si__prn">
+  <e>       <p><l>si</l>        <r>si<s n="prn"/><s n="pers"/><s n="p3"/><s n="f"/><s n="sg"/><s n="nom"/></r></p></e>
+  <e>       <p><l>se</l>        <r>si<s n="prn"/><s n="pers"/><s n="p3"/><s n="f"/><s n="sg"/><s n="nom"/></r></p></e>
+  <e>       <p><l>hir</l>       <r>si<s n="prn"/><s n="pers"/><s n="p3"/><s n="f"/><s n="sg"/><s n="dat"/></r></p></e>
+  <e>       <p><l>er</l>        <r>si<s n="prn"/><s n="pers"/><s n="p3"/><s n="f"/><s n="sg"/><s n="dat"/></r></p></e>
+  <e>       <p><l>si</l>        <r>si<s n="prn"/><s n="pers"/><s n="p3"/><s n="f"/><s n="sg"/><s n="acc"/></r></p></e>
+  <e>       <p><l>se</l>        <r>si<s n="prn"/><s n="pers"/><s n="p3"/><s n="f"/><s n="sg"/><s n="acc"/></r></p></e>
+</pardef>
+<pardef n="/hatt__prn">
+  <e>       <p><l>hatt</l>      <r>hatt<s n="prn"/><s n="pers"/><s n="p3"/><s n="nt"/><s n="sg"/><s n="nom"/></r></p></e>
+  <e>       <p><l>et</l>        <r>hatt<s n="prn"/><s n="pers"/><s n="p3"/><s n="nt"/><s n="sg"/><s n="nom"/></r></p></e>
+  <e>       <p><l>him</l>       <r>hatt<s n="prn"/><s n="pers"/><s n="p3"/><s n="nt"/><s n="sg"/><s n="dat"/></r></p></e>
+  <e>       <p><l>em</l>        <r>hatt<s n="prn"/><s n="pers"/><s n="p3"/><s n="nt"/><s n="sg"/><s n="dat"/></r></p></e>
+  <e>       <p><l>hatt</l>      <r>hatt<s n="prn"/><s n="pers"/><s n="p3"/><s n="nt"/><s n="sg"/><s n="acc"/></r></p></e>
+  <e>       <p><l>et</l>        <r>hatt<s n="prn"/><s n="pers"/><s n="p3"/><s n="nt"/><s n="sg"/><s n="acc"/></r></p></e>
+</pardef>
+<pardef n="/mir__prn">
+  <e>       <p><l>mir</l>       <r>mir<s n="prn"/><s n="pers"/><s n="p1"/><s n="mf"/><s n="pl"/><s n="nom"/></r></p></e>
+  <e>       <p><l>mer</l>       <r>mir<s n="prn"/><s n="pers"/><s n="p1"/><s n="mf"/><s n="pl"/><s n="nom"/></r></p></e>
+  <e>       <p><l>äis</l>       <r>mir<s n="prn"/><s n="pers"/><s n="p1"/><s n="mf"/><s n="pl"/><s n="dat"/></r></p></e>
+  <e>       <p><l>eis</l>       <r>mir<s n="prn"/><s n="pers"/><s n="p1"/><s n="mf"/><s n="pl"/><s n="dat"/></r></p></e>
+  <e>       <p><l>äis</l>       <r>mir<s n="prn"/><s n="pers"/><s n="p1"/><s n="mf"/><s n="pl"/><s n="acc"/></r></p></e>
+  <e>       <p><l>eis</l>       <r>mir<s n="prn"/><s n="pers"/><s n="p1"/><s n="mf"/><s n="pl"/><s n="acc"/></r></p></e>
+</pardef>
+<pardef n="/dir__prn">
+  <e>       <p><l>dir</l>       <r>dir<s n="prn"/><s n="pers"/><s n="p2"/><s n="mf"/><s n="pl"/><s n="nom"/></r></p></e>
+  <e>       <p><l>der</l>       <r>dir<s n="prn"/><s n="pers"/><s n="p2"/><s n="mf"/><s n="pl"/><s n="nom"/></r></p></e>
+  <e>       <p><l>iech</l>      <r>dir<s n="prn"/><s n="pers"/><s n="p2"/><s n="mf"/><s n="pl"/><s n="dat"/></r></p></e>
+  <e>       <p><l>iech</l>      <r>dir<s n="prn"/><s n="pers"/><s n="p2"/><s n="mf"/><s n="pl"/><s n="acc"/></r></p></e>
+</pardef>
+<pardef n="/si__prn_pl">
+  <e>       <p><l>si</l>        <r>si<s n="prn"/><s n="pers"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="nom"/></r></p></e>
+  <e>       <p><l>se</l>        <r>si<s n="prn"/><s n="pers"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="nom"/></r></p></e>
+  <e>       <p><l>hinnen</l>    <r>si<s n="prn"/><s n="pers"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="dat"/></r></p></e>
+  <e>       <p><l>en</l>        <r>si<s n="prn"/><s n="pers"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="dat"/></r></p></e>
+  <e>       <p><l>si</l>        <r>si<s n="prn"/><s n="pers"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="acc"/></r></p></e>
+  <e>       <p><l>se</l>        <r>si<s n="prn"/><s n="pers"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="acc"/></r></p></e>
+</pardef>
+
+
+<pardef n="en__det">
+  <e>       <p><l></l>          <r><s n="det"/><s n="ind"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
+  <e>       <p><l>gem</l>       <r><s n="det"/><s n="ind"/><s n="m"/><s n="sg"/><s n="dat"/></r></p></e>
+  <e>       <p><l></l>          <r><s n="det"/><s n="ind"/><s n="m"/><s n="sg"/><s n="acc"/></r></p></e>
+  <e>       <p><l>g</l>         <r><s n="det"/><s n="ind"/><s n="f"/><s n="sg"/><s n="nom"/></r></p></e>
+  <e>       <p><l>ger</l>       <r><s n="det"/><s n="ind"/><s n="f"/><s n="sg"/><s n="dat"/></r></p></e>
+  <e>       <p><l>g</l>         <r><s n="det"/><s n="ind"/><s n="f"/><s n="sg"/><s n="acc"/></r></p></e>
+  <e>       <p><l></l>          <r><s n="det"/><s n="ind"/><s n="nt"/><s n="sg"/><s n="nom"/></r></p></e>
+  <e>       <p><l>gem</l>       <r><s n="det"/><s n="ind"/><s n="nt"/><s n="sg"/><s n="dat"/></r></p></e>
+  <e>       <p><l></l>          <r><s n="det"/><s n="ind"/><s n="nt"/><s n="sg"/><s n="acc"/></r></p></e>
+</pardef>
+
+<pardef n="d/en__det">
+  <e>       <p><l>en</l>        <r>en<s n="det"/><s n="def"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
+  <e>       <p><l>em</l>        <r>en<s n="det"/><s n="def"/><s n="m"/><s n="sg"/><s n="dat"/></r></p></e>
+  <e>       <p><l>en</l>        <r>en<s n="det"/><s n="def"/><s n="m"/><s n="sg"/><s n="acc"/></r></p></e>
+  <e>       <p><l></l>          <r>en<s n="det"/><s n="def"/><s n="f"/><s n="sg"/><s n="nom"/></r></p></e>
+  <e>       <p><l></l>          <r>en<s n="det"/><s n="def"/><s n="f"/><s n="sg"/><s n="dat"/></r></p></e>
+  <e>       <p><l></l>          <r>en<s n="det"/><s n="def"/><s n="f"/><s n="sg"/><s n="acc"/></r></p></e>
+  <e>       <p><l></l>          <r>en<s n="det"/><s n="def"/><s n="nt"/><s n="sg"/><s n="nom"/></r></p></e>
+  <e>       <p><l></l>          <r>en<s n="det"/><s n="def"/><s n="nt"/><s n="sg"/><s n="dat"/></r></p></e>
+  <e>       <p><l></l>          <r>en<s n="det"/><s n="def"/><s n="nt"/><s n="sg"/><s n="acc"/></r></p></e>
+  <e>       <p><l></l>          <r>en<s n="det"/><s n="def"/><s n="mfn"/><s n="pl"/><s n="nom"/></r></p></e>
+  <e>       <p><l></l>          <r>en<s n="det"/><s n="def"/><s n="mfn"/><s n="pl"/><s n="dat"/></r></p></e>
+  <e>       <p><l></l>          <r>en<s n="det"/><s n="def"/><s n="mfn"/><s n="pl"/><s n="acc"/></r></p></e>
+
+  <e>       <p><l>een</l>       <r>en<s n="det"/><s n="def"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
+  <e>       <p><l>eem</l>       <r>en<s n="det"/><s n="def"/><s n="m"/><s n="sg"/><s n="dat"/></r></p></e>
+  <e>       <p><l>een</l>       <r>en<s n="det"/><s n="def"/><s n="m"/><s n="sg"/><s n="acc"/></r></p></e>
+  <e>       <p><l>éi</l>        <r>en<s n="det"/><s n="def"/><s n="f"/><s n="sg"/><s n="nom"/></r></p></e>
+  <e>       <p><l>är</l>        <r>en<s n="det"/><s n="def"/><s n="f"/><s n="sg"/><s n="dat"/></r></p></e>
+  <e>       <p><l>éi</l>        <r>en<s n="det"/><s n="def"/><s n="f"/><s n="sg"/><s n="acc"/></r></p></e>
+  <e>       <p><l>at</l>        <r>en<s n="det"/><s n="def"/><s n="nt"/><s n="sg"/><s n="nom"/></r></p></e>
+  <e>       <p><l>eem</l>       <r>en<s n="det"/><s n="def"/><s n="nt"/><s n="sg"/><s n="dat"/></r></p></e>
+  <e>       <p><l>at</l>        <r>en<s n="det"/><s n="def"/><s n="nt"/><s n="sg"/><s n="acc"/></r></p></e>
+  <e>       <p><l>éi</l>        <r>en<s n="det"/><s n="def"/><s n="mfn"/><s n="pl"/><s n="nom"/></r></p></e>
+  <e>       <p><l>eenen</l>     <r>en<s n="det"/><s n="def"/><s n="mfn"/><s n="pl"/><s n="dat"/></r></p></e>
+  <e>       <p><l>éi</l>        <r>en<s n="det"/><s n="def"/><s n="mfn"/><s n="pl"/><s n="acc"/></r></p></e>
+</pardef>
+
+
+<pardef n="/ginn__vaux">
+  <e>       <p><l>ginn</l>      <r>ginn<s n="vaux"/><s n="inf"/></r></p></e>
+  <e>       <p><l>ginn</l>      <r>ginn<s n="vaux"/><s n="pp"/></r></p></e>
+
+  <e>       <p><l>ginn</l>      <r>ginn<s n="vaux"/><s n="pri"/><s n="p1"/><s n="sg"/></r></p></e>
+  <e>       <p><l>gëss</l>      <r>ginn<s n="vaux"/><s n="pri"/><s n="p2"/><s n="sg"/></r></p></e>
+  <e>       <p><l>gëtt</l>      <r>ginn<s n="vaux"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
+  <e>       <p><l>ginn</l>      <r>ginn<s n="vaux"/><s n="pri"/><s n="p1"/><s n="pl"/></r></p></e>
+  <e>       <p><l>gitt</l>      <r>ginn<s n="vaux"/><s n="pri"/><s n="p2"/><s n="pl"/></r></p></e>
+  <e>       <p><l>ginn</l>      <r>ginn<s n="vaux"/><s n="pri"/><s n="p3"/><s n="pl"/></r></p></e>
+
+  <e>       <p><l>géif</l>      <r>ginn<s n="vaux"/><s n="prs"/><s n="p1"/><s n="sg"/></r></p></e>
+  <e>       <p><l>géifs</l>     <r>ginn<s n="vaux"/><s n="prs"/><s n="p2"/><s n="sg"/></r></p></e>
+  <e>       <p><l>géif</l>      <r>ginn<s n="vaux"/><s n="prs"/><s n="p3"/><s n="sg"/></r></p></e>
+  <e>       <p><l>géifen</l>    <r>ginn<s n="vaux"/><s n="prs"/><s n="p1"/><s n="pl"/></r></p></e>
+  <e>       <p><l>géift</l>     <r>ginn<s n="vaux"/><s n="prs"/><s n="p2"/><s n="pl"/></r></p></e>
+  <e>       <p><l>géifen</l>    <r>ginn<s n="vaux"/><s n="prs"/><s n="p3"/><s n="pl"/></r></p></e>
+
+  <e>       <p><l>gouf</l>      <r>ginn<s n="vaux"/><s n="pii"/><s n="p1"/><s n="sg"/></r></p></e>
+  <e>       <p><l>goufs</l>     <r>ginn<s n="vaux"/><s n="pii"/><s n="p2"/><s n="sg"/></r></p></e>
+  <e>       <p><l>gouf</l>      <r>ginn<s n="vaux"/><s n="pii"/><s n="p3"/><s n="sg"/></r></p></e>
+  <e>       <p><l>goufen</l>    <r>ginn<s n="vaux"/><s n="pii"/><s n="p1"/><s n="pl"/></r></p></e>
+  <e>       <p><l>gouft</l>     <r>ginn<s n="vaux"/><s n="pii"/><s n="p2"/><s n="pl"/></r></p></e>
+  <e>       <p><l>goufen</l>    <r>ginn<s n="vaux"/><s n="pii"/><s n="p3"/><s n="pl"/></r></p></e>
+</pardef>
+
+
+<pardef n="/sinn__vbser">
+  <e>       <p><l>sinn</l>      <r>sinn<s n="vbser"/><s n="inf"/></r></p></e>
+  <e>       <p><l>gewiescht</l> <r>sinn<s n="vbser"/><s n="pp"/></r></p></e>
+
+  <e>       <p><l>sinn</l>      <r>sinn<s n="vbser"/><s n="pri"/><s n="p1"/><s n="sg"/></r></p></e>
+  <e>       <p><l>bass</l>      <r>sinn<s n="vbser"/><s n="pri"/><s n="p2"/><s n="sg"/></r></p></e>
+  <e>       <p><l>ass</l>       <r>sinn<s n="vbser"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
+  <e>       <p><l>sinn</l>      <r>sinn<s n="vbser"/><s n="pri"/><s n="p1"/><s n="pl"/></r></p></e>
+  <e>       <p><l>sidd</l>      <r>sinn<s n="vbser"/><s n="pri"/><s n="p2"/><s n="pl"/></r></p></e>
+  <e>       <p><l>sinn</l>      <r>sinn<s n="vbser"/><s n="pri"/><s n="p3"/><s n="pl"/></r></p></e>
+
+  <e>       <p><l>wier</l>      <r>sinn<s n="vbser"/><s n="prs"/><s n="p1"/><s n="sg"/></r></p></e>
+  <e>       <p><l>wiers</l>     <r>sinn<s n="vbser"/><s n="prs"/><s n="p2"/><s n="sg"/></r></p></e>
+  <e>       <p><l>wier</l>      <r>sinn<s n="vbser"/><s n="prs"/><s n="p3"/><s n="sg"/></r></p></e>
+  <e>       <p><l>wieren</l>    <r>sinn<s n="vbser"/><s n="prs"/><s n="p1"/><s n="pl"/></r></p></e>
+  <e>       <p><l>wiert</l>     <r>sinn<s n="vbser"/><s n="prs"/><s n="p2"/><s n="pl"/></r></p></e>
+  <e>       <p><l>wieren</l>    <r>sinn<s n="vbser"/><s n="prs"/><s n="p3"/><s n="pl"/></r></p></e>
+
+  <e>       <p><l>war</l>       <r>sinn<s n="vbser"/><s n="pii"/><s n="p1"/><s n="sg"/></r></p></e>
+  <e>       <p><l>waars</l>     <r>sinn<s n="vbser"/><s n="pii"/><s n="p2"/><s n="sg"/></r></p></e>
+  <e>       <p><l>war</l>       <r>sinn<s n="vbser"/><s n="pii"/><s n="p3"/><s n="sg"/></r></p></e>
+  <e>       <p><l>waren</l>     <r>sinn<s n="vbser"/><s n="pii"/><s n="p1"/><s n="pl"/></r></p></e>
+  <e>       <p><l>waart</l>     <r>sinn<s n="vbser"/><s n="pii"/><s n="p2"/><s n="pl"/></r></p></e>
+  <e>       <p><l>waren</l>     <r>sinn<s n="vbser"/><s n="pii"/><s n="p3"/><s n="pl"/></r></p></e>
+
+  <e>       <p><l>sief</l>      <r>sinn<s n="vbser"/><s n="imp"/><s n="sg"/></r></p></e>
+  <e>       <p><l>sieft</l>     <r>sinn<s n="vbser"/><s n="imp"/><s n="pl"/></r></p></e>
+  <e r="LR"><p><l>sidd</l>      <r>sinn<s n="vbser"/><s n="imp"/><s n="pl"/></r></p></e>
+</pardef>
+
+
+<pardef n="/hunn__vbhaver">
+  <e>       <p><l>hunn</l>      <r>hunn<s n="vbhaver"/><s n="inf"/></r></p></e>
+  <e>       <p><l>gehat</l>     <r>hunn<s n="vbhaver"/><s n="pp"/></r></p></e>
+
+  <e>       <p><l>hunn</l>      <r>hunn<s n="vbhaver"/><s n="pri"/><s n="p1"/><s n="sg"/></r></p></e>
+  <e>       <p><l>hues</l>      <r>hunn<s n="vbhaver"/><s n="pri"/><s n="p2"/><s n="sg"/></r></p></e>
+  <e>       <p><l>huet</l>      <r>hunn<s n="vbhaver"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
+  <e>       <p><l>hunn</l>      <r>hunn<s n="vbhaver"/><s n="pri"/><s n="p1"/><s n="pl"/></r></p></e>
+  <e>       <p><l>hutt</l>      <r>hunn<s n="vbhaver"/><s n="pri"/><s n="p2"/><s n="pl"/></r></p></e>
+  <e>       <p><l>hunn</l>      <r>hunn<s n="vbhaver"/><s n="pri"/><s n="p3"/><s n="pl"/></r></p></e>
+
+  <e>       <p><l>hätt</l>      <r>hunn<s n="vbhaver"/><s n="prs"/><s n="p1"/><s n="sg"/></r></p></e>
+  <e>       <p><l>häss</l>      <r>hunn<s n="vbhaver"/><s n="prs"/><s n="p2"/><s n="sg"/></r></p></e>
+  <e>       <p><l>hätt</l>      <r>hunn<s n="vbhaver"/><s n="prs"/><s n="p3"/><s n="sg"/></r></p></e>
+  <e>       <p><l>hätten</l>    <r>hunn<s n="vbhaver"/><s n="prs"/><s n="p1"/><s n="pl"/></r></p></e>
+  <e>       <p><l>hätt</l>      <r>hunn<s n="vbhaver"/><s n="prs"/><s n="p2"/><s n="pl"/></r></p></e>
+  <e>       <p><l>hätten</l>    <r>hunn<s n="vbhaver"/><s n="prs"/><s n="p3"/><s n="pl"/></r></p></e>
+
+  <e>       <p><l>hat</l>       <r>hunn<s n="vbhaver"/><s n="pii"/><s n="p1"/><s n="sg"/></r></p></e>
+  <e>       <p><l>has</l>       <r>hunn<s n="vbhaver"/><s n="pii"/><s n="p2"/><s n="sg"/></r></p></e>
+  <e>       <p><l>hat</l>       <r>hunn<s n="vbhaver"/><s n="pii"/><s n="p3"/><s n="sg"/></r></p></e>
+  <e>       <p><l>haten</l>     <r>hunn<s n="vbhaver"/><s n="pii"/><s n="p1"/><s n="pl"/></r></p></e>
+  <e>       <p><l>hat</l>       <r>hunn<s n="vbhaver"/><s n="pii"/><s n="p2"/><s n="pl"/></r></p></e>
+  <e>       <p><l>haten</l>     <r>hunn<s n="vbhaver"/><s n="pii"/><s n="p3"/><s n="pl"/></r></p></e>
+
+  <e>       <p><l>hief</l>      <r>hunn<s n="vbhaver"/><s n="imp"/><s n="sg"/></r></p></e>
+  <e>       <p><l>hieft</l>     <r>hunn<s n="vbhaver"/><s n="imp"/><s n="pl"/></r></p></e>
+  <e r="LR"><p><l>hutt</l>      <r>hunn<s n="vbhaver"/><s n="imp"/><s n="pl"/></r></p></e>
+</pardef>
+
+
+<pardef n="/sollen__vbmod">
+  <e>       <p><l>sollen</l>    <r>sollen<s n="vbmod"/><s n="inf"/></r></p></e>
+  <e>       <p><l>sollen</l>    <r>sollen<s n="vbmod"/><s n="pp"/></r></p></e>
+
+  <e>       <p><l>soll</l>      <r>sollen<s n="vbmod"/><s n="pri"/><s n="p1"/><s n="sg"/></r></p></e>
+  <e>       <p><l>solls</l>     <r>sollen<s n="vbmod"/><s n="pri"/><s n="p2"/><s n="sg"/></r></p></e>
+  <e>       <p><l>soll</l>      <r>sollen<s n="vbmod"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
+  <e>       <p><l>sollen</l>    <r>sollen<s n="vbmod"/><s n="pri"/><s n="p1"/><s n="pl"/></r></p></e>
+  <e>       <p><l>sollt</l>     <r>sollen<s n="vbmod"/><s n="pri"/><s n="p2"/><s n="pl"/></r></p></e>
+  <e>       <p><l>sollen</l>    <r>sollen<s n="vbmod"/><s n="pri"/><s n="p3"/><s n="pl"/></r></p></e>
+
+  <e>       <p><l>sollt</l>     <r>sollen<s n="vbmod"/><s n="prs"/><s n="p1"/><s n="sg"/></r></p></e>
+  <e>       <p><l>sollts</l>    <r>sollen<s n="vbmod"/><s n="prs"/><s n="p2"/><s n="sg"/></r></p></e>
+  <e>       <p><l>sollt</l>     <r>sollen<s n="vbmod"/><s n="prs"/><s n="p3"/><s n="sg"/></r></p></e>
+  <e>       <p><l>sollten</l>   <r>sollen<s n="vbmod"/><s n="prs"/><s n="p1"/><s n="pl"/></r></p></e>
+  <e>       <p><l>sollt</l>     <r>sollen<s n="vbmod"/><s n="prs"/><s n="p2"/><s n="pl"/></r></p></e>
+  <e>       <p><l>sollten</l>   <r>sollen<s n="vbmod"/><s n="prs"/><s n="p3"/><s n="pl"/></r></p></e>
+
+  <e>       <p><l>sollt</l>     <r>sollen<s n="vbmod"/><s n="pii"/><s n="p1"/><s n="sg"/></r></p></e>
+  <e>       <p><l>sollts</l>    <r>sollen<s n="vbmod"/><s n="pii"/><s n="p2"/><s n="sg"/></r></p></e>
+  <e>       <p><l>sollt</l>     <r>sollen<s n="vbmod"/><s n="pii"/><s n="p3"/><s n="sg"/></r></p></e>
+  <e>       <p><l>sollten</l>   <r>sollen<s n="vbmod"/><s n="pii"/><s n="p1"/><s n="pl"/></r></p></e>
+  <e>       <p><l>sollt</l>     <r>sollen<s n="vbmod"/><s n="pii"/><s n="p2"/><s n="pl"/></r></p></e>
+  <e>       <p><l>sollten</l>   <r>sollen<s n="vbmod"/><s n="pii"/><s n="p3"/><s n="pl"/></r></p></e>
+</pardef>
+
+<pardef n="an__pr">
+  <e>       <p><l></l>          <r><s n="pr"/></r></p></e>
+</pardef>
+
+  </pardefs>
+
+  <section id="main" type="standard">
+
+<e lm="den">             <i>d</i><par n="d/en__det"/></e>
+<e lm="en">              <i>en</i><par n="en__det"/></e>
+
+<e lm="ech">             <i></i><par n="/ech__prn"/></e>
+<e lm="du">              <i></i><par n="/du__prn"/></e>
+<e lm="hien">            <i></i><par n="/hien__prn"/></e>
+<e lm="si">              <i></i><par n="/si__prn"/></e>
+<e lm="hatt">            <i></i><par n="/hatt__prn"/></e>
+<e lm="mir">             <i></i><par n="/mir__prn"/></e>
+<e lm="dir">             <i></i><par n="/dir__prn"/></e>
+<e lm="si">              <i></i><par n="/si__prn_pl"/></e>
+
+<e lm="ginn">            <i></i><par n="/ginn__vaux"/></e>
+<e lm="sinn">            <i></i><par n="/sinn__vbser"/></e>
+<e lm="hunn">            <i></i><par n="/hunn__vbhaver"/></e>
+<e lm="sollen">          <i></i><par n="/sollen__vbmod"/></e>
+
+<e lm="an">              <i>an</i><par n="an__pr"/></e>
+<e lm="aus">             <i>aus</i><par n="an__pr"/></e>
+<e lm="baussen">         <i>baussen</i><par n="an__pr"/></e>
+<e lm="duerch">          <i>duerch</i><par n="an__pr"/></e>
+<e lm="ëm">              <i>ëm</i><par n="an__pr"/></e>
+<e lm="ënner">           <i>ënner</i><par n="an__pr"/></e>
+<e lm="fir">             <i>fir</i><par n="an__pr"/></e>
+<e lm="hanner">          <i>hanner</i><par n="an__pr"/></e>
+<e lm="iwwer">           <i>iwwer</i><par n="an__pr"/></e>
+<e lm="mat">             <i>mat</i><par n="an__pr"/></e>
+<e lm="niewen">          <i>niewen</i><par n="an__pr"/></e>
+<e lm="op">              <i>op</i><par n="an__pr"/></e>
+<e lm="tëschen">         <i>tëschen</i><par n="an__pr"/></e>
+<e lm="un">              <i>un</i><par n="an__pr"/></e>
+<e lm="virun">           <i>virun</i><par n="an__pr"/></e>
+<e lm="vun">             <i>vun</i><par n="an__pr"/></e>
+<e lm="widder">          <i>widder</i><par n="an__pr"/></e>
+<e lm="ze">              <i>ze</i><par n="an__pr"/></e>
+<e lm="zënter">          <i>zënter</i><par n="an__pr"/></e>
+
+  </section>
+
+  <section id="final" type="inconditional">
+<e>                      <par n="separa"/></e>
+<e>                      <par n="numeros"/></e>
+<e>                      <par n="quot"/></e>
+<e>                      <par n="cometa"/></e>
+<e>                      <par n="ordinals"/></e>
+<e>                      <par n="coma"/></e>
+<e>                      <par n="guionet"/></e>
+<e>                      <par n="paresq"/></e>
+<e>                      <par n="pardret"/></e>
+  </section>
+
+</dictionary>
