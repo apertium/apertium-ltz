@@ -12,5 +12,6 @@
 /apertium-ltz.post-ltz.dix -text svneol=unset#application/xml
 /autogen.sh -text
 /configure.ac -text
+dev/noun_candidate_extractor.sh -text
 /ltz.prob -text
 /modes.xml -text svneol=unset#application/xml
