@@ -5,13 +5,13 @@
 /Makefile.am -text
 /NEWS -text
 /README -text
-/apertium-ltz.ltz.acx -text svneol=unset#application/xml
-/apertium-ltz.ltz.dix -text svneol=unset#application/xml
+/apertium-ltz.ltz.acx -text
+/apertium-ltz.ltz.dix -text
 /apertium-ltz.ltz.rlx -text
 /apertium-ltz.pc.in -text
-/apertium-ltz.post-ltz.dix -text svneol=unset#application/xml
+/apertium-ltz.post-ltz.dix -text
 /autogen.sh -text
 /configure.ac -text
 dev/noun_candidate_extractor.sh -text
 /ltz.prob -text
-/modes.xml -text svneol=unset#application/xml
+/modes.xml -text
