@@ -30,6 +30,7 @@
     <sdef n="def" 	c="Definite"/> 
     <sdef n="pos" 	c="Possessive"/> 
     <sdef n="ref" 	c="Reflexive"/>
+    <sdef n="nn" 	c="Inanimate"/>
     <sdef n="acc" 	c="Accusative"/> 
     <sdef n="dat" 	c="Dative"/> 
     <sdef n="gen" 	c="Genitive"/> 
@@ -193,6 +194,10 @@
   <e>       <p><l></l>          <r><s n="prn"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="sp"/></r></p></e>
 </pardef>
 
+<pardef n="wat__prn">
+  <e>       <p><l></l>          <r><s n="prn"/><s n="itg"/><s n="mf"/><s n="sp"/></r></p></e>
+</pardef>
+
 <pardef n="dës/en__prn">
   <e>       <p><l>en</l>        <r>en<s n="prn"/><s n="dem"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
   <e>       <p><l>em</l>        <r>en<s n="prn"/><s n="dem"/><s n="m"/><s n="sg"/><s n="dat"/></r></p></e>
@@ -292,6 +297,10 @@
   <e>       <p><l></l>          <r>ren<s n="det"/><s n="pos"/><s n="mfn"/><s n="pl"/><s n="nom"/></r></p></e>
   <e>       <p><l>e</l>         <r>ren<s n="det"/><s n="pos"/><s n="mfn"/><s n="pl"/><s n="dat"/></r></p><par n="n"/></e>
   <e>       <p><l></l>          <r>ren<s n="det"/><s n="pos"/><s n="mfn"/><s n="pl"/><s n="acc"/></r></p></e>
+</pardef>
+
+<pardef n="wat__rel">
+  <e>       <p><l></l>          <r><s n="rel"/><s n="nn"/><s n="mf"/><s n="sp"/></r></p></e>
 </pardef>
 
 
@@ -470,6 +479,22 @@
 <pardef n="dräi__num">
   <e>       <p><l></l>          <r><s n="num"/><s n="pl"/></r></p></e>
   <e r="RL"><p><l></l>          <r><s n="num"/><s n="sp"/></r></p></e>
+</pardef>
+
+
+<pardef n="zweet__adj_ord">
+  <e>       <p><l>e</l>         <r><s n="adj"/><s n="ord"/><s n="m"/><s n="sg"/><s n="acc"/></r></p><par n="n"/></e>
+  <e>       <p><l></l>          <r><s n="adj"/><s n="ord"/><s n="f"/><s n="sg"/><s n="acc"/></r></p></e>
+  <e>       <p><l></l>          <r><s n="adj"/><s n="ord"/><s n="nt"/><s n="sg"/><s n="acc"/></r></p></e>
+  <e>       <p><l></l>          <r><s n="adj"/><s n="ord"/><s n="mf"/><s n="pl"/><s n="acc"/></r></p></e>
+  <e>       <p><l>e</l>         <r><s n="adj"/><s n="ord"/><s n="m"/><s n="sg"/><s n="nom"/></r></p><par n="n"/></e>
+  <e>       <p><l></l>          <r><s n="adj"/><s n="ord"/><s n="f"/><s n="sg"/><s n="nom"/></r></p></e>
+  <e>       <p><l></l>          <r><s n="adj"/><s n="ord"/><s n="nt"/><s n="sg"/><s n="nom"/></r></p></e>
+  <e>       <p><l></l>          <r><s n="adj"/><s n="ord"/><s n="mf"/><s n="pl"/><s n="nom"/></r></p></e>
+  <e>       <p><l>e</l>         <r><s n="adj"/><s n="ord"/><s n="m"/><s n="sg"/><s n="dat"/></r></p><par n="n"/></e>
+  <e>       <p><l>er</l>        <r><s n="adj"/><s n="ord"/><s n="f"/><s n="sg"/><s n="dat"/></r></p></e>
+  <e>       <p><l>e</l>         <r><s n="adj"/><s n="ord"/><s n="nt"/><s n="sg"/><s n="dat"/></r></p><par n="n"/></e>
+  <e>       <p><l>e</l>         <r><s n="adj"/><s n="ord"/><s n="mf"/><s n="pl"/><s n="dat"/></r></p><par n="n"/></e>
 </pardef>
 
 
@@ -3364,6 +3389,8 @@
 <e lm="sech">            <i>sech</i><par n="sech__prn"/></e>
 
 <e lm="dësen">           <i>dës</i><par n="dës/en__prn"/></e>
+<e lm="wat">             <i>wat</i><par n="wat__rel"/></e>
+<e lm="wat">             <i>wat</i><par n="wat__prn"/></e>
 
 <e lm="ginn">            <i></i><par n="/ginn__vaux"/></e>
 <e lm="sinn">            <i></i><par n="/sinn__vbser"/></e>
@@ -3439,6 +3466,35 @@
 <e lm="nonzéng">         <i>nonzéng</i><par n="dräi__num"/></e>
 <e lm="zwanzeg">         <i>zwanzeg</i><par n="dräi__num"/></e>
 <e lm="eenanzwanzeg">    <i>eenanzwanzeg</i><par n="dräi__num"/></e>
+<e lm="zweeanzwanzeg">   <i>zweeanzwanzeg</i><par n="dräi__num"/></e>
+<e lm="dräianzwanzeg">   <i>dräianzwanzeg</i><par n="dräi__num"/></e>
+<e lm="véieranzwanzeg">  <i>véieranzwanzeg</i><par n="dräi__num"/></e>
+<e lm="fënnefanzwanzeg"> <i>fënnefanzwanzeg</i><par n="dräi__num"/></e>
+<e lm="sechsanzwanzeg">  <i>sechsanzwanzeg</i><par n="dräi__num"/></e>
+<e lm="siwenanzwanzeg">  <i>siwenanzwanzeg</i><par n="dräi__num"/></e>
+<e lm="aachtanzwanzeg">  <i>aachtanzwanzeg</i><par n="dräi__num"/></e>
+<e lm="nénganzwanzeg">   <i>nénganzwanzeg</i><par n="dräi__num"/></e>
+<e lm="drësseg">         <i>drësseg</i><par n="dräi__num"/></e>
+<e lm="eenandrësseg">    <i>eenandrësseg</i><par n="dräi__num"/></e>
+<e lm="zweeandrësseg">   <i>zweeandrësseg</i><par n="dräi__num"/></e>
+<e lm="dräiandrësseg">   <i>dräiandrësseg</i><par n="dräi__num"/></e>
+<e lm="véierandrësseg">  <i>véierandrësseg</i><par n="dräi__num"/></e>
+<e lm="fënnefandrësseg"> <i>fënnefandrësseg</i><par n="dräi__num"/></e>
+<e lm="sechsandrësseg">  <i>sechsandrësseg</i><par n="dräi__num"/></e>
+<e lm="siwenandrësseg">  <i>siwenandrësseg</i><par n="dräi__num"/></e>
+<e lm="aachtandrësseg">  <i>aachtandrësseg</i><par n="dräi__num"/></e>
+<e lm="néngandrësseg">   <i>néngandrësseg</i><par n="dräi__num"/></e>
+<e lm="véierzeg">        <i>véierzeg</i><par n="dräi__num"/></e>
+<e lm="eenavéierzeg">    <i>eenavéierzeg</i><par n="dräi__num"/></e>
+<e lm="zweeavéierzeg">   <i>zweeavéierzeg</i><par n="dräi__num"/></e>
+<e lm="dräiavéierzeg">   <i>dräiavéierzeg</i><par n="dräi__num"/></e>
+<e lm="véieravéierzeg">  <i>véieravéierzeg</i><par n="dräi__num"/></e>
+<e lm="fënnefavéierzeg"> <i>fënnefavéierzeg</i><par n="dräi__num"/></e>
+<e lm="sechsavéierzeg">  <i>sechsavéierzeg</i><par n="dräi__num"/></e>
+<e lm="siwenavéierzeg">  <i>siwenavéierzeg</i><par n="dräi__num"/></e>
+<e lm="aachtavéierzeg">  <i>aachtavéierzeg</i><par n="dräi__num"/></e>
+<e lm="néngavéierzeg">   <i>néngavéierzeg</i><par n="dräi__num"/></e>
+<e lm="fofzeg">          <i>fofzeg</i><par n="dräi__num"/></e>
 <e lm="honnert">         <i>honnert</i><par n="dräi__num"/></e>
 <e lm="dausend">         <i>dausend</i><par n="dräi__num"/></e>
 
@@ -3464,6 +3520,28 @@
 <e lm="XX">              <i>XX</i><par n="dräi__num"/></e>
 <e lm="XXI">             <i>XXI</i><par n="dräi__num"/></e>
 <e lm="XXII">            <i>XXII</i><par n="dräi__num"/></e>
+
+
+<e lm="éischt">          <i>éischt</i><par n="zweet__adj_ord"/></e>
+<e lm="zweet">           <i>zweet</i><par n="zweet__adj_ord"/></e>
+<e lm="drëtt">           <i>drëtt</i><par n="zweet__adj_ord"/></e>
+<e lm="véiert">          <i>véiert</i><par n="zweet__adj_ord"/></e>
+<e lm="fënneft">         <i>fënneft</i><par n="zweet__adj_ord"/></e>
+<e lm="sechst">          <i>sechst</i><par n="zweet__adj_ord"/></e>
+<e lm="siwent">          <i>siwent</i><par n="zweet__adj_ord"/></e>
+<e lm="aachten">         <i>aachten</i><par n="zweet__adj_ord"/></e>
+<e lm="néngt">           <i>néngt</i><par n="zweet__adj_ord"/></e>
+<e lm="zéngt">           <i>zéngt</i><par n="zweet__adj_ord"/></e>
+<e lm="eeleft">          <i>eeleft</i><par n="zweet__adj_ord"/></e>
+<e lm="zwieleft">        <i>zwieleft</i><par n="zweet__adj_ord"/></e>
+<e lm="dräizéngt">       <i>dräizéngt</i><par n="zweet__adj_ord"/></e>
+<e lm="véierzéngt">      <i>véierzéngt</i><par n="zweet__adj_ord"/></e>
+<e lm="fofzéngt">        <i>fofzéngt</i><par n="zweet__adj_ord"/></e>
+<e lm="siechzéngt">      <i>siechzéngt</i><par n="zweet__adj_ord"/></e>
+<e lm="siwwenzéngt">     <i>siwwenzéngt</i><par n="zweet__adj_ord"/></e>
+<e lm="uechtzéngt">      <i>uechtzéngt</i><par n="zweet__adj_ord"/></e>
+<e lm="nonzéngt">        <i>nonzéngt</i><par n="zweet__adj_ord"/></e>
+<e lm="zwanzegt">        <i>zwanzegt</i><par n="zweet__adj_ord"/></e>
 
 
 <!-- SECTION: Adverbs -->
