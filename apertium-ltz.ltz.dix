@@ -3,14 +3,14 @@
   <alphabet>ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyzÀÁÂÄÇÈÉÊËÌÍÎÏÑÒÓÔÖÙÚÛÜàáâäçèéêëìíîïñòóôöùúûüß</alphabet>
   <sdefs>
     <sdef n="n" 	c="Noun"/> 
-    <sdef n="np" 	c="Proper noun"/>
+    <sdef n="np" 	c="Proper noun"/> 
     <sdef n="p1" 	c="First person"/> 
     <sdef n="p2" 	c="Second person"/> 
     <sdef n="p3" 	c="Third person"/> 
-    <sdef n="ant" 	c="Antroponym"/>
-    <sdef n="cog" 	c="Cognomen"/>
-    <sdef n="al" 	c="Altres"/>
-    <sdef n="top" 	c="Toponym"/>
+    <sdef n="ant" 	c="Antroponym"/> 
+    <sdef n="cog" 	c="Cognomen"/> 
+    <sdef n="al" 	c="Altres"/> 
+    <sdef n="top" 	c="Toponym"/> 
     <sdef n="prn" 	c="Pronoun"/> 
     <sdef n="frm" 	c="Formal"/> 
     <sdef n="m" 	c="Masculine"/> 
@@ -29,8 +29,8 @@
     <sdef n="pers" 	c="Personal (pronoun)"/> 
     <sdef n="def" 	c="Definite"/> 
     <sdef n="pos" 	c="Possessive"/> 
-    <sdef n="ref" 	c="Reflexive"/>
-    <sdef n="nn" 	c="Inanimate"/>
+    <sdef n="ref" 	c="Reflexive"/> 
+    <sdef n="nn" 	c="Inanimate"/> 
     <sdef n="acc" 	c="Accusative"/> 
     <sdef n="dat" 	c="Dative"/> 
     <sdef n="gen" 	c="Genitive"/> 
@@ -62,6 +62,9 @@
     <sdef n="cnjadv" 	c="Adverbial conjunction"/> 
     <sdef n="cnjsub" 	c="Subordinating conjunction"/> 
     <sdef n="cnjcoo" 	c="Co-ordinating conjunction"/> 
+    <sdef n="sep" 	c="Seperable verb"/> 
+    <sdef n="fs" 	c="Seperable verb in subordinate clause"/> 
+    <sdef n="fm" 	c="Seperable verb in main clause"/> 
     <sdef n="sent" 	c="End of sentence"/> 
     <sdef n="cm" 	c="Comma"/> 
     <sdef n="lpar" 	c="Left parenthesis"/> 
@@ -593,59 +596,59 @@
 </pardef>
 
 <pardef n="bläie/n__adj">
-  <e>       <p><l>ne</l>         <r>n<s n="adj"/><s n="m"/><s n="sg"/><s n="acc"/></r></p><par n="n"/></e>
-  <e>       <p><l></l>           <r>n<s n="adj"/><s n="f"/><s n="sg"/><s n="acc"/></r></p><par n="n"/></e>
-  <e>       <p><l>nt</l>         <r>n<s n="adj"/><s n="nt"/><s n="sg"/><s n="acc"/></r></p></e>
-  <e>       <p><l></l>           <r>n<s n="adj"/><s n="mf"/><s n="pl"/><s n="acc"/></r></p><par n="n"/></e>
-  <e>       <p><l>ne</l>         <r>n<s n="adj"/><s n="m"/><s n="sg"/><s n="nom"/></r></p><par n="n"/></e>
-  <e>       <p><l></l>           <r>n<s n="adj"/><s n="f"/><s n="sg"/><s n="nom"/></r></p><par n="n"/></e>
-  <e>       <p><l>nt</l>         <r>n<s n="adj"/><s n="nt"/><s n="sg"/><s n="nom"/></r></p></e>
-  <e>       <p><l></l>           <r>n<s n="adj"/><s n="mf"/><s n="pl"/><s n="nom"/></r></p><par n="n"/></e>
-  <e>       <p><l>ne</l>         <r>n<s n="adj"/><s n="m"/><s n="sg"/><s n="dat"/></r></p><par n="n"/></e>
-  <e>       <p><l>ner</l>        <r>n<s n="adj"/><s n="f"/><s n="sg"/><s n="dat"/></r></p></e>
-  <e>       <p><l>ne</l>         <r>n<s n="adj"/><s n="nt"/><s n="sg"/><s n="dat"/></r></p><par n="n"/></e>
-  <e>       <p><l>ne</l>         <r>n<s n="adj"/><s n="mf"/><s n="pl"/><s n="dat"/></r></p><par n="n"/></e>
+  <e>       <p><l>ne</l>        <r>n<s n="adj"/><s n="m"/><s n="sg"/><s n="acc"/></r></p><par n="n"/></e>
+  <e>       <p><l></l>          <r>n<s n="adj"/><s n="f"/><s n="sg"/><s n="acc"/></r></p><par n="n"/></e>
+  <e>       <p><l>nt</l>        <r>n<s n="adj"/><s n="nt"/><s n="sg"/><s n="acc"/></r></p></e>
+  <e>       <p><l></l>          <r>n<s n="adj"/><s n="mf"/><s n="pl"/><s n="acc"/></r></p><par n="n"/></e>
+  <e>       <p><l>ne</l>        <r>n<s n="adj"/><s n="m"/><s n="sg"/><s n="nom"/></r></p><par n="n"/></e>
+  <e>       <p><l></l>          <r>n<s n="adj"/><s n="f"/><s n="sg"/><s n="nom"/></r></p><par n="n"/></e>
+  <e>       <p><l>nt</l>        <r>n<s n="adj"/><s n="nt"/><s n="sg"/><s n="nom"/></r></p></e>
+  <e>       <p><l></l>          <r>n<s n="adj"/><s n="mf"/><s n="pl"/><s n="nom"/></r></p><par n="n"/></e>
+  <e>       <p><l>ne</l>        <r>n<s n="adj"/><s n="m"/><s n="sg"/><s n="dat"/></r></p><par n="n"/></e>
+  <e>       <p><l>ner</l>       <r>n<s n="adj"/><s n="f"/><s n="sg"/><s n="dat"/></r></p></e>
+  <e>       <p><l>ne</l>        <r>n<s n="adj"/><s n="nt"/><s n="sg"/><s n="dat"/></r></p><par n="n"/></e>
+  <e>       <p><l>ne</l>        <r>n<s n="adj"/><s n="mf"/><s n="pl"/><s n="dat"/></r></p><par n="n"/></e>
 
-  <e>       <p><l>nste</l>       <r>n<s n="adj"/><s n="sup"/><s n="m"/><s n="sg"/><s n="acc"/></r></p><par n="n"/></e>
-  <e>       <p><l>nst</l>        <r>n<s n="adj"/><s n="sup"/><s n="f"/><s n="sg"/><s n="acc"/></r></p></e>
-  <e>       <p><l>nst</l>        <r>n<s n="adj"/><s n="sup"/><s n="nt"/><s n="sg"/><s n="acc"/></r></p></e>
-  <e>       <p><l>nst</l>        <r>n<s n="adj"/><s n="sup"/><s n="mf"/><s n="pl"/><s n="acc"/></r></p></e>
-  <e>       <p><l>nste</l>       <r>n<s n="adj"/><s n="sup"/><s n="m"/><s n="sg"/><s n="nom"/></r></p><par n="n"/></e>
-  <e>       <p><l>nst</l>        <r>n<s n="adj"/><s n="sup"/><s n="f"/><s n="sg"/><s n="nom"/></r></p></e>
-  <e>       <p><l>nst</l>        <r>n<s n="adj"/><s n="sup"/><s n="nt"/><s n="sg"/><s n="nom"/></r></p></e>
-  <e>       <p><l>nst</l>        <r>n<s n="adj"/><s n="sup"/><s n="mf"/><s n="pl"/><s n="nom"/></r></p></e>
-  <e>       <p><l>nste</l>       <r>n<s n="adj"/><s n="sup"/><s n="m"/><s n="sg"/><s n="dat"/></r></p><par n="n"/></e>
-  <e>       <p><l>nster</l>      <r>n<s n="adj"/><s n="sup"/><s n="f"/><s n="sg"/><s n="dat"/></r></p></e>
-  <e>       <p><l>nste</l>       <r>n<s n="adj"/><s n="sup"/><s n="nt"/><s n="sg"/><s n="dat"/></r></p><par n="n"/></e>
-  <e>       <p><l>nste</l>       <r>n<s n="adj"/><s n="sup"/><s n="mf"/><s n="pl"/><s n="dat"/></r></p><par n="n"/></e>
+  <e>       <p><l>nste</l>      <r>n<s n="adj"/><s n="sup"/><s n="m"/><s n="sg"/><s n="acc"/></r></p><par n="n"/></e>
+  <e>       <p><l>nst</l>       <r>n<s n="adj"/><s n="sup"/><s n="f"/><s n="sg"/><s n="acc"/></r></p></e>
+  <e>       <p><l>nst</l>       <r>n<s n="adj"/><s n="sup"/><s n="nt"/><s n="sg"/><s n="acc"/></r></p></e>
+  <e>       <p><l>nst</l>       <r>n<s n="adj"/><s n="sup"/><s n="mf"/><s n="pl"/><s n="acc"/></r></p></e>
+  <e>       <p><l>nste</l>      <r>n<s n="adj"/><s n="sup"/><s n="m"/><s n="sg"/><s n="nom"/></r></p><par n="n"/></e>
+  <e>       <p><l>nst</l>       <r>n<s n="adj"/><s n="sup"/><s n="f"/><s n="sg"/><s n="nom"/></r></p></e>
+  <e>       <p><l>nst</l>       <r>n<s n="adj"/><s n="sup"/><s n="nt"/><s n="sg"/><s n="nom"/></r></p></e>
+  <e>       <p><l>nst</l>       <r>n<s n="adj"/><s n="sup"/><s n="mf"/><s n="pl"/><s n="nom"/></r></p></e>
+  <e>       <p><l>nste</l>      <r>n<s n="adj"/><s n="sup"/><s n="m"/><s n="sg"/><s n="dat"/></r></p><par n="n"/></e>
+  <e>       <p><l>nster</l>     <r>n<s n="adj"/><s n="sup"/><s n="f"/><s n="sg"/><s n="dat"/></r></p></e>
+  <e>       <p><l>nste</l>      <r>n<s n="adj"/><s n="sup"/><s n="nt"/><s n="sg"/><s n="dat"/></r></p><par n="n"/></e>
+  <e>       <p><l>nste</l>      <r>n<s n="adj"/><s n="sup"/><s n="mf"/><s n="pl"/><s n="dat"/></r></p><par n="n"/></e>
 </pardef>
 
 <pardef n="bla/nn__adj">
-  <e>       <p><l>nne</l>        <r>nn<s n="adj"/><s n="m"/><s n="sg"/><s n="acc"/></r></p><par n="n"/></e>
-  <e>       <p><l></l>           <r>nn<s n="adj"/><s n="f"/><s n="sg"/><s n="acc"/></r></p><par n="nn"/></e>
-  <e>       <p><l>nnt</l>        <r>nn<s n="adj"/><s n="nt"/><s n="sg"/><s n="acc"/></r></p></e>
-  <e>       <p><l></l>           <r>nn<s n="adj"/><s n="mf"/><s n="pl"/><s n="acc"/></r></p><par n="nn"/></e>
-  <e>       <p><l>nne</l>        <r>nn<s n="adj"/><s n="m"/><s n="sg"/><s n="nom"/></r></p><par n="n"/></e>
-  <e>       <p><l></l>           <r>nn<s n="adj"/><s n="f"/><s n="sg"/><s n="nom"/></r></p><par n="nn"/></e>
-  <e>       <p><l>nnt</l>        <r>nn<s n="adj"/><s n="nt"/><s n="sg"/><s n="nom"/></r></p></e>
-  <e>       <p><l></l>           <r>nn<s n="adj"/><s n="mf"/><s n="pl"/><s n="nom"/></r></p><par n="nn"/></e>
-  <e>       <p><l>nne</l>        <r>nn<s n="adj"/><s n="m"/><s n="sg"/><s n="dat"/></r></p><par n="n"/></e>
-  <e>       <p><l>nner</l>       <r>nn<s n="adj"/><s n="f"/><s n="sg"/><s n="dat"/></r></p></e>
-  <e>       <p><l>nne</l>        <r>nn<s n="adj"/><s n="nt"/><s n="sg"/><s n="dat"/></r></p><par n="n"/></e>
-  <e>       <p><l>nne</l>        <r>nn<s n="adj"/><s n="mf"/><s n="pl"/><s n="dat"/></r></p><par n="n"/></e>
+  <e>       <p><l>nne</l>       <r>nn<s n="adj"/><s n="m"/><s n="sg"/><s n="acc"/></r></p><par n="n"/></e>
+  <e>       <p><l></l>          <r>nn<s n="adj"/><s n="f"/><s n="sg"/><s n="acc"/></r></p><par n="nn"/></e>
+  <e>       <p><l>nnt</l>       <r>nn<s n="adj"/><s n="nt"/><s n="sg"/><s n="acc"/></r></p></e>
+  <e>       <p><l></l>          <r>nn<s n="adj"/><s n="mf"/><s n="pl"/><s n="acc"/></r></p><par n="nn"/></e>
+  <e>       <p><l>nne</l>       <r>nn<s n="adj"/><s n="m"/><s n="sg"/><s n="nom"/></r></p><par n="n"/></e>
+  <e>       <p><l></l>          <r>nn<s n="adj"/><s n="f"/><s n="sg"/><s n="nom"/></r></p><par n="nn"/></e>
+  <e>       <p><l>nnt</l>       <r>nn<s n="adj"/><s n="nt"/><s n="sg"/><s n="nom"/></r></p></e>
+  <e>       <p><l></l>          <r>nn<s n="adj"/><s n="mf"/><s n="pl"/><s n="nom"/></r></p><par n="nn"/></e>
+  <e>       <p><l>nne</l>       <r>nn<s n="adj"/><s n="m"/><s n="sg"/><s n="dat"/></r></p><par n="n"/></e>
+  <e>       <p><l>nner</l>      <r>nn<s n="adj"/><s n="f"/><s n="sg"/><s n="dat"/></r></p></e>
+  <e>       <p><l>nne</l>       <r>nn<s n="adj"/><s n="nt"/><s n="sg"/><s n="dat"/></r></p><par n="n"/></e>
+  <e>       <p><l>nne</l>       <r>nn<s n="adj"/><s n="mf"/><s n="pl"/><s n="dat"/></r></p><par n="n"/></e>
 
-  <e>       <p><l>nnste</l>      <r>nn<s n="adj"/><s n="sup"/><s n="m"/><s n="sg"/><s n="acc"/></r></p><par n="n"/></e>
-  <e>       <p><l>nnst</l>       <r>nn<s n="adj"/><s n="sup"/><s n="f"/><s n="sg"/><s n="acc"/></r></p></e>
-  <e>       <p><l>nnst</l>       <r>nn<s n="adj"/><s n="sup"/><s n="nt"/><s n="sg"/><s n="acc"/></r></p></e>
-  <e>       <p><l>nnst</l>       <r>nn<s n="adj"/><s n="sup"/><s n="mf"/><s n="pl"/><s n="acc"/></r></p></e>
-  <e>       <p><l>nnste</l>      <r>nn<s n="adj"/><s n="sup"/><s n="m"/><s n="sg"/><s n="nom"/></r></p><par n="n"/></e>
-  <e>       <p><l>nnst</l>       <r>nn<s n="adj"/><s n="sup"/><s n="f"/><s n="sg"/><s n="nom"/></r></p></e>
-  <e>       <p><l>nnst</l>       <r>nn<s n="adj"/><s n="sup"/><s n="nt"/><s n="sg"/><s n="nom"/></r></p></e>
-  <e>       <p><l>nnst</l>       <r>nn<s n="adj"/><s n="sup"/><s n="mf"/><s n="pl"/><s n="nom"/></r></p></e>
-  <e>       <p><l>nnste</l>      <r>nn<s n="adj"/><s n="sup"/><s n="m"/><s n="sg"/><s n="dat"/></r></p><par n="n"/></e>
-  <e>       <p><l>nnster</l>     <r>nn<s n="adj"/><s n="sup"/><s n="f"/><s n="sg"/><s n="dat"/></r></p></e>
-  <e>       <p><l>nnste</l>      <r>nnn<s n="adj"/><s n="sup"/><s n="nt"/><s n="sg"/><s n="dat"/></r></p><par n="n"/></e>
-  <e>       <p><l>nnste</l>      <r>nn<s n="adj"/><s n="sup"/><s n="mf"/><s n="pl"/><s n="dat"/></r></p><par n="n"/></e>
+  <e>       <p><l>nnste</l>     <r>nn<s n="adj"/><s n="sup"/><s n="m"/><s n="sg"/><s n="acc"/></r></p><par n="n"/></e>
+  <e>       <p><l>nnst</l>      <r>nn<s n="adj"/><s n="sup"/><s n="f"/><s n="sg"/><s n="acc"/></r></p></e>
+  <e>       <p><l>nnst</l>      <r>nn<s n="adj"/><s n="sup"/><s n="nt"/><s n="sg"/><s n="acc"/></r></p></e>
+  <e>       <p><l>nnst</l>      <r>nn<s n="adj"/><s n="sup"/><s n="mf"/><s n="pl"/><s n="acc"/></r></p></e>
+  <e>       <p><l>nnste</l>     <r>nn<s n="adj"/><s n="sup"/><s n="m"/><s n="sg"/><s n="nom"/></r></p><par n="n"/></e>
+  <e>       <p><l>nnst</l>      <r>nn<s n="adj"/><s n="sup"/><s n="f"/><s n="sg"/><s n="nom"/></r></p></e>
+  <e>       <p><l>nnst</l>      <r>nn<s n="adj"/><s n="sup"/><s n="nt"/><s n="sg"/><s n="nom"/></r></p></e>
+  <e>       <p><l>nnst</l>      <r>nn<s n="adj"/><s n="sup"/><s n="mf"/><s n="pl"/><s n="nom"/></r></p></e>
+  <e>       <p><l>nnste</l>     <r>nn<s n="adj"/><s n="sup"/><s n="m"/><s n="sg"/><s n="dat"/></r></p><par n="n"/></e>
+  <e>       <p><l>nnster</l>    <r>nn<s n="adj"/><s n="sup"/><s n="f"/><s n="sg"/><s n="dat"/></r></p></e>
+  <e>       <p><l>nnste</l>     <r>nnn<s n="adj"/><s n="sup"/><s n="nt"/><s n="sg"/><s n="dat"/></r></p><par n="n"/></e>
+  <e>       <p><l>nnste</l>     <r>nn<s n="adj"/><s n="sup"/><s n="mf"/><s n="pl"/><s n="dat"/></r></p><par n="n"/></e>
 </pardef>
 
 
@@ -2155,6 +2158,759 @@
 </pardef>
 
 
+<!-- separable verbs -->
+
+<pardef n="a/beezen__vblex_sep">
+  <e>       <p><l>beeze</l>     <r>beezen<s n="vblex"/><s n="sep"/><s n="inf"/></r></p><par n="n"/></e>
+  <e>       <p><l>gebeezt</l>   <r>beezen<s n="vblex"/><s n="sep"/><s n="pp"/></r></p></e>
+</pardef>
+
+<pardef n="beez/en#_an__vblex_sep">
+  <e>       <p><l>e</l>         <r>en<s n="vblex"/><s n="sep"/><s n="fm"/><s n="pri"/><s n="p1"/><s n="sg"/></r></p><par n="n"/></e>
+  <e>       <p><l></l>          <r>en<s n="vblex"/><s n="sep"/><s n="fm"/><s n="pri"/><s n="p2"/><s n="sg"/></r></p></e>
+  <e>       <p><l>t</l>         <r>en<s n="vblex"/><s n="sep"/><s n="fm"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
+  <e>       <p><l>e</l>         <r>en<s n="vblex"/><s n="sep"/><s n="fm"/><s n="pri"/><s n="p1"/><s n="pl"/></r></p><par n="n"/></e>
+  <e>       <p><l>t</l>         <r>en<s n="vblex"/><s n="sep"/><s n="fm"/><s n="pri"/><s n="p2"/><s n="pl"/></r></p></e>
+  <e>       <p><l>e</l>         <r>en<s n="vblex"/><s n="sep"/><s n="fm"/><s n="pri"/><s n="p3"/><s n="pl"/></r></p><par n="n"/></e>
+
+  <e>       <p><l></l>          <r>en<s n="vblex"/><s n="sep"/><s n="imp"/><s n="sg"/></r></p></e>
+  <e>       <p><l>t</l>         <r>en<s n="vblex"/><s n="sep"/><s n="imp"/><s n="pl"/></r></p></e>
+</pardef>
+
+<pardef n="aberuff/en__vblex_sep">
+  <e>       <p><l>e</l>         <r>en<s n="vblex"/><s n="sep"/><s n="inf"/></r></p><par n="n"/></e>
+  <e>       <p><l></l>          <r>en<s n="vblex"/><s n="sep"/><s n="pp"/></r></p></e>
+</pardef>
+
+<pardef n="ber/uffen#_an__vblex_sep">
+  <e>       <p><l>uffe</l>      <r>uffen<s n="vblex"/><s n="sep"/><s n="fm"/><s n="pri"/><s n="p1"/><s n="sg"/></r></p><par n="n"/></e>
+  <e>       <p><l>iffs</l>      <r>uffen<s n="vblex"/><s n="sep"/><s n="fm"/><s n="pri"/><s n="p2"/><s n="sg"/></r></p></e>
+  <e>       <p><l>ifft</l>      <r>uffen<s n="vblex"/><s n="sep"/><s n="fm"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
+  <e>       <p><l>uffe</l>      <r>uffen<s n="vblex"/><s n="sep"/><s n="fm"/><s n="pri"/><s n="p1"/><s n="pl"/></r></p><par n="n"/></e>
+  <e>       <p><l>ufft</l>      <r>uffen<s n="vblex"/><s n="sep"/><s n="fm"/><s n="pri"/><s n="p2"/><s n="pl"/></r></p></e>
+  <e>       <p><l>uffe</l>      <r>uffen<s n="vblex"/><s n="sep"/><s n="fm"/><s n="pri"/><s n="p3"/><s n="pl"/></r></p><par n="n"/></e>
+
+  <e>       <p><l>uff</l>       <r>uffen<s n="vblex"/><s n="sep"/><s n="imp"/><s n="sg"/></r></p></e>
+  <e>       <p><l>ufft</l>      <r>uffen<s n="vblex"/><s n="sep"/><s n="imp"/><s n="pl"/></r></p></e>
+</pardef>
+
+<pardef n="a/bilden__vblex_sep">
+  <e>       <p><l>bilde</l>     <r>bilden<s n="vblex"/><s n="sep"/><s n="inf"/></r></p><par n="n"/></e>
+  <e>       <p><l>gebilt</l>    <r>bilden<s n="vblex"/><s n="sep"/><s n="pp"/></r></p></e>
+</pardef>
+
+<pardef n="bil/den#_an__vblex_sep">
+  <e>       <p><l>de</l>        <r>den<s n="vblex"/><s n="sep"/><s n="fm"/><s n="pri"/><s n="p1"/><s n="sg"/></r></p><par n="n"/></e>
+  <e>       <p><l>ts</l>        <r>den<s n="vblex"/><s n="sep"/><s n="fm"/><s n="pri"/><s n="p2"/><s n="sg"/></r></p></e>
+  <e>       <p><l>t</l>         <r>den<s n="vblex"/><s n="sep"/><s n="fm"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
+  <e>       <p><l>de</l>        <r>den<s n="vblex"/><s n="sep"/><s n="fm"/><s n="pri"/><s n="p1"/><s n="pl"/></r></p><par n="n"/></e>
+  <e>       <p><l>t</l>         <r>den<s n="vblex"/><s n="sep"/><s n="fm"/><s n="pri"/><s n="p2"/><s n="pl"/></r></p></e>
+  <e>       <p><l>de</l>        <r>den<s n="vblex"/><s n="sep"/><s n="fm"/><s n="pri"/><s n="p3"/><s n="pl"/></r></p><par n="n"/></e>
+
+  <e>       <p><l>t</l>         <r>den<s n="vblex"/><s n="sep"/><s n="imp"/><s n="sg"/></r></p></e>
+  <e>       <p><l>t</l>         <r>den<s n="vblex"/><s n="sep"/><s n="imp"/><s n="pl"/></r></p></e>
+</pardef>
+
+<pardef n="a/buddelen__vblex_sep">
+  <e>       <p><l>buddele</l>   <r>buddelen<s n="vblex"/><s n="sep"/><s n="inf"/></r></p><par n="n"/></e>
+  <e>       <p><l>gebuddelt</l> <r>buddelen<s n="vblex"/><s n="sep"/><s n="pp"/></r></p></e>
+</pardef>
+
+<pardef n="buddel/en#_an__vblex_sep">
+  <e>       <p><l>e</l>         <r>en<s n="vblex"/><s n="sep"/><s n="fm"/><s n="pri"/><s n="p1"/><s n="sg"/></r></p><par n="n"/></e>
+  <e>       <p><l>s</l>         <r>en<s n="vblex"/><s n="sep"/><s n="fm"/><s n="pri"/><s n="p2"/><s n="sg"/></r></p></e>
+  <e>       <p><l>t</l>         <r>en<s n="vblex"/><s n="sep"/><s n="fm"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
+  <e>       <p><l>e</l>         <r>en<s n="vblex"/><s n="sep"/><s n="fm"/><s n="pri"/><s n="p1"/><s n="pl"/></r></p><par n="n"/></e>
+  <e>       <p><l>t</l>         <r>en<s n="vblex"/><s n="sep"/><s n="fm"/><s n="pri"/><s n="p2"/><s n="pl"/></r></p></e>
+  <e>       <p><l>e</l>         <r>en<s n="vblex"/><s n="sep"/><s n="fm"/><s n="pri"/><s n="p3"/><s n="pl"/></r></p><par n="n"/></e>
+
+  <e>       <p><l></l>          <r>en<s n="vblex"/><s n="sep"/><s n="imp"/><s n="sg"/></r></p></e>
+  <e>       <p><l>t</l>         <r>en<s n="vblex"/><s n="sep"/><s n="imp"/><s n="pl"/></r></p></e>
+</pardef>
+
+<pardef n="a/béissen__vblex_sep">
+  <e>       <p><l>béisse</l>    <r>béissen<s n="vblex"/><s n="sep"/><s n="inf"/></r></p><par n="n"/></e>
+  <e>       <p><l>gebéisst</l>  <r>béissen<s n="vblex"/><s n="sep"/><s n="pp"/></r></p></e>
+</pardef>
+
+<pardef n="a/faassen__vblex_sep">
+  <e>       <p><l>faasse</l>    <r>faassen<s n="vblex"/><s n="sep"/><s n="inf"/></r></p><par n="n"/></e>
+  <e>       <p><l>gefaasst</l>  <r>faassen<s n="vblex"/><s n="sep"/><s n="pp"/></r></p></e>
+</pardef>
+
+<pardef n="a/falen__vblex_sep">
+  <e>       <p><l>fale</l>      <r>falen<s n="vblex"/><s n="sep"/><s n="inf"/></r></p><par n="n"/></e>
+  <e>       <p><l>gefall</l>    <r>falen<s n="vblex"/><s n="sep"/><s n="pp"/></r></p></e>
+</pardef>
+
+<pardef n="f/alen#_an__vblex_sep">
+  <e>       <p><l>ale</l>       <r>alen<s n="vblex"/><s n="sep"/><s n="fm"/><s n="pri"/><s n="p1"/><s n="sg"/></r></p><par n="n"/></e>
+  <e>       <p><l>äls</l>       <r>alen<s n="vblex"/><s n="sep"/><s n="fm"/><s n="pri"/><s n="p2"/><s n="sg"/></r></p></e>
+  <e>       <p><l>ält</l>       <r>alen<s n="vblex"/><s n="sep"/><s n="fm"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
+  <e>       <p><l>ale</l>       <r>alen<s n="vblex"/><s n="sep"/><s n="fm"/><s n="pri"/><s n="p1"/><s n="pl"/></r></p><par n="n"/></e>
+  <e>       <p><l>aalt</l>      <r>alen<s n="vblex"/><s n="sep"/><s n="fm"/><s n="pri"/><s n="p2"/><s n="pl"/></r></p></e>
+  <e>       <p><l>ale</l>       <r>alen<s n="vblex"/><s n="sep"/><s n="fm"/><s n="pri"/><s n="p3"/><s n="pl"/></r></p><par n="n"/></e>
+
+  <e>       <p><l>éil</l>       <r>alen<s n="vblex"/><s n="sep"/><s n="fm"/><s n="prs"/><s n="p1"/><s n="sg"/></r></p></e>
+  <e>       <p><l>éils</l>      <r>alen<s n="vblex"/><s n="sep"/><s n="fm"/><s n="prs"/><s n="p2"/><s n="sg"/></r></p></e>
+  <e>       <p><l>éil</l>       <r>alen<s n="vblex"/><s n="sep"/><s n="fm"/><s n="prs"/><s n="p3"/><s n="sg"/></r></p></e>
+  <e>       <p><l>éile</l>      <r>alen<s n="vblex"/><s n="sep"/><s n="fm"/><s n="prs"/><s n="p1"/><s n="pl"/></r></p><par n="n"/></e>
+  <e>       <p><l>éilt</l>      <r>alen<s n="vblex"/><s n="sep"/><s n="fm"/><s n="prs"/><s n="p2"/><s n="pl"/></r></p></e>
+  <e>       <p><l>éile</l>      <r>alen<s n="vblex"/><s n="sep"/><s n="fm"/><s n="prs"/><s n="p3"/><s n="pl"/></r></p><par n="n"/></e>
+
+  <e>       <p><l>oul</l>       <r>alen<s n="vblex"/><s n="sep"/><s n="fm"/><s n="pii"/><s n="p1"/><s n="sg"/></r></p></e>
+  <e>       <p><l>ouls</l>      <r>alen<s n="vblex"/><s n="sep"/><s n="fm"/><s n="pii"/><s n="p2"/><s n="sg"/></r></p></e>
+  <e>       <p><l>oul</l>       <r>alen<s n="vblex"/><s n="sep"/><s n="fm"/><s n="pii"/><s n="p3"/><s n="sg"/></r></p></e>
+  <e>       <p><l>oule</l>      <r>alen<s n="vblex"/><s n="sep"/><s n="fm"/><s n="pii"/><s n="p1"/><s n="pl"/></r></p><par n="n"/></e>
+  <e>       <p><l>oult</l>      <r>alen<s n="vblex"/><s n="sep"/><s n="fm"/><s n="pii"/><s n="p2"/><s n="pl"/></r></p></e>
+  <e>       <p><l>oule</l>      <r>alen<s n="vblex"/><s n="sep"/><s n="fm"/><s n="pii"/><s n="p3"/><s n="pl"/></r></p><par n="n"/></e>
+
+  <e>       <p><l>al</l>        <r>alen<s n="vblex"/><s n="sep"/><s n="imp"/><s n="sg"/></r></p></e>
+  <e>       <p><l>aalt</l>      <r>alen<s n="vblex"/><s n="sep"/><s n="imp"/><s n="pl"/></r></p></e>
+</pardef>
+
+<pardef n="a/fetten__vblex_sep">
+  <e>       <p><l>fette</l>     <r>fetten<s n="vblex"/><s n="sep"/><s n="inf"/></r></p><par n="n"/></e>
+  <e>       <p><l>gefett</l>    <r>fetten<s n="vblex"/><s n="sep"/><s n="pp"/></r></p></e>
+</pardef>
+
+<pardef n="fett/en#_an__vblex_sep">
+  <e>       <p><l>e</l>         <r>en<s n="vblex"/><s n="sep"/><s n="fm"/><s n="pri"/><s n="p1"/><s n="sg"/></r></p><par n="n"/></e>
+  <e>       <p><l>s</l>         <r>en<s n="vblex"/><s n="sep"/><s n="fm"/><s n="pri"/><s n="p2"/><s n="sg"/></r></p></e>
+  <e>       <p><l></l>          <r>en<s n="vblex"/><s n="sep"/><s n="fm"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
+  <e>       <p><l>e</l>         <r>en<s n="vblex"/><s n="sep"/><s n="fm"/><s n="pri"/><s n="p1"/><s n="pl"/></r></p><par n="n"/></e>
+  <e>       <p><l></l>          <r>en<s n="vblex"/><s n="sep"/><s n="fm"/><s n="pri"/><s n="p2"/><s n="pl"/></r></p></e>
+  <e>       <p><l>e</l>         <r>en<s n="vblex"/><s n="sep"/><s n="fm"/><s n="pri"/><s n="p3"/><s n="pl"/></r></p><par n="n"/></e>
+
+  <e>       <p><l></l>          <r>en<s n="vblex"/><s n="sep"/><s n="imp"/><s n="sg"/></r></p></e>
+  <e>       <p><l></l>          <r>en<s n="vblex"/><s n="sep"/><s n="imp"/><s n="pl"/></r></p></e>
+</pardef>
+
+<pardef n="a/fierwen__vblex_sep">
+  <e>       <p><l>fierwe</l>    <r>fierwen<s n="vblex"/><s n="sep"/><s n="inf"/></r></p><par n="n"/></e>
+  <e>       <p><l>gefierft</l>  <r>fierwen<s n="vblex"/><s n="sep"/><s n="pp"/></r></p></e>
+</pardef>
+
+<pardef n="fier/wen#_an__vblex_sep">
+  <e>       <p><l>we</l>        <r>wen<s n="vblex"/><s n="sep"/><s n="fm"/><s n="pri"/><s n="p1"/><s n="sg"/></r></p><par n="n"/></e>
+  <e>       <p><l>fs</l>        <r>wen<s n="vblex"/><s n="sep"/><s n="fm"/><s n="pri"/><s n="p2"/><s n="sg"/></r></p></e>
+  <e>       <p><l>ft</l>        <r>wen<s n="vblex"/><s n="sep"/><s n="fm"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
+  <e>       <p><l>we</l>        <r>wen<s n="vblex"/><s n="sep"/><s n="fm"/><s n="pri"/><s n="p1"/><s n="pl"/></r></p><par n="n"/></e>
+  <e>       <p><l>ft</l>        <r>wen<s n="vblex"/><s n="sep"/><s n="fm"/><s n="pri"/><s n="p2"/><s n="pl"/></r></p></e>
+  <e>       <p><l>we</l>        <r>wen<s n="vblex"/><s n="sep"/><s n="fm"/><s n="pri"/><s n="p3"/><s n="pl"/></r></p><par n="n"/></e>
+
+  <e>       <p><l>f</l>         <r>wen<s n="vblex"/><s n="sep"/><s n="imp"/><s n="sg"/></r></p></e>
+  <e>       <p><l>ft</l>        <r>wen<s n="vblex"/><s n="sep"/><s n="imp"/><s n="pl"/></r></p></e>
+</pardef>
+
+<pardef n="a/fänken__vblex_sep">
+  <e>       <p><l>fänke</l>     <r>fänken<s n="vblex"/><s n="sep"/><s n="inf"/></r></p><par n="n"/></e>
+  <e>       <p><l>gefaange</l>  <r>fänken<s n="vblex"/><s n="sep"/><s n="pp"/></r></p><par n="n"/></e>
+</pardef>
+
+<pardef n="f/änken#_an__vblex_sep">
+  <e>       <p><l>änke</l>      <r>änken<s n="vblex"/><s n="sep"/><s n="fm"/><s n="pri"/><s n="p1"/><s n="sg"/></r></p><par n="n"/></e>
+  <e>       <p><l>änks</l>      <r>änken<s n="vblex"/><s n="sep"/><s n="fm"/><s n="pri"/><s n="p2"/><s n="sg"/></r></p></e>
+  <e>       <p><l>änkt</l>      <r>änken<s n="vblex"/><s n="sep"/><s n="fm"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
+  <e>       <p><l>änke</l>      <r>änken<s n="vblex"/><s n="sep"/><s n="fm"/><s n="pri"/><s n="p1"/><s n="pl"/></r></p><par n="n"/></e>
+  <e>       <p><l>änkt</l>      <r>änken<s n="vblex"/><s n="sep"/><s n="fm"/><s n="pri"/><s n="p2"/><s n="pl"/></r></p></e>
+  <e>       <p><l>änke</l>      <r>änken<s n="vblex"/><s n="sep"/><s n="fm"/><s n="pri"/><s n="p3"/><s n="pl"/></r></p><par n="n"/></e>
+
+  <e>       <p><l>éing</l>      <r>änken<s n="vblex"/><s n="sep"/><s n="fm"/><s n="prs"/><s n="p1"/><s n="sg"/></r></p></e>
+  <e>       <p><l>éings</l>     <r>änken<s n="vblex"/><s n="sep"/><s n="fm"/><s n="prs"/><s n="p2"/><s n="sg"/></r></p></e>
+  <e>       <p><l>éing</l>      <r>änken<s n="vblex"/><s n="sep"/><s n="fm"/><s n="prs"/><s n="p3"/><s n="sg"/></r></p></e>
+  <e>       <p><l>éinge</l>     <r>änken<s n="vblex"/><s n="sep"/><s n="fm"/><s n="prs"/><s n="p1"/><s n="pl"/></r></p><par n="n"/></e>
+  <e>       <p><l>éingt</l>     <r>änken<s n="vblex"/><s n="sep"/><s n="fm"/><s n="prs"/><s n="p2"/><s n="pl"/></r></p></e>
+  <e>       <p><l>éinge</l>     <r>änken<s n="vblex"/><s n="sep"/><s n="fm"/><s n="prs"/><s n="p3"/><s n="pl"/></r></p><par n="n"/></e>
+
+  <e>       <p><l>oung</l>      <r>änken<s n="vblex"/><s n="sep"/><s n="fm"/><s n="pii"/><s n="p1"/><s n="sg"/></r></p></e>
+  <e>       <p><l>oungs</l>     <r>änken<s n="vblex"/><s n="sep"/><s n="fm"/><s n="pii"/><s n="p2"/><s n="sg"/></r></p></e>
+  <e>       <p><l>oung</l>      <r>änken<s n="vblex"/><s n="sep"/><s n="fm"/><s n="pii"/><s n="p3"/><s n="sg"/></r></p></e>
+  <e>       <p><l>ounge</l>     <r>änken<s n="vblex"/><s n="sep"/><s n="fm"/><s n="pii"/><s n="p1"/><s n="pl"/></r></p><par n="n"/></e>
+  <e>       <p><l>oungt</l>     <r>änken<s n="vblex"/><s n="sep"/><s n="fm"/><s n="pii"/><s n="p2"/><s n="pl"/></r></p></e>
+  <e>       <p><l>ounge</l>     <r>änken<s n="vblex"/><s n="sep"/><s n="fm"/><s n="pii"/><s n="p3"/><s n="pl"/></r></p><par n="n"/></e>
+
+  <e>       <p><l>änk</l>       <r>änken<s n="vblex"/><s n="sep"/><s n="imp"/><s n="sg"/></r></p></e>
+  <e>       <p><l>änkt</l>      <r>änken<s n="vblex"/><s n="sep"/><s n="imp"/><s n="pl"/></r></p></e>
+</pardef>
+
+<pardef n="a/féieren__vblex_sep">
+  <e>       <p><l>féiere</l>    <r>féieren<s n="vblex"/><s n="sep"/><s n="inf"/></r></p><par n="n"/></e>
+  <e>       <p><l>geféiert</l>  <r>féieren<s n="vblex"/><s n="sep"/><s n="pp"/></r></p></e>
+</pardef>
+
+<pardef n="a/fëllen__vblex_sep">
+  <e>       <p><l>fëlle</l>     <r>fëllen<s n="vblex"/><s n="sep"/><s n="inf"/></r></p><par n="n"/></e>
+  <e>       <p><l>gefëllt</l>   <r>fëllen<s n="vblex"/><s n="sep"/><s n="pp"/></r></p></e>
+</pardef>
+
+<pardef n="agesi/nn__vblex_sep">
+  <e>       <p><l></l>          <r>nn<s n="vblex"/><s n="sep"/><s n="inf"/></r></p><par n="nn"/></e>
+  <e>       <p><l></l>          <r>nn<s n="vblex"/><s n="sep"/><s n="pp"/></r></p><par n="nn"/></e>
+</pardef>
+
+<pardef n="ges/inn#_an__vblex_sep">
+  <e>       <p><l>i</l>         <r>inn<s n="vblex"/><s n="sep"/><s n="fm"/><s n="pri"/><s n="p1"/><s n="sg"/></r></p><par n="nn"/></e>
+  <e>       <p><l>äis</l>       <r>inn<s n="vblex"/><s n="sep"/><s n="fm"/><s n="pri"/><s n="p2"/><s n="sg"/></r></p></e>
+  <e>       <p><l>äit</l>       <r>inn<s n="vblex"/><s n="sep"/><s n="fm"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
+  <e>       <p><l>i</l>         <r>inn<s n="vblex"/><s n="sep"/><s n="fm"/><s n="pri"/><s n="p1"/><s n="pl"/></r></p><par n="nn"/></e>
+  <e>       <p><l>itt</l>       <r>inn<s n="vblex"/><s n="sep"/><s n="fm"/><s n="pri"/><s n="p2"/><s n="pl"/></r></p></e>
+  <e>       <p><l>i</l>         <r>inn<s n="vblex"/><s n="sep"/><s n="fm"/><s n="pri"/><s n="p3"/><s n="pl"/></r></p><par n="nn"/></e>
+
+  <e>       <p><l>éich</l>      <r>inn<s n="vblex"/><s n="sep"/><s n="fm"/><s n="prs"/><s n="p1"/><s n="sg"/></r></p></e>
+  <e>       <p><l>éichs</l>     <r>inn<s n="vblex"/><s n="sep"/><s n="fm"/><s n="prs"/><s n="p2"/><s n="sg"/></r></p></e>
+  <e>       <p><l>éich</l>      <r>inn<s n="vblex"/><s n="sep"/><s n="fm"/><s n="prs"/><s n="p3"/><s n="sg"/></r></p></e>
+  <e>       <p><l>éiche</l>     <r>inn<s n="vblex"/><s n="sep"/><s n="fm"/><s n="prs"/><s n="p1"/><s n="pl"/></r></p><par n="n"/></e>
+  <e>       <p><l>éicht</l>     <r>inn<s n="vblex"/><s n="sep"/><s n="fm"/><s n="prs"/><s n="p2"/><s n="pl"/></r></p></e>
+  <e>       <p><l>éiche</l>     <r>inn<s n="vblex"/><s n="sep"/><s n="fm"/><s n="prs"/><s n="p3"/><s n="pl"/></r></p><par n="n"/></e>
+
+  <e>       <p><l>ouch</l>      <r>inn<s n="vblex"/><s n="sep"/><s n="fm"/><s n="pii"/><s n="p1"/><s n="sg"/></r></p></e>
+  <e>       <p><l>ouchs</l>     <r>inn<s n="vblex"/><s n="sep"/><s n="fm"/><s n="pii"/><s n="p2"/><s n="sg"/></r></p></e>
+  <e>       <p><l>ouch</l>      <r>inn<s n="vblex"/><s n="sep"/><s n="fm"/><s n="pii"/><s n="p3"/><s n="sg"/></r></p></e>
+  <e>       <p><l>ouche</l>     <r>inn<s n="vblex"/><s n="sep"/><s n="fm"/><s n="pii"/><s n="p1"/><s n="pl"/></r></p><par n="n"/></e>
+  <e>       <p><l>oucht</l>     <r>inn<s n="vblex"/><s n="sep"/><s n="fm"/><s n="pii"/><s n="p2"/><s n="pl"/></r></p></e>
+  <e>       <p><l>ouche</l>     <r>inn<s n="vblex"/><s n="sep"/><s n="fm"/><s n="pii"/><s n="p3"/><s n="pl"/></r></p><par n="n"/></e>
+
+  <e>       <p><l>éi</l>        <r>inn<s n="vblex"/><s n="sep"/><s n="imp"/><s n="sg"/></r></p></e>
+  <e>       <p><l>itt</l>       <r>inn<s n="vblex"/><s n="sep"/><s n="imp"/><s n="pl"/></r></p></e>
+</pardef>
+
+<pardef n="a/glidderen__vblex_sep">
+  <e>       <p><l>gliddere</l>  <r>glidderen<s n="vblex"/><s n="sep"/><s n="inf"/></r></p><par n="n"/></e>
+  <e>       <p><l>gegliddert</l><r>glidderen<s n="vblex"/><s n="sep"/><s n="pp"/></r></p></e>
+</pardef>
+
+<pardef n="a/gräifen__vblex_sep">
+  <e>       <p><l>gräife</l>    <r>gräifen<s n="vblex"/><s n="sep"/><s n="inf"/></r></p><par n="n"/></e>
+  <e>       <p><l>gegraff</l>   <r>gräifen<s n="vblex"/><s n="sep"/><s n="pp"/></r></p></e>
+</pardef>
+
+<pardef n="a/géissen__vblex_sep">
+  <e>       <p><l>géisse</l>    <r>géissen<s n="vblex"/><s n="sep"/><s n="inf"/></r></p><par n="n"/></e>
+  <e>       <p><l>gegoss</l>    <r>géissen<s n="vblex"/><s n="sep"/><s n="pp"/></r></p></e>
+</pardef>
+
+<pardef n="a/leeën__vblex_sep">
+  <e>       <p><l>leeë</l>      <r>leeën<s n="vblex"/><s n="sep"/><s n="inf"/></r></p><par n="n"/></e>
+  <e>       <p><l>geluecht</l>  <r>leeën<s n="vblex"/><s n="sep"/><s n="pp"/></r></p></e>
+</pardef>
+
+<pardef n="lee/ën#_an__vblex_sep">
+  <e>       <p><l>ë</l>         <r>ën<s n="vblex"/><s n="sep"/><s n="fm"/><s n="pri"/><s n="p1"/><s n="sg"/></r></p><par n="n"/></e>
+  <e>       <p><l>s</l>         <r>ën<s n="vblex"/><s n="sep"/><s n="fm"/><s n="pri"/><s n="p2"/><s n="sg"/></r></p></e>
+  <e>       <p><l>t</l>         <r>ën<s n="vblex"/><s n="sep"/><s n="fm"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
+  <e>       <p><l>ë</l>         <r>ën<s n="vblex"/><s n="sep"/><s n="fm"/><s n="pri"/><s n="p1"/><s n="pl"/></r></p><par n="n"/></e>
+  <e>       <p><l>t</l>         <r>ën<s n="vblex"/><s n="sep"/><s n="fm"/><s n="pri"/><s n="p2"/><s n="pl"/></r></p></e>
+  <e>       <p><l>ë</l>         <r>ën<s n="vblex"/><s n="sep"/><s n="fm"/><s n="pri"/><s n="p3"/><s n="pl"/></r></p><par n="n"/></e>
+
+  <e>       <p><l></l>          <r>ën<s n="vblex"/><s n="sep"/><s n="imp"/><s n="sg"/></r></p></e>
+  <e>       <p><l>t</l>         <r>ën<s n="vblex"/><s n="sep"/><s n="imp"/><s n="pl"/></r></p></e>
+</pardef>
+
+<pardef n="a/loggen__vblex_sep">
+  <e>       <p><l>logge</l>     <r>loggen<s n="vblex"/><s n="sep"/><s n="inf"/></r></p><par n="n"/></e>
+  <e>       <p><l>geloggt</l>   <r>loggen<s n="vblex"/><s n="sep"/><s n="pp"/></r></p></e>
+</pardef>
+
+<pardef n="a/ndecken__vblex_sep">
+  <e>       <p><l>ndecke</l>    <r>ndecken<s n="vblex"/><s n="sep"/><s n="inf"/></r></p><par n="n"/></e>
+  <e>       <p><l>gedeckt</l>   <r>ndecken<s n="vblex"/><s n="sep"/><s n="pp"/></r></p></e>
+</pardef>
+
+<pardef n="a/ndeelen__vblex_sep">
+  <e>       <p><l>ndeele</l>    <r>ndeelen<s n="vblex"/><s n="sep"/><s n="inf"/></r></p><par n="n"/></e>
+  <e>       <p><l>gedeelt</l>   <r>ndeelen<s n="vblex"/><s n="sep"/><s n="pp"/></r></p></e>
+</pardef>
+
+<pardef n="a/ndreiwen__vblex_sep">
+  <e>       <p><l>ndreiwe</l>   <r>ndreiwen<s n="vblex"/><s n="sep"/><s n="inf"/></r></p><par n="n"/></e>
+  <e>       <p><l>gedriwwe</l>  <r>ndreiwen<s n="vblex"/><s n="sep"/><s n="pp"/></r></p><par n="n"/></e>
+</pardef>
+
+<pardef n="a/ndroen__vblex_sep">
+  <e>       <p><l>ndroe</l>     <r>ndroen<s n="vblex"/><s n="sep"/><s n="inf"/></r></p><par n="n"/></e>
+  <e>       <p><l>gedroe</l>    <r>ndroen<s n="vblex"/><s n="sep"/><s n="pp"/></r></p><par n="n"/></e>
+</pardef>
+
+<pardef n="dr/oen#_an__vblex_sep">
+  <e>       <p><l>oe</l>        <r>oen<s n="vblex"/><s n="sep"/><s n="fm"/><s n="pri"/><s n="p1"/><s n="sg"/></r></p><par n="n"/></e>
+  <e>       <p><l>éis</l>       <r>oen<s n="vblex"/><s n="sep"/><s n="fm"/><s n="pri"/><s n="p2"/><s n="sg"/></r></p></e>
+  <e>       <p><l>éit</l>       <r>oen<s n="vblex"/><s n="sep"/><s n="fm"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
+  <e>       <p><l>oe</l>        <r>oen<s n="vblex"/><s n="sep"/><s n="fm"/><s n="pri"/><s n="p1"/><s n="pl"/></r></p><par n="n"/></e>
+  <e>       <p><l>ot</l>        <r>oen<s n="vblex"/><s n="sep"/><s n="fm"/><s n="pri"/><s n="p2"/><s n="pl"/></r></p></e>
+  <e>       <p><l>oe</l>        <r>oen<s n="vblex"/><s n="sep"/><s n="fm"/><s n="pri"/><s n="p3"/><s n="pl"/></r></p><par n="n"/></e>
+
+  <e>       <p><l>éich</l>      <r>oen<s n="vblex"/><s n="sep"/><s n="fm"/><s n="prs"/><s n="p1"/><s n="sg"/></r></p></e>
+  <e>       <p><l>éichs</l>     <r>oen<s n="vblex"/><s n="sep"/><s n="fm"/><s n="prs"/><s n="p2"/><s n="sg"/></r></p></e>
+  <e>       <p><l>éich</l>      <r>oen<s n="vblex"/><s n="sep"/><s n="fm"/><s n="prs"/><s n="p3"/><s n="sg"/></r></p></e>
+  <e>       <p><l>éiche</l>     <r>oen<s n="vblex"/><s n="sep"/><s n="fm"/><s n="prs"/><s n="p1"/><s n="pl"/></r></p><par n="n"/></e>
+  <e>       <p><l>éicht</l>     <r>oen<s n="vblex"/><s n="sep"/><s n="fm"/><s n="prs"/><s n="p2"/><s n="pl"/></r></p></e>
+  <e>       <p><l>éiche</l>     <r>oen<s n="vblex"/><s n="sep"/><s n="fm"/><s n="prs"/><s n="p3"/><s n="pl"/></r></p><par n="n"/></e>
+
+  <e>       <p><l>ouch</l>      <r>oen<s n="vblex"/><s n="sep"/><s n="fm"/><s n="pii"/><s n="p1"/><s n="sg"/></r></p></e>
+  <e>       <p><l>ouchs</l>     <r>oen<s n="vblex"/><s n="sep"/><s n="fm"/><s n="pii"/><s n="p2"/><s n="sg"/></r></p></e>
+  <e>       <p><l>ouch</l>      <r>oen<s n="vblex"/><s n="sep"/><s n="fm"/><s n="pii"/><s n="p3"/><s n="sg"/></r></p></e>
+  <e>       <p><l>ouche</l>     <r>oen<s n="vblex"/><s n="sep"/><s n="fm"/><s n="pii"/><s n="p1"/><s n="pl"/></r></p><par n="n"/></e>
+  <e>       <p><l>oucht</l>     <r>oen<s n="vblex"/><s n="sep"/><s n="fm"/><s n="pii"/><s n="p2"/><s n="pl"/></r></p></e>
+  <e>       <p><l>ouche</l>     <r>oen<s n="vblex"/><s n="sep"/><s n="fm"/><s n="pii"/><s n="p3"/><s n="pl"/></r></p><par n="n"/></e>
+
+  <e>       <p><l>o</l>         <r>oen<s n="vblex"/><s n="sep"/><s n="imp"/><s n="sg"/></r></p></e>
+  <e>       <p><l>ot</l>        <r>oen<s n="vblex"/><s n="sep"/><s n="imp"/><s n="pl"/></r></p></e>
+</pardef>
+
+<pardef n="a/ndrécken__vblex_sep">
+  <e>       <p><l>ndrécke</l>   <r>ndrécken<s n="vblex"/><s n="sep"/><s n="inf"/></r></p><par n="n"/></e>
+  <e>       <p><l>gedréckt</l>  <r>ndrécken<s n="vblex"/><s n="sep"/><s n="pp"/></r></p></e>
+</pardef>
+
+<pardef n="a/ndréien__vblex_sep">
+  <e>       <p><l>ndréie</l>    <r>ndréien<s n="vblex"/><s n="sep"/><s n="inf"/></r></p><par n="n"/></e>
+  <e>       <p><l>gedréit</l>   <r>ndréien<s n="vblex"/><s n="sep"/><s n="pp"/></r></p></e>
+</pardef>
+
+<pardef n="a/ndréngen__vblex_sep">
+  <e>       <p><l>ndrénge</l>   <r>ndréngen<s n="vblex"/><s n="sep"/><s n="inf"/></r></p><par n="n"/></e>
+  <e>       <p><l>gedronge</l>  <r>ndréngen<s n="vblex"/><s n="sep"/><s n="pp"/></r></p><par n="n"/></e>
+</pardef>
+
+<pardef n="a/nengen__vblex_sep">
+  <e>       <p><l>nenge</l>     <r>nengen<s n="vblex"/><s n="sep"/><s n="inf"/></r></p><par n="n"/></e>
+  <e>       <p><l>gëengt</l>    <r>nengen<s n="vblex"/><s n="sep"/><s n="pp"/></r></p></e>
+</pardef>
+
+<pardef n="a/nhänken__vblex_sep">
+  <e>       <p><l>nhänke</l>    <r>nhänken<s n="vblex"/><s n="sep"/><s n="inf"/></r></p><par n="n"/></e>
+  <e>       <p><l>gehaange</l>  <r>nhänken<s n="vblex"/><s n="sep"/><s n="pp"/></r></p><par n="n"/></e>
+</pardef>
+
+<pardef n="a/paken__vblex_sep">
+  <e>       <p><l>pake</l>      <r>paken<s n="vblex"/><s n="sep"/><s n="inf"/></r></p><par n="n"/></e>
+  <e>       <p><l>gepaakt</l>   <r>paken<s n="vblex"/><s n="sep"/><s n="pp"/></r></p></e>
+</pardef>
+
+<pardef n="pa/ken#_an__vblex_sep">
+  <e>       <p><l>ke</l>        <r>ken<s n="vblex"/><s n="sep"/><s n="fm"/><s n="pri"/><s n="p1"/><s n="sg"/></r></p><par n="n"/></e>
+  <e>       <p><l>peeks</l>     <r>paken<s n="vblex"/><s n="sep"/><s n="fm"/><s n="pri"/><s n="p2"/><s n="sg"/></r></p></e>
+  <e>       <p><l>peekt</l>     <r>paken<s n="vblex"/><s n="sep"/><s n="fm"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
+  <e>       <p><l>ke</l>        <r>ken<s n="vblex"/><s n="sep"/><s n="fm"/><s n="pri"/><s n="p1"/><s n="pl"/></r></p><par n="n"/></e>
+  <e>       <p><l>akt</l>       <r>ken<s n="vblex"/><s n="sep"/><s n="fm"/><s n="pri"/><s n="p2"/><s n="pl"/></r></p></e>
+  <e>       <p><l>ke</l>        <r>ken<s n="vblex"/><s n="sep"/><s n="fm"/><s n="pri"/><s n="p3"/><s n="pl"/></r></p><par n="n"/></e>
+
+  <e>       <p><l>k</l>         <r>ken<s n="vblex"/><s n="sep"/><s n="imp"/><s n="sg"/></r></p></e>
+  <e>       <p><l>akt</l>       <r>ken<s n="vblex"/><s n="sep"/><s n="imp"/><s n="pl"/></r></p></e>
+</pardef>
+
+<pardef n="a/schléissen__vblex_sep">
+  <e>       <p><l>schléisse</l> <r>schléissen<s n="vblex"/><s n="sep"/><s n="inf"/></r></p><par n="n"/></e>
+  <e>       <p><l>geschloss</l> <r>schléissen<s n="vblex"/><s n="sep"/><s n="pp"/></r></p></e>
+</pardef>
+
+<pardef n="a/schreiwen__vblex_sep">
+  <e>       <p><l>schreiwe</l>  <r>schreiwen<s n="vblex"/><s n="sep"/><s n="inf"/></r></p><par n="n"/></e>
+  <e>       <p><l>geschriwwe</l><r>schreiwen<s n="vblex"/><s n="sep"/><s n="pp"/></r></p><par n="n"/></e>
+</pardef>
+
+<pardef n="a/schätzen__vblex_sep">
+  <e>       <p><l>schätze</l>   <r>schätzen<s n="vblex"/><s n="sep"/><s n="inf"/></r></p><par n="n"/></e>
+  <e>       <p><l>geschat</l>   <r>schätzen<s n="vblex"/><s n="sep"/><s n="pp"/></r></p></e>
+</pardef>
+
+<pardef n="a/setzen__vblex_sep">
+  <e>       <p><l>setze</l>     <r>setzen<s n="vblex"/><s n="sep"/><s n="inf"/></r></p><par n="n"/></e>
+  <e>       <p><l>gesat</l>     <r>setzen<s n="vblex"/><s n="sep"/><s n="pp"/></r></p></e>
+</pardef>
+
+<pardef n="aus/doen__vblex_sep">
+  <e>       <p><l>doe</l>       <r>doen<s n="vblex"/><s n="sep"/><s n="inf"/></r></p><par n="n"/></e>
+  <e>       <p><l>gedoe</l>     <r>doen<s n="vblex"/><s n="sep"/><s n="pp"/></r></p><par n="n"/></e>
+</pardef>
+
+<pardef n="d/oen#_aus__vblex_sep">
+  <e>       <p><l>oe</l>        <r>oen<s n="vblex"/><s n="sep"/><s n="fm"/><s n="pri"/><s n="p1"/><s n="sg"/></r></p><par n="n"/></e>
+  <e>       <p><l>ees</l>       <r>oen<s n="vblex"/><s n="sep"/><s n="fm"/><s n="pri"/><s n="p2"/><s n="sg"/></r></p></e>
+  <e>       <p><l>eet</l>       <r>oen<s n="vblex"/><s n="sep"/><s n="fm"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
+  <e>       <p><l>oe</l>        <r>oen<s n="vblex"/><s n="sep"/><s n="fm"/><s n="pri"/><s n="p1"/><s n="pl"/></r></p><par n="n"/></e>
+  <e>       <p><l>ot</l>        <r>oen<s n="vblex"/><s n="sep"/><s n="fm"/><s n="pri"/><s n="p2"/><s n="pl"/></r></p></e>
+  <e>       <p><l>oe</l>        <r>oen<s n="vblex"/><s n="sep"/><s n="fm"/><s n="pri"/><s n="p3"/><s n="pl"/></r></p><par n="n"/></e>
+
+  <e>       <p><l>o</l>         <r>oen<s n="vblex"/><s n="sep"/><s n="imp"/><s n="sg"/></r></p></e>
+  <e>       <p><l>ot</l>        <r>oen<s n="vblex"/><s n="sep"/><s n="imp"/><s n="pl"/></r></p></e>
+</pardef>
+
+<pardef n="k/ommen#_aus__vblex_sep">
+  <e>       <p><l>omme</l>      <r>ommen<s n="vblex"/><s n="sep"/><s n="fm"/><s n="pri"/><s n="p1"/><s n="sg"/></r></p><par n="n"/></e>
+  <e>       <p><l>ënns</l>      <r>ommen<s n="vblex"/><s n="sep"/><s n="fm"/><s n="pri"/><s n="p2"/><s n="sg"/></r></p></e>
+  <e>       <p><l>ënnt</l>      <r>ommen<s n="vblex"/><s n="sep"/><s n="fm"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
+  <e>       <p><l>omme</l>      <r>ommen<s n="vblex"/><s n="sep"/><s n="fm"/><s n="pri"/><s n="p1"/><s n="pl"/></r></p><par n="n"/></e>
+  <e>       <p><l>ommt</l>      <r>ommen<s n="vblex"/><s n="sep"/><s n="fm"/><s n="pri"/><s n="p2"/><s n="pl"/></r></p></e>
+  <e>       <p><l>omme</l>      <r>ommen<s n="vblex"/><s n="sep"/><s n="fm"/><s n="pri"/><s n="p3"/><s n="pl"/></r></p><par n="n"/></e>
+
+  <e>       <p><l>éim</l>       <r>ommen<s n="vblex"/><s n="sep"/><s n="fm"/><s n="prs"/><s n="p1"/><s n="sg"/></r></p></e>
+  <e>       <p><l>éims</l>      <r>ommen<s n="vblex"/><s n="sep"/><s n="fm"/><s n="prs"/><s n="p2"/><s n="sg"/></r></p></e>
+  <e>       <p><l>éim</l>       <r>ommen<s n="vblex"/><s n="sep"/><s n="fm"/><s n="prs"/><s n="p3"/><s n="sg"/></r></p></e>
+  <e>       <p><l>éime</l>      <r>ommen<s n="vblex"/><s n="sep"/><s n="fm"/><s n="prs"/><s n="p1"/><s n="pl"/></r></p><par n="n"/></e>
+  <e>       <p><l>éimt</l>      <r>ommen<s n="vblex"/><s n="sep"/><s n="fm"/><s n="prs"/><s n="p2"/><s n="pl"/></r></p></e>
+  <e>       <p><l>éime</l>      <r>ommen<s n="vblex"/><s n="sep"/><s n="fm"/><s n="prs"/><s n="p3"/><s n="pl"/></r></p><par n="n"/></e>
+
+  <e>       <p><l>oum</l>       <r>ommen<s n="vblex"/><s n="sep"/><s n="fm"/><s n="pii"/><s n="p1"/><s n="sg"/></r></p></e>
+  <e>       <p><l>oums</l>      <r>ommen<s n="vblex"/><s n="sep"/><s n="fm"/><s n="pii"/><s n="p2"/><s n="sg"/></r></p></e>
+  <e>       <p><l>oum</l>       <r>ommen<s n="vblex"/><s n="sep"/><s n="fm"/><s n="pii"/><s n="p3"/><s n="sg"/></r></p></e>
+  <e>       <p><l>oume</l>      <r>ommen<s n="vblex"/><s n="sep"/><s n="fm"/><s n="pii"/><s n="p1"/><s n="pl"/></r></p><par n="n"/></e>
+  <e>       <p><l>oumt</l>      <r>ommen<s n="vblex"/><s n="sep"/><s n="fm"/><s n="pii"/><s n="p2"/><s n="pl"/></r></p></e>
+  <e>       <p><l>oume</l>      <r>ommen<s n="vblex"/><s n="sep"/><s n="fm"/><s n="pii"/><s n="p3"/><s n="pl"/></r></p><par n="n"/></e>
+
+  <e>       <p><l>omm</l>       <r>ommen<s n="vblex"/><s n="sep"/><s n="imp"/><s n="sg"/></r></p></e>
+  <e>       <p><l>ommt</l>      <r>ommen<s n="vblex"/><s n="sep"/><s n="imp"/><s n="pl"/></r></p></e>
+</pardef>
+
+<pardef n="aus/schwätzen__vblex_sep">
+  <e>       <p><l>schwätze</l>  <r>schwätzen<s n="vblex"/><s n="sep"/><s n="inf"/></r></p><par n="n"/></e>
+  <e>       <p><l>geschwat</l>  <r>schwätzen<s n="vblex"/><s n="sep"/><s n="pp"/></r></p></e>
+</pardef>
+
+<pardef n="aus/strecken__vblex_sep">
+  <e>       <p><l>strecke</l>   <r>strecken<s n="vblex"/><s n="sep"/><s n="inf"/></r></p><par n="n"/></e>
+  <e>       <p><l>gestreckt</l> <r>strecken<s n="vblex"/><s n="sep"/><s n="pp"/></r></p></e>
+</pardef>
+
+<pardef n="a/wanderen__vblex_sep">
+  <e>       <p><l>wandere</l>   <r>wanderen<s n="vblex"/><s n="sep"/><s n="inf"/></r></p><par n="n"/></e>
+  <e>       <p><l>gewandert</l> <r>wanderen<s n="vblex"/><s n="sep"/><s n="pp"/></r></p></e>
+</pardef>
+
+<pardef n="bäi/bauen__vblex_sep">
+  <e>       <p><l>baue</l>      <r>bauen<s n="vblex"/><s n="sep"/><s n="inf"/></r></p><par n="n"/></e>
+  <e>       <p><l>gebaut</l>    <r>bauen<s n="vblex"/><s n="sep"/><s n="pp"/></r></p></e>
+</pardef>
+
+<pardef n="bäibr/éngen__vblex_sep">
+  <e>       <p><l>énge</l>      <r>éngen<s n="vblex"/><s n="sep"/><s n="inf"/></r></p><par n="n"/></e>
+  <e>       <p><l>uecht</l>     <r>éngen<s n="vblex"/><s n="sep"/><s n="pp"/></r></p></e>
+</pardef>
+
+<pardef n="br/énge#_bäi__vblex_sep">
+  <e>       <p><l>énge</l>      <r>éngen<s n="vblex"/><s n="sep"/><s n="fm"/><s n="pri"/><s n="p1"/><s n="sg"/></r></p><par n="n"/></e>
+  <e>       <p><l>éngs</l>      <r>éngen<s n="vblex"/><s n="sep"/><s n="fm"/><s n="pri"/><s n="p2"/><s n="sg"/></r></p></e>
+  <e>       <p><l>éng</l>       <r>éngen<s n="vblex"/><s n="sep"/><s n="fm"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
+  <e>       <p><l>énge</l>      <r>éngen<s n="vblex"/><s n="sep"/><s n="fm"/><s n="pri"/><s n="p1"/><s n="pl"/></r></p><par n="n"/></e>
+  <e>       <p><l>éngt</l>      <r>éngen<s n="vblex"/><s n="sep"/><s n="fm"/><s n="pri"/><s n="p2"/><s n="pl"/></r></p></e>
+  <e>       <p><l>énge</l>      <r>éngen<s n="vblex"/><s n="sep"/><s n="fm"/><s n="pri"/><s n="p3"/><s n="pl"/></r></p><par n="n"/></e>
+
+  <e>       <p><l>éicht</l>     <r>éngen<s n="vblex"/><s n="sep"/><s n="fm"/><s n="prs"/><s n="p1"/><s n="sg"/></r></p></e>
+  <e>       <p><l>éichts</l>    <r>éngen<s n="vblex"/><s n="sep"/><s n="fm"/><s n="prs"/><s n="p2"/><s n="sg"/></r></p></e>
+  <e>       <p><l>éicht</l>     <r>éngen<s n="vblex"/><s n="sep"/><s n="fm"/><s n="prs"/><s n="p3"/><s n="sg"/></r></p></e>
+  <e>       <p><l>éichte</l>    <r>éngen<s n="vblex"/><s n="sep"/><s n="fm"/><s n="prs"/><s n="p1"/><s n="pl"/></r></p><par n="n"/></e>
+  <e>       <p><l>éicht</l>     <r>éngen<s n="vblex"/><s n="sep"/><s n="fm"/><s n="prs"/><s n="p2"/><s n="pl"/></r></p></e>
+  <e>       <p><l>éichte</l>    <r>éngen<s n="vblex"/><s n="sep"/><s n="fm"/><s n="prs"/><s n="p3"/><s n="pl"/></r></p><par n="n"/></e>
+
+  <e>       <p><l>uecht</l>     <r>éngen<s n="vblex"/><s n="sep"/><s n="fm"/><s n="pii"/><s n="p1"/><s n="sg"/></r></p></e>
+  <e>       <p><l>uechts</l>    <r>éngen<s n="vblex"/><s n="sep"/><s n="fm"/><s n="pii"/><s n="p2"/><s n="sg"/></r></p></e>
+  <e>       <p><l>uecht</l>     <r>éngen<s n="vblex"/><s n="sep"/><s n="fm"/><s n="pii"/><s n="p3"/><s n="sg"/></r></p></e>
+  <e>       <p><l>uechte</l>    <r>éngen<s n="vblex"/><s n="sep"/><s n="fm"/><s n="pii"/><s n="p1"/><s n="pl"/></r></p><par n="n"/></e>
+  <e>       <p><l>uecht</l>     <r>éngen<s n="vblex"/><s n="sep"/><s n="fm"/><s n="pii"/><s n="p2"/><s n="pl"/></r></p></e>
+  <e>       <p><l>uechte</l>    <r>éngen<s n="vblex"/><s n="sep"/><s n="fm"/><s n="pii"/><s n="p3"/><s n="pl"/></r></p><par n="n"/></e>
+
+  <e>       <p><l>éng</l>       <r>éngen<s n="vblex"/><s n="sep"/><s n="imp"/><s n="sg"/></r></p></e>
+  <e>       <p><l>éngt</l>      <r>éngen<s n="vblex"/><s n="sep"/><s n="imp"/><s n="pl"/></r></p></e>
+</pardef>
+
+<pardef n="bäi/droen__vblex_sep">
+  <e>       <p><l>droe</l>      <r>droen<s n="vblex"/><s n="sep"/><s n="inf"/></r></p><par n="n"/></e>
+  <e>       <p><l>gedroe</l>    <r>droen<s n="vblex"/><s n="sep"/><s n="pp"/></r></p><par n="n"/></e>
+</pardef>
+
+<pardef n="bäi/dréien__vblex_sep">
+  <e>       <p><l>dréie</l>     <r>dréien<s n="vblex"/><s n="sep"/><s n="inf"/></r></p><par n="n"/></e>
+  <e>       <p><l>gedréit</l>   <r>dréien<s n="vblex"/><s n="sep"/><s n="pp"/></r></p></e>
+</pardef>
+
+<pardef n="bäi/halen__vblex_sep">
+  <e>       <p><l>hale</l>      <r>halen<s n="vblex"/><s n="sep"/><s n="inf"/></r></p><par n="n"/></e>
+  <e>       <p><l>gehale</l>    <r>halen<s n="vblex"/><s n="sep"/><s n="pp"/></r></p><par n="n"/></e>
+</pardef>
+
+<pardef n="bäi/kéieren__vblex_sep">
+  <e>       <p><l>kéiere</l>    <r>kéieren<s n="vblex"/><s n="sep"/><s n="inf"/></r></p><par n="n"/></e>
+  <e>       <p><l>gekéiert</l>  <r>kéieren<s n="vblex"/><s n="sep"/><s n="pp"/></r></p></e>
+</pardef>
+
+<pardef n="bäi/leien__vblex_sep">
+  <e>       <p><l>leie</l>      <r>leien<s n="vblex"/><s n="sep"/><s n="inf"/></r></p><par n="n"/></e>
+  <e>       <p><l>geleeë</l>    <r>leien<s n="vblex"/><s n="sep"/><s n="pp"/></r></p><par n="n"/></e>
+</pardef>
+
+<pardef n="l/eie#_bäi__vblex_sep">
+  <e>       <p><l>eie</l>       <r>eien<s n="vblex"/><s n="sep"/><s n="fm"/><s n="pri"/><s n="p1"/><s n="sg"/></r></p><par n="n"/></e>
+  <e>       <p><l>äis</l>       <r>eien<s n="vblex"/><s n="sep"/><s n="fm"/><s n="pri"/><s n="p2"/><s n="sg"/></r></p></e>
+  <e>       <p><l>äit</l>       <r>eien<s n="vblex"/><s n="sep"/><s n="fm"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
+  <e>       <p><l>eie</l>       <r>eien<s n="vblex"/><s n="sep"/><s n="fm"/><s n="pri"/><s n="p1"/><s n="pl"/></r></p><par n="n"/></e>
+  <e>       <p><l>eit</l>       <r>eien<s n="vblex"/><s n="sep"/><s n="fm"/><s n="pri"/><s n="p2"/><s n="pl"/></r></p></e>
+  <e>       <p><l>eie</l>       <r>eien<s n="vblex"/><s n="sep"/><s n="fm"/><s n="pri"/><s n="p3"/><s n="pl"/></r></p><par n="n"/></e>
+
+  <e>       <p><l>éich</l>      <r>eien<s n="vblex"/><s n="sep"/><s n="fm"/><s n="prs"/><s n="p1"/><s n="sg"/></r></p></e>
+  <e>       <p><l>éichs</l>     <r>eien<s n="vblex"/><s n="sep"/><s n="fm"/><s n="prs"/><s n="p2"/><s n="sg"/></r></p></e>
+  <e>       <p><l>éich</l>      <r>eien<s n="vblex"/><s n="sep"/><s n="fm"/><s n="prs"/><s n="p3"/><s n="sg"/></r></p></e>
+  <e>       <p><l>éiche</l>     <r>eien<s n="vblex"/><s n="sep"/><s n="fm"/><s n="prs"/><s n="p1"/><s n="pl"/></r></p><par n="n"/></e>
+  <e>       <p><l>éicht</l>     <r>eien<s n="vblex"/><s n="sep"/><s n="fm"/><s n="prs"/><s n="p2"/><s n="pl"/></r></p></e>
+  <e>       <p><l>éiche</l>     <r>eien<s n="vblex"/><s n="sep"/><s n="fm"/><s n="prs"/><s n="p3"/><s n="pl"/></r></p><par n="n"/></e>
+
+  <e>       <p><l>ouch</l>      <r>eien<s n="vblex"/><s n="sep"/><s n="fm"/><s n="pii"/><s n="p1"/><s n="sg"/></r></p></e>
+  <e>       <p><l>ouchs</l>     <r>eien<s n="vblex"/><s n="sep"/><s n="fm"/><s n="pii"/><s n="p2"/><s n="sg"/></r></p></e>
+  <e>       <p><l>ouch</l>      <r>eien<s n="vblex"/><s n="sep"/><s n="fm"/><s n="pii"/><s n="p3"/><s n="sg"/></r></p></e>
+  <e>       <p><l>ouche</l>     <r>eien<s n="vblex"/><s n="sep"/><s n="fm"/><s n="pii"/><s n="p1"/><s n="pl"/></r></p><par n="n"/></e>
+  <e>       <p><l>oucht</l>     <r>eien<s n="vblex"/><s n="sep"/><s n="fm"/><s n="pii"/><s n="p2"/><s n="pl"/></r></p></e>
+  <e>       <p><l>ouche</l>     <r>eien<s n="vblex"/><s n="sep"/><s n="fm"/><s n="pii"/><s n="p3"/><s n="pl"/></r></p><par n="n"/></e>
+
+  <e>       <p><l>ei</l>        <r>eien<s n="vblex"/><s n="sep"/><s n="imp"/><s n="sg"/></r></p></e>
+  <e>       <p><l>eit</l>       <r>eien<s n="vblex"/><s n="sep"/><s n="imp"/><s n="pl"/></r></p></e>
+</pardef>
+
+<pardef n="bäi/léieren__vblex_sep">
+  <e>       <p><l>léiere</l>    <r>léieren<s n="vblex"/><s n="sep"/><s n="inf"/></r></p><par n="n"/></e>
+  <e>       <p><l>geléiert</l>  <r>léieren<s n="vblex"/><s n="sep"/><s n="pp"/></r></p></e>
+</pardef>
+
+<pardef n="bäi/schmieren__vblex_sep">
+  <e>       <p><l>schmiere</l>  <r>schmieren<s n="vblex"/><s n="sep"/><s n="inf"/></r></p><par n="n"/></e>
+  <e>       <p><l>geschmiert</l><r>schmieren<s n="vblex"/><s n="sep"/><s n="pp"/></r></p></e>
+</pardef>
+
+<pardef n="bäi/steieren__vblex_sep">
+  <e>       <p><l>steiere</l>   <r>steieren<s n="vblex"/><s n="sep"/><s n="inf"/></r></p><par n="n"/></e>
+  <e>       <p><l>gesteiert</l> <r>steieren<s n="vblex"/><s n="sep"/><s n="pp"/></r></p></e>
+</pardef>
+
+<pardef n="dout/maachen__vblex_sep">
+  <e>       <p><l>maache</l>    <r>maachen<s n="vblex"/><s n="sep"/><s n="inf"/></r></p><par n="n"/></e>
+  <e>       <p><l>gemaach</l>   <r>maachen<s n="vblex"/><s n="sep"/><s n="pp"/></r></p></e>
+</pardef>
+
+<pardef n="m/aachen#_dout__vblex_sep">
+  <e>       <p><l>aache</l>     <r>aachen<s n="vblex"/><s n="sep"/><s n="fm"/><s n="pri"/><s n="p1"/><s n="sg"/></r></p><par n="n"/></e>
+  <e>       <p><l>échs</l>      <r>aachen<s n="vblex"/><s n="sep"/><s n="fm"/><s n="pri"/><s n="p2"/><s n="sg"/></r></p></e>
+  <e>       <p><l>écht</l>      <r>aachen<s n="vblex"/><s n="sep"/><s n="fm"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
+  <e>       <p><l>aache</l>     <r>aachen<s n="vblex"/><s n="sep"/><s n="fm"/><s n="pri"/><s n="p1"/><s n="pl"/></r></p><par n="n"/></e>
+  <e>       <p><l>aacht</l>     <r>aachen<s n="vblex"/><s n="sep"/><s n="fm"/><s n="pri"/><s n="p2"/><s n="pl"/></r></p></e>
+  <e>       <p><l>aache</l>     <r>aachen<s n="vblex"/><s n="sep"/><s n="fm"/><s n="pri"/><s n="p3"/><s n="pl"/></r></p><par n="n"/></e>
+
+  <e>       <p><l>éich</l>      <r>aachen<s n="vblex"/><s n="sep"/><s n="fm"/><s n="prs"/><s n="p1"/><s n="sg"/></r></p></e>
+  <e>       <p><l>éichs</l>     <r>aachen<s n="vblex"/><s n="sep"/><s n="fm"/><s n="prs"/><s n="p2"/><s n="sg"/></r></p></e>
+  <e>       <p><l>éich</l>      <r>aachen<s n="vblex"/><s n="sep"/><s n="fm"/><s n="prs"/><s n="p3"/><s n="sg"/></r></p></e>
+  <e>       <p><l>éiche</l>     <r>aachen<s n="vblex"/><s n="sep"/><s n="fm"/><s n="prs"/><s n="p1"/><s n="pl"/></r></p><par n="n"/></e>
+  <e>       <p><l>éicht</l>     <r>aachen<s n="vblex"/><s n="sep"/><s n="fm"/><s n="prs"/><s n="p2"/><s n="pl"/></r></p></e>
+  <e>       <p><l>éiche</l>     <r>aachen<s n="vblex"/><s n="sep"/><s n="fm"/><s n="prs"/><s n="p3"/><s n="pl"/></r></p><par n="n"/></e>
+
+  <e>       <p><l>ouch</l>      <r>aachen<s n="vblex"/><s n="sep"/><s n="fm"/><s n="pii"/><s n="p1"/><s n="sg"/></r></p></e>
+  <e>       <p><l>ouchs</l>     <r>aachen<s n="vblex"/><s n="sep"/><s n="fm"/><s n="pii"/><s n="p2"/><s n="sg"/></r></p></e>
+  <e>       <p><l>ouch</l>      <r>aachen<s n="vblex"/><s n="sep"/><s n="fm"/><s n="pii"/><s n="p3"/><s n="sg"/></r></p></e>
+  <e>       <p><l>ouche</l>     <r>aachen<s n="vblex"/><s n="sep"/><s n="fm"/><s n="pii"/><s n="p1"/><s n="pl"/></r></p><par n="n"/></e>
+  <e>       <p><l>oucht</l>     <r>aachen<s n="vblex"/><s n="sep"/><s n="fm"/><s n="pii"/><s n="p2"/><s n="pl"/></r></p></e>
+  <e>       <p><l>ouche</l>     <r>aachen<s n="vblex"/><s n="sep"/><s n="fm"/><s n="pii"/><s n="p3"/><s n="pl"/></r></p><par n="n"/></e>
+
+  <e>       <p><l>aach</l>      <r>aachen<s n="vblex"/><s n="sep"/><s n="imp"/><s n="sg"/></r></p></e>
+  <e>       <p><l>aacht</l>     <r>aachen<s n="vblex"/><s n="sep"/><s n="imp"/><s n="pl"/></r></p></e>
+</pardef>
+
+<pardef n="eraus/schécken__vblex_sep">
+  <e>       <p><l>schécke</l>   <r>schécken<s n="vblex"/><s n="sep"/><s n="inf"/></r></p><par n="n"/></e>
+  <e>       <p><l>geschéckt</l> <r>schécken<s n="vblex"/><s n="sep"/><s n="pp"/></r></p></e>
+</pardef>
+
+<pardef n="erof/lueden__vblex_sep">
+  <e>       <p><l>luede</l>     <r>lueden<s n="vblex"/><s n="sep"/><s n="inf"/></r></p><par n="n"/></e>
+  <e>       <p><l>geluede</l>   <r>lueden<s n="vblex"/><s n="sep"/><s n="pp"/></r></p><par n="n"/></e>
+</pardef>
+
+<pardef n="erof/schneiden__vblex_sep">
+  <e>       <p><l>schneide</l>  <r>schneiden<s n="vblex"/><s n="sep"/><s n="inf"/></r></p><par n="n"/></e>
+  <e>       <p><l>geschnidde</l><r>schneiden<s n="vblex"/><s n="sep"/><s n="pp"/></r></p><par n="n"/></e>
+</pardef>
+
+<pardef n="erof/spillen__vblex_sep">
+  <e>       <p><l>spille</l>    <r>spillen<s n="vblex"/><s n="sep"/><s n="inf"/></r></p><par n="n"/></e>
+  <e>       <p><l>gespillt</l>  <r>spillen<s n="vblex"/><s n="sep"/><s n="pp"/></r></p></e>
+</pardef>
+
+<pardef n="erëmgew/annen__vblex_sep">
+  <e>       <p><l>anne</l>      <r>annen<s n="vblex"/><s n="sep"/><s n="inf"/></r></p><par n="n"/></e>
+  <e>       <p><l>onne</l>      <r>annen<s n="vblex"/><s n="sep"/><s n="pp"/></r></p><par n="n"/></e>
+</pardef>
+
+<pardef n="gew/annen#_erëm__vblex_sep">
+  <e>       <p><l>anne</l>      <r>annen<s n="vblex"/><s n="sep"/><s n="fm"/><s n="pri"/><s n="p1"/><s n="sg"/></r></p><par n="n"/></e>
+  <e>       <p><l>ënns</l>      <r>annen<s n="vblex"/><s n="sep"/><s n="fm"/><s n="pri"/><s n="p2"/><s n="sg"/></r></p></e>
+  <e>       <p><l>ënnt</l>      <r>annen<s n="vblex"/><s n="sep"/><s n="fm"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
+  <e>       <p><l>anne</l>      <r>annen<s n="vblex"/><s n="sep"/><s n="fm"/><s n="pri"/><s n="p1"/><s n="pl"/></r></p><par n="n"/></e>
+  <e>       <p><l>annt</l>      <r>annen<s n="vblex"/><s n="sep"/><s n="fm"/><s n="pri"/><s n="p2"/><s n="pl"/></r></p></e>
+  <e>       <p><l>anne</l>      <r>annen<s n="vblex"/><s n="sep"/><s n="fm"/><s n="pri"/><s n="p3"/><s n="pl"/></r></p><par n="n"/></e>
+
+  <e>       <p><l>an</l>        <r>annen<s n="vblex"/><s n="sep"/><s n="imp"/><s n="sg"/></r></p><par n="n"/></e>
+  <e>       <p><l>annt</l>      <r>annen<s n="vblex"/><s n="sep"/><s n="imp"/><s n="pl"/></r></p></e>
+</pardef>
+
+<pardef n="nidder/loossen__vblex_sep">
+  <e>       <p><l>loosse</l>    <r>loossen<s n="vblex"/><s n="sep"/><s n="inf"/></r></p><par n="n"/></e>
+  <e>       <p><l>gelooss</l>   <r>loossen<s n="vblex"/><s n="sep"/><s n="pp"/></r></p></e>
+</pardef>
+
+<pardef n="l/oossen#_nidder__vblex_sep">
+  <e>       <p><l>oosse</l>     <r>oossen<s n="vblex"/><s n="sep"/><s n="fm"/><s n="pri"/><s n="p1"/><s n="sg"/></r></p><par n="n"/></e>
+  <e>       <p><l>éiss</l>      <r>oossen<s n="vblex"/><s n="sep"/><s n="fm"/><s n="pri"/><s n="p2"/><s n="sg"/></r></p></e>
+  <e>       <p><l>éisst</l>     <r>oossen<s n="vblex"/><s n="sep"/><s n="fm"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
+  <e>       <p><l>oosse</l>     <r>oossen<s n="vblex"/><s n="sep"/><s n="fm"/><s n="pri"/><s n="p1"/><s n="pl"/></r></p><par n="n"/></e>
+  <e>       <p><l>oosst</l>     <r>oossen<s n="vblex"/><s n="sep"/><s n="fm"/><s n="pri"/><s n="p2"/><s n="pl"/></r></p></e>
+  <e>       <p><l>oosse</l>     <r>oossen<s n="vblex"/><s n="sep"/><s n="fm"/><s n="pri"/><s n="p3"/><s n="pl"/></r></p><par n="n"/></e>
+
+  <e>       <p><l>éiss</l>      <r>oossen<s n="vblex"/><s n="sep"/><s n="fm"/><s n="prs"/><s n="p1"/><s n="sg"/></r></p></e>
+  <e>       <p><l>éiss</l>      <r>oossen<s n="vblex"/><s n="sep"/><s n="fm"/><s n="prs"/><s n="p2"/><s n="sg"/></r></p></e>
+  <e>       <p><l>éiss</l>      <r>oossen<s n="vblex"/><s n="sep"/><s n="fm"/><s n="prs"/><s n="p3"/><s n="sg"/></r></p></e>
+  <e>       <p><l>éisse</l>     <r>oossen<s n="vblex"/><s n="sep"/><s n="fm"/><s n="prs"/><s n="p1"/><s n="pl"/></r></p><par n="n"/></e>
+  <e>       <p><l>éisst</l>     <r>oossen<s n="vblex"/><s n="sep"/><s n="fm"/><s n="prs"/><s n="p2"/><s n="pl"/></r></p></e>
+  <e>       <p><l>éisse</l>     <r>oossen<s n="vblex"/><s n="sep"/><s n="fm"/><s n="prs"/><s n="p3"/><s n="pl"/></r></p><par n="n"/></e>
+
+  <e>       <p><l>ouss</l>      <r>oossen<s n="vblex"/><s n="sep"/><s n="fm"/><s n="pii"/><s n="p1"/><s n="sg"/></r></p></e>
+  <e>       <p><l>ouss</l>      <r>oossen<s n="vblex"/><s n="sep"/><s n="fm"/><s n="pii"/><s n="p2"/><s n="sg"/></r></p></e>
+  <e>       <p><l>ouss</l>      <r>oossen<s n="vblex"/><s n="sep"/><s n="fm"/><s n="pii"/><s n="p3"/><s n="sg"/></r></p></e>
+  <e>       <p><l>ousse</l>     <r>oossen<s n="vblex"/><s n="sep"/><s n="fm"/><s n="pii"/><s n="p1"/><s n="pl"/></r></p><par n="n"/></e>
+  <e>       <p><l>ousst</l>     <r>oossen<s n="vblex"/><s n="sep"/><s n="fm"/><s n="pii"/><s n="p2"/><s n="pl"/></r></p></e>
+  <e>       <p><l>ousse</l>     <r>oossen<s n="vblex"/><s n="sep"/><s n="fm"/><s n="pii"/><s n="p3"/><s n="pl"/></r></p><par n="n"/></e>
+
+  <e>       <p><l>ooss</l>      <r>oossen<s n="vblex"/><s n="sep"/><s n="imp"/><s n="sg"/></r></p></e>
+  <e>       <p><l>oosst</l>     <r>oossen<s n="vblex"/><s n="sep"/><s n="imp"/><s n="pl"/></r></p></e>
+</pardef>
+
+<pardef n="no/follegen__vblex_sep">
+  <e>       <p><l>follege</l>   <r>follegen<s n="vblex"/><s n="sep"/><s n="inf"/></r></p><par n="n"/></e>
+  <e>       <p><l>gefolleg</l>  <r>follegen<s n="vblex"/><s n="sep"/><s n="pp"/></r></p></e>
+</pardef>
+
+<pardef n="of/spriechen__vblex_sep">
+  <e>       <p><l>sprieche</l>  <r>spriechen<s n="vblex"/><s n="sep"/><s n="inf"/></r></p><par n="n"/></e>
+  <e>       <p><l>gesprach</l>  <r>spriechen<s n="vblex"/><s n="sep"/><s n="pp"/></r></p></e>
+</pardef>
+
+<pardef n="spr/iechen#_of__vblex_sep">
+  <e>       <p><l>ieche</l>     <r>iechen<s n="vblex"/><s n="sep"/><s n="fm"/><s n="pri"/><s n="p1"/><s n="sg"/></r></p><par n="n"/></e>
+  <e>       <p><l>échs</l>      <r>iechen<s n="vblex"/><s n="sep"/><s n="fm"/><s n="pri"/><s n="p2"/><s n="sg"/></r></p></e>
+  <e>       <p><l>écht</l>      <r>iechen<s n="vblex"/><s n="sep"/><s n="fm"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
+  <e>       <p><l>ieche</l>     <r>iechen<s n="vblex"/><s n="sep"/><s n="fm"/><s n="pri"/><s n="p1"/><s n="pl"/></r></p><par n="n"/></e>
+  <e>       <p><l>iecht</l>     <r>iechen<s n="vblex"/><s n="sep"/><s n="fm"/><s n="pri"/><s n="p2"/><s n="pl"/></r></p></e>
+  <e>       <p><l>ieche</l>     <r>iechen<s n="vblex"/><s n="sep"/><s n="fm"/><s n="pri"/><s n="p3"/><s n="pl"/></r></p><par n="n"/></e>
+
+  <e>       <p><l>iech</l>      <r>iechen<s n="vblex"/><s n="sep"/><s n="imp"/><s n="sg"/></r></p></e>
+  <e>       <p><l>iecht</l>     <r>iechen<s n="vblex"/><s n="sep"/><s n="imp"/><s n="pl"/></r></p></e>
+</pardef>
+
+<pardef n="op/trieden__vblex_sep">
+  <e>       <p><l>triede</l>    <r>trieden<s n="vblex"/><s n="sep"/><s n="inf"/></r></p><par n="n"/></e>
+  <e>       <p><l>getruede</l>  <r>trieden<s n="vblex"/><s n="sep"/><s n="pp"/></r></p><par n="n"/></e>
+</pardef>
+
+<pardef n="tr/ieden#_op__vblex_sep">
+  <e>       <p><l>iede</l>      <r>ieden<s n="vblex"/><s n="sep"/><s n="fm"/><s n="pri"/><s n="p1"/><s n="sg"/></r></p><par n="n"/></e>
+  <e>       <p><l>ëts</l>       <r>ieden<s n="vblex"/><s n="sep"/><s n="fm"/><s n="pri"/><s n="p2"/><s n="sg"/></r></p></e>
+  <e>       <p><l>ëtt</l>       <r>ieden<s n="vblex"/><s n="sep"/><s n="fm"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
+  <e>       <p><l>iede</l>      <r>ieden<s n="vblex"/><s n="sep"/><s n="fm"/><s n="pri"/><s n="p1"/><s n="pl"/></r></p><par n="n"/></e>
+  <e>       <p><l>iet</l>       <r>ieden<s n="vblex"/><s n="sep"/><s n="fm"/><s n="pri"/><s n="p2"/><s n="pl"/></r></p></e>
+  <e>       <p><l>iede</l>      <r>ieden<s n="vblex"/><s n="sep"/><s n="fm"/><s n="pri"/><s n="p3"/><s n="pl"/></r></p><par n="n"/></e>
+
+  <e>       <p><l>iet</l>       <r>ieden<s n="vblex"/><s n="sep"/><s n="imp"/><s n="sg"/></r></p></e>
+  <e>       <p><l>iet</l>       <r>ieden<s n="vblex"/><s n="sep"/><s n="imp"/><s n="pl"/></r></p></e>
+</pardef>
+
+<pardef n="u/bieden__vblex_sep">
+  <e>       <p><l>biede</l>     <r>bieden<s n="vblex"/><s n="sep"/><s n="inf"/></r></p><par n="n"/></e>
+  <e>       <p><l>gebiet</l>    <r>bieden<s n="vblex"/><s n="sep"/><s n="pp"/></r></p></e>
+</pardef>
+
+<pardef n="u/kucken__vblex_sep">
+  <e>       <p><l>kucke</l>     <r>kucken<s n="vblex"/><s n="sep"/><s n="inf"/></r></p><par n="n"/></e>
+  <e>       <p><l>gekuckt</l>   <r>kucken<s n="vblex"/><s n="sep"/><s n="pp"/></r></p></e>
+</pardef>
+
+<pardef n="u/mellen__vblex_sep">
+  <e>       <p><l>melle</l>     <r>mellen<s n="vblex"/><s n="sep"/><s n="inf"/></r></p><par n="n"/></e>
+  <e>       <p><l>gemellt</l>   <r>mellen<s n="vblex"/><s n="sep"/><s n="pp"/></r></p></e>
+</pardef>
+
+<pardef n="u/nhuelen__vblex_sep">
+  <e>       <p><l>nhuele</l>    <r>nhuelen<s n="vblex"/><s n="sep"/><s n="inf"/></r></p><par n="n"/></e>
+  <e>       <p><l>geholl</l>    <r>nhuelen<s n="vblex"/><s n="sep"/><s n="pp"/></r></p></e>
+</pardef>
+
+<pardef n="h/uelen#_un__vblex_sep">
+  <e>       <p><l>uele</l>      <r>uelen<s n="vblex"/><s n="sep"/><s n="fm"/><s n="pri"/><s n="p1"/><s n="sg"/></r></p><par n="n"/></e>
+  <e>       <p><l>ëls</l>       <r>uelen<s n="vblex"/><s n="sep"/><s n="fm"/><s n="pri"/><s n="p2"/><s n="sg"/></r></p></e>
+  <e>       <p><l>ëlt</l>       <r>uelen<s n="vblex"/><s n="sep"/><s n="fm"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
+  <e>       <p><l>uele</l>      <r>uelen<s n="vblex"/><s n="sep"/><s n="fm"/><s n="pri"/><s n="p1"/><s n="pl"/></r></p><par n="n"/></e>
+  <e>       <p><l>uelt</l>      <r>uelen<s n="vblex"/><s n="sep"/><s n="fm"/><s n="pri"/><s n="p2"/><s n="pl"/></r></p></e>
+  <e>       <p><l>uele</l>      <r>uelen<s n="vblex"/><s n="sep"/><s n="fm"/><s n="pri"/><s n="p3"/><s n="pl"/></r></p><par n="n"/></e>
+
+  <e>       <p><l>uel</l>       <r>uelen<s n="vblex"/><s n="sep"/><s n="imp"/><s n="sg"/></r></p></e>
+  <e>       <p><l>uelt</l>      <r>uelen<s n="vblex"/><s n="sep"/><s n="imp"/><s n="pl"/></r></p></e>
+</pardef>
+
+<pardef n="uvertrau/en__vblex_sep">
+  <e>       <p><l>e</l>         <r>en<s n="vblex"/><s n="sep"/><s n="inf"/></r></p><par n="n"/></e>
+  <e>       <p><l>t</l>         <r>en<s n="vblex"/><s n="sep"/><s n="pp"/></r></p></e>
+</pardef>
+
+<pardef n="zeréck/denken__vblex_sep">
+  <e>       <p><l>denke</l>     <r>denken<s n="vblex"/><s n="sep"/><s n="inf"/></r></p><par n="n"/></e>
+  <e>       <p><l>geduecht</l>  <r>denken<s n="vblex"/><s n="sep"/><s n="pp"/></r></p></e>
+</pardef>
+
+<pardef n="d/enken#_zeréck__vblex_sep">
+  <e>       <p><l>enke</l>      <r>enken<s n="vblex"/><s n="sep"/><s n="fm"/><s n="pri"/><s n="p1"/><s n="sg"/></r></p><par n="n"/></e>
+  <e>       <p><l>enks</l>      <r>enken<s n="vblex"/><s n="sep"/><s n="fm"/><s n="pri"/><s n="p2"/><s n="sg"/></r></p></e>
+  <e>       <p><l>enk</l>       <r>enken<s n="vblex"/><s n="sep"/><s n="fm"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
+  <e>       <p><l>enke</l>      <r>enken<s n="vblex"/><s n="sep"/><s n="fm"/><s n="pri"/><s n="p1"/><s n="pl"/></r></p><par n="n"/></e>
+  <e>       <p><l>enkt</l>      <r>enken<s n="vblex"/><s n="sep"/><s n="fm"/><s n="pri"/><s n="p2"/><s n="pl"/></r></p></e>
+  <e>       <p><l>enke</l>      <r>enken<s n="vblex"/><s n="sep"/><s n="fm"/><s n="pri"/><s n="p3"/><s n="pl"/></r></p><par n="n"/></e>
+
+  <e>       <p><l>iecht</l>     <r>enken<s n="vblex"/><s n="sep"/><s n="fm"/><s n="prs"/><s n="p1"/><s n="sg"/></r></p></e>
+  <e>       <p><l>iechts</l>    <r>enken<s n="vblex"/><s n="sep"/><s n="fm"/><s n="prs"/><s n="p2"/><s n="sg"/></r></p></e>
+  <e>       <p><l>iecht</l>     <r>enken<s n="vblex"/><s n="sep"/><s n="fm"/><s n="prs"/><s n="p3"/><s n="sg"/></r></p></e>
+  <e>       <p><l>iechte</l>    <r>enken<s n="vblex"/><s n="sep"/><s n="fm"/><s n="prs"/><s n="p1"/><s n="pl"/></r></p><par n="n"/></e>
+  <e>       <p><l>iecht</l>     <r>enken<s n="vblex"/><s n="sep"/><s n="fm"/><s n="prs"/><s n="p2"/><s n="pl"/></r></p></e>
+  <e>       <p><l>iechte</l>    <r>enken<s n="vblex"/><s n="sep"/><s n="fm"/><s n="prs"/><s n="p3"/><s n="pl"/></r></p><par n="n"/></e>
+
+  <e>       <p><l>uecht</l>     <r>enken<s n="vblex"/><s n="sep"/><s n="fm"/><s n="pii"/><s n="p1"/><s n="sg"/></r></p></e>
+  <e>       <p><l>uechts</l>    <r>enken<s n="vblex"/><s n="sep"/><s n="fm"/><s n="pii"/><s n="p2"/><s n="sg"/></r></p></e>
+  <e>       <p><l>uecht</l>     <r>enken<s n="vblex"/><s n="sep"/><s n="fm"/><s n="pii"/><s n="p3"/><s n="sg"/></r></p></e>
+  <e>       <p><l>uechte</l>    <r>enken<s n="vblex"/><s n="sep"/><s n="fm"/><s n="pii"/><s n="p1"/><s n="pl"/></r></p><par n="n"/></e>
+  <e>       <p><l>uecht</l>     <r>enken<s n="vblex"/><s n="sep"/><s n="fm"/><s n="pii"/><s n="p2"/><s n="pl"/></r></p></e>
+  <e>       <p><l>uechte</l>    <r>enken<s n="vblex"/><s n="sep"/><s n="fm"/><s n="pii"/><s n="p3"/><s n="pl"/></r></p><par n="n"/></e>
+
+  <e>       <p><l>enk</l>       <r>enken<s n="vblex"/><s n="sep"/><s n="imp"/><s n="sg"/></r></p></e>
+  <e>       <p><l>enkt</l>      <r>enken<s n="vblex"/><s n="sep"/><s n="imp"/><s n="pl"/></r></p></e>
+</pardef>
+
+<pardef n="zeréck/drécken__vblex_sep">
+  <e>       <p><l>drécke</l>    <r>drécken<s n="vblex"/><s n="sep"/><s n="inf"/></r></p><par n="n"/></e>
+  <e>       <p><l>gedréckt</l>  <r>drécken<s n="vblex"/><s n="sep"/><s n="pp"/></r></p></e>
+</pardef>
+
+<pardef n="zeréckf/annen__vblex_sep">
+  <e>       <p><l>anne</l>      <r>annen<s n="vblex"/><s n="sep"/><s n="inf"/></r></p><par n="n"/></e>
+  <e>       <p><l>onnt</l>      <r>annen<s n="vblex"/><s n="sep"/><s n="pp"/></r></p></e>
+</pardef>
+
+<pardef n="dr/oen#_zou__vblex_sep">
+  <e>       <p><l>oe</l>        <r>oen<s n="vblex"/><s n="sep"/><s n="fm"/><s n="pri"/><s n="p1"/><s n="sg"/></r></p><par n="n"/></e>
+  <e>       <p><l>éis</l>       <r>oen<s n="vblex"/><s n="sep"/><s n="fm"/><s n="pri"/><s n="p2"/><s n="sg"/></r></p></e>
+  <e>       <p><l>éit</l>       <r>oen<s n="vblex"/><s n="sep"/><s n="fm"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
+  <e>       <p><l>oe</l>        <r>oen<s n="vblex"/><s n="sep"/><s n="fm"/><s n="pri"/><s n="p1"/><s n="pl"/></r></p><par n="n"/></e>
+  <e>       <p><l>ot</l>        <r>oen<s n="vblex"/><s n="sep"/><s n="fm"/><s n="pri"/><s n="p2"/><s n="pl"/></r></p></e>
+  <e>       <p><l>oe</l>        <r>oen<s n="vblex"/><s n="sep"/><s n="fm"/><s n="pri"/><s n="p3"/><s n="pl"/></r></p><par n="n"/></e>
+
+  <e>       <p><l>o</l>         <r>oen<s n="vblex"/><s n="sep"/><s n="imp"/><s n="sg"/></r></p></e>
+  <e>       <p><l>ot</l>        <r>oen<s n="vblex"/><s n="sep"/><s n="imp"/><s n="pl"/></r></p></e>
+</pardef>
+
+
+<!-- SECTION: Nouns -->
+
 <pardef n="Aangel__n_f">
   <e>       <p><l></l>          <r><s n="n"/><s n="f"/><s n="sg"/></r></p></e>
   <e>       <p><l>e</l>         <r><s n="n"/><s n="f"/><s n="pl"/></r></p><par n="n"/></e>
@@ -3351,7 +4107,7 @@
 </pardef>
 
 <pardef n="CANDIDATE-eng-xxx__n_f">    <!-- paradigm for unchecked n.f-candidates (~ capitalized words preceded by eng) from a wikipedia corpus -->
-  <e>       <p><l></l> <r><s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+  <e>       <p><l></l>          <r><s n="n"/><s n="f"/><s n="sg"/></r></p></e>
 </pardef>
 
 
@@ -3362,7 +4118,6 @@
   <e>       <p><l></l>          <r><s n="np"/><s n="top"/><s n="nt"/><s n="sg"/><s n="dat"/></r></p></e>
   <e>       <p><l></l>          <r><s n="np"/><s n="top"/><s n="nt"/><s n="sg"/><s n="acc"/></r></p></e>
 </pardef>
-
   </pardefs>
 
   <section id="main" type="standard">
@@ -5176,7 +5931,7 @@
 <e lm="schléissen">      <p><l>geschloss</l> <r>schléissen</r></p><par n="__vblex_pp"/></e>
 <e lm="schneien">        <i>schneien</i><par n="UNKNOWN__vblex"/></e>
 <e lm="schreiwen">       <i>schrei</i><par n="bie/wen__vblex"/></e>
-<e lm="schreiwen">       <p><l>geschriwwe</l> <r>schreiwen</r></p><par n="__vblex_pp"/><par n="n"/></e>
+<e lm="schreiwen">       <p><l>geschriwwe</l><r>schreiwen</r></p><par n="__vblex_pp"/><par n="n"/></e>
 <e lm="schréien">        <i>schréi</i><par n="affer/en__vblex"/></e>
 <e lm="schréien">        <p><l>geschréit</l> <r>schréien</r></p><par n="__vblex_pp"/></e>
 <e lm="schwammen">       <i>schwammen</i><par n="UNKNOWN__vblex"/></e>
@@ -5189,7 +5944,7 @@
 <e lm="schwätzen">       <i>schwätz</i><par n="beez/en__vblex"/></e>
 <e lm="schwätzen">       <p><l>geschwat</l>  <r>schwätzen</r></p><par n="__vblex_pp"/></e>
 <e lm="schwëllen">       <i>schwëll</i><par n="affer/en__vblex"/></e>
-<e lm="schwëllen">       <p><l>geschwolle</l> <r>schwëllen</r></p><par n="__vblex_pp"/><par n="n"/></e>
+<e lm="schwëllen">       <p><l>geschwolle</l><r>schwëllen</r></p><par n="__vblex_pp"/><par n="n"/></e>
 <e lm="schécken">        <i>schéck</i><par n="affer/en__vblex"/></e>
 <e lm="schécken">        <p><l>geschéckt</l> <r>schécken</r></p><par n="__vblex_pp"/></e>
 <e lm="schéissen">       <i>schéiss</i><par n="beez/en__vblex"/></e>
@@ -5340,6 +6095,268 @@
 <e lm="ënnersträichen">  <i>ënnerstr</i><par n="vergl/äichen__vblex"/></e>
 <e lm="ënnerstëtzen">    <i>ënnerstëtz</i><par n="bedups/en__vblex"/></e>
 <e lm="ënnertunnelen">   <i>ënnertunnel</i><par n="abiméier/en__vblex"/></e>
+
+<!-- separable verbs -->
+
+<e lm="abeezen">         <i>a</i><par n="a/beezen__vblex_sep"/></e>
+<e lm="abeezen">         <i>beez</i><par n="beez/en#_an__vblex_sep"/></e>
+<e lm="aberuffen">       <i>aberuff</i><par n="aberuff/en__vblex_sep"/></e>
+<e lm="aberuffen">       <i>ber</i><par n="ber/uffen#_an__vblex_sep"/></e>
+<e lm="abilden">         <i>a</i><par n="a/bilden__vblex_sep"/></e>
+<e lm="abilden">         <i>bil</i><par n="bil/den#_an__vblex_sep"/></e>
+<e lm="abuddelen">       <i>a</i><par n="a/buddelen__vblex_sep"/></e>
+<e lm="abuddelen">       <i>buddel</i><par n="buddel/en#_an__vblex_sep"/></e>
+<e lm="abéissen">        <i>a</i><par n="a/béissen__vblex_sep"/></e>
+<e lm="abéissen">        <i>béiss</i><par n="beez/en#_an__vblex_sep"/></e>
+<e lm="afaassen">        <i>a</i><par n="a/faassen__vblex_sep"/></e>
+<e lm="afaassen">        <i>faass</i><par n="beez/en#_an__vblex_sep"/></e>
+<e lm="afalen">          <i>a</i><par n="a/falen__vblex_sep"/></e>
+<e lm="afalen">          <i>f</i><par n="f/alen#_an__vblex_sep"/></e>
+<e lm="afetten">         <i>a</i><par n="a/fetten__vblex_sep"/></e>
+<e lm="afetten">         <i>fett</i><par n="fett/en#_an__vblex_sep"/></e>
+<e lm="afierwen">        <i>a</i><par n="a/fierwen__vblex_sep"/></e>
+<e lm="afierwen">        <i>fier</i><par n="fier/wen#_an__vblex_sep"/></e>
+<e lm="afänken">         <i>a</i><par n="a/fänken__vblex_sep"/></e>
+<e lm="afänken">         <i>f</i><par n="f/änken#_an__vblex_sep"/></e>
+<e lm="aféieren">        <i>a</i><par n="a/féieren__vblex_sep"/></e>
+<e lm="aféieren">        <i>féier</i><par n="buddel/en#_an__vblex_sep"/></e>
+<e lm="afëllen">         <i>a</i><par n="a/fëllen__vblex_sep"/></e>
+<e lm="afëllen">         <i>fëll</i><par n="buddel/en#_an__vblex_sep"/></e>
+<e lm="agesinn">         <i>agesi</i><par n="agesi/nn__vblex_sep"/></e>
+<e lm="agesinn">         <i>ges</i><par n="ges/inn#_an__vblex_sep"/></e>
+<e lm="aglidderen">      <i>a</i><par n="a/glidderen__vblex_sep"/></e>
+<e lm="aglidderen">      <i>glidder</i><par n="buddel/en#_an__vblex_sep"/></e>
+<e lm="agräifen">        <i>a</i><par n="a/gräifen__vblex_sep"/></e>
+<e lm="agräifen">        <i>gräif</i><par n="buddel/en#_an__vblex_sep"/></e>
+<e lm="agéissen">        <i>a</i><par n="a/géissen__vblex_sep"/></e>
+<e lm="agéissen">        <i>géiss</i><par n="beez/en#_an__vblex_sep"/></e>
+<e lm="aleeën">          <i>a</i><par n="a/leeën__vblex_sep"/></e>
+<e lm="aleeën">          <i>lee</i><par n="lee/ën#_an__vblex_sep"/></e>
+<e lm="aloggen">         <i>a</i><par n="a/loggen__vblex_sep"/></e>
+<e lm="aloggen">         <i>logg</i><par n="buddel/en#_an__vblex_sep"/></e>
+<e lm="andecken">        <i>a</i><par n="a/ndecken__vblex_sep"/></e>
+<e lm="andecken">        <i>deck</i><par n="buddel/en#_an__vblex_sep"/></e>
+<e lm="andeelen">        <i>a</i><par n="a/ndeelen__vblex_sep"/></e>
+<e lm="andeelen">        <i>deel</i><par n="buddel/en#_an__vblex_sep"/></e>
+<e lm="andreiwen">       <i>a</i><par n="a/ndreiwen__vblex_sep"/></e>
+<e lm="andreiwen">       <i>drei</i><par n="fier/wen#_an__vblex_sep"/></e>
+<e lm="androen">         <i>a</i><par n="a/ndroen__vblex_sep"/></e>
+<e lm="androen">         <i>dr</i><par n="dr/oen#_an__vblex_sep"/></e>
+<e lm="andrécken">       <i>a</i><par n="a/ndrécken__vblex_sep"/></e>
+<e lm="andrécken">       <i>dréck</i><par n="buddel/en#_an__vblex_sep"/></e>
+<e lm="andréien">        <i>a</i><par n="a/ndréien__vblex_sep"/></e>
+<e lm="andréien">        <i>dréi</i><par n="buddel/en#_an__vblex_sep"/></e>
+<e lm="andréngen">       <i>a</i><par n="a/ndréngen__vblex_sep"/></e>
+<e lm="andréngen">       <i>dréng</i><par n="buddel/en#_an__vblex_sep"/></e>
+<e lm="anengen">         <i>a</i><par n="a/nengen__vblex_sep"/></e>
+<e lm="anengen">         <i>eng</i><par n="buddel/en#_an__vblex_sep"/></e>
+<e lm="anhänken">        <i>a</i><par n="a/nhänken__vblex_sep"/></e>
+<e lm="anhänken">        <i>h</i><par n="f/änken#_an__vblex_sep"/></e>
+<e lm="apaken">          <i>a</i><par n="a/paken__vblex_sep"/></e>
+<e lm="apaken">          <i>pa</i><par n="pa/ken#_an__vblex_sep"/></e>
+<e lm="aschléissen">     <i>a</i><par n="a/schléissen__vblex_sep"/></e>
+<e lm="aschléissen">     <i>schléiss</i><par n="buddel/en#_an__vblex_sep"/></e>
+<e lm="aschreiwen">      <i>a</i><par n="a/schreiwen__vblex_sep"/></e>
+<e lm="aschreiwen">      <i>schrei</i><par n="fier/wen#_an__vblex_sep"/></e>
+<e lm="aschätzen">       <i>a</i><par n="a/schätzen__vblex_sep"/></e>
+<e lm="aschätzen">       <i>schätz</i><par n="beez/en#_an__vblex_sep"/></e>
+<e lm="asetzen">         <i>a</i><par n="a/setzen__vblex_sep"/></e>
+<e lm="asetzen">         <i>setz</i><par n="beez/en#_an__vblex_sep"/></e>
+<e lm="ausdoen">         <i>aus</i><par n="aus/doen__vblex_sep"/></e>
+<e lm="ausdoen">         <i>d</i><par n="d/oen#_aus__vblex_sep"/></e>
+<e lm="ausgesinn">       <i>ausgesi</i><par n="agesi/nn__vblex_sep"/></e>
+<e lm="ausgesinn">       <i>ges</i><par n="ges/inn#_an__vblex_sep"/></e>
+<e lm="auskommen">       <i>auskomm</i><par n="aberuff/en__vblex_sep"/></e>
+<e lm="auskommen">       <i>k</i><par n="k/ommen#_aus__vblex_sep"/></e>
+<e lm="ausleeën">        <i>aus</i><par n="a/leeën__vblex_sep"/></e>
+<e lm="ausleeën">        <i>lee</i><par n="lee/ën#_an__vblex_sep"/></e>
+<e lm="ausschléissen">   <i>aus</i><par n="a/schléissen__vblex_sep"/></e>
+<e lm="ausschléissen">   <i>schléiss</i><par n="beez/en#_an__vblex_sep"/></e>
+<e lm="ausschreiwen">    <i>aus</i><par n="a/schreiwen__vblex_sep"/></e>
+<e lm="ausschreiwen">    <i>schrei</i><par n="fier/wen#_an__vblex_sep"/></e>
+<e lm="ausschwätzen">    <i>aus</i><par n="aus/schwätzen__vblex_sep"/></e>
+<e lm="ausschwätzen">    <i>schwätz</i><par n="beez/en#_an__vblex_sep"/></e>
+<e lm="aussetzen">       <i>aus</i><par n="a/setzen__vblex_sep"/></e>
+<e lm="aussetzen">       <i>setz</i><par n="beez/en#_an__vblex_sep"/></e>
+<e lm="ausstrecken">     <i>aus</i><par n="aus/strecken__vblex_sep"/></e>
+<e lm="ausstrecken">     <i>streck</i><par n="buddel/en#_an__vblex_sep"/></e>
+<e lm="awanderen">       <i>a</i><par n="a/wanderen__vblex_sep"/></e>
+<e lm="awanderen">       <i>wander</i><par n="buddel/en#_an__vblex_sep"/></e>
+<e lm="bäibauen">        <i>bäi</i><par n="bäi/bauen__vblex_sep"/></e>
+<e lm="bäibauen">        <i>bau</i><par n="buddel/en#_an__vblex_sep"/></e>
+<e lm="bäibréngen">      <i>bäibr</i><par n="bäibr/éngen__vblex_sep"/></e>
+<e lm="bäibréngen">      <i>br</i><par n="br/énge#_bäi__vblex_sep"/></e>
+<e lm="bäidroen">        <i>bäi</i><par n="bäi/droen__vblex_sep"/></e>
+<e lm="bäidroen">        <i>dr</i><par n="dr/oen#_an__vblex_sep"/></e>
+<e lm="bäidréien">       <i>bäi</i><par n="bäi/dréien__vblex_sep"/></e>
+<e lm="bäidréien">       <i>dréi</i><par n="buddel/en#_an__vblex_sep"/></e>
+<e lm="bäihalen">        <i>bäi</i><par n="bäi/halen__vblex_sep"/></e>
+<e lm="bäihalen">        <i>h</i><par n="f/alen#_an__vblex_sep"/></e>
+<e lm="bäikommen">       <i>bäikomm</i><par n="aberuff/en__vblex_sep"/></e>
+<e lm="bäikommen">       <i>k</i><par n="k/ommen#_aus__vblex_sep"/></e>
+<e lm="bäikéieren">      <i>bäi</i><par n="bäi/kéieren__vblex_sep"/></e>
+<e lm="bäikéieren">      <i>kéier</i><par n="buddel/en#_an__vblex_sep"/></e>
+<e lm="bäileeën">        <i>bäi</i><par n="a/leeën__vblex_sep"/></e>
+<e lm="bäileeën">        <i>lee</i><par n="lee/ën#_an__vblex_sep"/></e>
+<e lm="bäileien">        <i>bäi</i><par n="bäi/leien__vblex_sep"/></e>
+<e lm="bäileien">        <i>l</i><par n="l/eie#_bäi__vblex_sep"/></e>
+<e lm="bäiléieren">      <i>bäi</i><par n="bäi/léieren__vblex_sep"/></e>
+<e lm="bäiléieren">      <i>léier</i><par n="buddel/en#_an__vblex_sep"/></e>
+<e lm="bäischmieren">    <i>bäi</i><par n="bäi/schmieren__vblex_sep"/></e>
+<e lm="bäischmieren">    <i>schmier</i><par n="buddel/en#_an__vblex_sep"/></e>
+<e lm="bäisetzen">       <i>bäi</i><par n="a/setzen__vblex_sep"/></e>
+<e lm="bäisetzen">       <i>setz</i><par n="beez/en#_an__vblex_sep"/></e>
+<e lm="bäisteieren">     <i>bäi</i><par n="bäi/steieren__vblex_sep"/></e>
+<e lm="bäisteieren">     <i>steier</i><par n="buddel/en#_an__vblex_sep"/></e>
+<e lm="doutmaachen">     <i>dout</i><par n="dout/maachen__vblex_sep"/></e>
+<e lm="doutmaachen">     <i>m</i><par n="m/aachen#_dout__vblex_sep"/></e>
+<e lm="draleeën">        <i>dra</i><par n="a/leeën__vblex_sep"/></e>
+<e lm="draleeën">        <i>lee</i><par n="lee/ën#_an__vblex_sep"/></e>
+<e lm="dropleeën">       <i>drop</i><par n="a/leeën__vblex_sep"/></e>
+<e lm="dropleeën">       <i>lee</i><par n="lee/ën#_an__vblex_sep"/></e>
+<e lm="duerchsetzen">    <i>duerch</i><par n="a/setzen__vblex_sep"/></e>
+<e lm="duerchsetzen">    <i>setz</i><par n="beez/en#_an__vblex_sep"/></e>
+<e lm="duerhalen">       <i>duer</i><par n="bäi/halen__vblex_sep"/></e>
+<e lm="duerhalen">       <i>h</i><par n="f/alen#_an__vblex_sep"/></e>
+<e lm="duerleeën">       <i>duer</i><par n="a/leeën__vblex_sep"/></e>
+<e lm="duerleeën">       <i>lee</i><par n="lee/ën#_an__vblex_sep"/></e>
+<e lm="erabréngen">      <i>erabr</i><par n="bäibr/éngen__vblex_sep"/></e>
+<e lm="erabréngen">      <i>br</i><par n="br/énge#_bäi__vblex_sep"/></e>
+<e lm="erakommen">       <i>erakomm</i><par n="aberuff/en__vblex_sep"/></e>
+<e lm="erakommen">       <i>k</i><par n="k/ommen#_aus__vblex_sep"/></e>
+<e lm="eraleeën">        <i>era</i><par n="a/leeën__vblex_sep"/></e>
+<e lm="eraleeën">        <i>lee</i><par n="lee/ën#_an__vblex_sep"/></e>
+<e lm="erausschécken">   <i>eraus</i><par n="eraus/schécken__vblex_sep"/></e>
+<e lm="erausschécken">   <i>schéck</i><par n="buddel/en#_an__vblex_sep"/></e>
+<e lm="erofkommen">      <i>erofkomm</i><par n="aberuff/en__vblex_sep"/></e>
+<e lm="erofkommen">      <i>k</i><par n="k/ommen#_aus__vblex_sep"/></e>
+<e lm="eroflueden">      <i>erof</i><par n="erof/lueden__vblex_sep"/></e>
+<e lm="eroflueden">      <i>lue</i><par n="bil/den#_an__vblex_sep"/></e>
+<e lm="erofschneiden">   <i>erof</i><par n="erof/schneiden__vblex_sep"/></e>
+<e lm="erofschneiden">   <i>schnei</i><par n="bil/den#_an__vblex_sep"/></e>
+<e lm="erofsetzen">      <i>erof</i><par n="a/setzen__vblex_sep"/></e>
+<e lm="erofsetzen">      <i>setz</i><par n="beez/en#_an__vblex_sep"/></e>
+<e lm="erofspillen">     <i>erof</i><par n="erof/spillen__vblex_sep"/></e>
+<e lm="erofspillen">     <i>spill</i><par n="buddel/en#_an__vblex_sep"/></e>
+<e lm="eropkommen">      <i>eropkomm</i><par n="aberuff/en__vblex_sep"/></e>
+<e lm="eropkommen">      <i>k</i><par n="k/ommen#_aus__vblex_sep"/></e>
+<e lm="eropsetzen">      <i>erop</i><par n="a/setzen__vblex_sep"/></e>
+<e lm="eropsetzen">      <i>setz</i><par n="beez/en#_an__vblex_sep"/></e>
+<e lm="erëmgesinn">      <i>erëmgesi</i><par n="agesi/nn__vblex_sep"/></e>
+<e lm="erëmgesinn">      <i>ges</i><par n="ges/inn#_an__vblex_sep"/></e>
+<e lm="erëmgewannen">    <i>erëmgew</i><par n="erëmgew/annen__vblex_sep"/></e>
+<e lm="erëmgewannen">    <i>gew</i><par n="gew/annen#_erëm__vblex_sep"/></e>
+<e lm="festsetzen">      <i>fest</i><par n="a/setzen__vblex_sep"/></e>
+<e lm="festsetzen">      <i>setz</i><par n="beez/en#_an__vblex_sep"/></e>
+<e lm="hanneschtsetzen"> <i>hannescht</i><par n="a/setzen__vblex_sep"/></e>
+<e lm="hanneschtsetzen"> <i>setz</i><par n="beez/en#_an__vblex_sep"/></e>
+<e lm="heemschécken">    <i>heem</i><par n="eraus/schécken__vblex_sep"/></e>
+<e lm="heemschécken">    <i>schéck</i><par n="buddel/en#_an__vblex_sep"/></e>
+<e lm="matschreiwen">    <i>mat</i><par n="a/schreiwen__vblex_sep"/></e>
+<e lm="matschreiwen">    <i>schrei</i><par n="fier/wen#_an__vblex_sep"/></e>
+<e lm="matspillen">      <i>mat</i><par n="erof/spillen__vblex_sep"/></e>
+<e lm="matspillen">      <i>spill</i><par n="buddel/en#_an__vblex_sep"/></e>
+<e lm="nidderloossen">   <i>nidder</i><par n="nidder/loossen__vblex_sep"/></e>
+<e lm="nidderloossen">   <i>l</i><par n="l/oossen#_nidder__vblex_sep"/></e>
+<e lm="nofollegen">      <i>no</i><par n="no/follegen__vblex_sep"/></e>
+<e lm="nofollegen">      <i>folleg</i><par n="buddel/en#_an__vblex_sep"/></e>
+<e lm="nospillen">       <i>no</i><par n="erof/spillen__vblex_sep"/></e>
+<e lm="nospillen">       <i>spill</i><par n="buddel/en#_an__vblex_sep"/></e>
+<e lm="ofgesinn">        <i>ofgesi</i><par n="agesi/nn__vblex_sep"/></e>
+<e lm="ofgesinn">        <i>ges</i><par n="ges/inn#_an__vblex_sep"/></e>
+<e lm="ofschléissen">    <i>of</i><par n="a/schléissen__vblex_sep"/></e>
+<e lm="ofschléissen">    <i>schléiss</i><par n="beez/en#_an__vblex_sep"/></e>
+<e lm="ofschreiwen">     <i>of</i><par n="a/schreiwen__vblex_sep"/></e>
+<e lm="ofschreiwen">     <i>schrei</i><par n="fier/wen#_an__vblex_sep"/></e>
+<e lm="ofsetzen">        <i>of</i><par n="a/setzen__vblex_sep"/></e>
+<e lm="ofsetzen">        <i>setz</i><par n="beez/en#_an__vblex_sep"/></e>
+<e lm="ofspillen">       <i>of</i><par n="erof/spillen__vblex_sep"/></e>
+<e lm="ofspillen">       <i>spill</i><par n="buddel/en#_an__vblex_sep"/></e>
+<e lm="ofspriechen">     <i>of</i><par n="of/spriechen__vblex_sep"/></e>
+<e lm="ofspriechen">     <i>spr</i><par n="spr/iechen#_of__vblex_sep"/></e>
+<e lm="opfaassen">       <i>op</i><par n="a/faassen__vblex_sep"/></e>
+<e lm="opfaassen">       <i>faass</i><par n="beez/en#_an__vblex_sep"/></e>
+<e lm="opféieren">       <i>op</i><par n="a/féieren__vblex_sep"/></e>
+<e lm="opféieren">       <i>féier</i><par n="buddel/en#_an__vblex_sep"/></e>
+<e lm="opmaachen">       <i>op</i><par n="dout/maachen__vblex_sep"/></e>
+<e lm="opmaachen">       <i>m</i><par n="m/aachen#_dout__vblex_sep"/></e>
+<e lm="opschléissen">    <i>op</i><par n="a/schléissen__vblex_sep"/></e>
+<e lm="opschléissen">    <i>schléiss</i><par n="beez/en#_an__vblex_sep"/></e>
+<e lm="opschreiwen">     <i>op</i><par n="a/schreiwen__vblex_sep"/></e>
+<e lm="opschreiwen">     <i>schrei</i><par n="fier/wen#_an__vblex_sep"/></e>
+<e lm="opsetzen">        <i>op</i><par n="a/setzen__vblex_sep"/></e>
+<e lm="opsetzen">        <i>setz</i><par n="beez/en#_an__vblex_sep"/></e>
+<e lm="optrieden">       <i>op</i><par n="op/trieden__vblex_sep"/></e>
+<e lm="optrieden">       <i>tr</i><par n="tr/ieden#_op__vblex_sep"/></e>
+<e lm="ubieden">         <i>u</i><par n="u/bieden__vblex_sep"/></e>
+<e lm="ubieden">         <i>bie</i><par n="bil/den#_an__vblex_sep"/></e>
+<e lm="ugesinn">         <i>ugesi</i><par n="agesi/nn__vblex_sep"/></e>
+<e lm="ugesinn">         <i>ges</i><par n="ges/inn#_an__vblex_sep"/></e>
+<e lm="ukucken">         <i>u</i><par n="u/kucken__vblex_sep"/></e>
+<e lm="ukucken">         <i>kuck</i><par n="buddel/en#_an__vblex_sep"/></e>
+<e lm="umellen">         <i>u</i><par n="u/mellen__vblex_sep"/></e>
+<e lm="umellen">         <i>mell</i><par n="buddel/en#_an__vblex_sep"/></e>
+<e lm="unhuelen">        <i>u</i><par n="u/nhuelen__vblex_sep"/></e>
+<e lm="unhuelen">        <i>h</i><par n="h/uelen#_un__vblex_sep"/></e>
+<e lm="uschléissen">     <i>u</i><par n="a/schléissen__vblex_sep"/></e>
+<e lm="uschléissen">     <i>schléiss</i><par n="beez/en#_an__vblex_sep"/></e>
+<e lm="uschreiwen">      <i>u</i><par n="a/schreiwen__vblex_sep"/></e>
+<e lm="uschreiwen">      <i>schrei</i><par n="fier/wen#_an__vblex_sep"/></e>
+<e lm="uspillen">        <i>u</i><par n="erof/spillen__vblex_sep"/></e>
+<e lm="uspillen">        <i>spill</i><par n="buddel/en#_an__vblex_sep"/></e>
+<e lm="uspriechen">      <i>u</i><par n="of/spriechen__vblex_sep"/></e>
+<e lm="uspriechen">      <i>spr</i><par n="spr/iechen#_of__vblex_sep"/></e>
+<e lm="uvertrauen">      <i>uvertrau</i><par n="uvertrau/en__vblex_sep"/></e>
+<e lm="uvertrauen">      <i>vertrau</i><par n="buddel/en#_an__vblex_sep"/></e>
+<e lm="virgesinn">       <i>virgesi</i><par n="agesi/nn__vblex_sep"/></e>
+<e lm="virgesinn">       <i>ges</i><par n="ges/inn#_an__vblex_sep"/></e>
+<e lm="virschreiwen">    <i>vir</i><par n="a/schreiwen__vblex_sep"/></e>
+<e lm="virschreiwen">    <i>schrei</i><par n="fier/wen#_an__vblex_sep"/></e>
+<e lm="virspillen">      <i>vir</i><par n="erof/spillen__vblex_sep"/></e>
+<e lm="virspillen">      <i>spill</i><par n="buddel/en#_an__vblex_sep"/></e>
+<e lm="zeréckbréngen">   <i>zeréckbr</i><par n="bäibr/éngen__vblex_sep"/></e>
+<e lm="zeréckbréngen">   <i>br</i><par n="br/énge#_bäi__vblex_sep"/></e>
+<e lm="zeréckdatéieren"> <i>zeréckdatéier</i><par n="uvertrau/en__vblex_sep"/></e>
+<e lm="zeréckdatéieren"> <i>datéier</i><par n="buddel/en#_an__vblex_sep"/></e>
+<e lm="zeréckdenken">    <i>zeréck</i><par n="zeréck/denken__vblex_sep"/></e>
+<e lm="zeréckdenken">    <i>d</i><par n="d/enken#_zeréck__vblex_sep"/></e>
+<e lm="zeréckdrécken">   <i>zeréck</i><par n="zeréck/drécken__vblex_sep"/></e>
+<e lm="zeréckdrécken">   <i>dréck</i><par n="buddel/en#_an__vblex_sep"/></e>
+<e lm="zeréckdréien">    <i>zeréck</i><par n="bäi/dréien__vblex_sep"/></e>
+<e lm="zeréckdréien">    <i>dréi</i><par n="buddel/en#_an__vblex_sep"/></e>
+<e lm="zeréckfannen">    <i>zeréckf</i><par n="zeréckf/annen__vblex_sep"/></e>
+<e lm="zeréckfannen">    <i>f</i><par n="gew/annen#_erëm__vblex_sep"/></e>
+<e lm="zeréckschreiwen"> <i>zeréck</i><par n="a/schreiwen__vblex_sep"/></e>
+<e lm="zeréckschreiwen"> <i>schrei</i><par n="fier/wen#_an__vblex_sep"/></e>
+<e lm="zerécksetzen">    <i>zeréck</i><par n="a/setzen__vblex_sep"/></e>
+<e lm="zerécksetzen">    <i>setz</i><par n="beez/en#_an__vblex_sep"/></e>
+<e lm="zoudroen">        <i>zou</i><par n="bäi/droen__vblex_sep"/></e>
+<e lm="zoudroen">        <i>dr</i><par n="dr/oen#_zou__vblex_sep"/></e>
+<e lm="zoumaachen">      <i>zou</i><par n="dout/maachen__vblex_sep"/></e>
+<e lm="zoumaachen">      <i>m</i><par n="m/aachen#_dout__vblex_sep"/></e>
+<e lm="zousetzen">       <i>zou</i><par n="a/setzen__vblex_sep"/></e>
+<e lm="zousetzen">       <i>setz</i><par n="beez/en#_an__vblex_sep"/></e>
+<e lm="zouspillen">      <i>zou</i><par n="erof/spillen__vblex_sep"/></e>
+<e lm="zouspillen">      <i>spill</i><par n="buddel/en#_an__vblex_sep"/></e>
+<e lm="zouspriechen">    <i>zou</i><par n="of/spriechen__vblex_sep"/></e>
+<e lm="zouspriechen">    <i>spr</i><par n="spr/iechen#_of__vblex_sep"/></e>
+<e lm="ëmbréngen">       <i>ëmbr</i><par n="bäibr/éngen__vblex_sep"/></e>
+<e lm="ëmbréngen">       <i>br</i><par n="br/énge#_bäi__vblex_sep"/></e>
+<e lm="ëmdoen">          <i>ëm</i><par n="aus/doen__vblex_sep"/></e>
+<e lm="ëmdoen">          <i>d</i><par n="d/oen#_aus__vblex_sep"/></e>
+<e lm="ëmleeën">         <i>ëm</i><par n="a/leeën__vblex_sep"/></e>
+<e lm="ëmleeën">         <i>lee</i><par n="lee/ën#_an__vblex_sep"/></e>
+<e lm="ëmschreiwen">     <i>ëm</i><par n="a/schreiwen__vblex_sep"/></e>
+<e lm="ëmschreiwen">     <i>schrei</i><par n="fier/wen#_an__vblex_sep"/></e>
+<e lm="ëmsetzen">        <i>ëm</i><par n="a/setzen__vblex_sep"/></e>
+<e lm="ëmsetzen">        <i>setz</i><par n="beez/en#_an__vblex_sep"/></e>
+<e lm="ënnerbréngen">    <i>ënnerbr</i><par n="bäibr/éngen__vblex_sep"/></e>
+<e lm="ënnerbréngen">    <i>br</i><par n="br/énge#_bäi__vblex_sep"/></e>
+<e lm="ënnerleeën">      <i>ënner</i><par n="a/leeën__vblex_sep"/></e>
+<e lm="ënnerleeën">      <i>lee</i><par n="lee/ën#_an__vblex_sep"/></e>
+
+
+<!-- SECTION: Nouns -->
 
 <e lm="A">               <i>A</i><par n="A__n_nt"/></e>
 <e lm="Aalbes">          <i>Aalbes</i><par n="Aangel__n_f"/></e>
