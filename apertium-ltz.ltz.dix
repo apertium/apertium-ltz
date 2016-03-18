@@ -75,6 +75,7 @@
     <sdef n="percent" 	c="Percentage"/> 
     <sdef n="apos" 	c="Apostrophe"/> 
     <sdef n="ndel" 	c="Final n-deletion"/> 
+    <sdef n="abbr" 	c="Abbreviation"/> 
   </sdefs>
   <pardefs>
 
@@ -187,7 +188,7 @@
 <pardef n="/si__prn_pl">
   <e>       <p><l>si</l>        <r>si<s n="prn"/><s n="pers"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="nom"/></r></p></e>
   <e>       <p><l>se</l>        <r>si<s n="prn"/><s n="pers"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="nom"/></r></p></e>
-  <e>       <p><l>hinnen</l>    <r>si<s n="prn"/><s n="pers"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="dat"/></r></p></e>
+  <e>       <p><l>hinne</l>     <r>si<s n="prn"/><s n="pers"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="dat"/></r></p><par n="n"/></e>
   <e>       <p><l>en</l>        <r>si<s n="prn"/><s n="pers"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="dat"/></r></p></e>
   <e>       <p><l>si</l>        <r>si<s n="prn"/><s n="pers"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="acc"/></r></p></e>
   <e>       <p><l>se</l>        <r>si<s n="prn"/><s n="pers"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="acc"/></r></p></e>
@@ -202,9 +203,9 @@
 </pardef>
 
 <pardef n="dës/en__prn">
-  <e>       <p><l>en</l>        <r>en<s n="prn"/><s n="dem"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
+  <e>       <p><l>e</l>         <r>en<s n="prn"/><s n="dem"/><s n="m"/><s n="sg"/><s n="nom"/></r></p><par n="n"/></e>
   <e>       <p><l>em</l>        <r>en<s n="prn"/><s n="dem"/><s n="m"/><s n="sg"/><s n="dat"/></r></p></e>
-  <e>       <p><l>en</l>        <r>en<s n="prn"/><s n="dem"/><s n="m"/><s n="sg"/><s n="acc"/></r></p></e>
+  <e>       <p><l>e</l>         <r>en<s n="prn"/><s n="dem"/><s n="m"/><s n="sg"/><s n="acc"/></r></p><par n="n"/></e>
   <e>       <p><l></l>          <r>en<s n="prn"/><s n="dem"/><s n="f"/><s n="sg"/><s n="nom"/></r></p></e>
   <e>       <p><l>er</l>        <r>en<s n="prn"/><s n="dem"/><s n="f"/><s n="sg"/><s n="dat"/></r></p></e>
   <e>       <p><l></l>          <r>en<s n="prn"/><s n="dem"/><s n="f"/><s n="sg"/><s n="acc"/></r></p></e>
@@ -212,7 +213,7 @@
   <e>       <p><l>em</l>        <r>en<s n="prn"/><s n="dem"/><s n="nt"/><s n="sg"/><s n="dat"/></r></p></e>
   <e>       <p><l>t</l>         <r>en<s n="prn"/><s n="dem"/><s n="nt"/><s n="sg"/><s n="acc"/></r></p></e>
   <e>       <p><l></l>          <r>en<s n="prn"/><s n="dem"/><s n="mfn"/><s n="pl"/><s n="nom"/></r></p></e>
-  <e>       <p><l>en</l>        <r>en<s n="prn"/><s n="dem"/><s n="mfn"/><s n="pl"/><s n="dat"/></r></p></e>
+  <e>       <p><l>e</l>         <r>en<s n="prn"/><s n="dem"/><s n="mfn"/><s n="pl"/><s n="dat"/></r></p><par n="n"/></e>
   <e>       <p><l></l>          <r>en<s n="prn"/><s n="dem"/><s n="mfn"/><s n="pl"/><s n="acc"/></r></p></e>
 </pardef>
 
@@ -255,6 +256,21 @@
   <e>       <p><l>éi</l>        <r>en<s n="det"/><s n="def"/><s n="mfn"/><s n="pl"/><s n="nom"/></r></p></e>
   <e>       <p><l>eene</l>      <r>en<s n="det"/><s n="def"/><s n="mfn"/><s n="pl"/><s n="dat"/></r></p><par n="n"/></e>
   <e>       <p><l>éi</l>        <r>en<s n="det"/><s n="def"/><s n="mfn"/><s n="pl"/><s n="acc"/></r></p></e>
+</pardef>
+
+<pardef n="ke/en__det">
+  <e>       <p><l>e</l>         <r>en<s n="det"/><s n="ind"/><s n="m"/><s n="sg"/><s n="nom"/></r></p><par n="n"/></e>
+  <e>       <p><l>ngem</l>      <r>en<s n="det"/><s n="ind"/><s n="m"/><s n="sg"/><s n="dat"/></r></p></e>
+  <e>       <p><l>e</l>         <r>en<s n="det"/><s n="ind"/><s n="m"/><s n="sg"/><s n="acc"/></r></p><par n="n"/></e>
+  <e>       <p><l>ng</l>        <r>en<s n="det"/><s n="ind"/><s n="f"/><s n="sg"/><s n="nom"/></r></p></e>
+  <e>       <p><l>nger</l>      <r>en<s n="det"/><s n="ind"/><s n="f"/><s n="sg"/><s n="dat"/></r></p></e>
+  <e>       <p><l>ng</l>        <r>en<s n="det"/><s n="ind"/><s n="f"/><s n="sg"/><s n="acc"/></r></p></e>
+  <e>       <p><l>e</l>         <r>en<s n="det"/><s n="ind"/><s n="nt"/><s n="sg"/><s n="nom"/></r></p><par n="n"/></e>
+  <e>       <p><l>ngem</l>      <r>en<s n="det"/><s n="ind"/><s n="nt"/><s n="sg"/><s n="dat"/></r></p></e>
+  <e>       <p><l>e</l>         <r>en<s n="det"/><s n="ind"/><s n="nt"/><s n="sg"/><s n="acc"/></r></p><par n="n"/></e>
+  <e>       <p><l>ng</l>        <r>en<s n="det"/><s n="ind"/><s n="mfn"/><s n="pl"/><s n="nom"/></r></p></e>
+  <e>       <p><l>nge</l>       <r>en<s n="det"/><s n="ind"/><s n="mfn"/><s n="pl"/><s n="dat"/></r></p><par n="n"/></e>
+  <e>       <p><l>ng</l>        <r>en<s n="det"/><s n="ind"/><s n="mfn"/><s n="pl"/><s n="acc"/></r></p></e>
 </pardef>
 
 <pardef n="d/äin__det">
@@ -539,6 +555,47 @@
   <e>       <p><l>t</l>         <r><s n="adj"/><s n="sup"/><s n="mf"/><s n="pl"/><s n="nom"/></r></p></e>
 </pardef>
 
+<pardef n="/gutt__adj">
+  <e>       <p><l>gudde</l>     <r>gutt<s n="adj"/><s n="sint"/><s n="m"/><s n="sg"/><s n="acc"/></r></p><par n="n"/></e>
+  <e>       <p><l>gutt</l>      <r>gutt<s n="adj"/><s n="sint"/><s n="f"/><s n="sg"/><s n="acc"/></r></p></e>
+  <e>       <p><l>gutt</l>      <r>gutt<s n="adj"/><s n="sint"/><s n="nt"/><s n="sg"/><s n="acc"/></r></p></e>
+  <e>       <p><l>gutt</l>      <r>gutt<s n="adj"/><s n="sint"/><s n="mf"/><s n="pl"/><s n="acc"/></r></p></e>
+  <e>       <p><l>gudde</l>     <r>gutt<s n="adj"/><s n="sint"/><s n="m"/><s n="sg"/><s n="nom"/></r></p><par n="n"/></e>
+  <e>       <p><l>gutt</l>      <r>gutt<s n="adj"/><s n="sint"/><s n="f"/><s n="sg"/><s n="nom"/></r></p></e>
+  <e>       <p><l>gutt</l>      <r>gutt<s n="adj"/><s n="sint"/><s n="nt"/><s n="sg"/><s n="nom"/></r></p></e>
+  <e>       <p><l>gutt</l>      <r>gutt<s n="adj"/><s n="sint"/><s n="mf"/><s n="pl"/><s n="nom"/></r></p></e>
+  <e>       <p><l>gudde</l>     <r>gutt<s n="adj"/><s n="sint"/><s n="m"/><s n="sg"/><s n="dat"/></r></p><par n="n"/></e>
+  <e>       <p><l>gudder</l>    <r>gutt<s n="adj"/><s n="sint"/><s n="f"/><s n="sg"/><s n="dat"/></r></p></e>
+  <e>       <p><l>gudde</l>     <r>gutt<s n="adj"/><s n="sint"/><s n="nt"/><s n="sg"/><s n="dat"/></r></p><par n="n"/></e>
+  <e>       <p><l>gudde</l>     <r>gutt<s n="adj"/><s n="sint"/><s n="mf"/><s n="pl"/><s n="dat"/></r></p><par n="n"/></e>
+
+  <e>       <p><l>bessere</l>   <r>gutt<s n="adj"/><s n="sint"/><s n="comp"/><s n="m"/><s n="sg"/><s n="acc"/></r></p><par n="n"/></e>
+  <e>       <p><l>besser</l>    <r>gutt<s n="adj"/><s n="sint"/><s n="comp"/><s n="f"/><s n="sg"/><s n="acc"/></r></p></e>
+  <e>       <p><l>bessert</l>   <r>gutt<s n="adj"/><s n="sint"/><s n="comp"/><s n="nt"/><s n="sg"/><s n="acc"/></r></p></e>
+  <e>       <p><l>besser</l>    <r>gutt<s n="adj"/><s n="sint"/><s n="comp"/><s n="mf"/><s n="pl"/><s n="acc"/></r></p></e>
+  <e>       <p><l>bessere</l>   <r>gutt<s n="adj"/><s n="sint"/><s n="comp"/><s n="m"/><s n="sg"/><s n="nom"/></r></p><par n="n"/></e>
+  <e>       <p><l>besser</l>    <r>gutt<s n="adj"/><s n="sint"/><s n="comp"/><s n="f"/><s n="sg"/><s n="nom"/></r></p></e>
+  <e>       <p><l>bessert</l>   <r>gutt<s n="adj"/><s n="sint"/><s n="comp"/><s n="nt"/><s n="sg"/><s n="nom"/></r></p></e>
+  <e>       <p><l>besser</l>    <r>gutt<s n="adj"/><s n="sint"/><s n="comp"/><s n="mf"/><s n="pl"/><s n="nom"/></r></p></e>
+  <e>       <p><l>bessere</l>   <r>gutt<s n="adj"/><s n="sint"/><s n="comp"/><s n="m"/><s n="sg"/><s n="dat"/></r></p><par n="n"/></e>
+  <e>       <p><l>besserer</l>  <r>gutt<s n="adj"/><s n="sint"/><s n="comp"/><s n="f"/><s n="sg"/><s n="dat"/></r></p></e>
+  <e>       <p><l>bessere</l>   <r>gutt<s n="adj"/><s n="sint"/><s n="comp"/><s n="nt"/><s n="sg"/><s n="dat"/></r></p><par n="n"/></e>
+  <e>       <p><l>bessere</l>   <r>gutt<s n="adj"/><s n="sint"/><s n="comp"/><s n="mf"/><s n="pl"/><s n="dat"/></r></p><par n="n"/></e>
+
+  <e>       <p><l>beschte</l>   <r>gutt<s n="adj"/><s n="sint"/><s n="sup"/><s n="m"/><s n="sg"/><s n="acc"/></r></p><par n="n"/></e>
+  <e>       <p><l>bescht</l>    <r>gutt<s n="adj"/><s n="sint"/><s n="sup"/><s n="f"/><s n="sg"/><s n="acc"/></r></p></e>
+  <e>       <p><l>bescht</l>    <r>gutt<s n="adj"/><s n="sint"/><s n="sup"/><s n="nt"/><s n="sg"/><s n="acc"/></r></p></e>
+  <e>       <p><l>bescht</l>    <r>gutt<s n="adj"/><s n="sint"/><s n="sup"/><s n="mf"/><s n="pl"/><s n="acc"/></r></p></e>
+  <e>       <p><l>beschte</l>   <r>gutt<s n="adj"/><s n="sint"/><s n="sup"/><s n="m"/><s n="sg"/><s n="nom"/></r></p><par n="n"/></e>
+  <e>       <p><l>bescht</l>    <r>gutt<s n="adj"/><s n="sint"/><s n="sup"/><s n="f"/><s n="sg"/><s n="nom"/></r></p></e>
+  <e>       <p><l>bescht</l>    <r>gutt<s n="adj"/><s n="sint"/><s n="sup"/><s n="nt"/><s n="sg"/><s n="nom"/></r></p></e>
+  <e>       <p><l>bescht</l>    <r>gutt<s n="adj"/><s n="sint"/><s n="sup"/><s n="mf"/><s n="pl"/><s n="nom"/></r></p></e>
+  <e>       <p><l>beschte</l>   <r>gutt<s n="adj"/><s n="sint"/><s n="sup"/><s n="m"/><s n="sg"/><s n="dat"/></r></p><par n="n"/></e>
+  <e>       <p><l>beschter</l>  <r>gutt<s n="adj"/><s n="sint"/><s n="sup"/><s n="f"/><s n="sg"/><s n="dat"/></r></p></e>
+  <e>       <p><l>beschte</l>   <r>gutt<s n="adj"/><s n="sint"/><s n="sup"/><s n="nt"/><s n="sg"/><s n="dat"/></r></p><par n="n"/></e>
+  <e>       <p><l>beschte</l>   <r>gutt<s n="adj"/><s n="sint"/><s n="sup"/><s n="mf"/><s n="pl"/><s n="dat"/></r></p><par n="n"/></e>
+</pardef>
+
 <pardef n="aarm__adj">
   <e>       <p><l>e</l>         <r><s n="adj"/><s n="m"/><s n="sg"/><s n="acc"/></r></p><par n="n"/></e>
   <e>       <p><l></l>          <r><s n="adj"/><s n="f"/><s n="sg"/><s n="acc"/></r></p></e>
@@ -649,6 +706,34 @@
   <e>       <p><l>nnster</l>    <r>nn<s n="adj"/><s n="sup"/><s n="f"/><s n="sg"/><s n="dat"/></r></p></e>
   <e>       <p><l>nnste</l>     <r>nnn<s n="adj"/><s n="sup"/><s n="nt"/><s n="sg"/><s n="dat"/></r></p><par n="n"/></e>
   <e>       <p><l>nnste</l>     <r>nn<s n="adj"/><s n="sup"/><s n="mf"/><s n="pl"/><s n="dat"/></r></p><par n="n"/></e>
+</pardef>
+
+<pardef n="héi/ch__adj">
+  <e>       <p><l>je</l>        <r>ch<s n="adj"/><s n="m"/><s n="sg"/><s n="acc"/></r></p><par n="n"/></e>
+  <e>       <p><l>ch</l>        <r>ch<s n="adj"/><s n="f"/><s n="sg"/><s n="acc"/></r></p></e>
+  <e>       <p><l>cht</l>       <r>ch<s n="adj"/><s n="nt"/><s n="sg"/><s n="acc"/></r></p></e>
+  <e>       <p><l>ch</l>        <r>ch<s n="adj"/><s n="mf"/><s n="pl"/><s n="acc"/></r></p></e>
+  <e>       <p><l>je</l>        <r>ch<s n="adj"/><s n="m"/><s n="sg"/><s n="nom"/></r></p><par n="n"/></e>
+  <e>       <p><l>ch</l>        <r>ch<s n="adj"/><s n="f"/><s n="sg"/><s n="nom"/></r></p></e>
+  <e>       <p><l>cht</l>       <r>ch<s n="adj"/><s n="nt"/><s n="sg"/><s n="nom"/></r></p></e>
+  <e>       <p><l>ch</l>        <r>ch<s n="adj"/><s n="mf"/><s n="pl"/><s n="nom"/></r></p></e>
+  <e>       <p><l>je</l>        <r>ch<s n="adj"/><s n="m"/><s n="sg"/><s n="dat"/></r></p><par n="n"/></e>
+  <e>       <p><l>jer</l>       <r>ch<s n="adj"/><s n="f"/><s n="sg"/><s n="dat"/></r></p></e>
+  <e>       <p><l>je</l>        <r>ch<s n="adj"/><s n="nt"/><s n="sg"/><s n="dat"/></r></p><par n="n"/></e>
+  <e>       <p><l>je</l>        <r>ch<s n="adj"/><s n="mf"/><s n="pl"/><s n="dat"/></r></p><par n="n"/></e>
+
+  <e>       <p><l>chste</l>     <r>ch<s n="adj"/><s n="sup"/><s n="m"/><s n="sg"/><s n="acc"/></r></p><par n="n"/></e>
+  <e>       <p><l>chst</l>      <r>ch<s n="adj"/><s n="sup"/><s n="f"/><s n="sg"/><s n="acc"/></r></p></e>
+  <e>       <p><l>chst</l>      <r>ch<s n="adj"/><s n="sup"/><s n="nt"/><s n="sg"/><s n="acc"/></r></p></e>
+  <e>       <p><l>chst</l>      <r>ch<s n="adj"/><s n="sup"/><s n="mf"/><s n="pl"/><s n="acc"/></r></p></e>
+  <e>       <p><l>chste</l>     <r>ch<s n="adj"/><s n="sup"/><s n="m"/><s n="sg"/><s n="nom"/></r></p><par n="n"/></e>
+  <e>       <p><l>chst</l>      <r>ch<s n="adj"/><s n="sup"/><s n="f"/><s n="sg"/><s n="nom"/></r></p></e>
+  <e>       <p><l>chst</l>      <r>ch<s n="adj"/><s n="sup"/><s n="nt"/><s n="sg"/><s n="nom"/></r></p></e>
+  <e>       <p><l>chst</l>      <r>ch<s n="adj"/><s n="sup"/><s n="mf"/><s n="pl"/><s n="nom"/></r></p></e>
+  <e>       <p><l>chste</l>     <r>ch<s n="adj"/><s n="sup"/><s n="m"/><s n="sg"/><s n="dat"/></r></p><par n="n"/></e>
+  <e>       <p><l>chster</l>    <r>ch<s n="adj"/><s n="sup"/><s n="f"/><s n="sg"/><s n="dat"/></r></p></e>
+  <e>       <p><l>chste</l>     <r>ch<s n="adj"/><s n="sup"/><s n="nt"/><s n="sg"/><s n="dat"/></r></p><par n="n"/></e>
+  <e>       <p><l>chste</l>     <r>ch<s n="adj"/><s n="sup"/><s n="mf"/><s n="pl"/><s n="dat"/></r></p><par n="n"/></e>
 </pardef>
 
 
@@ -1093,6 +1178,35 @@
   <e>       <p><l>ielt</l>      <r>ielen<s n="vblex"/><s n="imp"/><s n="pl"/></r></p></e>
 </pardef>
 
+<pardef n="best/oen__vblex">
+  <e>       <p><l>oe</l>        <r>oen<s n="vblex"/><s n="inf"/></r></p><par n="n"/></e>
+  <e>       <p><l>ane</l>       <r>oen<s n="vblex"/><s n="pp"/></r></p><par n="n"/></e>
+
+  <e>       <p><l>i</l>         <r>oen<s n="vblex"/><s n="pri"/><s n="p1"/><s n="sg"/></r></p><par n="nn"/></e>
+  <e>       <p><l>ees</l>       <r>oen<s n="vblex"/><s n="pri"/><s n="p2"/><s n="sg"/></r></p></e>
+  <e>       <p><l>eet</l>       <r>oen<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
+  <e>       <p><l>i</l>         <r>oen<s n="vblex"/><s n="pri"/><s n="p1"/><s n="pl"/></r></p><par n="nn"/></e>
+  <e>       <p><l>itt</l>       <r>oen<s n="vblex"/><s n="pri"/><s n="p2"/><s n="pl"/></r></p></e>
+  <e>       <p><l>i</l>         <r>oen<s n="vblex"/><s n="pri"/><s n="p3"/><s n="pl"/></r></p><par n="nn"/></e>
+
+  <e>       <p><l>éing</l>      <r>oen<s n="vblex"/><s n="prs"/><s n="p1"/><s n="sg"/></r></p></e>
+  <e>       <p><l>éings</l>     <r>oen<s n="vblex"/><s n="prs"/><s n="p2"/><s n="sg"/></r></p></e>
+  <e>       <p><l>éing</l>      <r>oen<s n="vblex"/><s n="prs"/><s n="p3"/><s n="sg"/></r></p></e>
+  <e>       <p><l>éinge</l>     <r>oen<s n="vblex"/><s n="prs"/><s n="p1"/><s n="pl"/></r></p><par n="n"/></e>
+  <e>       <p><l>éingt</l>     <r>oen<s n="vblex"/><s n="prs"/><s n="p2"/><s n="pl"/></r></p></e>
+  <e>       <p><l>éinge</l>     <r>oen<s n="vblex"/><s n="prs"/><s n="p3"/><s n="pl"/></r></p><par n="n"/></e>
+
+  <e>       <p><l>oung</l>      <r>oen<s n="vblex"/><s n="pii"/><s n="p1"/><s n="sg"/></r></p></e>
+  <e>       <p><l>oungs</l>     <r>oen<s n="vblex"/><s n="pii"/><s n="p2"/><s n="sg"/></r></p></e>
+  <e>       <p><l>oung</l>      <r>oen<s n="vblex"/><s n="pii"/><s n="p3"/><s n="sg"/></r></p></e>
+  <e>       <p><l>ounge</l>     <r>oen<s n="vblex"/><s n="pii"/><s n="p1"/><s n="pl"/></r></p><par n="n"/></e>
+  <e>       <p><l>oungt</l>     <r>oen<s n="vblex"/><s n="pii"/><s n="p2"/><s n="pl"/></r></p></e>
+  <e>       <p><l>ounge</l>     <r>oen<s n="vblex"/><s n="pii"/><s n="p3"/><s n="pl"/></r></p><par n="n"/></e>
+
+  <e>       <p><l>éi</l>        <r>oen<s n="vblex"/><s n="imp"/><s n="sg"/></r></p></e>
+  <e>       <p><l>itt</l>       <r>oen<s n="vblex"/><s n="imp"/><s n="pl"/></r></p></e>
+</pardef>
+
 <pardef n="bes/ëtzen__vblex">
   <e>       <p><l>ëtze</l>      <r>ëtzen<s n="vblex"/><s n="inf"/></r></p><par n="n"/></e>
   <e>       <p><l>iess</l>      <r>ëtzen<s n="vblex"/><s n="pp"/></r></p></e>
@@ -1272,33 +1386,33 @@
   <e>       <p><l>t</l>         <r>en<s n="vblex"/><s n="imp"/><s n="pl"/></r></p></e>
 </pardef>
 
-<pardef n="/doen__vblex">
-  <e>       <p><l>doe</l>       <r>doen<s n="vblex"/><s n="inf"/></r></p><par n="n"/></e>
+<pardef n="d/oen__vblex">
+  <e>       <p><l>oe</l>        <r>oen<s n="vblex"/><s n="inf"/></r></p><par n="n"/></e>
   <!-- requires separate pp -->
 
-  <e>       <p><l>doe</l>       <r>doen<s n="vblex"/><s n="pri"/><s n="p1"/><s n="sg"/></r></p><par n="n"/></e>
-  <e>       <p><l>dees</l>      <r>doen<s n="vblex"/><s n="pri"/><s n="p2"/><s n="sg"/></r></p></e>
-  <e>       <p><l>deet</l>      <r>doen<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
-  <e>       <p><l>doe</l>       <r>doen<s n="vblex"/><s n="pri"/><s n="p1"/><s n="pl"/></r></p><par n="n"/></e>
-  <e>       <p><l>dot</l>       <r>doen<s n="vblex"/><s n="pri"/><s n="p2"/><s n="pl"/></r></p></e>
-  <e>       <p><l>doe</l>       <r>doen<s n="vblex"/><s n="pri"/><s n="p3"/><s n="pl"/></r></p><par n="n"/></e>
+  <e>       <p><l>oe</l>        <r>oen<s n="vblex"/><s n="pri"/><s n="p1"/><s n="sg"/></r></p><par n="n"/></e>
+  <e>       <p><l>ees</l>       <r>oen<s n="vblex"/><s n="pri"/><s n="p2"/><s n="sg"/></r></p></e>
+  <e>       <p><l>eet</l>       <r>oen<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
+  <e>       <p><l>oe</l>        <r>oen<s n="vblex"/><s n="pri"/><s n="p1"/><s n="pl"/></r></p><par n="n"/></e>
+  <e>       <p><l>ot</l>        <r>oen<s n="vblex"/><s n="pri"/><s n="p2"/><s n="pl"/></r></p></e>
+  <e>       <p><l>oe</l>        <r>oen<s n="vblex"/><s n="pri"/><s n="p3"/><s n="pl"/></r></p><par n="n"/></e>
 
-  <e>       <p><l>déing</l>     <r>doen<s n="vblex"/><s n="prs"/><s n="p1"/><s n="sg"/></r></p></e>
-  <e>       <p><l>déings</l>    <r>doen<s n="vblex"/><s n="prs"/><s n="p2"/><s n="sg"/></r></p></e>
-  <e>       <p><l>déing</l>     <r>doen<s n="vblex"/><s n="prs"/><s n="p3"/><s n="sg"/></r></p></e>
-  <e>       <p><l>déinge</l>    <r>doen<s n="vblex"/><s n="prs"/><s n="p1"/><s n="pl"/></r></p><par n="n"/></e>
-  <e>       <p><l>déingt</l>    <r>doen<s n="vblex"/><s n="prs"/><s n="p2"/><s n="pl"/></r></p></e>
-  <e>       <p><l>déinge</l>    <r>doen<s n="vblex"/><s n="prs"/><s n="p3"/><s n="pl"/></r></p><par n="n"/></e>
+  <e>       <p><l>éing</l>      <r>oen<s n="vblex"/><s n="prs"/><s n="p1"/><s n="sg"/></r></p></e>
+  <e>       <p><l>éings</l>     <r>oen<s n="vblex"/><s n="prs"/><s n="p2"/><s n="sg"/></r></p></e>
+  <e>       <p><l>éing</l>      <r>oen<s n="vblex"/><s n="prs"/><s n="p3"/><s n="sg"/></r></p></e>
+  <e>       <p><l>éinge</l>     <r>oen<s n="vblex"/><s n="prs"/><s n="p1"/><s n="pl"/></r></p><par n="n"/></e>
+  <e>       <p><l>éingt</l>     <r>oen<s n="vblex"/><s n="prs"/><s n="p2"/><s n="pl"/></r></p></e>
+  <e>       <p><l>éinge</l>     <r>oen<s n="vblex"/><s n="prs"/><s n="p3"/><s n="pl"/></r></p><par n="n"/></e>
 
-  <e>       <p><l>doung</l>     <r>doen<s n="vblex"/><s n="pii"/><s n="p1"/><s n="sg"/></r></p></e>
-  <e>       <p><l>doungs</l>    <r>doen<s n="vblex"/><s n="pii"/><s n="p2"/><s n="sg"/></r></p></e>
-  <e>       <p><l>doung</l>     <r>doen<s n="vblex"/><s n="pii"/><s n="p3"/><s n="sg"/></r></p></e>
-  <e>       <p><l>dounge</l>    <r>doen<s n="vblex"/><s n="pii"/><s n="p1"/><s n="pl"/></r></p><par n="n"/></e>
-  <e>       <p><l>doungt</l>    <r>doen<s n="vblex"/><s n="pii"/><s n="p2"/><s n="pl"/></r></p></e>
-  <e>       <p><l>dounge</l>    <r>doen<s n="vblex"/><s n="pii"/><s n="p3"/><s n="pl"/></r></p><par n="n"/></e>
+  <e>       <p><l>oung</l>      <r>oen<s n="vblex"/><s n="pii"/><s n="p1"/><s n="sg"/></r></p></e>
+  <e>       <p><l>oungs</l>     <r>oen<s n="vblex"/><s n="pii"/><s n="p2"/><s n="sg"/></r></p></e>
+  <e>       <p><l>oung</l>      <r>oen<s n="vblex"/><s n="pii"/><s n="p3"/><s n="sg"/></r></p></e>
+  <e>       <p><l>ounge</l>     <r>oen<s n="vblex"/><s n="pii"/><s n="p1"/><s n="pl"/></r></p><par n="n"/></e>
+  <e>       <p><l>oungt</l>     <r>oen<s n="vblex"/><s n="pii"/><s n="p2"/><s n="pl"/></r></p></e>
+  <e>       <p><l>ounge</l>     <r>oen<s n="vblex"/><s n="pii"/><s n="p3"/><s n="pl"/></r></p><par n="n"/></e>
 
-  <e>       <p><l>do</l>        <r>doen<s n="vblex"/><s n="imp"/><s n="sg"/></r></p></e>
-  <e>       <p><l>dot</l>       <r>doen<s n="vblex"/><s n="imp"/><s n="pl"/></r></p></e>
+  <e>       <p><l>o</l>         <r>oen<s n="vblex"/><s n="imp"/><s n="sg"/></r></p></e>
+  <e>       <p><l>ot</l>        <r>oen<s n="vblex"/><s n="imp"/><s n="pl"/></r></p></e>
 </pardef>
 
 <pardef n="dree/ën__vblex">
@@ -1582,6 +1696,21 @@
   <e>       <p><l>änkt</l>      <r>änken<s n="vblex"/><s n="imp"/><s n="pl"/></r></p></e>
 </pardef>
 
+<pardef n="geb/ären__vblex">
+  <e>       <p><l>äre</l>       <r>ären<s n="vblex"/><s n="inf"/></r></p><par n="n"/></e>
+  <e>       <p><l>uer</l>       <r>ären<s n="vblex"/><s n="pp"/></r></p></e>
+
+  <e>       <p><l>äre</l>       <r>ären<s n="vblex"/><s n="pri"/><s n="p1"/><s n="sg"/></r></p><par n="n"/></e>
+  <e>       <p><l>iers</l>      <r>ären<s n="vblex"/><s n="pri"/><s n="p2"/><s n="sg"/></r></p></e>
+  <e>       <p><l>iert</l>      <r>ären<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
+  <e>       <p><l>äre</l>       <r>ären<s n="vblex"/><s n="pri"/><s n="p1"/><s n="pl"/></r></p><par n="n"/></e>
+  <e>       <p><l>iert</l>      <r>ären<s n="vblex"/><s n="pri"/><s n="p2"/><s n="pl"/></r></p></e>
+  <e>       <p><l>äre</l>       <r>ären<s n="vblex"/><s n="pri"/><s n="p3"/><s n="pl"/></r></p><par n="n"/></e>
+
+  <e>       <p><l>är</l>        <r>ären<s n="vblex"/><s n="imp"/><s n="sg"/></r></p></e>
+  <e>       <p><l>äert</l>      <r>ären<s n="vblex"/><s n="imp"/><s n="pl"/></r></p></e>
+</pardef>
+
 <pardef n="ged/enken__vblex">
   <e>       <p><l>enke</l>      <r>enken<s n="vblex"/><s n="inf"/></r></p><par n="n"/></e>
   <e>       <p><l>uecht</l>     <r>enken<s n="vblex"/><s n="pp"/></r></p></e>
@@ -1760,6 +1889,32 @@
   <e>       <p><l>aaft</l>      <r>afen<s n="vblex"/><s n="imp"/><s n="pl"/></r></p></e>
 </pardef>
 
+<pardef n="kr/éien__vblex">
+  <e>       <p><l>éie</l>       <r>éien<s n="vblex"/><s n="inf"/></r></p><par n="n"/></e>
+  <e>       <p><l>itt</l>       <r>éien<s n="vblex"/><s n="pp"/></r></p></e>
+
+  <e>       <p><l>éie</l>       <r>éien<s n="vblex"/><s n="pri"/><s n="p1"/><s n="sg"/></r></p><par n="n"/></e>
+  <e>       <p><l>iss</l>       <r>éien<s n="vblex"/><s n="pri"/><s n="p2"/><s n="sg"/></r></p></e>
+  <e>       <p><l>itt</l>       <r>éien<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
+  <e>       <p><l>éie</l>       <r>éien<s n="vblex"/><s n="pri"/><s n="p1"/><s n="pl"/></r></p><par n="n"/></e>
+  <e>       <p><l>itt</l>       <r>éien<s n="vblex"/><s n="pri"/><s n="p2"/><s n="pl"/></r></p></e>
+  <e>       <p><l>éie</l>       <r>éien<s n="vblex"/><s n="pri"/><s n="p3"/><s n="pl"/></r></p><par n="n"/></e>
+
+  <e>       <p><l>it</l>        <r>éien<s n="vblex"/><s n="prs"/><s n="p1"/><s n="sg"/></r></p></e>
+  <e>       <p><l>iits</l>      <r>éien<s n="vblex"/><s n="prs"/><s n="p2"/><s n="sg"/></r></p></e>
+  <e>       <p><l>it</l>        <r>éien<s n="vblex"/><s n="prs"/><s n="p3"/><s n="sg"/></r></p></e>
+  <e>       <p><l>ite</l>       <r>éien<s n="vblex"/><s n="prs"/><s n="p1"/><s n="pl"/></r></p><par n="n"/></e>
+  <e>       <p><l>it</l>        <r>éien<s n="vblex"/><s n="prs"/><s n="p2"/><s n="pl"/></r></p></e>
+  <e>       <p><l>ite</l>       <r>éien<s n="vblex"/><s n="prs"/><s n="p3"/><s n="pl"/></r></p><par n="n"/></e>
+
+  <e>       <p><l>ut</l>        <r>éien<s n="vblex"/><s n="pii"/><s n="p1"/><s n="sg"/></r></p></e>
+  <e>       <p><l>uuts</l>      <r>éien<s n="vblex"/><s n="pii"/><s n="p2"/><s n="sg"/></r></p></e>
+  <e>       <p><l>ut</l>        <r>éien<s n="vblex"/><s n="pii"/><s n="p3"/><s n="sg"/></r></p></e>
+  <e>       <p><l>ute</l>       <r>éien<s n="vblex"/><s n="pii"/><s n="p1"/><s n="pl"/></r></p><par n="n"/></e>
+  <e>       <p><l>ut</l>        <r>éien<s n="vblex"/><s n="pii"/><s n="p2"/><s n="pl"/></r></p></e>
+  <e>       <p><l>ute</l>       <r>éien<s n="vblex"/><s n="pii"/><s n="p3"/><s n="pl"/></r></p><par n="n"/></e>
+</pardef>
+
 <pardef n="l/afen__vblex">
   <e>       <p><l>afe</l>       <r>afen<s n="vblex"/><s n="inf"/></r></p><par n="n"/></e>
   <!-- requires separate pp -->
@@ -1919,7 +2074,8 @@
   <e>       <p><l>ware</l>      <r>sinn<s n="vblex"/><s n="pii"/><s n="p3"/><s n="pl"/></r></p><par n="n"/></e>
 
   <e>       <p><l>sief</l>      <r>sinn<s n="vblex"/><s n="imp"/><s n="sg"/></r></p></e>
-  <e>       <p><l>sieft / sidd</l><r>sinn<s n="vblex"/><s n="imp"/><s n="pl"/></r></p></e>
+  <e>       <p><l>sieft</l>     <r>sinn<s n="vblex"/><s n="imp"/><s n="pl"/></r></p></e>
+  <e r="LR"><p><l>sidd</l>      <r>sinn<s n="vblex"/><s n="imp"/><s n="pl"/></r></p></e>
 </pardef>
 
 <pardef n="spä/ren__vblex">
@@ -1950,6 +2106,35 @@
 
   <e>       <p><l>m</l>         <r>men<s n="vblex"/><s n="imp"/><s n="sg"/></r></p></e>
   <e>       <p><l>amt</l>       <r>men<s n="vblex"/><s n="imp"/><s n="pl"/></r></p></e>
+</pardef>
+
+<pardef n="st/oen__vblex">
+  <e>       <p><l>oe</l>        <r>oen<s n="vblex"/><s n="inf"/></r></p><par n="n"/></e>
+  <!-- requires separate pp -->
+
+  <e>       <p><l>i</l>         <r>oen<s n="vblex"/><s n="pri"/><s n="p1"/><s n="sg"/></r></p><par n="nn"/></e>
+  <e>       <p><l>ees</l>       <r>oen<s n="vblex"/><s n="pri"/><s n="p2"/><s n="sg"/></r></p></e>
+  <e>       <p><l>eet</l>       <r>oen<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
+  <e>       <p><l>i</l>         <r>oen<s n="vblex"/><s n="pri"/><s n="p1"/><s n="pl"/></r></p><par n="nn"/></e>
+  <e>       <p><l>itt</l>       <r>oen<s n="vblex"/><s n="pri"/><s n="p2"/><s n="pl"/></r></p></e>
+  <e>       <p><l>i</l>         <r>oen<s n="vblex"/><s n="pri"/><s n="p3"/><s n="pl"/></r></p><par n="nn"/></e>
+
+  <e>       <p><l>éing</l>      <r>oen<s n="vblex"/><s n="prs"/><s n="p1"/><s n="sg"/></r></p></e>
+  <e>       <p><l>éings</l>     <r>oen<s n="vblex"/><s n="prs"/><s n="p2"/><s n="sg"/></r></p></e>
+  <e>       <p><l>éing</l>      <r>oen<s n="vblex"/><s n="prs"/><s n="p3"/><s n="sg"/></r></p></e>
+  <e>       <p><l>éinge</l>     <r>oen<s n="vblex"/><s n="prs"/><s n="p1"/><s n="pl"/></r></p><par n="n"/></e>
+  <e>       <p><l>éingt</l>     <r>oen<s n="vblex"/><s n="prs"/><s n="p2"/><s n="pl"/></r></p></e>
+  <e>       <p><l>éinge</l>     <r>oen<s n="vblex"/><s n="prs"/><s n="p3"/><s n="pl"/></r></p><par n="n"/></e>
+
+  <e>       <p><l>oung</l>      <r>oen<s n="vblex"/><s n="pii"/><s n="p1"/><s n="sg"/></r></p></e>
+  <e>       <p><l>oungs</l>     <r>oen<s n="vblex"/><s n="pii"/><s n="p2"/><s n="sg"/></r></p></e>
+  <e>       <p><l>oung</l>      <r>oen<s n="vblex"/><s n="pii"/><s n="p3"/><s n="sg"/></r></p></e>
+  <e>       <p><l>ounge</l>     <r>oen<s n="vblex"/><s n="pii"/><s n="p1"/><s n="pl"/></r></p><par n="n"/></e>
+  <e>       <p><l>oungt</l>     <r>oen<s n="vblex"/><s n="pii"/><s n="p2"/><s n="pl"/></r></p></e>
+  <e>       <p><l>ounge</l>     <r>oen<s n="vblex"/><s n="pii"/><s n="p3"/><s n="pl"/></r></p><par n="n"/></e>
+
+  <e>       <p><l>éi</l>        <r>oen<s n="vblex"/><s n="imp"/><s n="sg"/></r></p></e>
+  <e>       <p><l>itt</l>       <r>oen<s n="vblex"/><s n="imp"/><s n="pl"/></r></p></e>
 </pardef>
 
 <pardef n="s/ëtzen__vblex">
@@ -4118,12 +4303,40 @@
   <e>       <p><l></l>          <r><s n="np"/><s n="top"/><s n="nt"/><s n="sg"/><s n="dat"/></r></p></e>
   <e>       <p><l></l>          <r><s n="np"/><s n="top"/><s n="nt"/><s n="sg"/><s n="acc"/></r></p></e>
 </pardef>
+
+<pardef n="Peter__np">
+  <e>       <p><l></l>          <r><s n="np"/><s n="ant"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
+  <e>       <p><l></l>          <r><s n="np"/><s n="ant"/><s n="m"/><s n="sg"/><s n="dat"/></r></p></e>
+  <e>       <p><l></l>          <r><s n="np"/><s n="ant"/><s n="m"/><s n="sg"/><s n="acc"/></r></p></e>
+</pardef>
+
+<pardef n="Maria__np">
+  <e>       <p><l></l>          <r><s n="np"/><s n="ant"/><s n="f"/><s n="sg"/><s n="nom"/></r></p></e>
+  <e>       <p><l></l>          <r><s n="np"/><s n="ant"/><s n="f"/><s n="sg"/><s n="dat"/></r></p></e>
+  <e>       <p><l></l>          <r><s n="np"/><s n="ant"/><s n="f"/><s n="sg"/><s n="acc"/></r></p></e>
+</pardef>
+
+<pardef n="Schmidt__np">
+  <e>       <p><l></l>          <r><s n="np"/><s n="cog"/><s n="mf"/><s n="sg"/><s n="nom"/></r></p></e>
+  <e>       <p><l></l>          <r><s n="np"/><s n="cog"/><s n="mf"/><s n="sg"/><s n="dat"/></r></p></e>
+  <e>       <p><l></l>          <r><s n="np"/><s n="cog"/><s n="mf"/><s n="sg"/><s n="acc"/></r></p></e>
+  <e>       <p><l>s</l>         <r><s n="np"/><s n="cog"/><s n="mf"/><s n="pl"/><s n="nom"/></r></p></e>
+  <e>       <p><l>s</l>         <r><s n="np"/><s n="cog"/><s n="mf"/><s n="pl"/><s n="dat"/></r></p></e>
+  <e>       <p><l>s</l>         <r><s n="np"/><s n="cog"/><s n="mf"/><s n="pl"/><s n="acc"/></r></p></e>
+</pardef>
+
+<!-- SECTION: Abbreviations -->
+
+<pardef n="Abk.__abbr">
+  <e>       <p><l></l>          <r><s n="abbr"/></r></p></e>
+</pardef>
   </pardefs>
 
   <section id="main" type="standard">
 
 <e lm="den">             <i>d</i><par n="d/en__det"/></e>
 <e lm="en">              <i></i><par n="/en__det"/></e>
+<e lm="keen">            <i>ke</i><par n="ke/en__det"/></e>
 
 <e lm="mäin">            <i>m</i><par n="d/äin__det"/></e>
 <e lm="däin">            <i>d</i><par n="d/äin__det"/></e>
@@ -4170,6 +4383,7 @@
 <e lm="hanner">          <i>hanner</i><par n="aus__pr"/></e>
 <e lm="iwwer">           <i>iwwer</i><par n="aus__pr"/></e>
 <e lm="mat">             <i>mat</i><par n="aus__pr"/></e>
+<e lm="nieft">           <i>nieft</i><par n="aus__pr"/></e>
 <e lm="niewen">          <i>niewe</i><par n="a/n__pr"/></e>
 <e lm="no">              <i>no</i><par n="aus__pr"/></e>
 <e lm="op">              <i>op</i><par n="aus__pr"/></e>
@@ -4181,6 +4395,8 @@
 <e lm="un">              <i>u</i><par n="a/n__pr"/></e>
 <e lm="virun">           <i>viru</i><par n="a/n__pr"/></e>
 <e lm="vun">             <i>vu</i><par n="a/n__pr"/></e>
+<e lm="während">         <i>während</i><par n="aus__pr"/></e>
+<e lm="wéinst">          <i>wéinst</i><par n="aus__pr"/></e>
 <e lm="wéint">           <i>wéint</i><par n="aus__pr"/></e>
 <e lm="widder">          <i>widder</i><par n="aus__pr"/></e>
 <e lm="ze">              <i>ze</i><par n="aus__pr"/></e>
@@ -4193,6 +4409,7 @@
 <e lm="oder">            <i>oder</i><par n="an__cnjcoo"/></e>
 
 <e lm="datt">            <i>datt</i><par n="datt__cnjsub"/></e>
+<e lm="nodeem">          <i>nodeem</i><par n="datt__cnjsub"/></e>
 <e lm="wann">            <i>wann</i><par n="datt__cnjsub"/></e>
 <e lm="well">            <i>well</i><par n="datt__cnjsub"/></e>
 <e lm="wou">             <i>wou</i><par n="datt__cnjsub"/></e>
@@ -4345,13 +4562,17 @@
 <e lm="deemools">        <i>deemools</i><par n="awer__adv"/></e>
 <e lm="dënschdes">       <i>dënschdes</i><par n="awer__adv"/></e>
 <e lm="dertëschent">     <i>dertëschent</i><par n="awer__adv"/></e>
+<e lm="direkt">          <i>direkt</i><par n="awer__adv"/></e>
 <e lm="dobäi">           <i>dobäi</i><par n="awer__adv"/></e>
 <e lm="dobaussen">       <i>dobausse</i><par n="anenee/n__adv"/></e>
 <e lm="doheem">          <i>doheem</i><par n="awer__adv"/></e>
 <e lm="do">              <i>do</i><par n="awer__adv"/></e>
+<e lm="dofir">           <i>dofir</i><par n="awer__adv"/></e>
+<e lm="domat">           <i>domat</i><par n="awer__adv"/></e>
 <e lm="donneschdes">     <i>donneschdes</i><par n="awer__adv"/></e>
 <e lm="dozou">           <i>dozou</i><par n="awer__adv"/></e>
 <e lm="dräimol">         <i>dräimol</i><par n="awer__adv"/></e>
+<e lm="drop">            <i>drop</i><par n="awer__adv"/></e>
 <e lm="duer">            <i>duer</i><par n="awer__adv"/></e>
 <e lm="duerno">          <i>duerno</i><par n="awer__adv"/></e>
 <e lm="dunn">            <i>du</i><par n="allene/nn__adv"/></e>
@@ -4431,6 +4652,7 @@
 <e lm="jee">             <i>jee</i><par n="awer__adv"/></e>
 <e lm="jeemools">        <i>jeemools</i><par n="awer__adv"/></e>
 <e lm="jo">              <i>jo</i><par n="awer__adv"/></e>
+<e lm="just">            <i>just</i><par n="awer__adv"/></e>
 <e lm="kannereg">        <i>kannereg</i><par n="awer__adv"/></e>
 <e lm="keemol">          <i>keemol</i><par n="awer__adv"/></e>
 <e lm="kengesfalls">     <i>kengesfalls</i><par n="awer__adv"/></e>
@@ -4442,6 +4664,8 @@
 <e lm="lo">              <i>lo</i><par n="awer__adv"/></e>
 <e lm="lues">            <i>lues</i><par n="awer__adv"/></e>
 <e lm="mateneen">        <i>matenee</i><par n="anenee/n__adv"/></e>
+<e lm="meeschtens">      <i>meeschtens</i><par n="awer__adv"/></e>
+<e lm="méi">             <i>méi</i><par n="awer__adv"/></e>
 <e lm="méindes">         <i>méindes</i><par n="awer__adv"/></e>
 <e lm="mësstrauesch">    <i>mësstrauesch</i><par n="awer__adv"/></e>
 <e lm="mëttes">          <i>mëttes</i><par n="awer__adv"/></e>
@@ -4532,6 +4756,7 @@
 <e lm="wéi vill">        <i>wéi<b/>vill</i><par n="awer__adv"/></e>
 
 <e lm="grouss">          <i>grouss</i><par n="grouss__adj"/></e>
+<e lm="gutt">            <i></i><par n="/gutt__adj"/></e>
 
 <e lm="aarm">            <i>aarm</i><par n="aarm__adj"/></e>
 <e lm="aarmséileg">      <i>aarmséileg</i><par n="aarm__adj"/></e>
@@ -4540,6 +4765,7 @@
 <e lm="ablécklech">      <i>ablécklech</i><par n="aarm__adj"/></e>
 <e lm="absichtlech">     <i>absichtlech</i><par n="aarm__adj"/></e>
 <e lm="adequat">         <i>adequat</i><par n="adequat__adj"/></e>
+<e lm="administrativ">   <i>administrativ</i><par n="aarm__adj"/></e>
 <e lm="äiseg">           <i>äiseg</i><par n="aarm__adj"/></e>
 <e lm="aktuell">         <i>aktuell</i><par n="aarm__adj"/></e>
 <e lm="aner">            <i>aner</i><par n="aarm__adj"/></e>
@@ -4555,6 +4781,7 @@
 <e lm="behënnert">       <i>behënnert</i><par n="adequat__adj"/></e>
 <e lm="béis">            <i>béis</i><par n="aarm__adj"/></e>
 <e lm="béisaarteg">      <i>béisaarteg</i><par n="aarm__adj"/></e>
+<e lm="bekannt">         <i>bekannt</i><par n="adequat__adj"/></e>
 <e lm="beléift">         <i>beléift</i><par n="adequat__adj"/></e>
 <e lm="bëlleg">          <i>bëlleg</i><par n="aarm__adj"/></e>
 <e lm="belsch">          <i>belsch</i><par n="aarm__adj"/></e>
@@ -4589,6 +4816,7 @@
 <e lm="dabozeg">         <i>dabozeg</i><par n="aarm__adj"/></e>
 <e lm="daddereg">        <i>daddereg</i><par n="aarm__adj"/></e>
 <e lm="däischter">       <i>däischter</i><par n="aarm__adj"/></e>
+<e lm="däitsch">         <i>däitsch</i><par n="aarm__adj"/></e>
 <e lm="damiddeg">        <i>damiddeg</i><par n="aarm__adj"/></e>
 <e lm="daper">           <i>daper</i><par n="aarm__adj"/></e>
 <e lm="déck">            <i>déck</i><par n="aarm__adj"/></e>
@@ -4673,6 +4901,7 @@
 <e lm="haiteg">          <i>haiteg</i><par n="aarm__adj"/></e>
 <e lm="heemlech">        <i>heemlech</i><par n="aarm__adj"/></e>
 <e lm="hees">            <i>hees</i><par n="aarm__adj"/></e>
+<e lm="héich">           <i>héi</i><par n="héi/ch__adj"/></e>
 <e lm="hell">            <i>hell</i><par n="aarm__adj"/></e>
 <e lm="hellblo">         <i>hellblo</i><par n="aarm__adj"/></e>
 <e lm="helleg">          <i>helleg</i><par n="aarm__adj"/></e>
@@ -4695,6 +4924,7 @@
 <e lm="kéng">            <i>kéng</i><par n="aarm__adj"/></e>
 <e lm="kill">            <i>kill</i><par n="aarm__adj"/></e>
 <e lm="klassesch">       <i>klassesch</i><par n="aarm__adj"/></e>
+<e lm="kleng">           <i>kleng</i><par n="aarm__adj"/></e>
 <e lm="komesch">         <i>komesch</i><par n="aarm__adj"/></e>
 <e lm="korrekt">         <i>korrekt</i><par n="adequat__adj"/></e>
 <e lm="krank">           <i>krank</i><par n="aarm__adj"/></e>
@@ -4949,6 +5179,7 @@
 <e lm="besteieren">      <i>besteier</i><par n="abiméier/en__vblex"/></e>
 <e lm="bestellen">       <i>best</i><par n="best/ellen__vblex"/></e>
 <e lm="bestielen">       <i>best</i><par n="best/ielen__vblex"/></e>
+<e lm="bestoen">         <i>best</i><par n="best/oen__vblex"/></e>
 <e lm="bestueden">       <i>bestueden</i><par n="UNKNOWN__vblex"/></e>
 <e lm="bestätegen">      <i>bestäteg</i><par n="abiméier/en__vblex"/></e>
 <e lm="bestëbsen">       <i>bestëbs</i><par n="bedups/en__vblex"/></e>
@@ -5202,7 +5433,7 @@
 <e lm="divergéieren">    <i>divergéier</i><par n="abiméier/en__vblex"/></e>
 <e lm="diversifizéieren"><i>diversifizéier</i><par n="abiméier/en__vblex"/></e>
 <e lm="dividéieren">     <i>dividéier</i><par n="abiméier/en__vblex"/></e>
-<e lm="doen">            <i></i><par n="/doen__vblex"/></e>
+<e lm="doen">            <i>d</i><par n="d/oen__vblex"/></e>
 <e lm="doen">            <p><l>gedoe</l>     <r>doen</r></p><par n="__vblex_pp"/><par n="n"/></e>
 <e lm="doften">          <i>doft</i><par n="bascht/en__vblex"/></e>
 <e lm="doften">          <p><l>gedoft</l>    <r>doften</r></p><par n="__vblex_pp"/></e>
@@ -5580,12 +5811,14 @@
 <e lm="garnéieren">      <i>garnéier</i><par n="abiméier/en__vblex"/></e>
 <e lm="garrelen">        <i>garrel</i><par n="affer/en__vblex"/></e>
 <e lm="garrelen">        <p><l>gegarrelt</l> <r>garrelen</r></p><par n="__vblex_pp"/></e>
+<e lm="gebären">         <i>geb</i><par n="geb/ären__vblex"/></e>
 <e lm="gecksen">         <i>gecks</i><par n="beez/en__vblex"/></e>
 <e lm="gecksen">         <p><l>gegeckst</l>  <r>gecksen</r></p><par n="__vblex_pp"/></e>
 <e lm="gedenken">        <i>ged</i><par n="ged/enken__vblex"/></e>
 <e lm="geeschteren">     <i>geeschter</i><par n="affer/en__vblex"/></e>
 <e lm="geeschteren">     <p><l>gegeeschtert</l><r>geeschteren</r></p><par n="__vblex_pp"/></e>
 <e lm="geheien">         <i>geh</i><par n="geh/eien__vblex"/></e>
+<e lm="gehéieren">       <i>gehéier</i><par n="abiméier/en__vblex"/></e>
 <e lm="geien">           <i>gei</i><par n="affer/en__vblex"/></e>
 <e lm="geien">           <p><l>gegeit</l>    <r>geien</r></p><par n="__vblex_pp"/></e>
 <e lm="geléngen">        <i>gel</i><par n="bezw/éngen__vblex"/></e>
@@ -5802,7 +6035,7 @@
 <e lm="kropen">          <i>kropen</i><par n="UNKNOWN__vblex"/></e>
 <e lm="kräischen">       <i>kräisch</i><par n="affer/en__vblex"/></e>
 <e lm="kräischen">       <p><l>gekrasch</l>  <r>kräischen</r></p><par n="__vblex_pp"/></e>
-<e lm="kréien">          <i>kréien</i><par n="UNKNOWN__vblex"/></e>
+<e lm="kréien">          <i>kr</i><par n="kr/éien__vblex"/></e>
 <e lm="krëmmen">         <i>krëmm</i><par n="affer/en__vblex"/></e>
 <e lm="krëmmen">         <p><l>gekrëmmt</l>  <r>krëmmen</r></p><par n="__vblex_pp"/></e>
 <e lm="kucken">          <i>kuck</i><par n="affer/en__vblex"/></e>
@@ -5986,7 +6219,10 @@
 <e lm="steiwen">         <p><l>gesteift</l>  <r>steiwen</r></p><par n="__vblex_pp"/></e>
 <e lm="stielen">         <i>stiel</i><par n="affer/en__vblex"/></e>
 <e lm="stielen">         <p><l>gestuel</l>   <r>stielen</r></p><par n="__vblex_pp"/></e>
-<e lm="stoen">           <i>stoen</i><par n="UNKNOWN__vblex"/></e>
+<e lm="stierwen">        <i>stier</i><par n="bie/wen__vblex"/></e>
+<e lm="stierwen">        <p><l>gestuerwe</l> <r>stierwen</r></p><par n="__vblex_pp"/><par n="n"/></e>
+<e lm="stoen">           <i>st</i><par n="st/oen__vblex"/></e>
+<e lm="stoen">           <p><l>gestane</l>   <r>stoen</r></p><par n="__vblex_pp"/><par n="n"/></e>
 <e lm="strecken">        <i>streck</i><par n="affer/en__vblex"/></e>
 <e lm="strecken">        <p><l>gestreckt</l> <r>strecken</r></p><par n="__vblex_pp"/></e>
 <e lm="striewen">        <i>strie</i><par n="bie/wen__vblex"/></e>
@@ -6518,6 +6754,7 @@
 <e lm="Arithmetik">      <i>Arithmetik</i><par n="Acceleratioun__n_f"/></e>
 <e lm="Arméi">           <i>Arméi</i><par n="Aangel__n_f"/></e>
 <e lm="Arroganz">        <i>Arroganz</i><par n="Acceleratioun__n_f"/></e>
+<e lm="Arrondissement">  <i>Arrondissement</i><par n="Appartement__n_nt"/></e>
 <e lm="Arsen">           <i>Arsen</i><par n="Agemaachtes__n_nt"/></e>
 <e lm="Arterie">         <i>Arteri</i><par n="Boulett/e__n_f"/></e>
 <e lm="Artichaut">       <i>Artichaut</i><par n="Abrëll__n_m"/></e>
@@ -8600,6 +8837,7 @@
 <e lm="Stuff">           <i>Stuff</i><par n="Aangel__n_f"/></e>
 <e lm="Stull">           <i>St</i><par n="Beichtst/ull__n_m"/></e>
 <e lm="Stär">            <i>Stär</i><par n="Abrëll__n_m"/></e>
+<e lm="Stärebild">       <i>Stärebil</i><par n="Abzebil/d__n_nt"/></e>
 <e lm="Stéck">           <i>Stéck</i><par n="Appartement__n_nt"/></e>
 <e lm="Stéckstoff">      <i>Stéckstoff</i><par n="Abgascht__n_m"/></e>
 <e lm="Stéier">          <i>Stéier</i><par n="Abrëll__n_m"/></e>
@@ -8767,6 +9005,7 @@
 <e lm="Well">            <i>Well</i><par n="Aangel__n_f"/></e>
 <e lm="Wellelängt">      <i>Wellelängt</i><par n="Aangel__n_f"/></e>
 <e lm="Wellenzuel">      <i>Wellenzuel</i><par n="Aangel__n_f"/></e>
+<e lm="Weltkrich">       <i>Weltkrich</i><par n="Abléck__n_m"/></e>
 <e lm="Westen">          <i>Westen</i><par n="Abgascht__n_m"/></e>
 <e lm="Widder">          <i>Widder</i><par n="Aarbechter__n_m"/></e>
 <e lm="Widderstand">     <i>Widderst</i><par n="Ab/and__n_m"/></e>
@@ -14190,13 +14429,2196 @@
 
 <!-- SECTION: Proper nouns -->
 
+<!-- first names masculine -->
+
+<e lm="Aaron">           <i>Aaron</i><par n="Peter__np"/></e>
+<e lm="Abbigail">        <i>Abbigail</i><par n="Peter__np"/></e>
+<e lm="Abidjan">         <i>Abidjan</i><par n="Peter__np"/></e>
+<e lm="Adalberto">       <i>Adalberto</i><par n="Peter__np"/></e>
+<e lm="Adam">            <i>Adam</i><par n="Peter__np"/></e>
+<e lm="Adelen">          <i>Adelen</i><par n="Peter__np"/></e>
+<e lm="Adriaan">         <i>Adriaan</i><par n="Peter__np"/></e>
+<e lm="Adrian">          <i>Adrian</i><par n="Peter__np"/></e>
+<e lm="Ahmed">           <i>Ahmed</i><par n="Peter__np"/></e>
+<e lm="Aidan">           <i>Aidan</i><par n="Peter__np"/></e>
+<e lm="Akiro">           <i>Akiro</i><par n="Peter__np"/></e>
+<e lm="Alain">           <i>Alain</i><par n="Peter__np"/></e>
+<e lm="Alan">            <i>Alan</i><par n="Peter__np"/></e>
+<e lm="Albert">          <i>Albert</i><par n="Peter__np"/></e>
+<e lm="Alberto">         <i>Alberto</i><par n="Peter__np"/></e>
+<e lm="Alec">            <i>Alec</i><par n="Peter__np"/></e>
+<e lm="Aleixandre">      <i>Aleixandre</i><par n="Peter__np"/></e>
+<e lm="Alex">            <i>Alex</i><par n="Peter__np"/></e>
+<e lm="Alexander">       <i>Alexander</i><par n="Peter__np"/></e>
+<e lm="Alexandre">       <i>Alexandre</i><par n="Peter__np"/></e>
+<e lm="Alfonso">         <i>Alfonso</i><par n="Peter__np"/></e>
+<e lm="Alfred">          <i>Alfred</i><par n="Peter__np"/></e>
+<e lm="Ali">             <i>Ali</i><par n="Peter__np"/></e>
+<e lm="Amir">            <i>Amir</i><par n="Peter__np"/></e>
+<e lm="Andre">           <i>Andre</i><par n="Peter__np"/></e>
+<e lm="André">           <i>André</i><par n="Peter__np"/></e>
+<e lm="Andreas">         <i>Andreas</i><par n="Peter__np"/></e>
+<e lm="Andres">          <i>Andres</i><par n="Peter__np"/></e>
+<e lm="Andreu">          <i>Andreu</i><par n="Peter__np"/></e>
+<e lm="Andrew">          <i>Andrew</i><par n="Peter__np"/></e>
+<e lm="Andy">            <i>Andy</i><par n="Peter__np"/></e>
+<e lm="Angelo">          <i>Angelo</i><par n="Peter__np"/></e>
+<e lm="Anthony">         <i>Anthony</i><par n="Peter__np"/></e>
+<e lm="Anton">           <i>Anton</i><par n="Peter__np"/></e>
+<e lm="Antoni">          <i>Antoni</i><par n="Peter__np"/></e>
+<e lm="Antonio">         <i>Antonio</i><par n="Peter__np"/></e>
+<e lm="Antony">          <i>Antony</i><par n="Peter__np"/></e>
+<e lm="Arnold">          <i>Arnold</i><par n="Peter__np"/></e>
+<e lm="Arthur">          <i>Arthur</i><par n="Peter__np"/></e>
+<e lm="Arys-Turkistan">  <i>Arys-Turkistan</i><par n="Peter__np"/></e>
+<e lm="Arystandy">       <i>Arystandy</i><par n="Peter__np"/></e>
+<e lm="August">          <i>August</i><par n="Peter__np"/></e>
+<e lm="Axel">            <i>Axel</i><par n="Peter__np"/></e>
+<e lm="Bailee">          <i>Bailee</i><par n="Peter__np"/></e>
+<e lm="Barnaby">         <i>Barnaby</i><par n="Peter__np"/></e>
+<e lm="Barry">           <i>Barry</i><par n="Peter__np"/></e>
+<e lm="Barshynkent">     <i>Barshynkent</i><par n="Peter__np"/></e>
+<e lm="Bashkortostan">   <i>Bashkortostan</i><par n="Peter__np"/></e>
+<e lm="Bastian">         <i>Bastian</i><par n="Peter__np"/></e>
+<e lm="Beatles">         <i>Beatles</i><par n="Peter__np"/></e>
+<e lm="Ben">             <i>Ben</i><par n="Peter__np"/></e>
+<e lm="Bernard">         <i>Bernard</i><par n="Peter__np"/></e>
+<e lm="Bernd">           <i>Bernd</i><par n="Peter__np"/></e>
+<e lm="Bert">            <i>Bert</i><par n="Peter__np"/></e>
+<e lm="Bill">            <i>Bill</i><par n="Peter__np"/></e>
+<e lm="Billy">           <i>Billy</i><par n="Peter__np"/></e>
+<e lm="Blacky">          <i>Blacky</i><par n="Peter__np"/></e>
+<e lm="Bob">             <i>Bob</i><par n="Peter__np"/></e>
+<e lm="Boris">           <i>Boris</i><par n="Peter__np"/></e>
+<e lm="Brad">            <i>Brad</i><par n="Peter__np"/></e>
+<e lm="Bradley">         <i>Bradley</i><par n="Peter__np"/></e>
+<e lm="Brady">           <i>Brady</i><par n="Peter__np"/></e>
+<e lm="Brandon">         <i>Brandon</i><par n="Peter__np"/></e>
+<e lm="Brenton">         <i>Brenton</i><par n="Peter__np"/></e>
+<e lm="Bret">            <i>Bret</i><par n="Peter__np"/></e>
+<e lm="Brian">           <i>Brian</i><par n="Peter__np"/></e>
+<e lm="Bruce">           <i>Bruce</i><par n="Peter__np"/></e>
+<e lm="Bryan">           <i>Bryan</i><par n="Peter__np"/></e>
+<e lm="Calgary">         <i>Calgary</i><par n="Peter__np"/></e>
+<e lm="Callum">          <i>Callum</i><par n="Peter__np"/></e>
+<e lm="Carl">            <i>Carl</i><par n="Peter__np"/></e>
+<e lm="Carlee">          <i>Carlee</i><par n="Peter__np"/></e>
+<e lm="Carles">          <i>Carles</i><par n="Peter__np"/></e>
+<e lm="Carlo">           <i>Carlo</i><par n="Peter__np"/></e>
+<e lm="Carlos">          <i>Carlos</i><par n="Peter__np"/></e>
+<e lm="Carsten">         <i>Carsten</i><par n="Peter__np"/></e>
+<e lm="Catherin">        <i>Catherin</i><par n="Peter__np"/></e>
+<e lm="Chad">            <i>Chad</i><par n="Peter__np"/></e>
+<e lm="Chan">            <i>Chan</i><par n="Peter__np"/></e>
+<e lm="Charles">         <i>Charles</i><par n="Peter__np"/></e>
+<e lm="Charlie">         <i>Charlie</i><par n="Peter__np"/></e>
+<e lm="Charly">          <i>Charly</i><par n="Peter__np"/></e>
+<e lm="Chris">           <i>Chris</i><par n="Peter__np"/></e>
+<e lm="Christian">       <i>Christian</i><par n="Peter__np"/></e>
+<e lm="Christopher">     <i>Christopher</i><par n="Peter__np"/></e>
+<e lm="Christus">        <i>Christus</i><par n="Peter__np"/></e>
+<e lm="Cisneros">        <i>Cisneros</i><par n="Peter__np"/></e>
+<e lm="Clairene">        <i>Clairene</i><par n="Peter__np"/></e>
+<e lm="Clarence">        <i>Clarence</i><par n="Peter__np"/></e>
+<e lm="Clark">           <i>Clark</i><par n="Peter__np"/></e>
+<e lm="Cleve">           <i>Cleve</i><par n="Peter__np"/></e>
+<e lm="Clifford">        <i>Clifford</i><par n="Peter__np"/></e>
+<e lm="Clint">           <i>Clint</i><par n="Peter__np"/></e>
+<e lm="Clive">           <i>Clive</i><par n="Peter__np"/></e>
+<e lm="Colin">           <i>Colin</i><par n="Peter__np"/></e>
+<e lm="Conor">           <i>Conor</i><par n="Peter__np"/></e>
+<e lm="Conrad">          <i>Conrad</i><par n="Peter__np"/></e>
+<e lm="Cooper">          <i>Cooper</i><par n="Peter__np"/></e>
+<e lm="Copper">          <i>Copper</i><par n="Peter__np"/></e>
+<e lm="Crescenzo">       <i>Crescenzo</i><par n="Peter__np"/></e>
+<e lm="Curt">            <i>Curt</i><par n="Peter__np"/></e>
+<e lm="Dan">             <i>Dan</i><par n="Peter__np"/></e>
+<e lm="Daniel">          <i>Daniel</i><par n="Peter__np"/></e>
+<e lm="Danny">           <i>Danny</i><par n="Peter__np"/></e>
+<e lm="Darren">          <i>Darren</i><par n="Peter__np"/></e>
+<e lm="Darryl">          <i>Darryl</i><par n="Peter__np"/></e>
+<e lm="Dave">            <i>Dave</i><par n="Peter__np"/></e>
+<e lm="David">           <i>David</i><par n="Peter__np"/></e>
+<e lm="Deandre">         <i>Deandre</i><par n="Peter__np"/></e>
+<e lm="Deangelo">        <i>Deangelo</i><par n="Peter__np"/></e>
+<e lm="Demarcus">        <i>Demarcus</i><par n="Peter__np"/></e>
+<e lm="Demian">          <i>Demian</i><par n="Peter__np"/></e>
+<e lm="Denis">           <i>Denis</i><par n="Peter__np"/></e>
+<e lm="Dennis">          <i>Dennis</i><par n="Peter__np"/></e>
+<e lm="Derek">           <i>Derek</i><par n="Peter__np"/></e>
+<e lm="Desmond">         <i>Desmond</i><par n="Peter__np"/></e>
+<e lm="Dev">             <i>Dev</i><par n="Peter__np"/></e>
+<e lm="Dick">            <i>Dick</i><par n="Peter__np"/></e>
+<e lm="Diego">           <i>Diego</i><par n="Peter__np"/></e>
+<e lm="Dieter">          <i>Dieter</i><par n="Peter__np"/></e>
+<e lm="Domingo">         <i>Domingo</i><par n="Peter__np"/></e>
+<e lm="Dominic">         <i>Dominic</i><par n="Peter__np"/></e>
+<e lm="Dominick">        <i>Dominick</i><par n="Peter__np"/></e>
+<e lm="Dominik">         <i>Dominik</i><par n="Peter__np"/></e>
+<e lm="Don">             <i>Don</i><par n="Peter__np"/></e>
+<e lm="Donald">          <i>Donald</i><par n="Peter__np"/></e>
+<e lm="Doodle">          <i>Doodle</i><par n="Peter__np"/></e>
+<e lm="Dorando">         <i>Dorando</i><par n="Peter__np"/></e>
+<e lm="Douglas">         <i>Douglas</i><par n="Peter__np"/></e>
+<e lm="Duane">           <i>Duane</i><par n="Peter__np"/></e>
+<e lm="Duncan">          <i>Duncan</i><par n="Peter__np"/></e>
+<e lm="Dung">            <i>Dung</i><par n="Peter__np"/></e>
+<e lm="Dustin">          <i>Dustin</i><par n="Peter__np"/></e>
+<e lm="Ebe">             <i>Ebe</i><par n="Peter__np"/></e>
+<e lm="Ed">              <i>Ed</i><par n="Peter__np"/></e>
+<e lm="Eddie">           <i>Eddie</i><par n="Peter__np"/></e>
+<e lm="Edelvis">         <i>Edelvis</i><par n="Peter__np"/></e>
+<e lm="Edgar">           <i>Edgar</i><par n="Peter__np"/></e>
+<e lm="Edmund">          <i>Edmund</i><par n="Peter__np"/></e>
+<e lm="Edmundo">         <i>Edmundo</i><par n="Peter__np"/></e>
+<e lm="Edouard">         <i>Edouard</i><par n="Peter__np"/></e>
+<e lm="Edward">          <i>Edward</i><par n="Peter__np"/></e>
+<e lm="Edwin">           <i>Edwin</i><par n="Peter__np"/></e>
+<e lm="Einar">           <i>Einar</i><par n="Peter__np"/></e>
+<e lm="Elliot">          <i>Elliot</i><par n="Peter__np"/></e>
+<e lm="Elvis">           <i>Elvis</i><par n="Peter__np"/></e>
+<e lm="Emmalee">         <i>Emmalee</i><par n="Peter__np"/></e>
+<e lm="Enzo">            <i>Enzo</i><par n="Peter__np"/></e>
+<e lm="Eric">            <i>Eric</i><par n="Peter__np"/></e>
+<e lm="Erich">           <i>Erich</i><par n="Peter__np"/></e>
+<e lm="Erin">            <i>Erin</i><par n="Peter__np"/></e>
+<e lm="Ernest">          <i>Ernest</i><par n="Peter__np"/></e>
+<e lm="Eros">            <i>Eros</i><par n="Peter__np"/></e>
+<e lm="Eugene">          <i>Eugene</i><par n="Peter__np"/></e>
+<e lm="Evan">            <i>Evan</i><par n="Peter__np"/></e>
+<e lm="Felix">           <i>Felix</i><par n="Peter__np"/></e>
+<e lm="Fernandez">       <i>Fernandez</i><par n="Peter__np"/></e>
+<e lm="Filibert">        <i>Filibert</i><par n="Peter__np"/></e>
+<e lm="Finnmark">        <i>Finnmark</i><par n="Peter__np"/></e>
+<e lm="Fiorenzo">        <i>Fiorenzo</i><par n="Peter__np"/></e>
+<e lm="Frances">         <i>Frances</i><par n="Peter__np"/></e>
+<e lm="Franco">          <i>Franco</i><par n="Peter__np"/></e>
+<e lm="Frank">           <i>Frank</i><par n="Peter__np"/></e>
+<e lm="Franklin">        <i>Franklin</i><par n="Peter__np"/></e>
+<e lm="Fred">            <i>Fred</i><par n="Peter__np"/></e>
+<e lm="Freddie">         <i>Freddie</i><par n="Peter__np"/></e>
+<e lm="Frederic">        <i>Frederic</i><par n="Peter__np"/></e>
+<e lm="Frederick">       <i>Frederick</i><par n="Peter__np"/></e>
+<e lm="Frederik">        <i>Frederik</i><par n="Peter__np"/></e>
+<e lm="Galileo">         <i>Galileo</i><par n="Peter__np"/></e>
+<e lm="Garcíadiego">     <i>Garcíadiego</i><par n="Peter__np"/></e>
+<e lm="Gary">            <i>Gary</i><par n="Peter__np"/></e>
+<e lm="Gavin">           <i>Gavin</i><par n="Peter__np"/></e>
+<e lm="Geoffrey">        <i>Geoffrey</i><par n="Peter__np"/></e>
+<e lm="Georg">           <i>Georg</i><par n="Peter__np"/></e>
+<e lm="George">          <i>George</i><par n="Peter__np"/></e>
+<e lm="Gerald">          <i>Gerald</i><par n="Peter__np"/></e>
+<e lm="Geraldine">       <i>Geraldine</i><par n="Peter__np"/></e>
+<e lm="Gerhard">         <i>Gerhard</i><par n="Peter__np"/></e>
+<e lm="Gerry">           <i>Gerry</i><par n="Peter__np"/></e>
+<e lm="Giancarlo">       <i>Giancarlo</i><par n="Peter__np"/></e>
+<e lm="Gianfranco">      <i>Gianfranco</i><par n="Peter__np"/></e>
+<e lm="Gianlucas">       <i>Gianlucas</i><par n="Peter__np"/></e>
+<e lm="Gianluigi">       <i>Gianluigi</i><par n="Peter__np"/></e>
+<e lm="Gianmarco">       <i>Gianmarco</i><par n="Peter__np"/></e>
+<e lm="Gideon">          <i>Gideon</i><par n="Peter__np"/></e>
+<e lm="Gilebert">        <i>Gilebert</i><par n="Peter__np"/></e>
+<e lm="Giles">           <i>Giles</i><par n="Peter__np"/></e>
+<e lm="Gilles">          <i>Gilles</i><par n="Peter__np"/></e>
+<e lm="Gillian">         <i>Gillian</i><par n="Peter__np"/></e>
+<e lm="Giorgio">         <i>Giorgio</i><par n="Peter__np"/></e>
+<e lm="Gisbert">         <i>Gisbert</i><par n="Peter__np"/></e>
+<e lm="Giuseppe">        <i>Giuseppe</i><par n="Peter__np"/></e>
+<e lm="Glen">            <i>Glen</i><par n="Peter__np"/></e>
+<e lm="Gordon">          <i>Gordon</i><par n="Peter__np"/></e>
+<e lm="Gottfried">       <i>Gottfried</i><par n="Peter__np"/></e>
+<e lm="Graham">          <i>Graham</i><par n="Peter__np"/></e>
+<e lm="Gualberto">       <i>Gualberto</i><par n="Peter__np"/></e>
+<e lm="Guilbert">        <i>Guilbert</i><par n="Peter__np"/></e>
+<e lm="Gunter">          <i>Gunter</i><par n="Peter__np"/></e>
+<e lm="Guy">             <i>Guy</i><par n="Peter__np"/></e>
+<e lm="Hailee">          <i>Hailee</i><par n="Peter__np"/></e>
+<e lm="Haley">           <i>Haley</i><par n="Peter__np"/></e>
+<e lm="Hans">            <i>Hans</i><par n="Peter__np"/></e>
+<e lm="Hardy">           <i>Hardy</i><par n="Peter__np"/></e>
+<e lm="Harold">          <i>Harold</i><par n="Peter__np"/></e>
+<e lm="Harry">           <i>Harry</i><par n="Peter__np"/></e>
+<e lm="Hayley">          <i>Hayley</i><par n="Peter__np"/></e>
+<e lm="Hebelen">         <i>Hebelen</i><par n="Peter__np"/></e>
+<e lm="Hebert">          <i>Hebert</i><par n="Peter__np"/></e>
+<e lm="Hector">          <i>Hector</i><par n="Peter__np"/></e>
+<e lm="Heinrich">        <i>Heinrich</i><par n="Peter__np"/></e>
+<e lm="Heinz">           <i>Heinz</i><par n="Peter__np"/></e>
+<e lm="Hektor">          <i>Hektor</i><par n="Peter__np"/></e>
+<e lm="Helge">           <i>Helge</i><par n="Peter__np"/></e>
+<e lm="Helmut">          <i>Helmut</i><par n="Peter__np"/></e>
+<e lm="Hendrik">         <i>Hendrik</i><par n="Peter__np"/></e>
+<e lm="Henry">           <i>Henry</i><par n="Peter__np"/></e>
+<e lm="Herbert">         <i>Herbert</i><par n="Peter__np"/></e>
+<e lm="Hermann">         <i>Hermann</i><par n="Peter__np"/></e>
+<e lm="Homer">           <i>Homer</i><par n="Peter__np"/></e>
+<e lm="Howard">          <i>Howard</i><par n="Peter__np"/></e>
+<e lm="Hugh">            <i>Hugh</i><par n="Peter__np"/></e>
+<e lm="Humphrey">        <i>Humphrey</i><par n="Peter__np"/></e>
+<e lm="Ian">             <i>Ian</i><par n="Peter__np"/></e>
+<e lm="Ignacius">        <i>Ignacius</i><par n="Peter__np"/></e>
+<e lm="Innocenzo">       <i>Innocenzo</i><par n="Peter__np"/></e>
+<e lm="Irving">          <i>Irving</i><par n="Peter__np"/></e>
+<e lm="Jack">            <i>Jack</i><par n="Peter__np"/></e>
+<e lm="Jacob">           <i>Jacob</i><par n="Peter__np"/></e>
+<e lm="Jake">            <i>Jake</i><par n="Peter__np"/></e>
+<e lm="James">           <i>James</i><par n="Peter__np"/></e>
+<e lm="Jamie">           <i>Jamie</i><par n="Peter__np"/></e>
+<e lm="Jan">             <i>Jan</i><par n="Peter__np"/></e>
+<e lm="Janice">          <i>Janice</i><par n="Peter__np"/></e>
+<e lm="Jason">           <i>Jason</i><par n="Peter__np"/></e>
+<e lm="Jasper">          <i>Jasper</i><par n="Peter__np"/></e>
+<e lm="Jay">             <i>Jay</i><par n="Peter__np"/></e>
+<e lm="Jaydon">          <i>Jaydon</i><par n="Peter__np"/></e>
+<e lm="Jaylen">          <i>Jaylen</i><par n="Peter__np"/></e>
+<e lm="Jean">            <i>Jean</i><par n="Peter__np"/></e>
+<e lm="Jean-Bernard">    <i>Jean-Bernard</i><par n="Peter__np"/></e>
+<e lm="Jean-Charles">    <i>Jean-Charles</i><par n="Peter__np"/></e>
+<e lm="Jean-Luc">        <i>Jean-Luc</i><par n="Peter__np"/></e>
+<e lm="Jean-Martin">     <i>Jean-Martin</i><par n="Peter__np"/></e>
+<e lm="Jean-Pierre">     <i>Jean-Pierre</i><par n="Peter__np"/></e>
+<e lm="Jeff">            <i>Jeff</i><par n="Peter__np"/></e>
+<e lm="Jeffrey">         <i>Jeffrey</i><par n="Peter__np"/></e>
+<e lm="Jens">            <i>Jens</i><par n="Peter__np"/></e>
+<e lm="Jeremy">          <i>Jeremy</i><par n="Peter__np"/></e>
+<e lm="Jerry">           <i>Jerry</i><par n="Peter__np"/></e>
+<e lm="Jesse">           <i>Jesse</i><par n="Peter__np"/></e>
+<e lm="Jesus">           <i>Jesus</i><par n="Peter__np"/></e>
+<e lm="Jillian">         <i>Jillian</i><par n="Peter__np"/></e>
+<e lm="Jim">             <i>Jim</i><par n="Peter__np"/></e>
+<e lm="Jimmy">           <i>Jimmy</i><par n="Peter__np"/></e>
+<e lm="Jimy">            <i>Jimy</i><par n="Peter__np"/></e>
+<e lm="Jo">              <i>Jo</i><par n="Peter__np"/></e>
+<e lm="Jock">            <i>Jock</i><par n="Peter__np"/></e>
+<e lm="Joe">             <i>Joe</i><par n="Peter__np"/></e>
+<e lm="Joey">            <i>Joey</i><par n="Peter__np"/></e>
+<e lm="Johann">          <i>Johann</i><par n="Peter__np"/></e>
+<e lm="Johannes">        <i>Johannes</i><par n="Peter__np"/></e>
+<e lm="John">            <i>John</i><par n="Peter__np"/></e>
+<e lm="Johnathan">       <i>Johnathan</i><par n="Peter__np"/></e>
+<e lm="Johnny">          <i>Johnny</i><par n="Peter__np"/></e>
+<e lm="Jolly">           <i>Jolly</i><par n="Peter__np"/></e>
+<e lm="Jonas">           <i>Jonas</i><par n="Peter__np"/></e>
+<e lm="Jonathan">        <i>Jonathan</i><par n="Peter__np"/></e>
+<e lm="Jordan">          <i>Jordan</i><par n="Peter__np"/></e>
+<e lm="Josef">           <i>Josef</i><par n="Peter__np"/></e>
+<e lm="Josep">           <i>Josep</i><par n="Peter__np"/></e>
+<e lm="Joseph">          <i>Joseph</i><par n="Peter__np"/></e>
+<e lm="Josh">            <i>Josh</i><par n="Peter__np"/></e>
+<e lm="Joshua">          <i>Joshua</i><par n="Peter__np"/></e>
+<e lm="Julian">          <i>Julian</i><par n="Peter__np"/></e>
+<e lm="Justin">          <i>Justin</i><par n="Peter__np"/></e>
+<e lm="Justus">          <i>Justus</i><par n="Peter__np"/></e>
+<e lm="Kailee">          <i>Kailee</i><par n="Peter__np"/></e>
+<e lm="Karel">           <i>Karel</i><par n="Peter__np"/></e>
+<e lm="Karim">           <i>Karim</i><par n="Peter__np"/></e>
+<e lm="Karl">            <i>Karl</i><par n="Peter__np"/></e>
+<e lm="Karlee">          <i>Karlee</i><par n="Peter__np"/></e>
+<e lm="Keith">           <i>Keith</i><par n="Peter__np"/></e>
+<e lm="Ken">             <i>Ken</i><par n="Peter__np"/></e>
+<e lm="Kenneth">         <i>Kenneth</i><par n="Peter__np"/></e>
+<e lm="Kent">            <i>Kent</i><par n="Peter__np"/></e>
+<e lm="Kenyon">          <i>Kenyon</i><par n="Peter__np"/></e>
+<e lm="Kevin">           <i>Kevin</i><par n="Peter__np"/></e>
+<e lm="Klaus">           <i>Klaus</i><par n="Peter__np"/></e>
+<e lm="Kumiko">          <i>Kumiko</i><par n="Peter__np"/></e>
+<e lm="Kurt">            <i>Kurt</i><par n="Peter__np"/></e>
+<e lm="Kyle">            <i>Kyle</i><par n="Peter__np"/></e>
+<e lm="Lanfranco">       <i>Lanfranco</i><par n="Peter__np"/></e>
+<e lm="Larry">           <i>Larry</i><par n="Peter__np"/></e>
+<e lm="Lars">            <i>Lars</i><par n="Peter__np"/></e>
+<e lm="Laurens">         <i>Laurens</i><par n="Peter__np"/></e>
+<e lm="Le Roi">          <i>Le<b/>Roi</i><par n="Peter__np"/></e>
+<e lm="Léandre">         <i>Léandre</i><par n="Peter__np"/></e>
+<e lm="Lee">             <i>Lee</i><par n="Peter__np"/></e>
+<e lm="Len">             <i>Len</i><par n="Peter__np"/></e>
+<e lm="Lenny">           <i>Lenny</i><par n="Peter__np"/></e>
+<e lm="Leo">             <i>Leo</i><par n="Peter__np"/></e>
+<e lm="Leonardo">        <i>Leonardo</i><par n="Peter__np"/></e>
+<e lm="Leroy">           <i>Leroy</i><par n="Peter__np"/></e>
+<e lm="Les">             <i>Les</i><par n="Peter__np"/></e>
+<e lm="Leslie">          <i>Leslie</i><par n="Peter__np"/></e>
+<e lm="Lewis">           <i>Lewis</i><par n="Peter__np"/></e>
+<e lm="Lexmark">         <i>Lexmark</i><par n="Peter__np"/></e>
+<e lm="Liam">            <i>Liam</i><par n="Peter__np"/></e>
+<e lm="Liebster">        <i>Liebster</i><par n="Peter__np"/></e>
+<e lm="Lilian">          <i>Lilian</i><par n="Peter__np"/></e>
+<e lm="Lionel">          <i>Lionel</i><par n="Peter__np"/></e>
+<e lm="Lodewijk">        <i>Lodewijk</i><par n="Peter__np"/></e>
+<e lm="Lothar">          <i>Lothar</i><par n="Peter__np"/></e>
+<e lm="Louis">           <i>Louis</i><par n="Peter__np"/></e>
+<e lm="Luc">             <i>Luc</i><par n="Peter__np"/></e>
+<e lm="Lucas">           <i>Lucas</i><par n="Peter__np"/></e>
+<e lm="Lucian">          <i>Lucian</i><par n="Peter__np"/></e>
+<e lm="Lucky">           <i>Lucky</i><par n="Peter__np"/></e>
+<e lm="Luigi">           <i>Luigi</i><par n="Peter__np"/></e>
+<e lm="Luis">            <i>Luis</i><par n="Peter__np"/></e>
+<e lm="Madelen">         <i>Madelen</i><par n="Peter__np"/></e>
+<e lm="Maeve">           <i>Maeve</i><par n="Peter__np"/></e>
+<e lm="Mainfred">        <i>Mainfred</i><par n="Peter__np"/></e>
+<e lm="Malcolm">         <i>Malcolm</i><par n="Peter__np"/></e>
+<e lm="Manfred">         <i>Manfred</i><par n="Peter__np"/></e>
+<e lm="Marc">            <i>Marc</i><par n="Peter__np"/></e>
+<e lm="Marcel">          <i>Marcel</i><par n="Peter__np"/></e>
+<e lm="Marco">           <i>Marco</i><par n="Peter__np"/></e>
+<e lm="Marcus">          <i>Marcus</i><par n="Peter__np"/></e>
+<e lm="Mario">           <i>Mario</i><par n="Peter__np"/></e>
+<e lm="Mark">            <i>Mark</i><par n="Peter__np"/></e>
+<e lm="Marlee">          <i>Marlee</i><par n="Peter__np"/></e>
+<e lm="Martin">          <i>Martin</i><par n="Peter__np"/></e>
+<e lm="Marvin">          <i>Marvin</i><par n="Peter__np"/></e>
+<e lm="Mason">           <i>Mason</i><par n="Peter__np"/></e>
+<e lm="Mathew">          <i>Mathew</i><par n="Peter__np"/></e>
+<e lm="Matthew">         <i>Matthew</i><par n="Peter__np"/></e>
+<e lm="Maurice">         <i>Maurice</i><par n="Peter__np"/></e>
+<e lm="Max">             <i>Max</i><par n="Peter__np"/></e>
+<e lm="Mel">             <i>Mel</i><par n="Peter__np"/></e>
+<e lm="Michael">         <i>Michael</i><par n="Peter__np"/></e>
+<e lm="Michelangelo">    <i>Michelangelo</i><par n="Peter__np"/></e>
+<e lm="Mick">            <i>Mick</i><par n="Peter__np"/></e>
+<e lm="Micky">           <i>Micky</i><par n="Peter__np"/></e>
+<e lm="Mike">            <i>Mike</i><par n="Peter__np"/></e>
+<e lm="Milo">            <i>Milo</i><par n="Peter__np"/></e>
+<e lm="Mirko">           <i>Mirko</i><par n="Peter__np"/></e>
+<e lm="Morgan">          <i>Morgan</i><par n="Peter__np"/></e>
+<e lm="Morris">          <i>Morris</i><par n="Peter__np"/></e>
+<e lm="Myles">           <i>Myles</i><par n="Peter__np"/></e>
+<e lm="Napoleon">        <i>Napoleon</i><par n="Peter__np"/></e>
+<e lm="Nathan">          <i>Nathan</i><par n="Peter__np"/></e>
+<e lm="Neil">            <i>Neil</i><par n="Peter__np"/></e>
+<e lm="Nesserin">        <i>Nesserin</i><par n="Peter__np"/></e>
+<e lm="Nicholas">        <i>Nicholas</i><par n="Peter__np"/></e>
+<e lm="Nick">            <i>Nick</i><par n="Peter__np"/></e>
+<e lm="Nigel">           <i>Nigel</i><par n="Peter__np"/></e>
+<e lm="Noel">            <i>Noel</i><par n="Peter__np"/></e>
+<e lm="Norman">          <i>Norman</i><par n="Peter__np"/></e>
+<e lm="Oliver">          <i>Oliver</i><par n="Peter__np"/></e>
+<e lm="Oscar">           <i>Oscar</i><par n="Peter__np"/></e>
+<e lm="Oskar">           <i>Oskar</i><par n="Peter__np"/></e>
+<e lm="Otto">            <i>Otto</i><par n="Peter__np"/></e>
+<e lm="Paddy">           <i>Paddy</i><par n="Peter__np"/></e>
+<e lm="Parson">          <i>Parson</i><par n="Peter__np"/></e>
+<e lm="Pat">             <i>Pat</i><par n="Peter__np"/></e>
+<e lm="Patricio">        <i>Patricio</i><par n="Peter__np"/></e>
+<e lm="Patrick">         <i>Patrick</i><par n="Peter__np"/></e>
+<e lm="Paul">            <i>Paul</i><par n="Peter__np"/></e>
+<e lm="Pedro">           <i>Pedro</i><par n="Peter__np"/></e>
+<e lm="Perry">           <i>Perry</i><par n="Peter__np"/></e>
+<e lm="Pete">            <i>Pete</i><par n="Peter__np"/></e>
+<e lm="Peter">           <i>Peter</i><par n="Peter__np"/></e>
+<e lm="Petey">           <i>Petey</i><par n="Peter__np"/></e>
+<e lm="Phil">            <i>Phil</i><par n="Peter__np"/></e>
+<e lm="Philbert">        <i>Philbert</i><par n="Peter__np"/></e>
+<e lm="Philibert">       <i>Philibert</i><par n="Peter__np"/></e>
+<e lm="Philip">          <i>Philip</i><par n="Peter__np"/></e>
+<e lm="Philipp">         <i>Philipp</i><par n="Peter__np"/></e>
+<e lm="Phillip">         <i>Phillip</i><par n="Peter__np"/></e>
+<e lm="Phoebe">          <i>Phoebe</i><par n="Peter__np"/></e>
+<e lm="Pi">              <i>Pi</i><par n="Peter__np"/></e>
+<e lm="Pierre">          <i>Pierre</i><par n="Peter__np"/></e>
+<e lm="Piet">            <i>Piet</i><par n="Peter__np"/></e>
+<e lm="Pieter">          <i>Pieter</i><par n="Peter__np"/></e>
+<e lm="Pips">            <i>Pips</i><par n="Peter__np"/></e>
+<e lm="Ralph">           <i>Ralph</i><par n="Peter__np"/></e>
+<e lm="Randall">         <i>Randall</i><par n="Peter__np"/></e>
+<e lm="Randy">           <i>Randy</i><par n="Peter__np"/></e>
+<e lm="Ray">             <i>Ray</i><par n="Peter__np"/></e>
+<e lm="Raymond">         <i>Raymond</i><par n="Peter__np"/></e>
+<e lm="Reese">           <i>Reese</i><par n="Peter__np"/></e>
+<e lm="Rene">            <i>Rene</i><par n="Peter__np"/></e>
+<e lm="Richard">         <i>Richard</i><par n="Peter__np"/></e>
+<e lm="Ricky">           <i>Ricky</i><par n="Peter__np"/></e>
+<e lm="Robert">          <i>Robert</i><par n="Peter__np"/></e>
+<e lm="Roberto">         <i>Roberto</i><par n="Peter__np"/></e>
+<e lm="Robin">           <i>Robin</i><par n="Peter__np"/></e>
+<e lm="Robyn">           <i>Robyn</i><par n="Peter__np"/></e>
+<e lm="Rocky">           <i>Rocky</i><par n="Peter__np"/></e>
+<e lm="Roderick">        <i>Roderick</i><par n="Peter__np"/></e>
+<e lm="Roger">           <i>Roger</i><par n="Peter__np"/></e>
+<e lm="Roland">          <i>Roland</i><par n="Peter__np"/></e>
+<e lm="Rolf">            <i>Rolf</i><par n="Peter__np"/></e>
+<e lm="Ron">             <i>Ron</i><par n="Peter__np"/></e>
+<e lm="Ronald">          <i>Ronald</i><par n="Peter__np"/></e>
+<e lm="Ronnie">          <i>Ronnie</i><par n="Peter__np"/></e>
+<e lm="Rory">            <i>Rory</i><par n="Peter__np"/></e>
+<e lm="Ross">            <i>Ross</i><par n="Peter__np"/></e>
+<e lm="Roy">             <i>Roy</i><par n="Peter__np"/></e>
+<e lm="Rupert">          <i>Rupert</i><par n="Peter__np"/></e>
+<e lm="Russell">         <i>Russell</i><par n="Peter__np"/></e>
+<e lm="Ryan">            <i>Ryan</i><par n="Peter__np"/></e>
+<e lm="Sabastian">       <i>Sabastian</i><par n="Peter__np"/></e>
+<e lm="Salma">           <i>Salma</i><par n="Peter__np"/></e>
+<e lm="Salvador">        <i>Salvador</i><par n="Peter__np"/></e>
+<e lm="Sam">             <i>Sam</i><par n="Peter__np"/></e>
+<e lm="Sammy">           <i>Sammy</i><par n="Peter__np"/></e>
+<e lm="Samuel">          <i>Samuel</i><par n="Peter__np"/></e>
+<e lm="Satish">          <i>Satish</i><par n="Peter__np"/></e>
+<e lm="Scott">           <i>Scott</i><par n="Peter__np"/></e>
+<e lm="Scotty">          <i>Scotty</i><par n="Peter__np"/></e>
+<e lm="Seamus">          <i>Seamus</i><par n="Peter__np"/></e>
+<e lm="Sean">            <i>Sean</i><par n="Peter__np"/></e>
+<e lm="Sebastian">       <i>Sebastian</i><par n="Peter__np"/></e>
+<e lm="Seth">            <i>Seth</i><par n="Peter__np"/></e>
+<e lm="Shane">           <i>Shane</i><par n="Peter__np"/></e>
+<e lm="Shannon">         <i>Shannon</i><par n="Peter__np"/></e>
+<e lm="Shelagh">         <i>Shelagh</i><par n="Peter__np"/></e>
+<e lm="Shymkent">        <i>Shymkent</i><par n="Peter__np"/></e>
+<e lm="Simon">           <i>Simon</i><par n="Peter__np"/></e>
+<e lm="Sonny">           <i>Sonny</i><par n="Peter__np"/></e>
+<e lm="Spencer">         <i>Spencer</i><par n="Peter__np"/></e>
+<e lm="Stan">            <i>Stan</i><par n="Peter__np"/></e>
+<e lm="Stanley">         <i>Stanley</i><par n="Peter__np"/></e>
+<e lm="Stefan">          <i>Stefan</i><par n="Peter__np"/></e>
+<e lm="Stephan">         <i>Stephan</i><par n="Peter__np"/></e>
+<e lm="Stephen">         <i>Stephen</i><par n="Peter__np"/></e>
+<e lm="Steve">           <i>Steve</i><par n="Peter__np"/></e>
+<e lm="Steven">          <i>Steven</i><par n="Peter__np"/></e>
+<e lm="Steward">         <i>Steward</i><par n="Peter__np"/></e>
+<e lm="Stewart">         <i>Stewart</i><par n="Peter__np"/></e>
+<e lm="Stuart">          <i>Stuart</i><par n="Peter__np"/></e>
+<e lm="Syed">            <i>Syed</i><par n="Peter__np"/></e>
+<e lm="Taylor">          <i>Taylor</i><par n="Peter__np"/></e>
+<e lm="Ted">             <i>Ted</i><par n="Peter__np"/></e>
+<e lm="Teddy">           <i>Teddy</i><par n="Peter__np"/></e>
+<e lm="Terry">           <i>Terry</i><par n="Peter__np"/></e>
+<e lm="Theodore">        <i>Theodore</i><par n="Peter__np"/></e>
+<e lm="Thomas">          <i>Thomas</i><par n="Peter__np"/></e>
+<e lm="Tim">             <i>Tim</i><par n="Peter__np"/></e>
+<e lm="Timothy">         <i>Timothy</i><par n="Peter__np"/></e>
+<e lm="Titus">           <i>Titus</i><par n="Peter__np"/></e>
+<e lm="Toby">            <i>Toby</i><par n="Peter__np"/></e>
+<e lm="Tom">             <i>Tom</i><par n="Peter__np"/></e>
+<e lm="Tommy">           <i>Tommy</i><par n="Peter__np"/></e>
+<e lm="Toni">            <i>Toni</i><par n="Peter__np"/></e>
+<e lm="Tony">            <i>Tony</i><par n="Peter__np"/></e>
+<e lm="Trevor">          <i>Trevor</i><par n="Peter__np"/></e>
+<e lm="Tristan">         <i>Tristan</i><par n="Peter__np"/></e>
+<e lm="Tristian">        <i>Tristian</i><par n="Peter__np"/></e>
+<e lm="Trystan">         <i>Trystan</i><par n="Peter__np"/></e>
+<e lm="Turkistan">       <i>Turkistan</i><par n="Peter__np"/></e>
+<e lm="Tyler">           <i>Tyler</i><par n="Peter__np"/></e>
+<e lm="Uli">             <i>Uli</i><par n="Peter__np"/></e>
+<e lm="Vernon">          <i>Vernon</i><par n="Peter__np"/></e>
+<e lm="Vicenzo">         <i>Vicenzo</i><par n="Peter__np"/></e>
+<e lm="Viktor">          <i>Viktor</i><par n="Peter__np"/></e>
+<e lm="Vincent">         <i>Vincent</i><par n="Peter__np"/></e>
+<e lm="Vincenzo">        <i>Vincenzo</i><par n="Peter__np"/></e>
+<e lm="Vladimir">        <i>Vladimir</i><par n="Peter__np"/></e>
+<e lm="Walker">          <i>Walker</i><par n="Peter__np"/></e>
+<e lm="Walter">          <i>Walter</i><par n="Peter__np"/></e>
+<e lm="Werner">          <i>Werner</i><par n="Peter__np"/></e>
+<e lm="Wilbur">          <i>Wilbur</i><par n="Peter__np"/></e>
+<e lm="Wilhelm">         <i>Wilhelm</i><par n="Peter__np"/></e>
+<e lm="Willem">          <i>Willem</i><par n="Peter__np"/></e>
+<e lm="William">         <i>William</i><par n="Peter__np"/></e>
+<e lm="Willy">           <i>Willy</i><par n="Peter__np"/></e>
+<e lm="Winifred">        <i>Winifred</i><par n="Peter__np"/></e>
+<e lm="Winston">         <i>Winston</i><par n="Peter__np"/></e>
+<e lm="Wladimir">        <i>Wladimir</i><par n="Peter__np"/></e>
+<e lm="Wolfgang">        <i>Wolfgang</i><par n="Peter__np"/></e>
+<e lm="Wynand">          <i>Wynand</i><par n="Peter__np"/></e>
+<e lm="Yon">             <i>Yon</i><par n="Peter__np"/></e>
+<e lm="Yousef">          <i>Yousef</i><par n="Peter__np"/></e>
+
+
+<!-- first names feminine -->
+
+<e lm="Abella">          <i>Abella</i><par n="Maria__np"/></e>
+<e lm="Abigail">         <i>Abigail</i><par n="Maria__np"/></e>
+<e lm="Adelaida">        <i>Adelaida</i><par n="Maria__np"/></e>
+<e lm="Adelmira">        <i>Adelmira</i><par n="Maria__np"/></e>
+<e lm="Adrianna">        <i>Adrianna</i><par n="Maria__np"/></e>
+<e lm="Agnes">           <i>Agnes</i><par n="Maria__np"/></e>
+<e lm="Agostina">        <i>Agostina</i><par n="Maria__np"/></e>
+<e lm="Agustina">        <i>Agustina</i><par n="Maria__np"/></e>
+<e lm="Aimee">           <i>Aimee</i><par n="Maria__np"/></e>
+<e lm="Alberta">         <i>Alberta</i><par n="Maria__np"/></e>
+<e lm="Albertina">       <i>Albertina</i><par n="Maria__np"/></e>
+<e lm="Albida">          <i>Albida</i><par n="Maria__np"/></e>
+<e lm="Alcántara">       <i>Alcántara</i><par n="Maria__np"/></e>
+<e lm="Alesandra">       <i>Alesandra</i><par n="Maria__np"/></e>
+<e lm="Alessandra">      <i>Alessandra</i><par n="Maria__np"/></e>
+<e lm="Alexandra">       <i>Alexandra</i><par n="Maria__np"/></e>
+<e lm="Alexandrea">      <i>Alexandrea</i><par n="Maria__np"/></e>
+<e lm="Alexsandra">      <i>Alexsandra</i><par n="Maria__np"/></e>
+<e lm="Alfie">           <i>Alfie</i><par n="Maria__np"/></e>
+<e lm="Alice">           <i>Alice</i><par n="Maria__np"/></e>
+<e lm="Alisa">           <i>Alisa</i><par n="Maria__np"/></e>
+<e lm="Alison">          <i>Alison</i><par n="Maria__np"/></e>
+<e lm="Allison">         <i>Allison</i><par n="Maria__np"/></e>
+<e lm="Alma">            <i>Alma</i><par n="Maria__np"/></e>
+<e lm="Almira">          <i>Almira</i><par n="Maria__np"/></e>
+<e lm="Altaira">         <i>Altaira</i><par n="Maria__np"/></e>
+<e lm="Amanda">          <i>Amanda</i><par n="Maria__np"/></e>
+<e lm="Amelia">          <i>Amelia</i><par n="Maria__np"/></e>
+<e lm="Amy">             <i>Amy</i><par n="Maria__np"/></e>
+<e lm="Andalucia">       <i>Andalucia</i><par n="Maria__np"/></e>
+<e lm="Andrea">          <i>Andrea</i><par n="Maria__np"/></e>
+<e lm="Angela">          <i>Angela</i><par n="Maria__np"/></e>
+<e lm="Angelika">        <i>Angelika</i><par n="Maria__np"/></e>
+<e lm="Angelina">        <i>Angelina</i><par n="Maria__np"/></e>
+<e lm="Angie">           <i>Angie</i><par n="Maria__np"/></e>
+<e lm="Anita">           <i>Anita</i><par n="Maria__np"/></e>
+<e lm="Anja">            <i>Anja</i><par n="Maria__np"/></e>
+<e lm="Ann">             <i>Ann</i><par n="Maria__np"/></e>
+<e lm="Anna">            <i>Anna</i><par n="Maria__np"/></e>
+<e lm="Annabel">         <i>Annabel</i><par n="Maria__np"/></e>
+<e lm="Annabella">       <i>Annabella</i><par n="Maria__np"/></e>
+<e lm="Annabelle">       <i>Annabelle</i><par n="Maria__np"/></e>
+<e lm="Annalisa">        <i>Annalisa</i><par n="Maria__np"/></e>
+<e lm="Anne">            <i>Anne</i><par n="Maria__np"/></e>
+<e lm="Anne-Marie">      <i>Anne-Marie</i><par n="Maria__np"/></e>
+<e lm="Annette">         <i>Annette</i><par n="Maria__np"/></e>
+<e lm="Annie">           <i>Annie</i><par n="Maria__np"/></e>
+<e lm="Anny">            <i>Anny</i><par n="Maria__np"/></e>
+<e lm="Anrie">           <i>Anrie</i><par n="Maria__np"/></e>
+<e lm="Anthea">          <i>Anthea</i><par n="Maria__np"/></e>
+<e lm="April">           <i>April</i><par n="Maria__np"/></e>
+<e lm="Arabella">        <i>Arabella</i><par n="Maria__np"/></e>
+<e lm="Arabelle">        <i>Arabelle</i><par n="Maria__np"/></e>
+<e lm="Arcelia">         <i>Arcelia</i><par n="Maria__np"/></e>
+<e lm="Arianna">         <i>Arianna</i><par n="Maria__np"/></e>
+<e lm="Arianne">         <i>Arianne</i><par n="Maria__np"/></e>
+<e lm="Arlene">          <i>Arlene</i><par n="Maria__np"/></e>
+<e lm="Aryanna">         <i>Aryanna</i><par n="Maria__np"/></e>
+<e lm="Ashley">          <i>Ashley</i><par n="Maria__np"/></e>
+<e lm="Astelena">        <i>Astelena</i><par n="Maria__np"/></e>
+<e lm="Astrid">          <i>Astrid</i><par n="Maria__np"/></e>
+<e lm="Atahualpa">       <i>Atahualpa</i><par n="Maria__np"/></e>
+<e lm="Audrey">          <i>Audrey</i><par n="Maria__np"/></e>
+<e lm="Barbara">         <i>Barbara</i><par n="Maria__np"/></e>
+<e lm="Basilisa">        <i>Basilisa</i><par n="Maria__np"/></e>
+<e lm="Beatrice">        <i>Beatrice</i><par n="Maria__np"/></e>
+<e lm="Beatrix">         <i>Beatrix</i><par n="Maria__np"/></e>
+<e lm="Becky">           <i>Becky</i><par n="Maria__np"/></e>
+<e lm="Belinda">         <i>Belinda</i><par n="Maria__np"/></e>
+<e lm="Bella">           <i>Bella</i><par n="Maria__np"/></e>
+<e lm="Bernabella">      <i>Bernabella</i><par n="Maria__np"/></e>
+<e lm="Betsabeth">       <i>Betsabeth</i><par n="Maria__np"/></e>
+<e lm="Betsy">           <i>Betsy</i><par n="Maria__np"/></e>
+<e lm="Bettina">         <i>Bettina</i><par n="Maria__np"/></e>
+<e lm="Betty">           <i>Betty</i><par n="Maria__np"/></e>
+<e lm="Birgit">          <i>Birgit</i><par n="Maria__np"/></e>
+<e lm="Biridiana">       <i>Biridiana</i><par n="Maria__np"/></e>
+<e lm="Bonina">          <i>Bonina</i><par n="Maria__np"/></e>
+<e lm="Brenda">          <i>Brenda</i><par n="Maria__np"/></e>
+<e lm="Bridget">         <i>Bridget</i><par n="Maria__np"/></e>
+<e lm="Brigitte">        <i>Brigitte</i><par n="Maria__np"/></e>
+<e lm="Brindadiana">     <i>Brindadiana</i><par n="Maria__np"/></e>
+<e lm="Britney">         <i>Britney</i><par n="Maria__np"/></e>
+<e lm="Brooklynn">       <i>Brooklynn</i><par n="Maria__np"/></e>
+<e lm="Brunella">        <i>Brunella</i><par n="Maria__np"/></e>
+<e lm="Caitlin">         <i>Caitlin</i><par n="Maria__np"/></e>
+<e lm="Camilla">         <i>Camilla</i><par n="Maria__np"/></e>
+<e lm="Candice">         <i>Candice</i><par n="Maria__np"/></e>
+<e lm="Cara">            <i>Cara</i><par n="Maria__np"/></e>
+<e lm="Carina">          <i>Carina</i><par n="Maria__np"/></e>
+<e lm="Carla">           <i>Carla</i><par n="Maria__np"/></e>
+<e lm="Carmen">          <i>Carmen</i><par n="Maria__np"/></e>
+<e lm="Carol">           <i>Carol</i><par n="Maria__np"/></e>
+<e lm="Carola">          <i>Carola</i><par n="Maria__np"/></e>
+<e lm="Caroline">        <i>Caroline</i><par n="Maria__np"/></e>
+<e lm="Carolyn">         <i>Carolyn</i><par n="Maria__np"/></e>
+<e lm="Carrie">          <i>Carrie</i><par n="Maria__np"/></e>
+<e lm="Casandra">        <i>Casandra</i><par n="Maria__np"/></e>
+<e lm="Casey">           <i>Casey</i><par n="Maria__np"/></e>
+<e lm="Casimira">        <i>Casimira</i><par n="Maria__np"/></e>
+<e lm="Cassandra">       <i>Cassandra</i><par n="Maria__np"/></e>
+<e lm="Cassie">          <i>Cassie</i><par n="Maria__np"/></e>
+<e lm="Cassy">           <i>Cassy</i><par n="Maria__np"/></e>
+<e lm="Catherine">       <i>Catherine</i><par n="Maria__np"/></e>
+<e lm="Cathy">           <i>Cathy</i><par n="Maria__np"/></e>
+<e lm="Cecelia">         <i>Cecelia</i><par n="Maria__np"/></e>
+<e lm="Celestina">       <i>Celestina</i><par n="Maria__np"/></e>
+<e lm="Celia">           <i>Celia</i><par n="Maria__np"/></e>
+<e lm="Celinda">         <i>Celinda</i><par n="Maria__np"/></e>
+<e lm="Charlotte">       <i>Charlotte</i><par n="Maria__np"/></e>
+<e lm="Chelsea">         <i>Chelsea</i><par n="Maria__np"/></e>
+<e lm="Cherie">          <i>Cherie</i><par n="Maria__np"/></e>
+<e lm="Chiara">          <i>Chiara</i><par n="Maria__np"/></e>
+<e lm="Chloe">           <i>Chloe</i><par n="Maria__np"/></e>
+<e lm="Chrissy">         <i>Chrissy</i><par n="Maria__np"/></e>
+<e lm="Christa">         <i>Christa</i><par n="Maria__np"/></e>
+<e lm="Christel">        <i>Christel</i><par n="Maria__np"/></e>
+<e lm="Christiane">      <i>Christiane</i><par n="Maria__np"/></e>
+<e lm="Christina">       <i>Christina</i><par n="Maria__np"/></e>
+<e lm="Christine">       <i>Christine</i><par n="Maria__np"/></e>
+<e lm="Christy">         <i>Christy</i><par n="Maria__np"/></e>
+<e lm="Cindy">           <i>Cindy</i><par n="Maria__np"/></e>
+<e lm="Claire">          <i>Claire</i><par n="Maria__np"/></e>
+<e lm="Clara">           <i>Clara</i><par n="Maria__np"/></e>
+<e lm="Clare">           <i>Clare</i><par n="Maria__np"/></e>
+<e lm="Claudia">         <i>Claudia</i><par n="Maria__np"/></e>
+<e lm="Claudine">        <i>Claudine</i><par n="Maria__np"/></e>
+<e lm="Clementine">      <i>Clementine</i><par n="Maria__np"/></e>
+<e lm="Colleen">         <i>Colleen</i><par n="Maria__np"/></e>
+<e lm="Concettina">      <i>Concettina</i><par n="Maria__np"/></e>
+<e lm="Connie">          <i>Connie</i><par n="Maria__np"/></e>
+<e lm="Conny">           <i>Conny</i><par n="Maria__np"/></e>
+<e lm="Cora">            <i>Cora</i><par n="Maria__np"/></e>
+<e lm="Corrie">          <i>Corrie</i><par n="Maria__np"/></e>
+<e lm="Cresley">         <i>Cresley</i><par n="Maria__np"/></e>
+<e lm="Cristina">        <i>Cristina</i><par n="Maria__np"/></e>
+<e lm="Cynthia">         <i>Cynthia</i><par n="Maria__np"/></e>
+<e lm="Daisy">           <i>Daisy</i><par n="Maria__np"/></e>
+<e lm="Dalinda">         <i>Dalinda</i><par n="Maria__np"/></e>
+<e lm="Dana">            <i>Dana</i><par n="Maria__np"/></e>
+<e lm="Daniela">         <i>Daniela</i><par n="Maria__np"/></e>
+<e lm="Daniella">        <i>Daniella</i><par n="Maria__np"/></e>
+<e lm="Danina">          <i>Danina</i><par n="Maria__np"/></e>
+<e lm="Daphne">          <i>Daphne</i><par n="Maria__np"/></e>
+<e lm="Dawn">            <i>Dawn</i><par n="Maria__np"/></e>
+<e lm="Deanna">          <i>Deanna</i><par n="Maria__np"/></e>
+<e lm="Debbie">          <i>Debbie</i><par n="Maria__np"/></e>
+<e lm="Debby">           <i>Debby</i><par n="Maria__np"/></e>
+<e lm="Deborah">         <i>Deborah</i><par n="Maria__np"/></e>
+<e lm="Debra">           <i>Debra</i><par n="Maria__np"/></e>
+<e lm="Dederika">        <i>Dederika</i><par n="Maria__np"/></e>
+<e lm="Delia">           <i>Delia</i><par n="Maria__np"/></e>
+<e lm="Delicia">         <i>Delicia</i><par n="Maria__np"/></e>
+<e lm="Delinda">         <i>Delinda</i><par n="Maria__np"/></e>
+<e lm="Demeter">         <i>Demeter</i><par n="Maria__np"/></e>
+<e lm="Denise">          <i>Denise</i><par n="Maria__np"/></e>
+<e lm="Deolinda">        <i>Deolinda</i><par n="Maria__np"/></e>
+<e lm="Diana">           <i>Diana</i><par n="Maria__np"/></e>
+<e lm="Diane">           <i>Diane</i><par n="Maria__np"/></e>
+<e lm="Didiane">         <i>Didiane</i><par n="Maria__np"/></e>
+<e lm="Dolly">           <i>Dolly</i><par n="Maria__np"/></e>
+<e lm="Dominga">         <i>Dominga</i><par n="Maria__np"/></e>
+<e lm="Donatella">       <i>Donatella</i><par n="Maria__np"/></e>
+<e lm="Donnelly">        <i>Donnelly</i><par n="Maria__np"/></e>
+<e lm="Doreen">          <i>Doreen</i><par n="Maria__np"/></e>
+<e lm="Dorothy">         <i>Dorothy</i><par n="Maria__np"/></e>
+<e lm="Edelira">         <i>Edelira</i><par n="Maria__np"/></e>
+<e lm="Edelmira">        <i>Edelmira</i><par n="Maria__np"/></e>
+<e lm="Eden">            <i>Eden</i><par n="Maria__np"/></e>
+<e lm="Edith">           <i>Edith</i><par n="Maria__np"/></e>
+<e lm="Eileen">          <i>Eileen</i><par n="Maria__np"/></e>
+<e lm="Elaine">          <i>Elaine</i><par n="Maria__np"/></e>
+<e lm="Eleanor">         <i>Eleanor</i><par n="Maria__np"/></e>
+<e lm="Eleonora">        <i>Eleonora</i><par n="Maria__np"/></e>
+<e lm="Elisabeth">       <i>Elisabeth</i><par n="Maria__np"/></e>
+<e lm="Elizabeth">       <i>Elizabeth</i><par n="Maria__np"/></e>
+<e lm="Ella">            <i>Ella</i><par n="Maria__np"/></e>
+<e lm="Ellen">           <i>Ellen</i><par n="Maria__np"/></e>
+<e lm="Ellie">           <i>Ellie</i><par n="Maria__np"/></e>
+<e lm="Els">             <i>Els</i><par n="Maria__np"/></e>
+<e lm="Elsa">            <i>Elsa</i><par n="Maria__np"/></e>
+<e lm="Else">            <i>Else</i><par n="Maria__np"/></e>
+<e lm="Emily">           <i>Emily</i><par n="Maria__np"/></e>
+<e lm="Emma">            <i>Emma</i><par n="Maria__np"/></e>
+<e lm="Erika">           <i>Erika</i><par n="Maria__np"/></e>
+<e lm="Escamilla">       <i>Escamilla</i><par n="Maria__np"/></e>
+<e lm="Esther">          <i>Esther</i><par n="Maria__np"/></e>
+<e lm="Estrella">        <i>Estrella</i><par n="Maria__np"/></e>
+<e lm="Ethel">           <i>Ethel</i><par n="Maria__np"/></e>
+<e lm="Eva">             <i>Eva</i><par n="Maria__np"/></e>
+<e lm="Eva-Britt">       <i>Eva-Britt</i><par n="Maria__np"/></e>
+<e lm="Eve">             <i>Eve</i><par n="Maria__np"/></e>
+<e lm="Evelyn">          <i>Evelyn</i><par n="Maria__np"/></e>
+<e lm="Fanny">           <i>Fanny</i><par n="Maria__np"/></e>
+<e lm="Faustina">        <i>Faustina</i><par n="Maria__np"/></e>
+<e lm="Fedelia">         <i>Fedelia</i><par n="Maria__np"/></e>
+<e lm="Federika">        <i>Federika</i><par n="Maria__np"/></e>
+<e lm="Felicia">         <i>Felicia</i><par n="Maria__np"/></e>
+<e lm="Felicity">        <i>Felicity</i><par n="Maria__np"/></e>
+<e lm="Fidelia">         <i>Fidelia</i><par n="Maria__np"/></e>
+<e lm="Fiona">           <i>Fiona</i><par n="Maria__np"/></e>
+<e lm="Fiorella">        <i>Fiorella</i><par n="Maria__np"/></e>
+<e lm="Flavia">          <i>Flavia</i><par n="Maria__np"/></e>
+<e lm="Florence">        <i>Florence</i><par n="Maria__np"/></e>
+<e lm="Florentina">      <i>Florentina</i><par n="Maria__np"/></e>
+<e lm="Francis">         <i>Francis</i><par n="Maria__np"/></e>
+<e lm="Frieda">          <i>Frieda</i><par n="Maria__np"/></e>
+<e lm="Gabi">            <i>Gabi</i><par n="Maria__np"/></e>
+<e lm="Gabriella">       <i>Gabriella</i><par n="Maria__np"/></e>
+<e lm="Gaby">            <i>Gaby</i><par n="Maria__np"/></e>
+<e lm="Galicia">         <i>Galicia</i><par n="Maria__np"/></e>
+<e lm="Gemma">           <i>Gemma</i><par n="Maria__np"/></e>
+<e lm="Georgina">        <i>Georgina</i><par n="Maria__np"/></e>
+<e lm="Gertrud">         <i>Gertrud</i><par n="Maria__np"/></e>
+<e lm="Gertruida">       <i>Gertruida</i><par n="Maria__np"/></e>
+<e lm="Gianella">        <i>Gianella</i><par n="Maria__np"/></e>
+<e lm="Gianina">         <i>Gianina</i><par n="Maria__np"/></e>
+<e lm="Gianmaria">       <i>Gianmaria</i><par n="Maria__np"/></e>
+<e lm="Gianna">          <i>Gianna</i><par n="Maria__np"/></e>
+<e lm="Giannina">        <i>Giannina</i><par n="Maria__np"/></e>
+<e lm="Gigi">            <i>Gigi</i><par n="Maria__np"/></e>
+<e lm="Gina">            <i>Gina</i><par n="Maria__np"/></e>
+<e lm="Ginger">          <i>Ginger</i><par n="Maria__np"/></e>
+<e lm="Ginny">           <i>Ginny</i><par n="Maria__np"/></e>
+<e lm="Gioffreda">       <i>Gioffreda</i><par n="Maria__np"/></e>
+<e lm="Giorgina">        <i>Giorgina</i><par n="Maria__np"/></e>
+<e lm="Giovanna">        <i>Giovanna</i><par n="Maria__np"/></e>
+<e lm="Giovannina">      <i>Giovannina</i><par n="Maria__np"/></e>
+<e lm="Giovanny">        <i>Giovanny</i><par n="Maria__np"/></e>
+<e lm="Gisela">          <i>Gisela</i><par n="Maria__np"/></e>
+<e lm="Gisella">         <i>Gisella</i><par n="Maria__np"/></e>
+<e lm="Giustina">        <i>Giustina</i><par n="Maria__np"/></e>
+<e lm="Gladys">          <i>Gladys</i><par n="Maria__np"/></e>
+<e lm="Gloria">          <i>Gloria</i><par n="Maria__np"/></e>
+<e lm="Grace">           <i>Grace</i><par n="Maria__np"/></e>
+<e lm="Graziella">       <i>Graziella</i><par n="Maria__np"/></e>
+<e lm="Greta">           <i>Greta</i><par n="Maria__np"/></e>
+<e lm="Guinjoan">        <i>Guinjoan</i><par n="Maria__np"/></e>
+<e lm="Gwen">            <i>Gwen</i><par n="Maria__np"/></e>
+<e lm="Hanna">           <i>Hanna</i><par n="Maria__np"/></e>
+<e lm="Hannah">          <i>Hannah</i><par n="Maria__np"/></e>
+<e lm="Harriet">         <i>Harriet</i><par n="Maria__np"/></e>
+<e lm="Hazel">           <i>Hazel</i><par n="Maria__np"/></e>
+<e lm="Heather">         <i>Heather</i><par n="Maria__np"/></e>
+<e lm="Heidi">           <i>Heidi</i><par n="Maria__np"/></e>
+<e lm="Helen">           <i>Helen</i><par n="Maria__np"/></e>
+<e lm="Helena">          <i>Helena</i><par n="Maria__np"/></e>
+<e lm="Helene">          <i>Helene</i><par n="Maria__np"/></e>
+<e lm="Helga">           <i>Helga</i><par n="Maria__np"/></e>
+<e lm="Henriette">       <i>Henriette</i><par n="Maria__np"/></e>
+<e lm="Hermelinda">      <i>Hermelinda</i><par n="Maria__np"/></e>
+<e lm="Hermia">          <i>Hermia</i><par n="Maria__np"/></e>
+<e lm="Hillary">         <i>Hillary</i><par n="Maria__np"/></e>
+<e lm="Holly">           <i>Holly</i><par n="Maria__np"/></e>
+<e lm="Ianella">         <i>Ianella</i><par n="Maria__np"/></e>
+<e lm="Ida">             <i>Ida</i><par n="Maria__np"/></e>
+<e lm="Ignolinda">       <i>Ignolinda</i><par n="Maria__np"/></e>
+<e lm="Indamira">        <i>Indamira</i><par n="Maria__np"/></e>
+<e lm="Indemira">        <i>Indemira</i><par n="Maria__np"/></e>
+<e lm="Indira">          <i>Indira</i><par n="Maria__np"/></e>
+<e lm="Inge">            <i>Inge</i><par n="Maria__np"/></e>
+<e lm="Ingrid">          <i>Ingrid</i><par n="Maria__np"/></e>
+<e lm="Ingwer">          <i>Ingwer</i><par n="Maria__np"/></e>
+<e lm="Isabel">          <i>Isabel</i><par n="Maria__np"/></e>
+<e lm="Isabella">        <i>Isabella</i><par n="Maria__np"/></e>
+<e lm="Isabelle">        <i>Isabelle</i><par n="Maria__np"/></e>
+<e lm="Isobel">          <i>Isobel</i><par n="Maria__np"/></e>
+<e lm="Ivanna">          <i>Ivanna</i><par n="Maria__np"/></e>
+<e lm="Izabella">        <i>Izabella</i><par n="Maria__np"/></e>
+<e lm="Izabelle">        <i>Izabelle</i><par n="Maria__np"/></e>
+<e lm="Jackie">          <i>Jackie</i><par n="Maria__np"/></e>
+<e lm="Jacky">           <i>Jacky</i><par n="Maria__np"/></e>
+<e lm="Jacqueline">      <i>Jacqueline</i><par n="Maria__np"/></e>
+<e lm="Jaeden">          <i>Jaeden</i><par n="Maria__np"/></e>
+<e lm="Jalynn">          <i>Jalynn</i><par n="Maria__np"/></e>
+<e lm="Jane">            <i>Jane</i><par n="Maria__np"/></e>
+<e lm="Janet">           <i>Janet</i><par n="Maria__np"/></e>
+<e lm="Janina">          <i>Janina</i><par n="Maria__np"/></e>
+<e lm="Jasmin">          <i>Jasmin</i><par n="Maria__np"/></e>
+<e lm="Jasmine">         <i>Jasmine</i><par n="Maria__np"/></e>
+<e lm="Jaylynn">         <i>Jaylynn</i><par n="Maria__np"/></e>
+<e lm="Jean-Marie">      <i>Jean-Marie</i><par n="Maria__np"/></e>
+<e lm="Jeannette">       <i>Jeannette</i><par n="Maria__np"/></e>
+<e lm="Jenna">           <i>Jenna</i><par n="Maria__np"/></e>
+<e lm="Jennifer">        <i>Jennifer</i><par n="Maria__np"/></e>
+<e lm="Jenny">           <i>Jenny</i><par n="Maria__np"/></e>
+<e lm="Jess">            <i>Jess</i><par n="Maria__np"/></e>
+<e lm="Jessica">         <i>Jessica</i><par n="Maria__np"/></e>
+<e lm="Jill">            <i>Jill</i><par n="Maria__np"/></e>
+<e lm="Joan">            <i>Joan</i><par n="Maria__np"/></e>
+<e lm="Joanna">          <i>Joanna</i><par n="Maria__np"/></e>
+<e lm="Johanna">         <i>Johanna</i><par n="Maria__np"/></e>
+<e lm="Josephine">       <i>Josephine</i><par n="Maria__np"/></e>
+<e lm="Josie">           <i>Josie</i><par n="Maria__np"/></e>
+<e lm="Joy">             <i>Joy</i><par n="Maria__np"/></e>
+<e lm="Joyce">           <i>Joyce</i><par n="Maria__np"/></e>
+<e lm="Juanita">         <i>Juanita</i><par n="Maria__np"/></e>
+<e lm="Judith">          <i>Judith</i><par n="Maria__np"/></e>
+<e lm="Judy">            <i>Judy</i><par n="Maria__np"/></e>
+<e lm="Julia">           <i>Julia</i><par n="Maria__np"/></e>
+<e lm="Julianna">        <i>Julianna</i><par n="Maria__np"/></e>
+<e lm="Julie">           <i>Julie</i><par n="Maria__np"/></e>
+<e lm="Juliette">        <i>Juliette</i><par n="Maria__np"/></e>
+<e lm="Justina">         <i>Justina</i><par n="Maria__np"/></e>
+<e lm="Kaitlynn">        <i>Kaitlynn</i><par n="Maria__np"/></e>
+<e lm="Karen">           <i>Karen</i><par n="Maria__np"/></e>
+<e lm="Karenina">        <i>Karenina</i><par n="Maria__np"/></e>
+<e lm="Karin">           <i>Karin</i><par n="Maria__np"/></e>
+<e lm="Karla">           <i>Karla</i><par n="Maria__np"/></e>
+<e lm="Kasandra">        <i>Kasandra</i><par n="Maria__np"/></e>
+<e lm="Katelynn">        <i>Katelynn</i><par n="Maria__np"/></e>
+<e lm="Katharina">       <i>Katharina</i><par n="Maria__np"/></e>
+<e lm="Katherine">       <i>Katherine</i><par n="Maria__np"/></e>
+<e lm="Kathleen">        <i>Kathleen</i><par n="Maria__np"/></e>
+<e lm="Kathy">           <i>Kathy</i><par n="Maria__np"/></e>
+<e lm="Katie">           <i>Katie</i><par n="Maria__np"/></e>
+<e lm="Katrina">         <i>Katrina</i><par n="Maria__np"/></e>
+<e lm="Keira">           <i>Keira</i><par n="Maria__np"/></e>
+<e lm="Kianna">          <i>Kianna</i><par n="Maria__np"/></e>
+<e lm="Kim">             <i>Kim</i><par n="Maria__np"/></e>
+<e lm="Kimberly">        <i>Kimberly</i><par n="Maria__np"/></e>
+<e lm="Kirsten">         <i>Kirsten</i><par n="Maria__np"/></e>
+<e lm="Kitty">           <i>Kitty</i><par n="Maria__np"/></e>
+<e lm="Kristen">         <i>Kristen</i><par n="Maria__np"/></e>
+<e lm="Kristina">        <i>Kristina</i><par n="Maria__np"/></e>
+<e lm="Kylie">           <i>Kylie</i><par n="Maria__np"/></e>
+<e lm="Lara">            <i>Lara</i><par n="Maria__np"/></e>
+<e lm="Laura">           <i>Laura</i><par n="Maria__np"/></e>
+<e lm="Lauren">          <i>Lauren</i><par n="Maria__np"/></e>
+<e lm="Laurentina">      <i>Laurentina</i><par n="Maria__np"/></e>
+<e lm="Leah">            <i>Leah</i><par n="Maria__np"/></e>
+<e lm="Lelawala">        <i>Lelawala</i><par n="Maria__np"/></e>
+<e lm="Lena">            <i>Lena</i><par n="Maria__np"/></e>
+<e lm="Leonella">        <i>Leonella</i><par n="Maria__np"/></e>
+<e lm="Leonora">         <i>Leonora</i><par n="Maria__np"/></e>
+<e lm="Lianne">          <i>Lianne</i><par n="Maria__np"/></e>
+<e lm="Licia">           <i>Licia</i><par n="Maria__np"/></e>
+<e lm="Liebste">         <i>Liebste</i><par n="Maria__np"/></e>
+<e lm="Lilia">           <i>Lilia</i><par n="Maria__np"/></e>
+<e lm="Lillian">         <i>Lillian</i><par n="Maria__np"/></e>
+<e lm="Lilly">           <i>Lilly</i><par n="Maria__np"/></e>
+<e lm="Lily">            <i>Lily</i><par n="Maria__np"/></e>
+<e lm="Linda">           <i>Linda</i><par n="Maria__np"/></e>
+<e lm="Lindsay">         <i>Lindsay</i><par n="Maria__np"/></e>
+<e lm="Lisa">            <i>Lisa</i><par n="Maria__np"/></e>
+<e lm="Liz">             <i>Liz</i><par n="Maria__np"/></e>
+<e lm="Lizbeth">         <i>Lizbeth</i><par n="Maria__np"/></e>
+<e lm="Loredana">        <i>Loredana</i><par n="Maria__np"/></e>
+<e lm="Lorna">           <i>Lorna</i><par n="Maria__np"/></e>
+<e lm="Louise">          <i>Louise</i><par n="Maria__np"/></e>
+<e lm="Lucia">           <i>Lucia</i><par n="Maria__np"/></e>
+<e lm="Lucie">           <i>Lucie</i><par n="Maria__np"/></e>
+<e lm="Lucy">            <i>Lucy</i><par n="Maria__np"/></e>
+<e lm="Luise">           <i>Luise</i><par n="Maria__np"/></e>
+<e lm="Luisella">        <i>Luisella</i><par n="Maria__np"/></e>
+<e lm="Lydia">           <i>Lydia</i><par n="Maria__np"/></e>
+<e lm="Mabel">           <i>Mabel</i><par n="Maria__np"/></e>
+<e lm="Madalynn">        <i>Madalynn</i><par n="Maria__np"/></e>
+<e lm="Maddalena">       <i>Maddalena</i><par n="Maria__np"/></e>
+<e lm="Madelaine">       <i>Madelaine</i><par n="Maria__np"/></e>
+<e lm="Madelynn">        <i>Madelynn</i><par n="Maria__np"/></e>
+<e lm="Madhur">          <i>Madhur</i><par n="Maria__np"/></e>
+<e lm="Magdalena">       <i>Magdalena</i><par n="Maria__np"/></e>
+<e lm="Maggie">          <i>Maggie</i><par n="Maria__np"/></e>
+<e lm="Mailena">         <i>Mailena</i><par n="Maria__np"/></e>
+<e lm="Malinda">         <i>Malinda</i><par n="Maria__np"/></e>
+<e lm="Mandy">           <i>Mandy</i><par n="Maria__np"/></e>
+<e lm="Marcella">        <i>Marcella</i><par n="Maria__np"/></e>
+<e lm="Marcia">          <i>Marcia</i><par n="Maria__np"/></e>
+<e lm="Margaret">        <i>Margaret</i><par n="Maria__np"/></e>
+<e lm="Margareta">       <i>Margareta</i><par n="Maria__np"/></e>
+<e lm="Margarita">       <i>Margarita</i><par n="Maria__np"/></e>
+<e lm="Margery">         <i>Margery</i><par n="Maria__np"/></e>
+<e lm="Margherita">      <i>Margherita</i><par n="Maria__np"/></e>
+<e lm="Margot">          <i>Margot</i><par n="Maria__np"/></e>
+<e lm="Margrit">         <i>Margrit</i><par n="Maria__np"/></e>
+<e lm="Marguerita">      <i>Marguerita</i><par n="Maria__np"/></e>
+<e lm="Maria">           <i>Maria</i><par n="Maria__np"/></e>
+<e lm="Mariangela">      <i>Mariangela</i><par n="Maria__np"/></e>
+<e lm="Marianna">        <i>Marianna</i><par n="Maria__np"/></e>
+<e lm="Marie">           <i>Marie</i><par n="Maria__np"/></e>
+<e lm="Marieke">         <i>Marieke</i><par n="Maria__np"/></e>
+<e lm="Mariella">        <i>Mariella</i><par n="Maria__np"/></e>
+<e lm="Marilyn">         <i>Marilyn</i><par n="Maria__np"/></e>
+<e lm="Marinella">       <i>Marinella</i><par n="Maria__np"/></e>
+<e lm="Marlene">         <i>Marlene</i><par n="Maria__np"/></e>
+<e lm="Marta">           <i>Marta</i><par n="Maria__np"/></e>
+<e lm="Martha">          <i>Martha</i><par n="Maria__np"/></e>
+<e lm="Mary">            <i>Mary</i><par n="Maria__np"/></e>
+<e lm="Meg">             <i>Meg</i><par n="Maria__np"/></e>
+<e lm="Megan">           <i>Megan</i><par n="Maria__np"/></e>
+<e lm="Melanie">         <i>Melanie</i><par n="Maria__np"/></e>
+<e lm="Melinda">         <i>Melinda</i><par n="Maria__np"/></e>
+<e lm="Melissa">         <i>Melissa</i><par n="Maria__np"/></e>
+<e lm="Meredith">        <i>Meredith</i><par n="Maria__np"/></e>
+<e lm="Michelangela">    <i>Michelangela</i><par n="Maria__np"/></e>
+<e lm="Michelle">        <i>Michelle</i><par n="Maria__np"/></e>
+<e lm="Mieke">           <i>Mieke</i><par n="Maria__np"/></e>
+<e lm="Miffy">           <i>Miffy</i><par n="Maria__np"/></e>
+<e lm="Millie">          <i>Millie</i><par n="Maria__np"/></e>
+<e lm="Milly">           <i>Milly</i><par n="Maria__np"/></e>
+<e lm="Miranda">         <i>Miranda</i><par n="Maria__np"/></e>
+<e lm="Mirella">         <i>Mirella</i><par n="Maria__np"/></e>
+<e lm="Miriam">          <i>Miriam</i><par n="Maria__np"/></e>
+<e lm="Moira">           <i>Moira</i><par n="Maria__np"/></e>
+<e lm="Molly">           <i>Molly</i><par n="Maria__np"/></e>
+<e lm="Monica">          <i>Monica</i><par n="Maria__np"/></e>
+<e lm="Monika">          <i>Monika</i><par n="Maria__np"/></e>
+<e lm="Monique">         <i>Monique</i><par n="Maria__np"/></e>
+<e lm="Moreira">         <i>Moreira</i><par n="Maria__np"/></e>
+<e lm="Mumtaz">          <i>Mumtaz</i><par n="Maria__np"/></e>
+<e lm="Nadia">           <i>Nadia</i><par n="Maria__np"/></e>
+<e lm="Nancy">           <i>Nancy</i><par n="Maria__np"/></e>
+<e lm="Naomi">           <i>Naomi</i><par n="Maria__np"/></e>
+<e lm="Natalie">         <i>Natalie</i><par n="Maria__np"/></e>
+<e lm="Natasha">         <i>Natasha</i><par n="Maria__np"/></e>
+<e lm="Nathalie">        <i>Nathalie</i><par n="Maria__np"/></e>
+<e lm="Nelly">           <i>Nelly</i><par n="Maria__np"/></e>
+<e lm="Nessie">          <i>Nessie</i><par n="Maria__np"/></e>
+<e lm="Nicanora">        <i>Nicanora</i><par n="Maria__np"/></e>
+<e lm="Nicky">           <i>Nicky</i><par n="Maria__np"/></e>
+<e lm="Nicola">          <i>Nicola</i><par n="Maria__np"/></e>
+<e lm="Nicole">          <i>Nicole</i><par n="Maria__np"/></e>
+<e lm="Nina">            <i>Nina</i><par n="Maria__np"/></e>
+<e lm="Nora">            <i>Nora</i><par n="Maria__np"/></e>
+<e lm="Nunziatella">     <i>Nunziatella</i><par n="Maria__np"/></e>
+<e lm="Nunziatina">      <i>Nunziatina</i><par n="Maria__np"/></e>
+<e lm="Odile">           <i>Odile</i><par n="Maria__np"/></e>
+<e lm="Olga">            <i>Olga</i><par n="Maria__np"/></e>
+<e lm="Olivia">          <i>Olivia</i><par n="Maria__np"/></e>
+<e lm="Orabella">        <i>Orabella</i><par n="Maria__np"/></e>
+<e lm="Orabelle">        <i>Orabelle</i><par n="Maria__np"/></e>
+<e lm="Palmira">         <i>Palmira</i><par n="Maria__np"/></e>
+<e lm="Pam">             <i>Pam</i><par n="Maria__np"/></e>
+<e lm="Pamela">          <i>Pamela</i><par n="Maria__np"/></e>
+<e lm="Patricia">        <i>Patricia</i><par n="Maria__np"/></e>
+<e lm="Patty">           <i>Patty</i><par n="Maria__np"/></e>
+<e lm="Paula">           <i>Paula</i><par n="Maria__np"/></e>
+<e lm="Pauline">         <i>Pauline</i><par n="Maria__np"/></e>
+<e lm="Peggy">           <i>Peggy</i><par n="Maria__np"/></e>
+<e lm="Pereira">         <i>Pereira</i><par n="Maria__np"/></e>
+<e lm="Petra">           <i>Petra</i><par n="Maria__np"/></e>
+<e lm="Petronella">      <i>Petronella</i><par n="Maria__np"/></e>
+<e lm="Pietronella">     <i>Pietronella</i><par n="Maria__np"/></e>
+<e lm="Polly">           <i>Polly</i><par n="Maria__np"/></e>
+<e lm="Pussy">           <i>Pussy</i><par n="Maria__np"/></e>
+<e lm="Quintina">        <i>Quintina</i><par n="Maria__np"/></e>
+<e lm="Rachel">          <i>Rachel</i><par n="Maria__np"/></e>
+<e lm="Raffaella">       <i>Raffaella</i><par n="Maria__np"/></e>
+<e lm="Reanna">          <i>Reanna</i><par n="Maria__np"/></e>
+<e lm="Rebecca">         <i>Rebecca</i><par n="Maria__np"/></e>
+<e lm="Regina">          <i>Regina</i><par n="Maria__np"/></e>
+<e lm="Rhona">           <i>Rhona</i><par n="Maria__np"/></e>
+<e lm="Rita">            <i>Rita</i><par n="Maria__np"/></e>
+<e lm="Roberta">         <i>Roberta</i><par n="Maria__np"/></e>
+<e lm="Robertina">       <i>Robertina</i><par n="Maria__np"/></e>
+<e lm="Romanella">       <i>Romanella</i><par n="Maria__np"/></e>
+<e lm="Rosabella">       <i>Rosabella</i><par n="Maria__np"/></e>
+<e lm="Rosalind">        <i>Rosalind</i><par n="Maria__np"/></e>
+<e lm="Rosalinda">       <i>Rosalinda</i><par n="Maria__np"/></e>
+<e lm="Rosangela">       <i>Rosangela</i><par n="Maria__np"/></e>
+<e lm="Rosemary">        <i>Rosemary</i><par n="Maria__np"/></e>
+<e lm="Rosette">         <i>Rosette</i><par n="Maria__np"/></e>
+<e lm="Rosie">           <i>Rosie</i><par n="Maria__np"/></e>
+<e lm="Rossella">        <i>Rossella</i><par n="Maria__np"/></e>
+<e lm="Rosy">            <i>Rosy</i><par n="Maria__np"/></e>
+<e lm="Rowena">          <i>Rowena</i><par n="Maria__np"/></e>
+<e lm="Ruby">            <i>Ruby</i><par n="Maria__np"/></e>
+<e lm="Ruth">            <i>Ruth</i><par n="Maria__np"/></e>
+<e lm="Sabina">          <i>Sabina</i><par n="Maria__np"/></e>
+<e lm="Sabrina">         <i>Sabrina</i><par n="Maria__np"/></e>
+<e lm="Sadie">           <i>Sadie</i><par n="Maria__np"/></e>
+<e lm="Sally">           <i>Sally</i><par n="Maria__np"/></e>
+<e lm="Samantha">        <i>Samantha</i><par n="Maria__np"/></e>
+<e lm="Samira">          <i>Samira</i><par n="Maria__np"/></e>
+<e lm="Sandra">          <i>Sandra</i><par n="Maria__np"/></e>
+<e lm="Sandy">           <i>Sandy</i><par n="Maria__np"/></e>
+<e lm="Santarella">      <i>Santarella</i><par n="Maria__np"/></e>
+<e lm="Santina">         <i>Santina</i><par n="Maria__np"/></e>
+<e lm="Sara">            <i>Sara</i><par n="Maria__np"/></e>
+<e lm="Sarah">           <i>Sarah</i><par n="Maria__np"/></e>
+<e lm="Sarita">          <i>Sarita</i><par n="Maria__np"/></e>
+<e lm="Saturnina">       <i>Saturnina</i><par n="Maria__np"/></e>
+<e lm="Scarlett">        <i>Scarlett</i><par n="Maria__np"/></e>
+<e lm="Serena">          <i>Serena</i><par n="Maria__np"/></e>
+<e lm="Sharon">          <i>Sharon</i><par n="Maria__np"/></e>
+<e lm="Sheila">          <i>Sheila</i><par n="Maria__np"/></e>
+<e lm="Sherrie">         <i>Sherrie</i><par n="Maria__np"/></e>
+<e lm="Sheryl">          <i>Sheryl</i><par n="Maria__np"/></e>
+<e lm="Shirley">         <i>Shirley</i><par n="Maria__np"/></e>
+<e lm="Siglinda">        <i>Siglinda</i><par n="Maria__np"/></e>
+<e lm="Sigourney">       <i>Sigourney</i><par n="Maria__np"/></e>
+<e lm="Silena">          <i>Silena</i><par n="Maria__np"/></e>
+<e lm="Silvia">          <i>Silvia</i><par n="Maria__np"/></e>
+<e lm="Sissy">           <i>Sissy</i><par n="Maria__np"/></e>
+<e lm="Sonia">           <i>Sonia</i><par n="Maria__np"/></e>
+<e lm="Sonja">           <i>Sonja</i><par n="Maria__np"/></e>
+<e lm="Sonora">          <i>Sonora</i><par n="Maria__np"/></e>
+<e lm="Sophia">          <i>Sophia</i><par n="Maria__np"/></e>
+<e lm="Sophie">          <i>Sophie</i><par n="Maria__np"/></e>
+<e lm="Steffi">          <i>Steffi</i><par n="Maria__np"/></e>
+<e lm="Stella">          <i>Stella</i><par n="Maria__np"/></e>
+<e lm="Stephanie">       <i>Stephanie</i><par n="Maria__np"/></e>
+<e lm="Sue">             <i>Sue</i><par n="Maria__np"/></e>
+<e lm="Susan">           <i>Susan</i><par n="Maria__np"/></e>
+<e lm="Susanita">        <i>Susanita</i><par n="Maria__np"/></e>
+<e lm="Susanna">         <i>Susanna</i><par n="Maria__np"/></e>
+<e lm="Susanne">         <i>Susanne</i><par n="Maria__np"/></e>
+<e lm="Susi">            <i>Susi</i><par n="Maria__np"/></e>
+<e lm="Suzanne">         <i>Suzanne</i><par n="Maria__np"/></e>
+<e lm="Sylvia">          <i>Sylvia</i><par n="Maria__np"/></e>
+<e lm="Sylvianne">       <i>Sylvianne</i><par n="Maria__np"/></e>
+<e lm="Tamara">          <i>Tamara</i><par n="Maria__np"/></e>
+<e lm="Tanya">           <i>Tanya</i><par n="Maria__np"/></e>
+<e lm="Tara">            <i>Tara</i><par n="Maria__np"/></e>
+<e lm="Tatarella">       <i>Tatarella</i><par n="Maria__np"/></e>
+<e lm="Teodolinda">      <i>Teodolinda</i><par n="Maria__np"/></e>
+<e lm="Teodomira">       <i>Teodomira</i><par n="Maria__np"/></e>
+<e lm="Teresa">          <i>Teresa</i><par n="Maria__np"/></e>
+<e lm="Tess">            <i>Tess</i><par n="Maria__np"/></e>
+<e lm="Tessa">           <i>Tessa</i><par n="Maria__np"/></e>
+<e lm="Tessy">           <i>Tessy</i><par n="Maria__np"/></e>
+<e lm="Thatcher">        <i>Thatcher</i><par n="Maria__np"/></e>
+<e lm="Thelma">          <i>Thelma</i><par n="Maria__np"/></e>
+<e lm="Theresa">         <i>Theresa</i><par n="Maria__np"/></e>
+<e lm="Tianna">          <i>Tianna</i><par n="Maria__np"/></e>
+<e lm="Tilly">           <i>Tilly</i><par n="Maria__np"/></e>
+<e lm="Tina">            <i>Tina</i><par n="Maria__np"/></e>
+<e lm="Tracy">           <i>Tracy</i><par n="Maria__np"/></e>
+<e lm="Trisha">          <i>Trisha</i><par n="Maria__np"/></e>
+<e lm="Ursula">          <i>Ursula</i><par n="Maria__np"/></e>
+<e lm="Ute">             <i>Ute</i><par n="Maria__np"/></e>
+<e lm="Valentina">       <i>Valentina</i><par n="Maria__np"/></e>
+<e lm="Valerie">         <i>Valerie</i><par n="Maria__np"/></e>
+<e lm="Vanessa">         <i>Vanessa</i><par n="Maria__np"/></e>
+<e lm="Veanella">        <i>Veanella</i><par n="Maria__np"/></e>
+<e lm="Vera">            <i>Vera</i><par n="Maria__np"/></e>
+<e lm="Verkhubinka">     <i>Verkhubinka</i><par n="Maria__np"/></e>
+<e lm="Verona">          <i>Verona</i><par n="Maria__np"/></e>
+<e lm="Veronica">        <i>Veronica</i><par n="Maria__np"/></e>
+<e lm="Vianella">        <i>Vianella</i><par n="Maria__np"/></e>
+<e lm="Vicky">           <i>Vicky</i><par n="Maria__np"/></e>
+<e lm="Victor">          <i>Victor</i><par n="Maria__np"/></e>
+<e lm="Victoria">        <i>Victoria</i><par n="Maria__np"/></e>
+<e lm="Virginia">        <i>Virginia</i><par n="Maria__np"/></e>
+<e lm="Viridiana">       <i>Viridiana</i><par n="Maria__np"/></e>
+<e lm="Vivian">          <i>Vivian</i><par n="Maria__np"/></e>
+<e lm="Vivien">          <i>Vivien</i><par n="Maria__np"/></e>
+<e lm="Vlentina">        <i>Vlentina</i><par n="Maria__np"/></e>
+<e lm="Wanda">           <i>Wanda</i><par n="Maria__np"/></e>
+<e lm="Wendy">           <i>Wendy</i><par n="Maria__np"/></e>
+<e lm="Whitney">         <i>Whitney</i><par n="Maria__np"/></e>
+<e lm="Yasmin">          <i>Yasmin</i><par n="Maria__np"/></e>
+<e lm="Zara">            <i>Zara</i><par n="Maria__np"/></e>
+<e lm="Zuleika">         <i>Zuleika</i><par n="Maria__np"/></e>
+<e lm="Zulima">          <i>Zulima</i><par n="Maria__np"/></e>
+
+
+<!-- family names  -->
+
+<e lm="Abbott">          <i>Abbott</i><par n="Schmidt__np"/></e>
+<e lm="Aguilera">        <i>Aguilera</i><par n="Schmidt__np"/></e>
+<e lm="Ahern">           <i>Ahern</i><par n="Schmidt__np"/></e>
+<e lm="Aitken">          <i>Aitken</i><par n="Schmidt__np"/></e>
+<e lm="Aitkins">         <i>Aitkins</i><par n="Schmidt__np"/></e>
+<e lm="Akhwari">         <i>Akhwari</i><par n="Schmidt__np"/></e>
+<e lm="Aldrin">          <i>Aldrin</i><par n="Schmidt__np"/></e>
+<e lm="Allen">           <i>Allen</i><par n="Schmidt__np"/></e>
+<e lm="Allman">          <i>Allman</i><par n="Schmidt__np"/></e>
+<e lm="Alvarado">        <i>Alvarado</i><par n="Schmidt__np"/></e>
+<e lm="Amalin">          <i>Amalin</i><par n="Schmidt__np"/></e>
+<e lm="Amery">           <i>Amery</i><par n="Schmidt__np"/></e>
+<e lm="Ammar">           <i>Ammar</i><par n="Schmidt__np"/></e>
+<e lm="Anderson">        <i>Anderson</i><par n="Schmidt__np"/></e>
+<e lm="Aniston">         <i>Aniston</i><par n="Schmidt__np"/></e>
+<e lm="Annan">           <i>Annan</i><par n="Schmidt__np"/></e>
+<e lm="Appleby">         <i>Appleby</i><par n="Schmidt__np"/></e>
+<e lm="Applegate">       <i>Applegate</i><par n="Schmidt__np"/></e>
+<e lm="Appleton">        <i>Appleton</i><par n="Schmidt__np"/></e>
+<e lm="Arcimboldo">      <i>Arcimboldo</i><par n="Schmidt__np"/></e>
+<e lm="Arden">           <i>Arden</i><par n="Schmidt__np"/></e>
+<e lm="Argyle">          <i>Argyle</i><par n="Schmidt__np"/></e>
+<e lm="Arrid">           <i>Arrid</i><par n="Schmidt__np"/></e>
+<e lm="Arystan">         <i>Arystan</i><par n="Schmidt__np"/></e>
+<e lm="Ascot">           <i>Ascot</i><par n="Schmidt__np"/></e>
+<e lm="Ashe">            <i>Ashe</i><par n="Schmidt__np"/></e>
+<e lm="Ashton">          <i>Ashton</i><par n="Schmidt__np"/></e>
+<e lm="Ashtree">         <i>Ashtree</i><par n="Schmidt__np"/></e>
+<e lm="Atkin">           <i>Atkin</i><par n="Schmidt__np"/></e>
+<e lm="Atkins">          <i>Atkins</i><par n="Schmidt__np"/></e>
+<e lm="Atkinson">        <i>Atkinson</i><par n="Schmidt__np"/></e>
+<e lm="Atwood">          <i>Atwood</i><par n="Schmidt__np"/></e>
+<e lm="Auerbach">        <i>Auerbach</i><par n="Schmidt__np"/></e>
+<e lm="Austen">          <i>Austen</i><par n="Schmidt__np"/></e>
+<e lm="Baanstra">        <i>Baanstra</i><par n="Schmidt__np"/></e>
+<e lm="Babbage">         <i>Babbage</i><par n="Schmidt__np"/></e>
+<e lm="Baggio">          <i>Baggio</i><par n="Schmidt__np"/></e>
+<e lm="Bagshaw">         <i>Bagshaw</i><par n="Schmidt__np"/></e>
+<e lm="Bail">            <i>Bail</i><par n="Schmidt__np"/></e>
+<e lm="Bailey">          <i>Bailey</i><par n="Schmidt__np"/></e>
+<e lm="Baily">           <i>Baily</i><par n="Schmidt__np"/></e>
+<e lm="Baker">           <i>Baker</i><par n="Schmidt__np"/></e>
+<e lm="Bäker">           <i>Bäker</i><par n="Schmidt__np"/></e>
+<e lm="Bale">            <i>Bale</i><par n="Schmidt__np"/></e>
+<e lm="Balsham">         <i>Balsham</i><par n="Schmidt__np"/></e>
+<e lm="Balzary">         <i>Balzary</i><par n="Schmidt__np"/></e>
+<e lm="Banks">           <i>Banks</i><par n="Schmidt__np"/></e>
+<e lm="Banville">        <i>Banville</i><par n="Schmidt__np"/></e>
+<e lm="Barber">          <i>Barber</i><par n="Schmidt__np"/></e>
+<e lm="Barclay">         <i>Barclay</i><par n="Schmidt__np"/></e>
+<e lm="Barker">          <i>Barker</i><par n="Schmidt__np"/></e>
+<e lm="Barklay">         <i>Barklay</i><par n="Schmidt__np"/></e>
+<e lm="Barlowe">         <i>Barlowe</i><par n="Schmidt__np"/></e>
+<e lm="Barnes">          <i>Barnes</i><par n="Schmidt__np"/></e>
+<e lm="Barnet">          <i>Barnet</i><par n="Schmidt__np"/></e>
+<e lm="Barnett">         <i>Barnett</i><par n="Schmidt__np"/></e>
+<e lm="Barrico">         <i>Barrico</i><par n="Schmidt__np"/></e>
+<e lm="Barrie">          <i>Barrie</i><par n="Schmidt__np"/></e>
+<e lm="Barrington">      <i>Barrington</i><par n="Schmidt__np"/></e>
+<e lm="Barthet-Mayer">   <i>Barthet-Mayer</i><par n="Schmidt__np"/></e>
+<e lm="Barton">          <i>Barton</i><par n="Schmidt__np"/></e>
+<e lm="Bartor">          <i>Bartor</i><par n="Schmidt__np"/></e>
+<e lm="Basset">          <i>Basset</i><par n="Schmidt__np"/></e>
+<e lm="Bates">           <i>Bates</i><par n="Schmidt__np"/></e>
+<e lm="Batts">           <i>Batts</i><par n="Schmidt__np"/></e>
+<e lm="Batty">           <i>Batty</i><par n="Schmidt__np"/></e>
+<e lm="Baxter">          <i>Baxter</i><par n="Schmidt__np"/></e>
+<e lm="Baynes">          <i>Baynes</i><par n="Schmidt__np"/></e>
+<e lm="Beale">           <i>Beale</i><par n="Schmidt__np"/></e>
+<e lm="Beard">           <i>Beard</i><par n="Schmidt__np"/></e>
+<e lm="Beate">           <i>Beate</i><par n="Schmidt__np"/></e>
+<e lm="Beck">            <i>Beck</i><par n="Schmidt__np"/></e>
+<e lm="Becker">          <i>Becker</i><par n="Schmidt__np"/></e>
+<e lm="Beckham">         <i>Beckham</i><par n="Schmidt__np"/></e>
+<e lm="Bedford">         <i>Bedford</i><par n="Schmidt__np"/></e>
+<e lm="Beecham">         <i>Beecham</i><par n="Schmidt__np"/></e>
+<e lm="Beefeater">       <i>Beefeater</i><par n="Schmidt__np"/></e>
+<e lm="Behrman">         <i>Behrman</i><par n="Schmidt__np"/></e>
+<e lm="Behrmann">        <i>Behrmann</i><par n="Schmidt__np"/></e>
+<e lm="Bell">            <i>Bell</i><par n="Schmidt__np"/></e>
+<e lm="Benger">          <i>Benger</i><par n="Schmidt__np"/></e>
+<e lm="Benn">            <i>Benn</i><par n="Schmidt__np"/></e>
+<e lm="Bennett">         <i>Bennett</i><par n="Schmidt__np"/></e>
+<e lm="Benson">          <i>Benson</i><par n="Schmidt__np"/></e>
+<e lm="Bentley">         <i>Bentley</i><par n="Schmidt__np"/></e>
+<e lm="Benton">          <i>Benton</i><par n="Schmidt__np"/></e>
+<e lm="Benz">            <i>Benz</i><par n="Schmidt__np"/></e>
+<e lm="Berczuk">         <i>Berczuk</i><par n="Schmidt__np"/></e>
+<e lm="Berger">          <i>Berger</i><par n="Schmidt__np"/></e>
+<e lm="Bergman">         <i>Bergman</i><par n="Schmidt__np"/></e>
+<e lm="Berkins">         <i>Berkins</i><par n="Schmidt__np"/></e>
+<e lm="Berridge">        <i>Berridge</i><par n="Schmidt__np"/></e>
+<e lm="Berry">           <i>Berry</i><par n="Schmidt__np"/></e>
+<e lm="Best">            <i>Best</i><par n="Schmidt__np"/></e>
+<e lm="Betram">          <i>Betram</i><par n="Schmidt__np"/></e>
+<e lm="Beuys">           <i>Beuys</i><par n="Schmidt__np"/></e>
+<e lm="Bevans">          <i>Bevans</i><par n="Schmidt__np"/></e>
+<e lm="Bews">            <i>Bews</i><par n="Schmidt__np"/></e>
+<e lm="Bezos">           <i>Bezos</i><par n="Schmidt__np"/></e>
+<e lm="Bibb">            <i>Bibb</i><par n="Schmidt__np"/></e>
+<e lm="Bieber">          <i>Bieber</i><par n="Schmidt__np"/></e>
+<e lm="Bierhoff">        <i>Bierhoff</i><par n="Schmidt__np"/></e>
+<e lm="Bikila">          <i>Bikila</i><par n="Schmidt__np"/></e>
+<e lm="Binn">            <i>Binn</i><par n="Schmidt__np"/></e>
+<e lm="Bird">            <i>Bird</i><par n="Schmidt__np"/></e>
+<e lm="Bishop">          <i>Bishop</i><par n="Schmidt__np"/></e>
+<e lm="Black">           <i>Black</i><par n="Schmidt__np"/></e>
+<e lm="Blackman">        <i>Blackman</i><par n="Schmidt__np"/></e>
+<e lm="Blake">           <i>Blake</i><par n="Schmidt__np"/></e>
+<e lm="Bleriot">         <i>Bleriot</i><par n="Schmidt__np"/></e>
+<e lm="Bloom">           <i>Bloom</i><par n="Schmidt__np"/></e>
+<e lm="Bloomer">         <i>Bloomer</i><par n="Schmidt__np"/></e>
+<e lm="Bohun">           <i>Bohun</i><par n="Schmidt__np"/></e>
+<e lm="Bolder">          <i>Bolder</i><par n="Schmidt__np"/></e>
+<e lm="Bolen">           <i>Bolen</i><par n="Schmidt__np"/></e>
+<e lm="Boleyn">          <i>Boleyn</i><par n="Schmidt__np"/></e>
+<e lm="Bolton">          <i>Bolton</i><par n="Schmidt__np"/></e>
+<e lm="Bond">            <i>Bond</i><par n="Schmidt__np"/></e>
+<e lm="Bonham">          <i>Bonham</i><par n="Schmidt__np"/></e>
+<e lm="Bonner">          <i>Bonner</i><par n="Schmidt__np"/></e>
+<e lm="Boscombe">        <i>Boscombe</i><par n="Schmidt__np"/></e>
+<e lm="Bosy">            <i>Bosy</i><par n="Schmidt__np"/></e>
+<e lm="Botha">           <i>Botha</i><par n="Schmidt__np"/></e>
+<e lm="Botting">         <i>Botting</i><par n="Schmidt__np"/></e>
+<e lm="Boulton">         <i>Boulton</i><par n="Schmidt__np"/></e>
+<e lm="Bowers">          <i>Bowers</i><par n="Schmidt__np"/></e>
+<e lm="Bowie">           <i>Bowie</i><par n="Schmidt__np"/></e>
+<e lm="Bowler">          <i>Bowler</i><par n="Schmidt__np"/></e>
+<e lm="Boyd">            <i>Boyd</i><par n="Schmidt__np"/></e>
+<e lm="Bracebridge">     <i>Bracebridge</i><par n="Schmidt__np"/></e>
+<e lm="Braddock">        <i>Braddock</i><par n="Schmidt__np"/></e>
+<e lm="Bradman">         <i>Bradman</i><par n="Schmidt__np"/></e>
+<e lm="Brain">           <i>Brain</i><par n="Schmidt__np"/></e>
+<e lm="Braine">          <i>Braine</i><par n="Schmidt__np"/></e>
+<e lm="Braque">          <i>Braque</i><par n="Schmidt__np"/></e>
+<e lm="Brasco">          <i>Brasco</i><par n="Schmidt__np"/></e>
+<e lm="Braun">           <i>Braun</i><par n="Schmidt__np"/></e>
+<e lm="Brayton">         <i>Brayton</i><par n="Schmidt__np"/></e>
+<e lm="Brent">           <i>Brent</i><par n="Schmidt__np"/></e>
+<e lm="Breu">            <i>Breu</i><par n="Schmidt__np"/></e>
+<e lm="Breughel">        <i>Breughel</i><par n="Schmidt__np"/></e>
+<e lm="Bright">          <i>Bright</i><par n="Schmidt__np"/></e>
+<e lm="Brin">            <i>Brin</i><par n="Schmidt__np"/></e>
+<e lm="Brito">           <i>Brito</i><par n="Schmidt__np"/></e>
+<e lm="Brixton">         <i>Brixton</i><par n="Schmidt__np"/></e>
+<e lm="Broad">           <i>Broad</i><par n="Schmidt__np"/></e>
+<e lm="Broadhead">       <i>Broadhead</i><par n="Schmidt__np"/></e>
+<e lm="Brodie">          <i>Brodie</i><par n="Schmidt__np"/></e>
+<e lm="Bromley">         <i>Bromley</i><par n="Schmidt__np"/></e>
+<e lm="Brook">           <i>Brook</i><par n="Schmidt__np"/></e>
+<e lm="Brooke">          <i>Brooke</i><par n="Schmidt__np"/></e>
+<e lm="Brookes">         <i>Brookes</i><par n="Schmidt__np"/></e>
+<e lm="Brown">           <i>Brown</i><par n="Schmidt__np"/></e>
+<e lm="Brückner">        <i>Brückner</i><par n="Schmidt__np"/></e>
+<e lm="Brueghel">        <i>Brueghel</i><par n="Schmidt__np"/></e>
+<e lm="Brunel">          <i>Brunel</i><par n="Schmidt__np"/></e>
+<e lm="Buckingham">      <i>Buckingham</i><par n="Schmidt__np"/></e>
+<e lm="Bugany">          <i>Bugany</i><par n="Schmidt__np"/></e>
+<e lm="Buller">          <i>Buller</i><par n="Schmidt__np"/></e>
+<e lm="Bullocks">        <i>Bullocks</i><par n="Schmidt__np"/></e>
+<e lm="Bumpkin">         <i>Bumpkin</i><par n="Schmidt__np"/></e>
+<e lm="Bunby">           <i>Bunby</i><par n="Schmidt__np"/></e>
+<e lm="Bunche">          <i>Bunche</i><par n="Schmidt__np"/></e>
+<e lm="Bundy">           <i>Bundy</i><par n="Schmidt__np"/></e>
+<e lm="Burgess">         <i>Burgess</i><par n="Schmidt__np"/></e>
+<e lm="Burgh">           <i>Burgh</i><par n="Schmidt__np"/></e>
+<e lm="Burke">           <i>Burke</i><par n="Schmidt__np"/></e>
+<e lm="Burleson">        <i>Burleson</i><par n="Schmidt__np"/></e>
+<e lm="Burnes">          <i>Burnes</i><par n="Schmidt__np"/></e>
+<e lm="Burnett">         <i>Burnett</i><par n="Schmidt__np"/></e>
+<e lm="Burns">           <i>Burns</i><par n="Schmidt__np"/></e>
+<e lm="Burrows">         <i>Burrows</i><par n="Schmidt__np"/></e>
+<e lm="Burton">          <i>Burton</i><par n="Schmidt__np"/></e>
+<e lm="Busby">           <i>Busby</i><par n="Schmidt__np"/></e>
+<e lm="Bush">            <i>Bush</i><par n="Schmidt__np"/></e>
+<e lm="Caine">           <i>Caine</i><par n="Schmidt__np"/></e>
+<e lm="Cairns">          <i>Cairns</i><par n="Schmidt__np"/></e>
+<e lm="Calloway">        <i>Calloway</i><par n="Schmidt__np"/></e>
+<e lm="Calton">          <i>Calton</i><par n="Schmidt__np"/></e>
+<e lm="Cameron">         <i>Cameron</i><par n="Schmidt__np"/></e>
+<e lm="Campbell">        <i>Campbell</i><par n="Schmidt__np"/></e>
+<e lm="Caplan">          <i>Caplan</i><par n="Schmidt__np"/></e>
+<e lm="Caponini">        <i>Caponini</i><par n="Schmidt__np"/></e>
+<e lm="Caprice">         <i>Caprice</i><par n="Schmidt__np"/></e>
+<e lm="Captax">          <i>Captax</i><par n="Schmidt__np"/></e>
+<e lm="Capulet">         <i>Capulet</i><par n="Schmidt__np"/></e>
+<e lm="Carlotti">        <i>Carlotti</i><par n="Schmidt__np"/></e>
+<e lm="Carlson">         <i>Carlson</i><par n="Schmidt__np"/></e>
+<e lm="Carlton">         <i>Carlton</i><par n="Schmidt__np"/></e>
+<e lm="Carney">          <i>Carney</i><par n="Schmidt__np"/></e>
+<e lm="Carpenter">       <i>Carpenter</i><par n="Schmidt__np"/></e>
+<e lm="Carpentier">      <i>Carpentier</i><par n="Schmidt__np"/></e>
+<e lm="Carrey">          <i>Carrey</i><par n="Schmidt__np"/></e>
+<e lm="Carribean">       <i>Carribean</i><par n="Schmidt__np"/></e>
+<e lm="Carson">          <i>Carson</i><par n="Schmidt__np"/></e>
+<e lm="Carter">          <i>Carter</i><par n="Schmidt__np"/></e>
+<e lm="Cartwright">      <i>Cartwright</i><par n="Schmidt__np"/></e>
+<e lm="Carty">           <i>Carty</i><par n="Schmidt__np"/></e>
+<e lm="Cassati">         <i>Cassati</i><par n="Schmidt__np"/></e>
+<e lm="Cauley">          <i>Cauley</i><par n="Schmidt__np"/></e>
+<e lm="Caxton">          <i>Caxton</i><par n="Schmidt__np"/></e>
+<e lm="Chalmers">        <i>Chalmers</i><par n="Schmidt__np"/></e>
+<e lm="Chambers">        <i>Chambers</i><par n="Schmidt__np"/></e>
+<e lm="Chapin">          <i>Chapin</i><par n="Schmidt__np"/></e>
+<e lm="Chapman">         <i>Chapman</i><par n="Schmidt__np"/></e>
+<e lm="Chatham">         <i>Chatham</i><par n="Schmidt__np"/></e>
+<e lm="Chatterbox">      <i>Chatterbox</i><par n="Schmidt__np"/></e>
+<e lm="Chopra">          <i>Chopra</i><par n="Schmidt__np"/></e>
+<e lm="Christie">        <i>Christie</i><par n="Schmidt__np"/></e>
+<e lm="Chudha">          <i>Chudha</i><par n="Schmidt__np"/></e>
+<e lm="Churchill">       <i>Churchill</i><par n="Schmidt__np"/></e>
+<e lm="Clapton">         <i>Clapton</i><par n="Schmidt__np"/></e>
+<e lm="Clarke">          <i>Clarke</i><par n="Schmidt__np"/></e>
+<e lm="Clarkson">        <i>Clarkson</i><par n="Schmidt__np"/></e>
+<e lm="Clay">            <i>Clay</i><par n="Schmidt__np"/></e>
+<e lm="Clayton">         <i>Clayton</i><par n="Schmidt__np"/></e>
+<e lm="Cleese">          <i>Cleese</i><par n="Schmidt__np"/></e>
+<e lm="Cleverman">       <i>Cleverman</i><par n="Schmidt__np"/></e>
+<e lm="Clifton">         <i>Clifton</i><par n="Schmidt__np"/></e>
+<e lm="Cline">           <i>Cline</i><par n="Schmidt__np"/></e>
+<e lm="Clinton">         <i>Clinton</i><par n="Schmidt__np"/></e>
+<e lm="Cluver">          <i>Cluver</i><par n="Schmidt__np"/></e>
+<e lm="Cobb">            <i>Cobb</i><par n="Schmidt__np"/></e>
+<e lm="Cobbler">         <i>Cobbler</i><par n="Schmidt__np"/></e>
+<e lm="Cockerell">       <i>Cockerell</i><par n="Schmidt__np"/></e>
+<e lm="Cocking">         <i>Cocking</i><par n="Schmidt__np"/></e>
+<e lm="Coe">             <i>Coe</i><par n="Schmidt__np"/></e>
+<e lm="Cohen">           <i>Cohen</i><par n="Schmidt__np"/></e>
+<e lm="Cole">            <i>Cole</i><par n="Schmidt__np"/></e>
+<e lm="Coleman">         <i>Coleman</i><par n="Schmidt__np"/></e>
+<e lm="Collender">       <i>Collender</i><par n="Schmidt__np"/></e>
+<e lm="Collet">          <i>Collet</i><par n="Schmidt__np"/></e>
+<e lm="Collette">        <i>Collette</i><par n="Schmidt__np"/></e>
+<e lm="Collins">         <i>Collins</i><par n="Schmidt__np"/></e>
+<e lm="Collyer">         <i>Collyer</i><par n="Schmidt__np"/></e>
+<e lm="Colstone">        <i>Colstone</i><par n="Schmidt__np"/></e>
+<e lm="Columbo">         <i>Columbo</i><par n="Schmidt__np"/></e>
+<e lm="Columbus">        <i>Columbus</i><par n="Schmidt__np"/></e>
+<e lm="Connan">          <i>Connan</i><par n="Schmidt__np"/></e>
+<e lm="Connery">         <i>Connery</i><par n="Schmidt__np"/></e>
+<e lm="Connor">          <i>Connor</i><par n="Schmidt__np"/></e>
+<e lm="Conway">          <i>Conway</i><par n="Schmidt__np"/></e>
+<e lm="Cook">            <i>Cook</i><par n="Schmidt__np"/></e>
+<e lm="Corcoran">        <i>Corcoran</i><par n="Schmidt__np"/></e>
+<e lm="Cork">            <i>Cork</i><par n="Schmidt__np"/></e>
+<e lm="Cosby">           <i>Cosby</i><par n="Schmidt__np"/></e>
+<e lm="Cosgrove">        <i>Cosgrove</i><par n="Schmidt__np"/></e>
+<e lm="Craig">           <i>Craig</i><par n="Schmidt__np"/></e>
+<e lm="Crawford">        <i>Crawford</i><par n="Schmidt__np"/></e>
+<e lm="Crawshaw">        <i>Crawshaw</i><par n="Schmidt__np"/></e>
+<e lm="Crockatt">        <i>Crockatt</i><par n="Schmidt__np"/></e>
+<e lm="Croft">           <i>Croft</i><par n="Schmidt__np"/></e>
+<e lm="Crook">           <i>Crook</i><par n="Schmidt__np"/></e>
+<e lm="Crowe">           <i>Crowe</i><par n="Schmidt__np"/></e>
+<e lm="Crown">           <i>Crown</i><par n="Schmidt__np"/></e>
+<e lm="Cruise">          <i>Cruise</i><par n="Schmidt__np"/></e>
+<e lm="Crunch">          <i>Crunch</i><par n="Schmidt__np"/></e>
+<e lm="Csikszentmihalyi"><i>Csikszentmihalyi</i><par n="Schmidt__np"/></e>
+<e lm="Culham">          <i>Culham</i><par n="Schmidt__np"/></e>
+<e lm="Culpepper">       <i>Culpepper</i><par n="Schmidt__np"/></e>
+<e lm="Curtis">          <i>Curtis</i><par n="Schmidt__np"/></e>
+<e lm="Cuthbert">        <i>Cuthbert</i><par n="Schmidt__np"/></e>
+<e lm="Daimler">         <i>Daimler</i><par n="Schmidt__np"/></e>
+<e lm="Dale">            <i>Dale</i><par n="Schmidt__np"/></e>
+<e lm="Daley">           <i>Daley</i><par n="Schmidt__np"/></e>
+<e lm="Dalí">            <i>Dalí</i><par n="Schmidt__np"/></e>
+<e lm="Dam">             <i>Dam</i><par n="Schmidt__np"/></e>
+<e lm="Dane">            <i>Dane</i><par n="Schmidt__np"/></e>
+<e lm="Daniels">         <i>Daniels</i><par n="Schmidt__np"/></e>
+<e lm="Dashawn">         <i>Dashawn</i><par n="Schmidt__np"/></e>
+<e lm="Davidson">        <i>Davidson</i><par n="Schmidt__np"/></e>
+<e lm="Davies">          <i>Davies</i><par n="Schmidt__np"/></e>
+<e lm="Davis">           <i>Davis</i><par n="Schmidt__np"/></e>
+<e lm="Dawes">           <i>Dawes</i><par n="Schmidt__np"/></e>
+<e lm="Dawkins">         <i>Dawkins</i><par n="Schmidt__np"/></e>
+<e lm="Dawson">          <i>Dawson</i><par n="Schmidt__np"/></e>
+<e lm="Day">             <i>Day</i><par n="Schmidt__np"/></e>
+<e lm="De Beauvoir">     <i>De<b/>Beauvoir</i><par n="Schmidt__np"/></e>
+<e lm="Deafman">         <i>Deafman</i><par n="Schmidt__np"/></e>
+<e lm="Debs">            <i>Debs</i><par n="Schmidt__np"/></e>
+<e lm="Dee">             <i>Dee</i><par n="Schmidt__np"/></e>
+<e lm="Delwin">          <i>Delwin</i><par n="Schmidt__np"/></e>
+<e lm="Dencel">          <i>Dencel</i><par n="Schmidt__np"/></e>
+<e lm="Denham">          <i>Denham</i><par n="Schmidt__np"/></e>
+<e lm="Denley">          <i>Denley</i><par n="Schmidt__np"/></e>
+<e lm="Dent">            <i>Dent</i><par n="Schmidt__np"/></e>
+<e lm="Dependable">      <i>Dependable</i><par n="Schmidt__np"/></e>
+<e lm="Deshawn">         <i>Deshawn</i><par n="Schmidt__np"/></e>
+<e lm="Devilish">        <i>Devilish</i><par n="Schmidt__np"/></e>
+<e lm="Dhein">           <i>Dhein</i><par n="Schmidt__np"/></e>
+<e lm="Dibden">          <i>Dibden</i><par n="Schmidt__np"/></e>
+<e lm="DiCaprio">        <i>DiCaprio</i><par n="Schmidt__np"/></e>
+<e lm="Dickens">         <i>Dickens</i><par n="Schmidt__np"/></e>
+<e lm="Dillon">          <i>Dillon</i><par n="Schmidt__np"/></e>
+<e lm="DiMaggio">        <i>DiMaggio</i><par n="Schmidt__np"/></e>
+<e lm="Dixon">           <i>Dixon</i><par n="Schmidt__np"/></e>
+<e lm="Doakes">          <i>Doakes</i><par n="Schmidt__np"/></e>
+<e lm="Dodd">            <i>Dodd</i><par n="Schmidt__np"/></e>
+<e lm="Doig">            <i>Doig</i><par n="Schmidt__np"/></e>
+<e lm="Donalds">         <i>Donalds</i><par n="Schmidt__np"/></e>
+<e lm="Donovan">         <i>Donovan</i><par n="Schmidt__np"/></e>
+<e lm="Donut">           <i>Donut</i><par n="Schmidt__np"/></e>
+<e lm="Doran">           <i>Doran</i><par n="Schmidt__np"/></e>
+<e lm="Doring">          <i>Doring</i><par n="Schmidt__np"/></e>
+<e lm="Dorrington">      <i>Dorrington</i><par n="Schmidt__np"/></e>
+<e lm="Dosch">           <i>Dosch</i><par n="Schmidt__np"/></e>
+<e lm="Dougan">          <i>Dougan</i><par n="Schmidt__np"/></e>
+<e lm="Doyle">           <i>Doyle</i><par n="Schmidt__np"/></e>
+<e lm="Dracup">          <i>Dracup</i><par n="Schmidt__np"/></e>
+<e lm="Draper">          <i>Draper</i><par n="Schmidt__np"/></e>
+<e lm="Dreamweaver">     <i>Dreamweaver</i><par n="Schmidt__np"/></e>
+<e lm="Drummond">        <i>Drummond</i><par n="Schmidt__np"/></e>
+<e lm="Ducarme">         <i>Ducarme</i><par n="Schmidt__np"/></e>
+<e lm="Dudley">          <i>Dudley</i><par n="Schmidt__np"/></e>
+<e lm="Duffy">           <i>Duffy</i><par n="Schmidt__np"/></e>
+<e lm="Dumbar">          <i>Dumbar</i><par n="Schmidt__np"/></e>
+<e lm="Dunbar">          <i>Dunbar</i><par n="Schmidt__np"/></e>
+<e lm="Dunn">            <i>Dunn</i><par n="Schmidt__np"/></e>
+<e lm="Dunning">         <i>Dunning</i><par n="Schmidt__np"/></e>
+<e lm="Dupont">          <i>Dupont</i><par n="Schmidt__np"/></e>
+<e lm="Duval">           <i>Duval</i><par n="Schmidt__np"/></e>
+<e lm="Dyson">           <i>Dyson</i><par n="Schmidt__np"/></e>
+<e lm="Earhart">         <i>Earhart</i><par n="Schmidt__np"/></e>
+<e lm="East">            <i>East</i><par n="Schmidt__np"/></e>
+<e lm="Eastwood">        <i>Eastwood</i><par n="Schmidt__np"/></e>
+<e lm="Ebbelaar">        <i>Ebbelaar</i><par n="Schmidt__np"/></e>
+<e lm="Edson">           <i>Edson</i><par n="Schmidt__np"/></e>
+<e lm="Edwards">         <i>Edwards</i><par n="Schmidt__np"/></e>
+<e lm="Edwin Aldrin">    <i>Edwin<b/>Aldrin</i><par n="Schmidt__np"/></e>
+<e lm="Efron">           <i>Efron</i><par n="Schmidt__np"/></e>
+<e lm="Ekland">          <i>Ekland</i><par n="Schmidt__np"/></e>
+<e lm="Eliot">           <i>Eliot</i><par n="Schmidt__np"/></e>
+<e lm="Elkins">          <i>Elkins</i><par n="Schmidt__np"/></e>
+<e lm="Ellis">           <i>Ellis</i><par n="Schmidt__np"/></e>
+<e lm="Ellison">         <i>Ellison</i><par n="Schmidt__np"/></e>
+<e lm="Emmerich">        <i>Emmerich</i><par n="Schmidt__np"/></e>
+<e lm="Emms">            <i>Emms</i><par n="Schmidt__np"/></e>
+<e lm="Ercole">          <i>Ercole</i><par n="Schmidt__np"/></e>
+<e lm="Erlinen">         <i>Erlinen</i><par n="Schmidt__np"/></e>
+<e lm="Erling">          <i>Erling</i><par n="Schmidt__np"/></e>
+<e lm="Ernest Hemingway"><i>Ernest<b/>Hemingway</i><par n="Schmidt__np"/></e>
+<e lm="Evangelista">     <i>Evangelista</i><par n="Schmidt__np"/></e>
+<e lm="Evans">           <i>Evans</i><par n="Schmidt__np"/></e>
+<e lm="Evelin">          <i>Evelin</i><par n="Schmidt__np"/></e>
+<e lm="Ewing">           <i>Ewing</i><par n="Schmidt__np"/></e>
+<e lm="Exel">            <i>Exel</i><par n="Schmidt__np"/></e>
+<e lm="Fairbairn">       <i>Fairbairn</i><par n="Schmidt__np"/></e>
+<e lm="Fairchild">       <i>Fairchild</i><par n="Schmidt__np"/></e>
+<e lm="Falklands">       <i>Falklands</i><par n="Schmidt__np"/></e>
+<e lm="Fawkes">          <i>Fawkes</i><par n="Schmidt__np"/></e>
+<e lm="Federer">         <i>Federer</i><par n="Schmidt__np"/></e>
+<e lm="Feldstein">       <i>Feldstein</i><par n="Schmidt__np"/></e>
+<e lm="Fellowes">        <i>Fellowes</i><par n="Schmidt__np"/></e>
+<e lm="Felsenthal">      <i>Felsenthal</i><par n="Schmidt__np"/></e>
+<e lm="Felten">          <i>Felten</i><par n="Schmidt__np"/></e>
+<e lm="Felton">          <i>Felton</i><par n="Schmidt__np"/></e>
+<e lm="Fenton">          <i>Fenton</i><par n="Schmidt__np"/></e>
+<e lm="Ferguson">        <i>Ferguson</i><par n="Schmidt__np"/></e>
+<e lm="Ferrari">         <i>Ferrari</i><par n="Schmidt__np"/></e>
+<e lm="Fey">             <i>Fey</i><par n="Schmidt__np"/></e>
+<e lm="Field">           <i>Field</i><par n="Schmidt__np"/></e>
+<e lm="Fielding">        <i>Fielding</i><par n="Schmidt__np"/></e>
+<e lm="Firth">           <i>Firth</i><par n="Schmidt__np"/></e>
+<e lm="Fischer">         <i>Fischer</i><par n="Schmidt__np"/></e>
+<e lm="Fisher">          <i>Fisher</i><par n="Schmidt__np"/></e>
+<e lm="Fitzgerald">      <i>Fitzgerald</i><par n="Schmidt__np"/></e>
+<e lm="Fitzpatrick">     <i>Fitzpatrick</i><par n="Schmidt__np"/></e>
+<e lm="Flex">            <i>Flex</i><par n="Schmidt__np"/></e>
+<e lm="Flintstone">      <i>Flintstone</i><par n="Schmidt__np"/></e>
+<e lm="Flood">           <i>Flood</i><par n="Schmidt__np"/></e>
+<e lm="Ford">            <i>Ford</i><par n="Schmidt__np"/></e>
+<e lm="Fortagne">        <i>Fortagne</i><par n="Schmidt__np"/></e>
+<e lm="Fortunato">       <i>Fortunato</i><par n="Schmidt__np"/></e>
+<e lm="Foss">            <i>Foss</i><par n="Schmidt__np"/></e>
+<e lm="Foster">          <i>Foster</i><par n="Schmidt__np"/></e>
+<e lm="Fothergill">      <i>Fothergill</i><par n="Schmidt__np"/></e>
+<e lm="Fowler">          <i>Fowler</i><par n="Schmidt__np"/></e>
+<e lm="Frampton">        <i>Frampton</i><par n="Schmidt__np"/></e>
+<e lm="Franks">          <i>Franks</i><par n="Schmidt__np"/></e>
+<e lm="Frantz">          <i>Frantz</i><par n="Schmidt__np"/></e>
+<e lm="Frazer">          <i>Frazer</i><par n="Schmidt__np"/></e>
+<e lm="Frazier">         <i>Frazier</i><par n="Schmidt__np"/></e>
+<e lm="Freeman">         <i>Freeman</i><par n="Schmidt__np"/></e>
+<e lm="Friedman">        <i>Friedman</i><par n="Schmidt__np"/></e>
+<e lm="Frusciante">      <i>Frusciante</i><par n="Schmidt__np"/></e>
+<e lm="Fuller">          <i>Fuller</i><par n="Schmidt__np"/></e>
+<e lm="Furrow">          <i>Furrow</i><par n="Schmidt__np"/></e>
+<e lm="Gadman">          <i>Gadman</i><par n="Schmidt__np"/></e>
+<e lm="Galop">           <i>Galop</i><par n="Schmidt__np"/></e>
+<e lm="Galway">          <i>Galway</i><par n="Schmidt__np"/></e>
+<e lm="Gander">          <i>Gander</i><par n="Schmidt__np"/></e>
+<e lm="Garbutt">         <i>Garbutt</i><par n="Schmidt__np"/></e>
+<e lm="Gardner">         <i>Gardner</i><par n="Schmidt__np"/></e>
+<e lm="Garfield">        <i>Garfield</i><par n="Schmidt__np"/></e>
+<e lm="Garner">          <i>Garner</i><par n="Schmidt__np"/></e>
+<e lm="Garrier">         <i>Garrier</i><par n="Schmidt__np"/></e>
+<e lm="Gaspare">         <i>Gaspare</i><par n="Schmidt__np"/></e>
+<e lm="Gastone">         <i>Gastone</i><par n="Schmidt__np"/></e>
+<e lm="Gates">           <i>Gates</i><par n="Schmidt__np"/></e>
+<e lm="Gaye">            <i>Gaye</i><par n="Schmidt__np"/></e>
+<e lm="Gembara">         <i>Gembara</i><par n="Schmidt__np"/></e>
+<e lm="Gibb">            <i>Gibb</i><par n="Schmidt__np"/></e>
+<e lm="Gibbs">           <i>Gibbs</i><par n="Schmidt__np"/></e>
+<e lm="Gilbert">         <i>Gilbert</i><par n="Schmidt__np"/></e>
+<e lm="Gilbertson">      <i>Gilbertson</i><par n="Schmidt__np"/></e>
+<e lm="Gilmour">         <i>Gilmour</i><par n="Schmidt__np"/></e>
+<e lm="Gimson">          <i>Gimson</i><par n="Schmidt__np"/></e>
+<e lm="Glazebrook">      <i>Glazebrook</i><par n="Schmidt__np"/></e>
+<e lm="Gleitzman">       <i>Gleitzman</i><par n="Schmidt__np"/></e>
+<e lm="Glove">           <i>Glove</i><par n="Schmidt__np"/></e>
+<e lm="Goddard">         <i>Goddard</i><par n="Schmidt__np"/></e>
+<e lm="Gomez">           <i>Gomez</i><par n="Schmidt__np"/></e>
+<e lm="Goodheart">       <i>Goodheart</i><par n="Schmidt__np"/></e>
+<e lm="Goodman">         <i>Goodman</i><par n="Schmidt__np"/></e>
+<e lm="Gopal">           <i>Gopal</i><par n="Schmidt__np"/></e>
+<e lm="Gosling">         <i>Gosling</i><par n="Schmidt__np"/></e>
+<e lm="Granger">         <i>Granger</i><par n="Schmidt__np"/></e>
+<e lm="Grappner">        <i>Grappner</i><par n="Schmidt__np"/></e>
+<e lm="Graves">          <i>Graves</i><par n="Schmidt__np"/></e>
+<e lm="Greaves">         <i>Greaves</i><par n="Schmidt__np"/></e>
+<e lm="Green">           <i>Green</i><par n="Schmidt__np"/></e>
+<e lm="Greenaway">       <i>Greenaway</i><par n="Schmidt__np"/></e>
+<e lm="Greene">          <i>Greene</i><par n="Schmidt__np"/></e>
+<e lm="Greenspan">       <i>Greenspan</i><par n="Schmidt__np"/></e>
+<e lm="Greenwood">       <i>Greenwood</i><par n="Schmidt__np"/></e>
+<e lm="Gregg">           <i>Gregg</i><par n="Schmidt__np"/></e>
+<e lm="Gregory">         <i>Gregory</i><par n="Schmidt__np"/></e>
+<e lm="Grey">            <i>Grey</i><par n="Schmidt__np"/></e>
+<e lm="Greyhound">       <i>Greyhound</i><par n="Schmidt__np"/></e>
+<e lm="Griffin">         <i>Griffin</i><par n="Schmidt__np"/></e>
+<e lm="Grimes">          <i>Grimes</i><par n="Schmidt__np"/></e>
+<e lm="Grove">           <i>Grove</i><par n="Schmidt__np"/></e>
+<e lm="Grundy">          <i>Grundy</i><par n="Schmidt__np"/></e>
+<e lm="Guadarrama">      <i>Guadarrama</i><par n="Schmidt__np"/></e>
+<e lm="Guevara">         <i>Guevara</i><par n="Schmidt__np"/></e>
+<e lm="Gupta">           <i>Gupta</i><par n="Schmidt__np"/></e>
+<e lm="Gutter">          <i>Gutter</i><par n="Schmidt__np"/></e>
+<e lm="Gwynne">          <i>Gwynne</i><par n="Schmidt__np"/></e>
+<e lm="Haas">            <i>Haas</i><par n="Schmidt__np"/></e>
+<e lm="Habberfield">     <i>Habberfield</i><par n="Schmidt__np"/></e>
+<e lm="Haddon">          <i>Haddon</i><par n="Schmidt__np"/></e>
+<e lm="Hagenbeck">       <i>Hagenbeck</i><par n="Schmidt__np"/></e>
+<e lm="Hale">            <i>Hale</i><par n="Schmidt__np"/></e>
+<e lm="Hallam">          <i>Hallam</i><par n="Schmidt__np"/></e>
+<e lm="Halliday">        <i>Halliday</i><par n="Schmidt__np"/></e>
+<e lm="Hallow">          <i>Hallow</i><par n="Schmidt__np"/></e>
+<e lm="hallward">        <i>hallward</i><par n="Schmidt__np"/></e>
+<e lm="Ham">             <i>Ham</i><par n="Schmidt__np"/></e>
+<e lm="Hamilton">        <i>Hamilton</i><par n="Schmidt__np"/></e>
+<e lm="Hamlin">          <i>Hamlin</i><par n="Schmidt__np"/></e>
+<e lm="Hancock">         <i>Hancock</i><par n="Schmidt__np"/></e>
+<e lm="Handley">         <i>Handley</i><par n="Schmidt__np"/></e>
+<e lm="Hanif">           <i>Hanif</i><par n="Schmidt__np"/></e>
+<e lm="Hankey">          <i>Hankey</i><par n="Schmidt__np"/></e>
+<e lm="Hansen">          <i>Hansen</i><par n="Schmidt__np"/></e>
+<e lm="Harding">         <i>Harding</i><par n="Schmidt__np"/></e>
+<e lm="Harlan">          <i>Harlan</i><par n="Schmidt__np"/></e>
+<e lm="Harper">          <i>Harper</i><par n="Schmidt__np"/></e>
+<e lm="Harris">          <i>Harris</i><par n="Schmidt__np"/></e>
+<e lm="Harrison">        <i>Harrison</i><par n="Schmidt__np"/></e>
+<e lm="Hartmann">        <i>Hartmann</i><par n="Schmidt__np"/></e>
+<e lm="Hartson">         <i>Hartson</i><par n="Schmidt__np"/></e>
+<e lm="Harvey">          <i>Harvey</i><par n="Schmidt__np"/></e>
+<e lm="Harwell">         <i>Harwell</i><par n="Schmidt__np"/></e>
+<e lm="Hatcher">         <i>Hatcher</i><par n="Schmidt__np"/></e>
+<e lm="Hatton">          <i>Hatton</i><par n="Schmidt__np"/></e>
+<e lm="Hawkins">         <i>Hawkins</i><par n="Schmidt__np"/></e>
+<e lm="Hawthorne">       <i>Hawthorne</i><par n="Schmidt__np"/></e>
+<e lm="Hayes">           <i>Hayes</i><par n="Schmidt__np"/></e>
+<e lm="Haynes">          <i>Haynes</i><par n="Schmidt__np"/></e>
+<e lm="Hedges">          <i>Hedges</i><par n="Schmidt__np"/></e>
+<e lm="Hefner">          <i>Hefner</i><par n="Schmidt__np"/></e>
+<e lm="Hemingway">       <i>Hemingway</i><par n="Schmidt__np"/></e>
+<e lm="Hendrickson">     <i>Hendrickson</i><par n="Schmidt__np"/></e>
+<e lm="Hendriks">        <i>Hendriks</i><par n="Schmidt__np"/></e>
+<e lm="Hendry">          <i>Hendry</i><par n="Schmidt__np"/></e>
+<e lm="Henley">          <i>Henley</i><par n="Schmidt__np"/></e>
+<e lm="Hernandez">       <i>Hernandez</i><par n="Schmidt__np"/></e>
+<e lm="Higgin">          <i>Higgin</i><par n="Schmidt__np"/></e>
+<e lm="Higgins">         <i>Higgins</i><par n="Schmidt__np"/></e>
+<e lm="Highsmith">       <i>Highsmith</i><par n="Schmidt__np"/></e>
+<e lm="Hilfiger">        <i>Hilfiger</i><par n="Schmidt__np"/></e>
+<e lm="Hill">            <i>Hill</i><par n="Schmidt__np"/></e>
+<e lm="Himbleton">       <i>Himbleton</i><par n="Schmidt__np"/></e>
+<e lm="Hinks">           <i>Hinks</i><par n="Schmidt__np"/></e>
+<e lm="Hinrichs">        <i>Hinrichs</i><par n="Schmidt__np"/></e>
+<e lm="Hitler">          <i>Hitler</i><par n="Schmidt__np"/></e>
+<e lm="Hobbs">           <i>Hobbs</i><par n="Schmidt__np"/></e>
+<e lm="Hobdell">         <i>Hobdell</i><par n="Schmidt__np"/></e>
+<e lm="Hodges">          <i>Hodges</i><par n="Schmidt__np"/></e>
+<e lm="Hohmann">         <i>Hohmann</i><par n="Schmidt__np"/></e>
+<e lm="Hollingworth">    <i>Hollingworth</i><par n="Schmidt__np"/></e>
+<e lm="Holzmann">        <i>Holzmann</i><par n="Schmidt__np"/></e>
+<e lm="Honeybone">       <i>Honeybone</i><par n="Schmidt__np"/></e>
+<e lm="Hooper">          <i>Hooper</i><par n="Schmidt__np"/></e>
+<e lm="Hoover">          <i>Hoover</i><par n="Schmidt__np"/></e>
+<e lm="Hopkins">         <i>Hopkins</i><par n="Schmidt__np"/></e>
+<e lm="Hopper">          <i>Hopper</i><par n="Schmidt__np"/></e>
+<e lm="Hopster">         <i>Hopster</i><par n="Schmidt__np"/></e>
+<e lm="Hornby">          <i>Hornby</i><par n="Schmidt__np"/></e>
+<e lm="Hörnchen">        <i>Hörnchen</i><par n="Schmidt__np"/></e>
+<e lm="Hough">           <i>Hough</i><par n="Schmidt__np"/></e>
+<e lm="Hoult">           <i>Hoult</i><par n="Schmidt__np"/></e>
+<e lm="Hubbard">         <i>Hubbard</i><par n="Schmidt__np"/></e>
+<e lm="Huber">           <i>Huber</i><par n="Schmidt__np"/></e>
+<e lm="Hudgens">         <i>Hudgens</i><par n="Schmidt__np"/></e>
+<e lm="Hudson">          <i>Hudson</i><par n="Schmidt__np"/></e>
+<e lm="Hughes">          <i>Hughes</i><par n="Schmidt__np"/></e>
+<e lm="Hulton">          <i>Hulton</i><par n="Schmidt__np"/></e>
+<e lm="Humber">          <i>Humber</i><par n="Schmidt__np"/></e>
+<e lm="Hunman">          <i>Hunman</i><par n="Schmidt__np"/></e>
+<e lm="Hunt">            <i>Hunt</i><par n="Schmidt__np"/></e>
+<e lm="Hurst">           <i>Hurst</i><par n="Schmidt__np"/></e>
+<e lm="Irons">           <i>Irons</i><par n="Schmidt__np"/></e>
+<e lm="Ismaili">         <i>Ismaili</i><par n="Schmidt__np"/></e>
+<e lm="Ives">            <i>Ives</i><par n="Schmidt__np"/></e>
+<e lm="Jackson">         <i>Jackson</i><par n="Schmidt__np"/></e>
+<e lm="Jacobi">          <i>Jacobi</i><par n="Schmidt__np"/></e>
+<e lm="Jacobson">        <i>Jacobson</i><par n="Schmidt__np"/></e>
+<e lm="Jagger">          <i>Jagger</i><par n="Schmidt__np"/></e>
+<e lm="James Lovell">    <i>James<b/>Lovell</i><par n="Schmidt__np"/></e>
+<e lm="Jamesons">        <i>Jamesons</i><par n="Schmidt__np"/></e>
+<e lm="Jarvis">          <i>Jarvis</i><par n="Schmidt__np"/></e>
+<e lm="Jaylin">          <i>Jaylin</i><par n="Schmidt__np"/></e>
+<e lm="Jeffers">         <i>Jeffers</i><par n="Schmidt__np"/></e>
+<e lm="Jefferson">       <i>Jefferson</i><par n="Schmidt__np"/></e>
+<e lm="Jeffreys">        <i>Jeffreys</i><par n="Schmidt__np"/></e>
+<e lm="Jeiven">          <i>Jeiven</i><par n="Schmidt__np"/></e>
+<e lm="Jenkins">         <i>Jenkins</i><par n="Schmidt__np"/></e>
+<e lm="Jessop">          <i>Jessop</i><par n="Schmidt__np"/></e>
+<e lm="Jhawa">           <i>Jhawa</i><par n="Schmidt__np"/></e>
+<e lm="Jinnah">          <i>Jinnah</i><par n="Schmidt__np"/></e>
+<e lm="Jobs">            <i>Jobs</i><par n="Schmidt__np"/></e>
+<e lm="Jobson">          <i>Jobson</i><par n="Schmidt__np"/></e>
+<e lm="Joel">            <i>Joel</i><par n="Schmidt__np"/></e>
+<e lm="Johnson">         <i>Johnson</i><par n="Schmidt__np"/></e>
+<e lm="Jolie">           <i>Jolie</i><par n="Schmidt__np"/></e>
+<e lm="Jones">           <i>Jones</i><par n="Schmidt__np"/></e>
+<e lm="Jonson">          <i>Jonson</i><par n="Schmidt__np"/></e>
+<e lm="Joscelin">        <i>Joscelin</i><par n="Schmidt__np"/></e>
+<e lm="Joselow">         <i>Joselow</i><par n="Schmidt__np"/></e>
+<e lm="Jowitt">          <i>Jowitt</i><par n="Schmidt__np"/></e>
+<e lm="Jürgensen">       <i>Jürgensen</i><par n="Schmidt__np"/></e>
+<e lm="Kardashian">      <i>Kardashian</i><par n="Schmidt__np"/></e>
+<e lm="Karthik">         <i>Karthik</i><par n="Schmidt__np"/></e>
+<e lm="Katelin">         <i>Katelin</i><par n="Schmidt__np"/></e>
+<e lm="Kellerman">       <i>Kellerman</i><par n="Schmidt__np"/></e>
+<e lm="Kelly">           <i>Kelly</i><par n="Schmidt__np"/></e>
+<e lm="Kendall">         <i>Kendall</i><par n="Schmidt__np"/></e>
+<e lm="Kennedy">         <i>Kennedy</i><par n="Schmidt__np"/></e>
+<e lm="Kennett">         <i>Kennett</i><par n="Schmidt__np"/></e>
+<e lm="Keshawn">         <i>Keshawn</i><par n="Schmidt__np"/></e>
+<e lm="Keyshawn">        <i>Keyshawn</i><par n="Schmidt__np"/></e>
+<e lm="Kiedis">          <i>Kiedis</i><par n="Schmidt__np"/></e>
+<e lm="Kilmeny">         <i>Kilmeny</i><par n="Schmidt__np"/></e>
+<e lm="King">            <i>King</i><par n="Schmidt__np"/></e>
+<e lm="Kingsley">        <i>Kingsley</i><par n="Schmidt__np"/></e>
+<e lm="Kingston">        <i>Kingston</i><par n="Schmidt__np"/></e>
+<e lm="Kipling">         <i>Kipling</i><par n="Schmidt__np"/></e>
+<e lm="Kirkby">          <i>Kirkby</i><par n="Schmidt__np"/></e>
+<e lm="Kirton">          <i>Kirton</i><par n="Schmidt__np"/></e>
+<e lm="Klagge">          <i>Klagge</i><par n="Schmidt__np"/></e>
+<e lm="Kline">           <i>Kline</i><par n="Schmidt__np"/></e>
+<e lm="Klinghoffer">     <i>Klinghoffer</i><par n="Schmidt__np"/></e>
+<e lm="Knightley">       <i>Knightley</i><par n="Schmidt__np"/></e>
+<e lm="Knowle">          <i>Knowle</i><par n="Schmidt__np"/></e>
+<e lm="Knox">            <i>Knox</i><par n="Schmidt__np"/></e>
+<e lm="Kolbeck">         <i>Kolbeck</i><par n="Schmidt__np"/></e>
+<e lm="Kotler">          <i>Kotler</i><par n="Schmidt__np"/></e>
+<e lm="Kovic">           <i>Kovic</i><par n="Schmidt__np"/></e>
+<e lm="Kowalski">        <i>Kowalski</i><par n="Schmidt__np"/></e>
+<e lm="Kozol">           <i>Kozol</i><par n="Schmidt__np"/></e>
+<e lm="Kremlin">         <i>Kremlin</i><par n="Schmidt__np"/></e>
+<e lm="Krull">           <i>Krull</i><par n="Schmidt__np"/></e>
+<e lm="Kubrick">         <i>Kubrick</i><par n="Schmidt__np"/></e>
+<e lm="Lamb">            <i>Lamb</i><par n="Schmidt__np"/></e>
+<e lm="Lambert">         <i>Lambert</i><par n="Schmidt__np"/></e>
+<e lm="Landmark">        <i>Landmark</i><par n="Schmidt__np"/></e>
+<e lm="Lands">           <i>Lands</i><par n="Schmidt__np"/></e>
+<e lm="Lane">            <i>Lane</i><par n="Schmidt__np"/></e>
+<e lm="Lanh">            <i>Lanh</i><par n="Schmidt__np"/></e>
+<e lm="Lansdale">        <i>Lansdale</i><par n="Schmidt__np"/></e>
+<e lm="Larkin">          <i>Larkin</i><par n="Schmidt__np"/></e>
+<e lm="Larsen">          <i>Larsen</i><par n="Schmidt__np"/></e>
+<e lm="Lauder">          <i>Lauder</i><par n="Schmidt__np"/></e>
+<e lm="Lavery">          <i>Lavery</i><par n="Schmidt__np"/></e>
+<e lm="Law">             <i>Law</i><par n="Schmidt__np"/></e>
+<e lm="Lawrence">        <i>Lawrence</i><par n="Schmidt__np"/></e>
+<e lm="Lawton">          <i>Lawton</i><par n="Schmidt__np"/></e>
+<e lm="Leamas">          <i>Leamas</i><par n="Schmidt__np"/></e>
+<e lm="Leavell">         <i>Leavell</i><par n="Schmidt__np"/></e>
+<e lm="Ledecky">         <i>Ledecky</i><par n="Schmidt__np"/></e>
+<e lm="Lees-Milne">      <i>Lees-Milne</i><par n="Schmidt__np"/></e>
+<e lm="Leinert">         <i>Leinert</i><par n="Schmidt__np"/></e>
+<e lm="Lemoine">         <i>Lemoine</i><par n="Schmidt__np"/></e>
+<e lm="Lenin">           <i>Lenin</i><par n="Schmidt__np"/></e>
+<e lm="Leon">            <i>Leon</i><par n="Schmidt__np"/></e>
+<e lm="Liberatore">      <i>Liberatore</i><par n="Schmidt__np"/></e>
+<e lm="Libermann">       <i>Libermann</i><par n="Schmidt__np"/></e>
+<e lm="Lightman">        <i>Lightman</i><par n="Schmidt__np"/></e>
+<e lm="Lightstone">      <i>Lightstone</i><par n="Schmidt__np"/></e>
+<e lm="Lily Pond">       <i>Lily<b/>Pond</i><par n="Schmidt__np"/></e>
+<e lm="Lime">            <i>Lime</i><par n="Schmidt__np"/></e>
+<e lm="Lin">             <i>Lin</i><par n="Schmidt__np"/></e>
+<e lm="Linderman">       <i>Linderman</i><par n="Schmidt__np"/></e>
+<e lm="Lindner">         <i>Lindner</i><par n="Schmidt__np"/></e>
+<e lm="Linford">         <i>Linford</i><par n="Schmidt__np"/></e>
+<e lm="Linley">          <i>Linley</i><par n="Schmidt__np"/></e>
+<e lm="Loder">           <i>Loder</i><par n="Schmidt__np"/></e>
+<e lm="Loe">             <i>Loe</i><par n="Schmidt__np"/></e>
+<e lm="Logan">           <i>Logan</i><par n="Schmidt__np"/></e>
+<e lm="Long">            <i>Long</i><par n="Schmidt__np"/></e>
+<e lm="Longdale">        <i>Longdale</i><par n="Schmidt__np"/></e>
+<e lm="Longman">         <i>Longman</i><par n="Schmidt__np"/></e>
+<e lm="Longy">           <i>Longy</i><par n="Schmidt__np"/></e>
+<e lm="Lopez">           <i>Lopez</i><par n="Schmidt__np"/></e>
+<e lm="Lorch">           <i>Lorch</i><par n="Schmidt__np"/></e>
+<e lm="Louis-Dreyfus">   <i>Louis-Dreyfus</i><par n="Schmidt__np"/></e>
+<e lm="Loveland">        <i>Loveland</i><par n="Schmidt__np"/></e>
+<e lm="Lovell">          <i>Lovell</i><par n="Schmidt__np"/></e>
+<e lm="Lowe">            <i>Lowe</i><par n="Schmidt__np"/></e>
+<e lm="Lundgren">        <i>Lundgren</i><par n="Schmidt__np"/></e>
+<e lm="Lynch">           <i>Lynch</i><par n="Schmidt__np"/></e>
+<e lm="Lysacek">         <i>Lysacek</i><par n="Schmidt__np"/></e>
+<e lm="Lytton">          <i>Lytton</i><par n="Schmidt__np"/></e>
+<e lm="MacAllen">        <i>MacAllen</i><par n="Schmidt__np"/></e>
+<e lm="Macbeth">         <i>Macbeth</i><par n="Schmidt__np"/></e>
+<e lm="MacDonald">       <i>MacDonald</i><par n="Schmidt__np"/></e>
+<e lm="MacGregor">       <i>MacGregor</i><par n="Schmidt__np"/></e>
+<e lm="Mackay">          <i>Mackay</i><par n="Schmidt__np"/></e>
+<e lm="Mackenzie">       <i>Mackenzie</i><par n="Schmidt__np"/></e>
+<e lm="Mackin">          <i>Mackin</i><par n="Schmidt__np"/></e>
+<e lm="MacLean">         <i>MacLean</i><par n="Schmidt__np"/></e>
+<e lm="MacMillan">       <i>MacMillan</i><par n="Schmidt__np"/></e>
+<e lm="Macys">           <i>Macys</i><par n="Schmidt__np"/></e>
+<e lm="Madyson">         <i>Madyson</i><par n="Schmidt__np"/></e>
+<e lm="Magham">          <i>Magham</i><par n="Schmidt__np"/></e>
+<e lm="Maguire">         <i>Maguire</i><par n="Schmidt__np"/></e>
+<e lm="Maier">           <i>Maier</i><par n="Schmidt__np"/></e>
+<e lm="Mailer">          <i>Mailer</i><par n="Schmidt__np"/></e>
+<e lm="Maloney">         <i>Maloney</i><par n="Schmidt__np"/></e>
+<e lm="Mandela">         <i>Mandela</i><par n="Schmidt__np"/></e>
+<e lm="Manning">         <i>Manning</i><par n="Schmidt__np"/></e>
+<e lm="Mansfield">       <i>Mansfield</i><par n="Schmidt__np"/></e>
+<e lm="Mansion">         <i>Mansion</i><par n="Schmidt__np"/></e>
+<e lm="Manson">          <i>Manson</i><par n="Schmidt__np"/></e>
+<e lm="Mappin">          <i>Mappin</i><par n="Schmidt__np"/></e>
+<e lm="Marcellin">       <i>Marcellin</i><par n="Schmidt__np"/></e>
+<e lm="Marge">           <i>Marge</i><par n="Schmidt__np"/></e>
+<e lm="Marks">           <i>Marks</i><par n="Schmidt__np"/></e>
+<e lm="Marlow">          <i>Marlow</i><par n="Schmidt__np"/></e>
+<e lm="Marlowe">         <i>Marlowe</i><par n="Schmidt__np"/></e>
+<e lm="Marr">            <i>Marr</i><par n="Schmidt__np"/></e>
+<e lm="Marron">          <i>Marron</i><par n="Schmidt__np"/></e>
+<e lm="Marrs">           <i>Marrs</i><par n="Schmidt__np"/></e>
+<e lm="Marshall">        <i>Marshall</i><par n="Schmidt__np"/></e>
+<e lm="Martel">          <i>Martel</i><par n="Schmidt__np"/></e>
+<e lm="Marvel">          <i>Marvel</i><par n="Schmidt__np"/></e>
+<e lm="Maserati">        <i>Maserati</i><par n="Schmidt__np"/></e>
+<e lm="Masons">          <i>Masons</i><par n="Schmidt__np"/></e>
+<e lm="Masterson">       <i>Masterson</i><par n="Schmidt__np"/></e>
+<e lm="Mathews">         <i>Mathews</i><par n="Schmidt__np"/></e>
+<e lm="Mathis">          <i>Mathis</i><par n="Schmidt__np"/></e>
+<e lm="Matthews">        <i>Matthews</i><par n="Schmidt__np"/></e>
+<e lm="Maxwell">         <i>Maxwell</i><par n="Schmidt__np"/></e>
+<e lm="May">             <i>May</i><par n="Schmidt__np"/></e>
+<e lm="Mayer">           <i>Mayer</i><par n="Schmidt__np"/></e>
+<e lm="McAllister">      <i>McAllister</i><par n="Schmidt__np"/></e>
+<e lm="McBean">          <i>McBean</i><par n="Schmidt__np"/></e>
+<e lm="McCain">          <i>McCain</i><par n="Schmidt__np"/></e>
+<e lm="McClellan">       <i>McClellan</i><par n="Schmidt__np"/></e>
+<e lm="McClure">         <i>McClure</i><par n="Schmidt__np"/></e>
+<e lm="McConnor">        <i>McConnor</i><par n="Schmidt__np"/></e>
+<e lm="McCormack">       <i>McCormack</i><par n="Schmidt__np"/></e>
+<e lm="McDermott">       <i>McDermott</i><par n="Schmidt__np"/></e>
+<e lm="McDonald">        <i>McDonald</i><par n="Schmidt__np"/></e>
+<e lm="McDowell">        <i>McDowell</i><par n="Schmidt__np"/></e>
+<e lm="McDumber">        <i>McDumber</i><par n="Schmidt__np"/></e>
+<e lm="McEwan">          <i>McEwan</i><par n="Schmidt__np"/></e>
+<e lm="McGregor">        <i>McGregor</i><par n="Schmidt__np"/></e>
+<e lm="McHaverty">       <i>McHaverty</i><par n="Schmidt__np"/></e>
+<e lm="McLeod">          <i>McLeod</i><par n="Schmidt__np"/></e>
+<e lm="McNeil">          <i>McNeil</i><par n="Schmidt__np"/></e>
+<e lm="McTavish">        <i>McTavish</i><par n="Schmidt__np"/></e>
+<e lm="Mead">            <i>Mead</i><par n="Schmidt__np"/></e>
+<e lm="Meadows">         <i>Meadows</i><par n="Schmidt__np"/></e>
+<e lm="Meakes">          <i>Meakes</i><par n="Schmidt__np"/></e>
+<e lm="Meakin">          <i>Meakin</i><par n="Schmidt__np"/></e>
+<e lm="Mehta">           <i>Mehta</i><par n="Schmidt__np"/></e>
+<e lm="Melbo">           <i>Melbo</i><par n="Schmidt__np"/></e>
+<e lm="Melody">          <i>Melody</i><par n="Schmidt__np"/></e>
+<e lm="Messi">           <i>Messi</i><par n="Schmidt__np"/></e>
+<e lm="Meyer">           <i>Meyer</i><par n="Schmidt__np"/></e>
+<e lm="Mezan">           <i>Mezan</i><par n="Schmidt__np"/></e>
+<e lm="Michna">          <i>Michna</i><par n="Schmidt__np"/></e>
+<e lm="Michniewski">     <i>Michniewski</i><par n="Schmidt__np"/></e>
+<e lm="Middleton">       <i>Middleton</i><par n="Schmidt__np"/></e>
+<e lm="Miehle">          <i>Miehle</i><par n="Schmidt__np"/></e>
+<e lm="Miguel">          <i>Miguel</i><par n="Schmidt__np"/></e>
+<e lm="Miles">           <i>Miles</i><par n="Schmidt__np"/></e>
+<e lm="Mill">            <i>Mill</i><par n="Schmidt__np"/></e>
+<e lm="Millar">          <i>Millar</i><par n="Schmidt__np"/></e>
+<e lm="Miller">          <i>Miller</i><par n="Schmidt__np"/></e>
+<e lm="Mills">           <i>Mills</i><par n="Schmidt__np"/></e>
+<e lm="Milne">           <i>Milne</i><par n="Schmidt__np"/></e>
+<e lm="Minogue">         <i>Minogue</i><par n="Schmidt__np"/></e>
+<e lm="Mistal">          <i>Mistal</i><par n="Schmidt__np"/></e>
+<e lm="Mitchell">        <i>Mitchell</i><par n="Schmidt__np"/></e>
+<e lm="Moat">            <i>Moat</i><par n="Schmidt__np"/></e>
+<e lm="Mohammedi">       <i>Mohammedi</i><par n="Schmidt__np"/></e>
+<e lm="Moleworthy">      <i>Moleworthy</i><par n="Schmidt__np"/></e>
+<e lm="Molloy">          <i>Molloy</i><par n="Schmidt__np"/></e>
+<e lm="Mondon">          <i>Mondon</i><par n="Schmidt__np"/></e>
+<e lm="Monroe">          <i>Monroe</i><par n="Schmidt__np"/></e>
+<e lm="Montagu">         <i>Montagu</i><par n="Schmidt__np"/></e>
+<e lm="Moore">           <i>Moore</i><par n="Schmidt__np"/></e>
+<e lm="Moover">          <i>Moover</i><par n="Schmidt__np"/></e>
+<e lm="Moreno">          <i>Moreno</i><par n="Schmidt__np"/></e>
+<e lm="Morrison">        <i>Morrison</i><par n="Schmidt__np"/></e>
+<e lm="Morrissey">       <i>Morrissey</i><par n="Schmidt__np"/></e>
+<e lm="Morton">          <i>Morton</i><par n="Schmidt__np"/></e>
+<e lm="Moston">          <i>Moston</i><par n="Schmidt__np"/></e>
+<e lm="Moynihan">        <i>Moynihan</i><par n="Schmidt__np"/></e>
+<e lm="Mozart">          <i>Mozart</i><par n="Schmidt__np"/></e>
+<e lm="Muckatty">        <i>Muckatty</i><par n="Schmidt__np"/></e>
+<e lm="Muir">            <i>Muir</i><par n="Schmidt__np"/></e>
+<e lm="Müller">          <i>Müller</i><par n="Schmidt__np"/></e>
+<e lm="Mulligan">        <i>Mulligan</i><par n="Schmidt__np"/></e>
+<e lm="Murdock">         <i>Murdock</i><par n="Schmidt__np"/></e>
+<e lm="Murphy">          <i>Murphy</i><par n="Schmidt__np"/></e>
+<e lm="Murray">          <i>Murray</i><par n="Schmidt__np"/></e>
+<e lm="Mustermann">      <i>Mustermann</i><par n="Schmidt__np"/></e>
+<e lm="Myer">            <i>Myer</i><par n="Schmidt__np"/></e>
+<e lm="Navarro">         <i>Navarro</i><par n="Schmidt__np"/></e>
+<e lm="Neale">           <i>Neale</i><par n="Schmidt__np"/></e>
+<e lm="Neil Armstrong">  <i>Neil<b/>Armstrong</i><par n="Schmidt__np"/></e>
+<e lm="Nelson">          <i>Nelson</i><par n="Schmidt__np"/></e>
+<e lm="Nesbit">          <i>Nesbit</i><par n="Schmidt__np"/></e>
+<e lm="Neumann">         <i>Neumann</i><par n="Schmidt__np"/></e>
+<e lm="Newman">          <i>Newman</i><par n="Schmidt__np"/></e>
+<e lm="Newton">          <i>Newton</i><par n="Schmidt__np"/></e>
+<e lm="Nichols">         <i>Nichols</i><par n="Schmidt__np"/></e>
+<e lm="Nicholse">        <i>Nicholse</i><par n="Schmidt__np"/></e>
+<e lm="Nicholson">       <i>Nicholson</i><par n="Schmidt__np"/></e>
+<e lm="Niemec">          <i>Niemec</i><par n="Schmidt__np"/></e>
+<e lm="Niemeyer">        <i>Niemeyer</i><par n="Schmidt__np"/></e>
+<e lm="Nightingale">     <i>Nightingale</i><par n="Schmidt__np"/></e>
+<e lm="Niles">           <i>Niles</i><par n="Schmidt__np"/></e>
+<e lm="Nivison">         <i>Nivison</i><par n="Schmidt__np"/></e>
+<e lm="Nokes">           <i>Nokes</i><par n="Schmidt__np"/></e>
+<e lm="Nolte">           <i>Nolte</i><par n="Schmidt__np"/></e>
+<e lm="Norris">          <i>Norris</i><par n="Schmidt__np"/></e>
+<e lm="North">           <i>North</i><par n="Schmidt__np"/></e>
+<e lm="Nott">            <i>Nott</i><par n="Schmidt__np"/></e>
+<e lm="Novelli">         <i>Novelli</i><par n="Schmidt__np"/></e>
+<e lm="O'Kelly">         <i>O'Kelly</i><par n="Schmidt__np"/></e>
+<e lm="Oakes">           <i>Oakes</i><par n="Schmidt__np"/></e>
+<e lm="Oakman">          <i>Oakman</i><par n="Schmidt__np"/></e>
+<e lm="Oates">           <i>Oates</i><par n="Schmidt__np"/></e>
+<e lm="Openshaw">        <i>Openshaw</i><par n="Schmidt__np"/></e>
+<e lm="Orm">             <i>Orm</i><par n="Schmidt__np"/></e>
+<e lm="Ormsby">          <i>Ormsby</i><par n="Schmidt__np"/></e>
+<e lm="Orton">           <i>Orton</i><par n="Schmidt__np"/></e>
+<e lm="Osborne">         <i>Osborne</i><par n="Schmidt__np"/></e>
+<e lm="Osment">          <i>Osment</i><par n="Schmidt__np"/></e>
+<e lm="Otis">            <i>Otis</i><par n="Schmidt__np"/></e>
+<e lm="Ovens">           <i>Ovens</i><par n="Schmidt__np"/></e>
+<e lm="Owen">            <i>Owen</i><par n="Schmidt__np"/></e>
+<e lm="Pacana">          <i>Pacana</i><par n="Schmidt__np"/></e>
+<e lm="Palin">           <i>Palin</i><par n="Schmidt__np"/></e>
+<e lm="Palmer">          <i>Palmer</i><par n="Schmidt__np"/></e>
+<e lm="Paltrow">         <i>Paltrow</i><par n="Schmidt__np"/></e>
+<e lm="Pane">            <i>Pane</i><par n="Schmidt__np"/></e>
+<e lm="Paretsky">        <i>Paretsky</i><par n="Schmidt__np"/></e>
+<e lm="Parkins">         <i>Parkins</i><par n="Schmidt__np"/></e>
+<e lm="Parks">           <i>Parks</i><par n="Schmidt__np"/></e>
+<e lm="Parsons">         <i>Parsons</i><par n="Schmidt__np"/></e>
+<e lm="Partridge">       <i>Partridge</i><par n="Schmidt__np"/></e>
+<e lm="Patel">           <i>Patel</i><par n="Schmidt__np"/></e>
+<e lm="Patterson">       <i>Patterson</i><par n="Schmidt__np"/></e>
+<e lm="Pattison">        <i>Pattison</i><par n="Schmidt__np"/></e>
+<e lm="Payne">           <i>Payne</i><par n="Schmidt__np"/></e>
+<e lm="Peabody">         <i>Peabody</i><par n="Schmidt__np"/></e>
+<e lm="Pearson">         <i>Pearson</i><par n="Schmidt__np"/></e>
+<e lm="Peck">            <i>Peck</i><par n="Schmidt__np"/></e>
+<e lm="Pedersen">        <i>Pedersen</i><par n="Schmidt__np"/></e>
+<e lm="Peel">            <i>Peel</i><par n="Schmidt__np"/></e>
+<e lm="Peletti">         <i>Peletti</i><par n="Schmidt__np"/></e>
+<e lm="Pemberton">       <i>Pemberton</i><par n="Schmidt__np"/></e>
+<e lm="Penrose">         <i>Penrose</i><par n="Schmidt__np"/></e>
+<e lm="Percy">           <i>Percy</i><par n="Schmidt__np"/></e>
+<e lm="Periwinkle">      <i>Periwinkle</i><par n="Schmidt__np"/></e>
+<e lm="Perkins">         <i>Perkins</i><par n="Schmidt__np"/></e>
+<e lm="Perks">           <i>Perks</i><par n="Schmidt__np"/></e>
+<e lm="Peterkin">        <i>Peterkin</i><par n="Schmidt__np"/></e>
+<e lm="Philipps">        <i>Philipps</i><par n="Schmidt__np"/></e>
+<e lm="Phillips">        <i>Phillips</i><par n="Schmidt__np"/></e>
+<e lm="Pickford">        <i>Pickford</i><par n="Schmidt__np"/></e>
+<e lm="Pietri">          <i>Pietri</i><par n="Schmidt__np"/></e>
+<e lm="Pike">            <i>Pike</i><par n="Schmidt__np"/></e>
+<e lm="Pim">             <i>Pim</i><par n="Schmidt__np"/></e>
+<e lm="Piper">           <i>Piper</i><par n="Schmidt__np"/></e>
+<e lm="Pistone">         <i>Pistone</i><par n="Schmidt__np"/></e>
+<e lm="Pit">             <i>Pit</i><par n="Schmidt__np"/></e>
+<e lm="Pitman">          <i>Pitman</i><par n="Schmidt__np"/></e>
+<e lm="Pitt">            <i>Pitt</i><par n="Schmidt__np"/></e>
+<e lm="Plummer">         <i>Plummer</i><par n="Schmidt__np"/></e>
+<e lm="Points">          <i>Points</i><par n="Schmidt__np"/></e>
+<e lm="Pond">            <i>Pond</i><par n="Schmidt__np"/></e>
+<e lm="Pont">            <i>Pont</i><par n="Schmidt__np"/></e>
+<e lm="Poor">            <i>Poor</i><par n="Schmidt__np"/></e>
+<e lm="Portus">          <i>Portus</i><par n="Schmidt__np"/></e>
+<e lm="Potter">          <i>Potter</i><par n="Schmidt__np"/></e>
+<e lm="Pottham">         <i>Pottham</i><par n="Schmidt__np"/></e>
+<e lm="Powder">          <i>Powder</i><par n="Schmidt__np"/></e>
+<e lm="Powell">          <i>Powell</i><par n="Schmidt__np"/></e>
+<e lm="Powys">           <i>Powys</i><par n="Schmidt__np"/></e>
+<e lm="Pringle">         <i>Pringle</i><par n="Schmidt__np"/></e>
+<e lm="Printer">         <i>Printer</i><par n="Schmidt__np"/></e>
+<e lm="Pritchett">       <i>Pritchett</i><par n="Schmidt__np"/></e>
+<e lm="Prox">            <i>Prox</i><par n="Schmidt__np"/></e>
+<e lm="Pulovski">        <i>Pulovski</i><par n="Schmidt__np"/></e>
+<e lm="Pun">             <i>Pun</i><par n="Schmidt__np"/></e>
+<e lm="Punch">           <i>Punch</i><par n="Schmidt__np"/></e>
+<e lm="Putin">           <i>Putin</i><par n="Schmidt__np"/></e>
+<e lm="Quaine">          <i>Quaine</i><par n="Schmidt__np"/></e>
+<e lm="Quantin">         <i>Quantin</i><par n="Schmidt__np"/></e>
+<e lm="Quincey">         <i>Quincey</i><par n="Schmidt__np"/></e>
+<e lm="Quinton">         <i>Quinton</i><par n="Schmidt__np"/></e>
+<e lm="Rabsen">          <i>Rabsen</i><par n="Schmidt__np"/></e>
+<e lm="Radcliffe">       <i>Radcliffe</i><par n="Schmidt__np"/></e>
+<e lm="Raleigh">         <i>Raleigh</i><par n="Schmidt__np"/></e>
+<e lm="Rama">            <i>Rama</i><par n="Schmidt__np"/></e>
+<e lm="Rampton">         <i>Rampton</i><par n="Schmidt__np"/></e>
+<e lm="Ramsden">         <i>Ramsden</i><par n="Schmidt__np"/></e>
+<e lm="Randle">          <i>Randle</i><par n="Schmidt__np"/></e>
+<e lm="Rannoch">         <i>Rannoch</i><par n="Schmidt__np"/></e>
+<e lm="Rasputin">        <i>Rasputin</i><par n="Schmidt__np"/></e>
+<e lm="Rawlings">        <i>Rawlings</i><par n="Schmidt__np"/></e>
+<e lm="Rawlson">         <i>Rawlson</i><par n="Schmidt__np"/></e>
+<e lm="Reagan">          <i>Reagan</i><par n="Schmidt__np"/></e>
+<e lm="Rebelles">        <i>Rebelles</i><par n="Schmidt__np"/></e>
+<e lm="Redford">         <i>Redford</i><par n="Schmidt__np"/></e>
+<e lm="Redman">          <i>Redman</i><par n="Schmidt__np"/></e>
+<e lm="Redstone">        <i>Redstone</i><par n="Schmidt__np"/></e>
+<e lm="Reed">            <i>Reed</i><par n="Schmidt__np"/></e>
+<e lm="Reilly-Coleman">  <i>Reilly-Coleman</i><par n="Schmidt__np"/></e>
+<e lm="Renouf">          <i>Renouf</i><par n="Schmidt__np"/></e>
+<e lm="Renshaw">         <i>Renshaw</i><par n="Schmidt__np"/></e>
+<e lm="Reyes">           <i>Reyes</i><par n="Schmidt__np"/></e>
+<e lm="Reynolds">        <i>Reynolds</i><par n="Schmidt__np"/></e>
+<e lm="Rhys-Jones">      <i>Rhys-Jones</i><par n="Schmidt__np"/></e>
+<e lm="Ricards">         <i>Ricards</i><par n="Schmidt__np"/></e>
+<e lm="Richard Nixon">   <i>Richard<b/>Nixon</i><par n="Schmidt__np"/></e>
+<e lm="Richards">        <i>Richards</i><par n="Schmidt__np"/></e>
+<e lm="Richardson">      <i>Richardson</i><par n="Schmidt__np"/></e>
+<e lm="Ridge">           <i>Ridge</i><par n="Schmidt__np"/></e>
+<e lm="Ridley">          <i>Ridley</i><par n="Schmidt__np"/></e>
+<e lm="Rieß">            <i>Rieß</i><par n="Schmidt__np"/></e>
+<e lm="Riggs">           <i>Riggs</i><par n="Schmidt__np"/></e>
+<e lm="Righto">          <i>Righto</i><par n="Schmidt__np"/></e>
+<e lm="Riley">           <i>Riley</i><par n="Schmidt__np"/></e>
+<e lm="Ripley">          <i>Ripley</i><par n="Schmidt__np"/></e>
+<e lm="Ripple">          <i>Ripple</i><par n="Schmidt__np"/></e>
+<e lm="Robb">            <i>Robb</i><par n="Schmidt__np"/></e>
+<e lm="Roberts">         <i>Roberts</i><par n="Schmidt__np"/></e>
+<e lm="Robertson">       <i>Robertson</i><par n="Schmidt__np"/></e>
+<e lm="Robinson">        <i>Robinson</i><par n="Schmidt__np"/></e>
+<e lm="Rockwell">        <i>Rockwell</i><par n="Schmidt__np"/></e>
+<e lm="Roddick">         <i>Roddick</i><par n="Schmidt__np"/></e>
+<e lm="Rodin">           <i>Rodin</i><par n="Schmidt__np"/></e>
+<e lm="Rodriguez">       <i>Rodriguez</i><par n="Schmidt__np"/></e>
+<e lm="Rogen">           <i>Rogen</i><par n="Schmidt__np"/></e>
+<e lm="Rogers">          <i>Rogers</i><par n="Schmidt__np"/></e>
+<e lm="Rollins">         <i>Rollins</i><par n="Schmidt__np"/></e>
+<e lm="Rolls Royce">     <i>Rolls<b/>Royce</i><par n="Schmidt__np"/></e>
+<e lm="Romero">          <i>Romero</i><par n="Schmidt__np"/></e>
+<e lm="Ronaldo">         <i>Ronaldo</i><par n="Schmidt__np"/></e>
+<e lm="Rooney">          <i>Rooney</i><par n="Schmidt__np"/></e>
+<e lm="Rosedale">        <i>Rosedale</i><par n="Schmidt__np"/></e>
+<e lm="Rossi">           <i>Rossi</i><par n="Schmidt__np"/></e>
+<e lm="Rossié">          <i>Rossié</i><par n="Schmidt__np"/></e>
+<e lm="Rossum">          <i>Rossum</i><par n="Schmidt__np"/></e>
+<e lm="Roston">          <i>Roston</i><par n="Schmidt__np"/></e>
+<e lm="Rothe">           <i>Rothe</i><par n="Schmidt__np"/></e>
+<e lm="Rowbotham">       <i>Rowbotham</i><par n="Schmidt__np"/></e>
+<e lm="Rowley">          <i>Rowley</i><par n="Schmidt__np"/></e>
+<e lm="Rowling">         <i>Rowling</i><par n="Schmidt__np"/></e>
+<e lm="Russel">          <i>Russel</i><par n="Schmidt__np"/></e>
+<e lm="Rusty">           <i>Rusty</i><par n="Schmidt__np"/></e>
+<e lm="Rutger">          <i>Rutger</i><par n="Schmidt__np"/></e>
+<e lm="Rutherford">      <i>Rutherford</i><par n="Schmidt__np"/></e>
+<e lm="Ryman">           <i>Ryman</i><par n="Schmidt__np"/></e>
+<e lm="Sabin">           <i>Sabin</i><par n="Schmidt__np"/></e>
+<e lm="Salbatore">       <i>Salbatore</i><par n="Schmidt__np"/></e>
+<e lm="Salk">            <i>Salk</i><par n="Schmidt__np"/></e>
+<e lm="Salvatore">       <i>Salvatore</i><par n="Schmidt__np"/></e>
+<e lm="Sampson">         <i>Sampson</i><par n="Schmidt__np"/></e>
+<e lm="Sanders">         <i>Sanders</i><par n="Schmidt__np"/></e>
+<e lm="Sandford">        <i>Sandford</i><par n="Schmidt__np"/></e>
+<e lm="Sandybell">       <i>Sandybell</i><par n="Schmidt__np"/></e>
+<e lm="Sappleton">       <i>Sappleton</i><par n="Schmidt__np"/></e>
+<e lm="Saunders">        <i>Saunders</i><par n="Schmidt__np"/></e>
+<e lm="Saver">           <i>Saver</i><par n="Schmidt__np"/></e>
+<e lm="Sawyer">          <i>Sawyer</i><par n="Schmidt__np"/></e>
+<e lm="Scarlet">         <i>Scarlet</i><par n="Schmidt__np"/></e>
+<e lm="Schelsky">        <i>Schelsky</i><par n="Schmidt__np"/></e>
+<e lm="Schertzer">       <i>Schertzer</i><par n="Schmidt__np"/></e>
+<e lm="Schindler">       <i>Schindler</i><par n="Schmidt__np"/></e>
+<e lm="Schmidt">         <i>Schmidt</i><par n="Schmidt__np"/></e>
+<e lm="Schmitz">         <i>Schmitz</i><par n="Schmidt__np"/></e>
+<e lm="Schultz">         <i>Schultz</i><par n="Schmidt__np"/></e>
+<e lm="Schulz">          <i>Schulz</i><par n="Schmidt__np"/></e>
+<e lm="Schumacher">      <i>Schumacher</i><par n="Schmidt__np"/></e>
+<e lm="Schumann">        <i>Schumann</i><par n="Schmidt__np"/></e>
+<e lm="Schumpeter">      <i>Schumpeter</i><par n="Schmidt__np"/></e>
+<e lm="Scorsese">        <i>Scorsese</i><par n="Schmidt__np"/></e>
+<e lm="Seamor">          <i>Seamor</i><par n="Schmidt__np"/></e>
+<e lm="Seamore">         <i>Seamore</i><par n="Schmidt__np"/></e>
+<e lm="Seed">            <i>Seed</i><par n="Schmidt__np"/></e>
+<e lm="Seguin">          <i>Seguin</i><par n="Schmidt__np"/></e>
+<e lm="Selfridges">      <i>Selfridges</i><par n="Schmidt__np"/></e>
+<e lm="Seller">          <i>Seller</i><par n="Schmidt__np"/></e>
+<e lm="Sellers">         <i>Sellers</i><par n="Schmidt__np"/></e>
+<e lm="Setton">          <i>Setton</i><par n="Schmidt__np"/></e>
+<e lm="Shaftesbury">     <i>Shaftesbury</i><par n="Schmidt__np"/></e>
+<e lm="Shakespeare">     <i>Shakespeare</i><par n="Schmidt__np"/></e>
+<e lm="Shakespeare">     <i>Shakespeare</i><par n="Schmidt__np"/></e>
+<e lm="Shankar">         <i>Shankar</i><par n="Schmidt__np"/></e>
+<e lm="Shark">           <i>Shark</i><par n="Schmidt__np"/></e>
+<e lm="Sharpe">          <i>Sharpe</i><par n="Schmidt__np"/></e>
+<e lm="Shaw">            <i>Shaw</i><par n="Schmidt__np"/></e>
+<e lm="Shawn">           <i>Shawn</i><par n="Schmidt__np"/></e>
+<e lm="Shell">           <i>Shell</i><par n="Schmidt__np"/></e>
+<e lm="Sheridan">        <i>Sheridan</i><par n="Schmidt__np"/></e>
+<e lm="Sherman">         <i>Sherman</i><par n="Schmidt__np"/></e>
+<e lm="Sherwood">        <i>Sherwood</i><par n="Schmidt__np"/></e>
+<e lm="Shimizu">         <i>Shimizu</i><par n="Schmidt__np"/></e>
+<e lm="Shiner">          <i>Shiner</i><par n="Schmidt__np"/></e>
+<e lm="Short">           <i>Short</i><par n="Schmidt__np"/></e>
+<e lm="Silver">          <i>Silver</i><par n="Schmidt__np"/></e>
+<e lm="Silverman">       <i>Silverman</i><par n="Schmidt__np"/></e>
+<e lm="Sim">             <i>Sim</i><par n="Schmidt__np"/></e>
+<e lm="Simmons">         <i>Simmons</i><par n="Schmidt__np"/></e>
+<e lm="Sinclair">        <i>Sinclair</i><par n="Schmidt__np"/></e>
+<e lm="Slade">           <i>Slade</i><par n="Schmidt__np"/></e>
+<e lm="Slicer">          <i>Slicer</i><par n="Schmidt__np"/></e>
+<e lm="Smarty">          <i>Smarty</i><par n="Schmidt__np"/></e>
+<e lm="Smile">           <i>Smile</i><par n="Schmidt__np"/></e>
+<e lm="Smith">           <i>Smith</i><par n="Schmidt__np"/></e>
+<e lm="Smooth">          <i>Smooth</i><par n="Schmidt__np"/></e>
+<e lm="Smythe">          <i>Smythe</i><par n="Schmidt__np"/></e>
+<e lm="Snyders">         <i>Snyders</i><par n="Schmidt__np"/></e>
+<e lm="Soderling">       <i>Soderling</i><par n="Schmidt__np"/></e>
+<e lm="Soulsby">         <i>Soulsby</i><par n="Schmidt__np"/></e>
+<e lm="Spare">           <i>Spare</i><par n="Schmidt__np"/></e>
+<e lm="Spark">           <i>Spark</i><par n="Schmidt__np"/></e>
+<e lm="Spears">          <i>Spears</i><par n="Schmidt__np"/></e>
+<e lm="Spenser">         <i>Spenser</i><par n="Schmidt__np"/></e>
+<e lm="Spicoli">         <i>Spicoli</i><par n="Schmidt__np"/></e>
+<e lm="Spielberg">       <i>Spielberg</i><par n="Schmidt__np"/></e>
+<e lm="Sprat">           <i>Sprat</i><par n="Schmidt__np"/></e>
+<e lm="Springer">        <i>Springer</i><par n="Schmidt__np"/></e>
+<e lm="Spurlock">        <i>Spurlock</i><par n="Schmidt__np"/></e>
+<e lm="Stalin">          <i>Stalin</i><par n="Schmidt__np"/></e>
+<e lm="Stalin">          <i>Stalin</i><par n="Schmidt__np"/></e>
+<e lm="Stanfill">        <i>Stanfill</i><par n="Schmidt__np"/></e>
+<e lm="Stanton">         <i>Stanton</i><par n="Schmidt__np"/></e>
+<e lm="Stavros">         <i>Stavros</i><par n="Schmidt__np"/></e>
+<e lm="Stellenbosch">    <i>Stellenbosch</i><par n="Schmidt__np"/></e>
+<e lm="Stephens">        <i>Stephens</i><par n="Schmidt__np"/></e>
+<e lm="Stevens">         <i>Stevens</i><par n="Schmidt__np"/></e>
+<e lm="Stevenson">       <i>Stevenson</i><par n="Schmidt__np"/></e>
+<e lm="Stifter">         <i>Stifter</i><par n="Schmidt__np"/></e>
+<e lm="Stockwell">       <i>Stockwell</i><par n="Schmidt__np"/></e>
+<e lm="Stoltz">          <i>Stoltz</i><par n="Schmidt__np"/></e>
+<e lm="Stone">           <i>Stone</i><par n="Schmidt__np"/></e>
+<e lm="Stout">           <i>Stout</i><par n="Schmidt__np"/></e>
+<e lm="Stranks">         <i>Stranks</i><par n="Schmidt__np"/></e>
+<e lm="Sukor">           <i>Sukor</i><par n="Schmidt__np"/></e>
+<e lm="Sullivan">        <i>Sullivan</i><par n="Schmidt__np"/></e>
+<e lm="Summer">          <i>Summer</i><par n="Schmidt__np"/></e>
+<e lm="Summerfield">     <i>Summerfield</i><par n="Schmidt__np"/></e>
+<e lm="Sutherland">      <i>Sutherland</i><par n="Schmidt__np"/></e>
+<e lm="Sutton">          <i>Sutton</i><par n="Schmidt__np"/></e>
+<e lm="Swain">           <i>Swain</i><par n="Schmidt__np"/></e>
+<e lm="Swan">            <i>Swan</i><par n="Schmidt__np"/></e>
+<e lm="Swartridge">      <i>Swartridge</i><par n="Schmidt__np"/></e>
+<e lm="Swayze">          <i>Swayze</i><par n="Schmidt__np"/></e>
+<e lm="Swenson">         <i>Swenson</i><par n="Schmidt__np"/></e>
+<e lm="Swift">           <i>Swift</i><par n="Schmidt__np"/></e>
+<e lm="Sykes">           <i>Sykes</i><par n="Schmidt__np"/></e>
+<e lm="Szish">           <i>Szish</i><par n="Schmidt__np"/></e>
+<e lm="Tailor">          <i>Tailor</i><par n="Schmidt__np"/></e>
+<e lm="Tait">            <i>Tait</i><par n="Schmidt__np"/></e>
+<e lm="Talbot">          <i>Talbot</i><par n="Schmidt__np"/></e>
+<e lm="Taller">          <i>Taller</i><par n="Schmidt__np"/></e>
+<e lm="Tamworth">        <i>Tamworth</i><par n="Schmidt__np"/></e>
+<e lm="Tan">             <i>Tan</i><par n="Schmidt__np"/></e>
+<e lm="Tanner">          <i>Tanner</i><par n="Schmidt__np"/></e>
+<e lm="Tardoo">          <i>Tardoo</i><par n="Schmidt__np"/></e>
+<e lm="Tassie">          <i>Tassie</i><par n="Schmidt__np"/></e>
+<e lm="Tatum">           <i>Tatum</i><par n="Schmidt__np"/></e>
+<e lm="Teed">            <i>Teed</i><par n="Schmidt__np"/></e>
+<e lm="Terrell">         <i>Terrell</i><par n="Schmidt__np"/></e>
+<e lm="Thompson">        <i>Thompson</i><par n="Schmidt__np"/></e>
+<e lm="Thomson">         <i>Thomson</i><par n="Schmidt__np"/></e>
+<e lm="Thoreau">         <i>Thoreau</i><par n="Schmidt__np"/></e>
+<e lm="Thornapple">      <i>Thornapple</i><par n="Schmidt__np"/></e>
+<e lm="Thorndike">       <i>Thorndike</i><par n="Schmidt__np"/></e>
+<e lm="Thornton">        <i>Thornton</i><par n="Schmidt__np"/></e>
+<e lm="Thrust">          <i>Thrust</i><par n="Schmidt__np"/></e>
+<e lm="Thurman">         <i>Thurman</i><par n="Schmidt__np"/></e>
+<e lm="Tiller">          <i>Tiller</i><par n="Schmidt__np"/></e>
+<e lm="Tilley">          <i>Tilley</i><par n="Schmidt__np"/></e>
+<e lm="Tomkins">         <i>Tomkins</i><par n="Schmidt__np"/></e>
+<e lm="Tomlinson">       <i>Tomlinson</i><par n="Schmidt__np"/></e>
+<e lm="Tore">            <i>Tore</i><par n="Schmidt__np"/></e>
+<e lm="Torelli">         <i>Torelli</i><par n="Schmidt__np"/></e>
+<e lm="Torrence">        <i>Torrence</i><par n="Schmidt__np"/></e>
+<e lm="Townsend">        <i>Townsend</i><par n="Schmidt__np"/></e>
+<e lm="Tramway">         <i>Tramway</i><par n="Schmidt__np"/></e>
+<e lm="Travers">         <i>Travers</i><par n="Schmidt__np"/></e>
+<e lm="Travis">          <i>Travis</i><par n="Schmidt__np"/></e>
+<e lm="Trenton">         <i>Trenton</i><par n="Schmidt__np"/></e>
+<e lm="Trepanier">       <i>Trepanier</i><par n="Schmidt__np"/></e>
+<e lm="Trevens">         <i>Trevens</i><par n="Schmidt__np"/></e>
+<e lm="Tripton">         <i>Tripton</i><par n="Schmidt__np"/></e>
+<e lm="Trotham">         <i>Trotham</i><par n="Schmidt__np"/></e>
+<e lm="Trotman">         <i>Trotman</i><par n="Schmidt__np"/></e>
+<e lm="Trump">           <i>Trump</i><par n="Schmidt__np"/></e>
+<e lm="Tucker">          <i>Tucker</i><par n="Schmidt__np"/></e>
+<e lm="Tudor">           <i>Tudor</i><par n="Schmidt__np"/></e>
+<e lm="Turlington">      <i>Turlington</i><par n="Schmidt__np"/></e>
+<e lm="Twain">           <i>Twain</i><par n="Schmidt__np"/></e>
+<e lm="Tweedie">         <i>Tweedie</i><par n="Schmidt__np"/></e>
+<e lm="Tyshawn">         <i>Tyshawn</i><par n="Schmidt__np"/></e>
+<e lm="Tyson">           <i>Tyson</i><par n="Schmidt__np"/></e>
+<e lm="Umney">           <i>Umney</i><par n="Schmidt__np"/></e>
+<e lm="Underhill">       <i>Underhill</i><par n="Schmidt__np"/></e>
+<e lm="Valderrama">      <i>Valderrama</i><par n="Schmidt__np"/></e>
+<e lm="Valentino">       <i>Valentino</i><par n="Schmidt__np"/></e>
+<e lm="van der Merwe">   <i>van<b/>der<b/>Merwe</i><par n="Schmidt__np"/></e>
+<e lm="van Vuuren">      <i>van<b/>Vuuren</i><par n="Schmidt__np"/></e>
+<e lm="Vandenberg">      <i>Vandenberg</i><par n="Schmidt__np"/></e>
+<e lm="Vandroor">        <i>Vandroor</i><par n="Schmidt__np"/></e>
+<e lm="Villeneuve">      <i>Villeneuve</i><par n="Schmidt__np"/></e>
+<e lm="Vinelli">         <i>Vinelli</i><par n="Schmidt__np"/></e>
+<e lm="Vladmirovich">    <i>Vladmirovich</i><par n="Schmidt__np"/></e>
+<e lm="Vuitton">         <i>Vuitton</i><par n="Schmidt__np"/></e>
+<e lm="Wagner">          <i>Wagner</i><par n="Schmidt__np"/></e>
+<e lm="Walcott">         <i>Walcott</i><par n="Schmidt__np"/></e>
+<e lm="Wallace">         <i>Wallace</i><par n="Schmidt__np"/></e>
+<e lm="Walsh">           <i>Walsh</i><par n="Schmidt__np"/></e>
+<e lm="Walt">            <i>Walt</i><par n="Schmidt__np"/></e>
+<e lm="Walton">          <i>Walton</i><par n="Schmidt__np"/></e>
+<e lm="Warbeck">         <i>Warbeck</i><par n="Schmidt__np"/></e>
+<e lm="Ward">            <i>Ward</i><par n="Schmidt__np"/></e>
+<e lm="Wardlaw">         <i>Wardlaw</i><par n="Schmidt__np"/></e>
+<e lm="Wargrave">        <i>Wargrave</i><par n="Schmidt__np"/></e>
+<e lm="Warhol">          <i>Warhol</i><par n="Schmidt__np"/></e>
+<e lm="Warner">          <i>Warner</i><par n="Schmidt__np"/></e>
+<e lm="Watana">          <i>Watana</i><par n="Schmidt__np"/></e>
+<e lm="Wates">           <i>Wates</i><par n="Schmidt__np"/></e>
+<e lm="Watson">          <i>Watson</i><par n="Schmidt__np"/></e>
+<e lm="Watts">           <i>Watts</i><par n="Schmidt__np"/></e>
+<e lm="Wayne">           <i>Wayne</i><par n="Schmidt__np"/></e>
+<e lm="Weasley">         <i>Weasley</i><par n="Schmidt__np"/></e>
+<e lm="Weaver">          <i>Weaver</i><par n="Schmidt__np"/></e>
+<e lm="Webb">            <i>Webb</i><par n="Schmidt__np"/></e>
+<e lm="Webber">          <i>Webber</i><par n="Schmidt__np"/></e>
+<e lm="Webster">         <i>Webster</i><par n="Schmidt__np"/></e>
+<e lm="Weigend">         <i>Weigend</i><par n="Schmidt__np"/></e>
+<e lm="Wells">           <i>Wells</i><par n="Schmidt__np"/></e>
+<e lm="Wells-Fraser">    <i>Wells-Fraser</i><par n="Schmidt__np"/></e>
+<e lm="Wendell">         <i>Wendell</i><par n="Schmidt__np"/></e>
+<e lm="Wendler">         <i>Wendler</i><par n="Schmidt__np"/></e>
+<e lm="Weston">          <i>Weston</i><par n="Schmidt__np"/></e>
+<e lm="Whale">           <i>Whale</i><par n="Schmidt__np"/></e>
+<e lm="Wharton">         <i>Wharton</i><par n="Schmidt__np"/></e>
+<e lm="White">           <i>White</i><par n="Schmidt__np"/></e>
+<e lm="Whitfield">       <i>Whitfield</i><par n="Schmidt__np"/></e>
+<e lm="Whittaker">       <i>Whittaker</i><par n="Schmidt__np"/></e>
+<e lm="Whittington">     <i>Whittington</i><par n="Schmidt__np"/></e>
+<e lm="Wickham">         <i>Wickham</i><par n="Schmidt__np"/></e>
+<e lm="Wiggs">           <i>Wiggs</i><par n="Schmidt__np"/></e>
+<e lm="Wilcox">          <i>Wilcox</i><par n="Schmidt__np"/></e>
+<e lm="Willet">          <i>Willet</i><par n="Schmidt__np"/></e>
+<e lm="Williams">        <i>Williams</i><par n="Schmidt__np"/></e>
+<e lm="Willie">          <i>Willie</i><par n="Schmidt__np"/></e>
+<e lm="Willis">          <i>Willis</i><par n="Schmidt__np"/></e>
+<e lm="Wilson">          <i>Wilson</i><par n="Schmidt__np"/></e>
+<e lm="Winchester">      <i>Winchester</i><par n="Schmidt__np"/></e>
+<e lm="Winkie">          <i>Winkie</i><par n="Schmidt__np"/></e>
+<e lm="Winslet">         <i>Winslet</i><par n="Schmidt__np"/></e>
+<e lm="Wintour">         <i>Wintour</i><par n="Schmidt__np"/></e>
+<e lm="Wiseman">         <i>Wiseman</i><par n="Schmidt__np"/></e>
+<e lm="Witherspoon">     <i>Witherspoon</i><par n="Schmidt__np"/></e>
+<e lm="Wood">            <i>Wood</i><par n="Schmidt__np"/></e>
+<e lm="Woodcock">        <i>Woodcock</i><par n="Schmidt__np"/></e>
+<e lm="Woodstock">       <i>Woodstock</i><par n="Schmidt__np"/></e>
+<e lm="Woolworth">       <i>Woolworth</i><par n="Schmidt__np"/></e>
+<e lm="Wren">            <i>Wren</i><par n="Schmidt__np"/></e>
+<e lm="Wright">          <i>Wright</i><par n="Schmidt__np"/></e>
+<e lm="Wung">            <i>Wung</i><par n="Schmidt__np"/></e>
+<e lm="Wylie">           <i>Wylie</i><par n="Schmidt__np"/></e>
+<e lm="Yeoh">            <i>Yeoh</i><par n="Schmidt__np"/></e>
+<e lm="Young">           <i>Young</i><par n="Schmidt__np"/></e>
+<e lm="Youngs">          <i>Youngs</i><par n="Schmidt__np"/></e>
+<e lm="Ziermann">        <i>Ziermann</i><par n="Schmidt__np"/></e>
+
+
 <!-- locations -->
 
+<e lm="Berlin">          <i>Berlin</i><par n="Frankräich__np"/></e>
 <e lm="Däitschland">     <i>Däitschland</i><par n="Frankräich__np"/></e>
 <e lm="England">         <i>England</i><par n="Frankräich__np"/></e>
+<e lm="Europa">          <i>Europa</i><par n="Frankräich__np"/></e>
 <e lm="Frankräich">      <i>Frankräich</i><par n="Frankräich__np"/></e>
 <e lm="Holland">         <i>Holland</i><par n="Frankräich__np"/></e>
+<e lm="Italien">         <i>Italien</i><par n="Frankräich__np"/></e>
 <e lm="Lëtzebuerg">      <i>Lëtzebuerg</i><par n="Frankräich__np"/></e>
+<e lm="London">          <i>London</i><par n="Frankräich__np"/></e>
+<e lm="Loutrengen">      <i>Loutrengen</i><par n="Frankräich__np"/></e>
+<e lm="Paräis">          <i>Paräis</i><par n="Frankräich__np"/></e>
+<e lm="Roum">            <i>Roum</i><par n="Frankräich__np"/></e>
+<e lm="Wien">            <i>Wien</i><par n="Frankräich__np"/></e>
+
+
+<!-- SECTION: Abbreviations -->
+
+<e lm="Chr.">            <i>Chr.</i><par n="Abk.__abbr"/></e>
+<e lm="v. Chr.">         <i>v.<b/>Chr.</i><par n="Abk.__abbr"/></e>
+<e lm="v.Chr.">          <i>v.Chr.</i><par n="Abk.__abbr"/></e>
+<e lm="z. B.">           <i>z.<b/>B.</i><par n="Abk.__abbr"/></e>
+<e lm="z.B.">            <i>z.B.</i><par n="Abk.__abbr"/></e>
 
   </section>
   <section id="contractions" type="standard">
@@ -14216,6 +16638,7 @@
 <e lm="vum">             <p><l>vum</l>       <r>vun<s n="pr"/><s n="dat"/><j/>den<s n="det"/><s n="def"/><s n="nt"/><s n="sg"/><s n="dat"/></r></p></e>
 <e lm="zum">             <p><l>zum</l>       <r>zu<s n="pr"/><s n="dat"/><j/>den<s n="det"/><s n="def"/><s n="m"/><s n="sg"/><s n="dat"/></r></p></e>  <!-- correct? -->
 <e lm="zum">             <p><l>zum</l>       <r>zu<s n="pr"/><s n="dat"/><j/>den<s n="det"/><s n="def"/><s n="nt"/><s n="sg"/><s n="dat"/></r></p></e>  <!-- correct? -->
+<e lm="zur">             <p><l>zur</l>       <r>zu<s n="pr"/><s n="dat"/><j/>den<s n="det"/><s n="def"/><s n="f"/><s n="sg"/><s n="dat"/></r></p></e>  <!-- correct? -->
   </section>
   <section id="final" type="inconditional">
 <e>                      <par n="separa"/></e>
