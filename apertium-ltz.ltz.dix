@@ -422,30 +422,30 @@
   <e>       <p><l>onnte</l>     <r>ënnen<s n="vbmod"/><s n="pii"/><s n="p3"/><s n="pl"/></r></p><par n="n"/></e>
 </pardef>
 
-<pardef n="/sollen__vbmod">
-  <e>       <p><l>solle</l>     <r>sollen<s n="vbmod"/><s n="inf"/></r></p><par n="n"/></e>
-  <e>       <p><l>solle</l>     <r>sollen<s n="vbmod"/><s n="pp"/></r></p><par n="n"/></e>
+<pardef n="soll/en__vbmod">
+  <e>       <p><l>e</l>         <r>en<s n="vbmod"/><s n="inf"/></r></p><par n="n"/></e>
+  <e>       <p><l>e</l>         <r>en<s n="vbmod"/><s n="pp"/></r></p><par n="n"/></e>
 
-  <e>       <p><l>soll</l>      <r>sollen<s n="vbmod"/><s n="pri"/><s n="p1"/><s n="sg"/></r></p></e>
-  <e>       <p><l>solls</l>     <r>sollen<s n="vbmod"/><s n="pri"/><s n="p2"/><s n="sg"/></r></p></e>
-  <e>       <p><l>soll</l>      <r>sollen<s n="vbmod"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
-  <e>       <p><l>solle</l>     <r>sollen<s n="vbmod"/><s n="pri"/><s n="p1"/><s n="pl"/></r></p><par n="n"/></e>
-  <e>       <p><l>sollt</l>     <r>sollen<s n="vbmod"/><s n="pri"/><s n="p2"/><s n="pl"/></r></p></e>
-  <e>       <p><l>solle</l>     <r>sollen<s n="vbmod"/><s n="pri"/><s n="p3"/><s n="pl"/></r></p><par n="n"/></e>
+  <e>       <p><l></l>          <r>en<s n="vbmod"/><s n="pri"/><s n="p1"/><s n="sg"/></r></p></e>
+  <e>       <p><l>s</l>         <r>en<s n="vbmod"/><s n="pri"/><s n="p2"/><s n="sg"/></r></p></e>
+  <e>       <p><l></l>          <r>en<s n="vbmod"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
+  <e>       <p><l>e</l>         <r>en<s n="vbmod"/><s n="pri"/><s n="p1"/><s n="pl"/></r></p><par n="n"/></e>
+  <e>       <p><l>t</l>         <r>en<s n="vbmod"/><s n="pri"/><s n="p2"/><s n="pl"/></r></p></e>
+  <e>       <p><l>e</l>         <r>en<s n="vbmod"/><s n="pri"/><s n="p3"/><s n="pl"/></r></p><par n="n"/></e>
 
-  <e>       <p><l>sollt</l>     <r>sollen<s n="vbmod"/><s n="prs"/><s n="p1"/><s n="sg"/></r></p></e>
-  <e>       <p><l>sollts</l>    <r>sollen<s n="vbmod"/><s n="prs"/><s n="p2"/><s n="sg"/></r></p></e>
-  <e>       <p><l>sollt</l>     <r>sollen<s n="vbmod"/><s n="prs"/><s n="p3"/><s n="sg"/></r></p></e>
-  <e>       <p><l>sollte</l>    <r>sollen<s n="vbmod"/><s n="prs"/><s n="p1"/><s n="pl"/></r></p><par n="n"/></e>
-  <e>       <p><l>sollt</l>     <r>sollen<s n="vbmod"/><s n="prs"/><s n="p2"/><s n="pl"/></r></p></e>
-  <e>       <p><l>sollte</l>    <r>sollen<s n="vbmod"/><s n="prs"/><s n="p3"/><s n="pl"/></r></p><par n="n"/></e>
+  <e>       <p><l>t</l>         <r>en<s n="vbmod"/><s n="prs"/><s n="p1"/><s n="sg"/></r></p></e>
+  <e>       <p><l>ts</l>        <r>en<s n="vbmod"/><s n="prs"/><s n="p2"/><s n="sg"/></r></p></e>
+  <e>       <p><l>t</l>         <r>en<s n="vbmod"/><s n="prs"/><s n="p3"/><s n="sg"/></r></p></e>
+  <e>       <p><l>te</l>        <r>en<s n="vbmod"/><s n="prs"/><s n="p1"/><s n="pl"/></r></p><par n="n"/></e>
+  <e>       <p><l>t</l>         <r>en<s n="vbmod"/><s n="prs"/><s n="p2"/><s n="pl"/></r></p></e>
+  <e>       <p><l>te</l>        <r>en<s n="vbmod"/><s n="prs"/><s n="p3"/><s n="pl"/></r></p><par n="n"/></e>
 
-  <e>       <p><l>sollt</l>     <r>sollen<s n="vbmod"/><s n="pii"/><s n="p1"/><s n="sg"/></r></p></e>
-  <e>       <p><l>sollts</l>    <r>sollen<s n="vbmod"/><s n="pii"/><s n="p2"/><s n="sg"/></r></p></e>
-  <e>       <p><l>sollt</l>     <r>sollen<s n="vbmod"/><s n="pii"/><s n="p3"/><s n="sg"/></r></p></e>
-  <e>       <p><l>sollte</l>    <r>sollen<s n="vbmod"/><s n="pii"/><s n="p1"/><s n="pl"/></r></p><par n="n"/></e>
-  <e>       <p><l>sollt</l>     <r>sollen<s n="vbmod"/><s n="pii"/><s n="p2"/><s n="pl"/></r></p></e>
-  <e>       <p><l>sollte</l>    <r>sollen<s n="vbmod"/><s n="pii"/><s n="p3"/><s n="pl"/></r></p><par n="n"/></e>
+  <e>       <p><l>t</l>         <r>en<s n="vbmod"/><s n="pii"/><s n="p1"/><s n="sg"/></r></p></e>
+  <e>       <p><l>ts</l>        <r>en<s n="vbmod"/><s n="pii"/><s n="p2"/><s n="sg"/></r></p></e>
+  <e>       <p><l>t</l>         <r>en<s n="vbmod"/><s n="pii"/><s n="p3"/><s n="sg"/></r></p></e>
+  <e>       <p><l>te</l>        <r>en<s n="vbmod"/><s n="pii"/><s n="p1"/><s n="pl"/></r></p><par n="n"/></e>
+  <e>       <p><l>t</l>         <r>en<s n="vbmod"/><s n="pii"/><s n="p2"/><s n="pl"/></r></p></e>
+  <e>       <p><l>te</l>        <r>en<s n="vbmod"/><s n="pii"/><s n="p3"/><s n="pl"/></r></p><par n="n"/></e>
 </pardef>
 
 <pardef n="a/n__pr">
@@ -468,9 +468,9 @@
 <!-- SECTION: Numerals -->
 
 <pardef n="e/en__num">
-  <e>       <p><l>e</l>         <r><s n="num"/><s n="m"/><s n="sg"/></r></p><par n="n"/></e>
-  <e>       <p><l>ng</l>        <r><s n="num"/><s n="f"/><s n="sg"/></r></p></e>
-  <e>       <p><l>e</l>         <r><s n="num"/><s n="nt"/><s n="sg"/></r></p><par n="n"/></e>
+  <e>       <p><l>e</l>         <r>en<s n="num"/><s n="m"/><s n="sg"/></r></p><par n="n"/></e>
+  <e>       <p><l>ng</l>        <r>en<s n="num"/><s n="f"/><s n="sg"/></r></p></e>
+  <e>       <p><l>e</l>         <r>en<s n="num"/><s n="nt"/><s n="sg"/></r></p><par n="n"/></e>
 </pardef>
 
 <pardef n="zw/ee__num">
@@ -4151,7 +4151,8 @@
 <e lm="sinn">            <i></i><par n="/sinn__vbser"/></e>
 <e lm="hunn">            <i></i><par n="/hunn__vbhaver"/></e>
 <e lm="kënnen">          <i>k</i><par n="k/ënnen__vbmod"/></e>
-<e lm="sollen">          <i></i><par n="/sollen__vbmod"/></e>
+<e lm="sollen">          <i>soll</i><par n="soll/en__vbmod"/></e>
+<e lm="mussen">          <i>muss</i><par n="soll/en__vbmod"/></e>
 
 <e lm="als">             <i>als</i><par n="aus__pr"/></e>
 <e lm="amplaz">          <i>amplaz</i><par n="aus__pr"/></e>
@@ -4769,6 +4770,7 @@
 <e lm="schäinhelleg">    <i>schäinhelleg</i><par n="aarm__adj"/></e>
 <e lm="schappeg">        <i>schappeg</i><par n="aarm__adj"/></e>
 <e lm="schei">           <i>schei</i><par n="aarm__adj"/></e>
+<e lm="schéin">          <i>schéi</i><par n="bläie/n__adj"/></e>
 <e lm="schëlleg">        <i>schëlleg</i><par n="aarm__adj"/></e>
 <e lm="schiedlech">      <i>schiedlech</i><par n="aarm__adj"/></e>
 <e lm="schlamm">         <i>schlamm</i><par n="aarm__adj"/></e>
