@@ -131,6 +131,11 @@
   <e>       <p><l></l>          <r><s n="ndel"/></r></p></e>
 </pardef>
 
+<pardef n="en">    <!-- paradigm for final n-deletion (noun plural: -en => -ë) -->
+  <e>       <p><l>en</l>        <r></r></p></e>
+  <e>       <p><l>ë</l>         <r><s n="ndel"/></r></p></e>
+</pardef>
+
 
 <!-- SECTION: Pronouns -->
 
@@ -3175,7 +3180,7 @@
 
 <pardef n="Boulett/e__n_f">
   <e>       <p><l>e</l>         <r>e<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
-  <e>       <p><l>en</l>        <r>e<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
+  <e>       <p><l></l>          <r>e<s n="n"/><s n="f"/><s n="pl"/></r></p><par n="en"/></e>
 </pardef>
 
 <pardef n="Bidden__n_f">
@@ -3200,7 +3205,7 @@
 
 <pardef n="Accessoir/e__n_m">
   <e>       <p><l>e</l>         <r>e<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
-  <e>       <p><l>en</l>        <r>e<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
+  <e>       <p><l></l>          <r>e<s n="n"/><s n="m"/><s n="pl"/></r></p><par n="en"/></e>
 </pardef>
 
 <pardef n="Alst/ad__n_f">
@@ -3210,12 +3215,12 @@
 
 <pardef n="Allee__n_f">
   <e>       <p><l></l>          <r><s n="n"/><s n="f"/><s n="sg"/></r></p></e>
-  <e>       <p><l>ën</l>        <r><s n="n"/><s n="f"/><s n="pl"/></r></p></e>
+  <e>       <p><l>ë</l>         <r><s n="n"/><s n="f"/><s n="pl"/></r></p><par n="n"/></e>
 </pardef>
 
 <pardef n="Eck__n_m">
   <e>       <p><l></l>          <r><s n="n"/><s n="m"/><s n="sg"/></r></p></e>
-  <e>       <p><l>en</l>        <r><s n="n"/><s n="m"/><s n="pl"/></r></p></e>
+  <e>       <p><l>e</l>         <r><s n="n"/><s n="m"/><s n="pl"/></r></p><par n="n"/></e>
   <e>       <p><l>er</l>        <r><s n="n"/><s n="m"/><s n="pl"/></r></p></e>
 </pardef>
 
@@ -3248,7 +3253,7 @@
 
 <pardef n="/Angscht__n_f">
   <e>       <p><l>Angscht</l>   <r>Angscht<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
-  <e>       <p><l>Ängschten</l> <r>Angscht<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
+  <e>       <p><l>Ängschte</l>  <r>Angscht<s n="n"/><s n="f"/><s n="pl"/></r></p><par n="n"/></e>
 </pardef>
 
 <pardef n="/Apel__n_m">
@@ -3258,7 +3263,7 @@
 
 <pardef n="/Apelbatz__n_m">
   <e>       <p><l>Apelbatz</l>  <r>Apelbatz<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
-  <e>       <p><l>Apelbatzen</l><r>Apelbatz<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
+  <e>       <p><l>Apelbatze</l> <r>Apelbatz<s n="n"/><s n="m"/><s n="pl"/></r></p><par n="n"/></e>
   <e>       <p><l>Äppelbätz</l> <r>Apelbatz<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
 </pardef>
 
@@ -3324,7 +3329,7 @@
 
 <pardef n="Agraf/e__n_f">
   <e>       <p><l>e</l>         <r>e<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
-  <e>       <p><l>fen</l>       <r>e<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
+  <e>       <p><l>fe</l>        <r>e<s n="n"/><s n="f"/><s n="pl"/></r></p><par n="n"/></e>
 </pardef>
 
 <pardef n="Akomme/s__n_nt">
@@ -3349,12 +3354,12 @@
 
 <pardef n="Anana/s__n_m">
   <e>       <p><l>s</l>         <r>s<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
-  <e>       <p><l>ssen</l>      <r>s<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
+  <e>       <p><l>sse</l>       <r>s<s n="n"/><s n="m"/><s n="pl"/></r></p><par n="n"/></e>
 </pardef>
 
 <pardef n="Antisemi/t__n_m">
   <e>       <p><l>t</l>         <r>t<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
-  <e>       <p><l>tten</l>      <r>t<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
+  <e>       <p><l>tte</l>       <r>t<s n="n"/><s n="m"/><s n="pl"/></r></p><par n="n"/></e>
 </pardef>
 
 <pardef n="Appartementsha/us__n_nt">
@@ -3369,12 +3374,12 @@
 
 <pardef n="Aubergin/e__n_f">
   <e>       <p><l>e</l>         <r>e<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
-  <e>       <p><l>nen</l>       <r>e<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
+  <e>       <p><l>ne</l>        <r>e<s n="n"/><s n="f"/><s n="pl"/></r></p><par n="n"/></e>
 </pardef>
 
 <pardef n="Autoscours/e__n_f">
   <e>       <p><l>e</l>         <r>e<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
-  <e>       <p><l>sen</l>       <r>e<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
+  <e>       <p><l>se</l>        <r>e<s n="n"/><s n="f"/><s n="pl"/></r></p><par n="n"/></e>
 </pardef>
 
 <pardef n="B/aart__n_m">
@@ -3429,7 +3434,7 @@
 
 <pardef n="Ban/d__n_f">
   <e>       <p><l>d</l>         <r>d<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
-  <e>       <p><l>ten</l>       <r>d<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
+  <e>       <p><l>te</l>        <r>d<s n="n"/><s n="f"/><s n="pl"/></r></p><par n="n"/></e>
 </pardef>
 
 <pardef n="Bauerenh/aff__n_m">
@@ -3464,7 +3469,7 @@
 
 <pardef n="Bi/c__n_m">
   <e>       <p><l>c</l>         <r>c<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
-  <e>       <p><l>cken</l>      <r>c<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
+  <e>       <p><l>cke</l>       <r>c<s n="n"/><s n="m"/><s n="pl"/></r></p><par n="n"/></e>
 </pardef>
 
 <pardef n="Bichersch/af__n_m">
@@ -3479,7 +3484,7 @@
 
 <pardef n="Billje/e__n_m">
   <e>       <p><l>e</l>         <r>e<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
-  <e>       <p><l>eën</l>       <r>e<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
+  <e>       <p><l>eë</l>        <r>e<s n="n"/><s n="m"/><s n="pl"/></r></p><par n="n"/></e>
 </pardef>
 
 <pardef n="Bl/at__n_nt">
@@ -3493,7 +3498,7 @@
 </pardef>
 
 <pardef n="Blie/tchen__n_nt">
-  <e>       <p><l>tchen</l>     <r>tchen<s n="n"/><s n="nt"/><s n="sg"/></r></p></e>
+  <e>       <p><l>tche</l>      <r>tchen<s n="n"/><s n="nt"/><s n="sg"/></r></p><par n="n"/></e>
   <e>       <p><l>dercher</l>   <r>tchen<s n="n"/><s n="nt"/><s n="pl"/></r></p></e>
 </pardef>
 
@@ -3503,7 +3508,7 @@
 </pardef>
 
 <pardef n="Blobrëscht/chen__n_nt">
-  <e>       <p><l>chen</l>      <r>chen<s n="n"/><s n="nt"/><s n="sg"/></r></p></e>
+  <e>       <p><l>che</l>       <r>chen<s n="n"/><s n="nt"/><s n="sg"/></r></p><par n="n"/></e>
   <e>       <p><l>ercher</l>    <r>chen<s n="n"/><s n="nt"/><s n="pl"/></r></p></e>
 </pardef>
 
@@ -3534,8 +3539,8 @@
 
 <pardef n="Bue/t__n_m">
   <e>       <p><l>t</l>         <r>t<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
-  <e>       <p><l>ten</l>       <r>t<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
-  <e>       <p><l>den</l>       <r>t<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
+  <e>       <p><l>te</l>        <r>t<s n="n"/><s n="m"/><s n="pl"/></r></p><par n="n"/></e>
+  <e>       <p><l>de</l>        <r>t<s n="n"/><s n="m"/><s n="pl"/></r></p><par n="n"/></e>
 </pardef>
 
 <pardef n="Buedm/antel__n_m">
@@ -3550,16 +3555,16 @@
 
 <pardef n="Cal/e__n_f">
   <e>       <p><l>e</l>         <r>e<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
-  <e>       <p><l>len</l>       <r>e<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
+  <e>       <p><l>le</l>        <r>e<s n="n"/><s n="f"/><s n="pl"/></r></p><par n="n"/></e>
 </pardef>
 
 <pardef n="Che/f__n_m">
   <e>       <p><l>f</l>         <r>f<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
-  <e>       <p><l>ffen</l>      <r>f<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
+  <e>       <p><l>ffe</l>       <r>f<s n="n"/><s n="m"/><s n="pl"/></r></p><par n="n"/></e>
 </pardef>
 
 <pardef n="Chrëschtkënd/chen__n_m">
-  <e>       <p><l>chen</l>      <r>chen<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+  <e>       <p><l>che</l>       <r>chen<s n="n"/><s n="m"/><s n="sg"/></r></p><par n="n"/></e>
   <e>       <p><l>ercher</l>    <r>chen<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
 </pardef>
 
@@ -3607,7 +3612,7 @@
 
 <pardef n="D/ar__n_m">
   <e>       <p><l>ar</l>        <r>ar<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
-  <e>       <p><l>ären</l>      <r>ar<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
+  <e>       <p><l>äre</l>       <r>ar<s n="n"/><s n="m"/><s n="pl"/></r></p><par n="n"/></e>
 </pardef>
 
 <pardef n="D/uechter__n_f">
@@ -3644,7 +3649,7 @@
 <pardef n="Déi/f__n_m">
   <e>       <p><l>f</l>         <r>f<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
   <e>       <p><l>f</l>         <r>f<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
-  <e>       <p><l>wen</l>       <r>f<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
+  <e>       <p><l>we</l>        <r>f<s n="n"/><s n="m"/><s n="pl"/></r></p><par n="n"/></e>
 </pardef>
 
 <pardef n="E/e__n_nt">
@@ -3659,7 +3664,7 @@
 
 <pardef n="Equip/e__n_f">
   <e>       <p><l>e</l>         <r>e<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
-  <e>       <p><l>pen</l>       <r>e<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
+  <e>       <p><l>pe</l>        <r>e<s n="n"/><s n="f"/><s n="pl"/></r></p><par n="n"/></e>
 </pardef>
 
 <pardef n="F/aass__n_nt">
@@ -3694,13 +3699,13 @@
 
 <pardef n="Famil/l__n_f">
   <e>       <p><l>l</l>         <r>l<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
-  <e>       <p><l>len</l>       <r>l<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
-  <e>       <p><l>ljen</l>      <r>l<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
+  <e>       <p><l>le</l>        <r>l<s n="n"/><s n="f"/><s n="pl"/></r></p><par n="n"/></e>
+  <e>       <p><l>lje</l>       <r>l<s n="n"/><s n="f"/><s n="pl"/></r></p><par n="n"/></e>
 </pardef>
 
 <pardef n="Fange/r__n_m">
   <e>       <p><l>r</l>         <r>r<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
-  <e>       <p><l>ren</l>       <r>r<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
+  <e>       <p><l>re</l>        <r>r<s n="n"/><s n="m"/><s n="pl"/></r></p><par n="n"/></e>
   <e>       <p><l>r</l>         <r>r<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
 </pardef>
 
@@ -3720,23 +3725,23 @@
 </pardef>
 
 <pardef n="Fluchh/afen__n_m">
-  <e>       <p><l>afen</l>      <r>afen<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
-  <e>       <p><l>äfen</l>      <r>afen<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
+  <e>       <p><l>afe</l>       <r>afen<s n="n"/><s n="m"/><s n="sg"/></r></p><par n="n"/></e>
+  <e>       <p><l>äfe</l>       <r>afen<s n="n"/><s n="m"/><s n="pl"/></r></p><par n="n"/></e>
 </pardef>
 
 <pardef n="Fol/leg__n_f">
   <e>       <p><l>leg</l>       <r>leg<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
-  <e>       <p><l>gen</l>       <r>leg<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
+  <e>       <p><l>ge</l>        <r>leg<s n="n"/><s n="f"/><s n="pl"/></r></p><par n="n"/></e>
 </pardef>
 
 <pardef n="Fr/uucht__n_f">
   <e>       <p><l>uucht</l>     <r>uucht<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
-  <e>       <p><l>iichten</l>   <r>uucht<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
+  <e>       <p><l>iichte</l>    <r>uucht<s n="n"/><s n="f"/><s n="pl"/></r></p><par n="n"/></e>
 </pardef>
 
 <pardef n="Fréijo/er__n_nt">
   <e>       <p><l>er</l>        <r>er<s n="n"/><s n="nt"/><s n="sg"/></r></p></e>
-  <e>       <p><l>ren</l>       <r>er<s n="n"/><s n="nt"/><s n="pl"/></r></p></e>
+  <e>       <p><l>re</l>        <r>er<s n="n"/><s n="nt"/><s n="pl"/></r></p><par n="n"/></e>
 </pardef>
 
 <pardef n="G/aascht__n_m">
@@ -3751,7 +3756,7 @@
 
 <pardef n="Ge/l__n_m">
   <e>       <p><l>l</l>         <r>l<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
-  <e>       <p><l>llen</l>      <r>l<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
+  <e>       <p><l>lle</l>       <r>l<s n="n"/><s n="m"/><s n="pl"/></r></p><par n="n"/></e>
 </pardef>
 
 <pardef n="Gebi/tt__n_nt">
@@ -3760,7 +3765,7 @@
 </pardef>
 
 <pardef n="Geeschtleche/n__n_m">
-  <e>       <p><l>n</l>         <r>n<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+  <e>       <p><l></l>          <r>n<s n="n"/><s n="m"/><s n="sg"/></r></p><par n="n"/></e>
   <e>       <p><l>r</l>         <r>n<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
 </pardef>
 
@@ -3785,7 +3790,7 @@
 </pardef>
 
 <pardef n="Grafste/en__n_m">
-  <e>       <p><l>en</l>        <r>en<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+  <e>       <p><l>e</l>         <r>en<s n="n"/><s n="m"/><s n="sg"/></r></p><par n="n"/></e>
   <e>       <p><l>ng</l>        <r>en<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
 </pardef>
 
@@ -3855,7 +3860,7 @@
 </pardef>
 
 <pardef n="Himmelsdéierche/n__n_nt">
-  <e>       <p><l>n</l>         <r>n<s n="n"/><s n="nt"/><s n="sg"/></r></p></e>
+  <e>       <p><l></l>          <r>n<s n="n"/><s n="nt"/><s n="sg"/></r></p><par n="n"/></e>
   <e>       <p><l>r</l>         <r>n<s n="n"/><s n="nt"/><s n="pl"/></r></p></e>
 </pardef>
 
@@ -3870,19 +3875,19 @@
 </pardef>
 
 <pardef n="Héich/uewen__n_m">
-  <e>       <p><l>uewen</l>     <r>uewen<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
-  <e>       <p><l>iewen</l>     <r>uewen<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
+  <e>       <p><l>uewe</l>      <r>uewen<s n="n"/><s n="m"/><s n="sg"/></r></p><par n="n"/></e>
+  <e>       <p><l>iewe</l>      <r>uewen<s n="n"/><s n="m"/><s n="pl"/></r></p><par n="n"/></e>
 </pardef>
 
 <pardef n="Ierbe/s__n_f">
   <e>       <p><l>s</l>         <r>s<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
-  <e>       <p><l>ssen</l>      <r>s<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
+  <e>       <p><l>sse</l>       <r>s<s n="n"/><s n="f"/><s n="pl"/></r></p><par n="n"/></e>
 </pardef>
 
 <pardef n="Jo/er__n_nt">
   <e>       <p><l>er</l>        <r>er<s n="n"/><s n="nt"/><s n="sg"/></r></p></e>
   <e>       <p><l>er</l>        <r>er<s n="n"/><s n="nt"/><s n="pl"/></r></p></e>
-  <e>       <p><l>ren</l>       <r>er<s n="n"/><s n="nt"/><s n="pl"/></r></p></e>
+  <e>       <p><l>re</l>        <r>er<s n="n"/><s n="nt"/><s n="pl"/></r></p><par n="n"/></e>
 </pardef>
 
 <pardef n="K/ach__n_m">
@@ -3926,13 +3931,13 @@
 </pardef>
 
 <pardef n="Kanéng/chen__n_f">
-  <e>       <p><l>chen</l>      <r>chen<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+  <e>       <p><l>che</l>       <r>chen<s n="n"/><s n="f"/><s n="sg"/></r></p><par n="n"/></e>
   <e>       <p><l>ercher</l>    <r>chen<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
 </pardef>
 
 <pardef n="Kees/s__n_f">
   <e>       <p><l>s</l>         <r>s<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
-  <e>       <p><l>en</l>        <r>s<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
+  <e>       <p><l>e</l>         <r>s<s n="n"/><s n="f"/><s n="pl"/></r></p><par n="n"/></e>
 </pardef>
 
 <pardef n="Kl/ouschter__n_nt">
@@ -3947,7 +3952,7 @@
 
 <pardef n="Kr/aaft__n_f">
   <e>       <p><l>aaft</l>      <r>aaft<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
-  <e>       <p><l>äften</l>     <r>aaft<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
+  <e>       <p><l>äfte</l>      <r>aaft<s n="n"/><s n="f"/><s n="pl"/></r></p><par n="n"/></e>
 </pardef>
 
 <pardef n="Kr/op__n_m">
@@ -3958,12 +3963,12 @@
 <pardef n="Kr/unn__n_m">
   <e>       <p><l>unn</l>       <r>unn<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
   <e>       <p><l>inn</l>       <r>unn<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
-  <e>       <p><l>unnen</l>     <r>unn<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
+  <e>       <p><l>unne</l>      <r>unn<s n="n"/><s n="m"/><s n="pl"/></r></p><par n="n"/></e>
 </pardef>
 
 <pardef n="Krokodi/l__n_nt">
   <e>       <p><l>l</l>         <r>l<s n="n"/><s n="nt"/><s n="sg"/></r></p></e>
-  <e>       <p><l>llen</l>      <r>l<s n="n"/><s n="nt"/><s n="pl"/></r></p></e>
+  <e>       <p><l>lle</l>       <r>l<s n="n"/><s n="nt"/><s n="pl"/></r></p><par n="n"/></e>
 </pardef>
 
 <pardef n="L/af__n_m">
@@ -4012,13 +4017,13 @@
 </pardef>
 
 <pardef n="Margréi/tchen__n_f">
-  <e>       <p><l>tchen</l>     <r>tchen<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+  <e>       <p><l>tche</l>      <r>tchen<s n="n"/><s n="f"/><s n="sg"/></r></p><par n="n"/></e>
   <e>       <p><l>dercher</l>   <r>tchen<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
 </pardef>
 
 <pardef n="Medezi/n__n_m">
   <e>       <p><l>n</l>         <r>n<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
-  <e>       <p><l>nnen</l>      <r>n<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
+  <e>       <p><l>nne</l>       <r>n<s n="n"/><s n="m"/><s n="pl"/></r></p><par n="n"/></e>
 </pardef>
 
 <pardef n="Moie/n__n_m">
@@ -4088,7 +4093,7 @@
 
 <pardef n="Pi/isch__n_f">
   <e>       <p><l>isch</l>      <r>isch<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
-  <e>       <p><l>jen</l>       <r>isch<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
+  <e>       <p><l>je</l>        <r>isch<s n="n"/><s n="f"/><s n="pl"/></r></p><par n="n"/></e>
 </pardef>
 
 <pardef n="Pl/ang__n_m">
@@ -4098,7 +4103,7 @@
 
 <pardef n="Qui/tt__n_f">
   <e>       <p><l>tt</l>        <r>tt<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
-  <e>       <p><l>dden</l>      <r>tt<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
+  <e>       <p><l>dde</l>       <r>tt<s n="n"/><s n="f"/><s n="pl"/></r></p><par n="n"/></e>
 </pardef>
 
 <pardef n="R/and__n_m">
@@ -4118,7 +4123,7 @@
 
 <pardef n="Risik/o__n_m">
   <e>       <p><l>o</l>         <r>o<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
-  <e>       <p><l>en</l>        <r>o<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
+  <e>       <p><l>e</l>         <r>o<s n="n"/><s n="m"/><s n="pl"/></r></p><par n="n"/></e>
 </pardef>
 
 <pardef n="Réckstr/ank__n_m">
@@ -4153,7 +4158,7 @@
 </pardef>
 
 <pardef n="Schant/jen__n_m">
-  <e>       <p><l>jen</l>       <r>jen<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+  <e>       <p><l>je</l>        <r>jen<s n="n"/><s n="m"/><s n="sg"/></r></p><par n="n"/></e>
   <e>       <p><l>ercher</l>    <r>jen<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
 </pardef>
 
@@ -4170,12 +4175,12 @@
 <pardef n="Schl/uet__n_m">
   <e>       <p><l>uet</l>       <r>uet<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
   <e>       <p><l>iet</l>       <r>uet<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
-  <e>       <p><l>ueden</l>     <r>uet<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
+  <e>       <p><l>uede</l>      <r>uet<s n="n"/><s n="m"/><s n="pl"/></r></p><par n="n"/></e>
 </pardef>
 
 <pardef n="Schma/dd__n_m">
   <e>       <p><l>dd</l>        <r>dd<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
-  <e>       <p><l>tten</l>      <r>dd<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
+  <e>       <p><l>tte</l>       <r>dd<s n="n"/><s n="m"/><s n="pl"/></r></p><par n="n"/></e>
 </pardef>
 
 <pardef n="Schn/att__n_m">
@@ -4184,7 +4189,7 @@
 </pardef>
 
 <pardef n="Schnéikläckelche/n__n_f">
-  <e>       <p><l>n</l>         <r>n<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+  <e>       <p><l></l>          <r>n<s n="n"/><s n="f"/><s n="sg"/></r></p><par n="n"/></e>
   <e>       <p><l>r</l>         <r>n<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
 </pardef>
 
@@ -4196,12 +4201,12 @@
 
 <pardef n="Sit/e__n_m">
   <e>       <p><l>e</l>         <r>e<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
-  <e>       <p><l>ten</l>       <r>e<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
+  <e>       <p><l>te</l>        <r>e<s n="n"/><s n="m"/><s n="pl"/></r></p><par n="n"/></e>
 </pardef>
 
 <pardef n="Sli/p__n_m">
   <e>       <p><l>p</l>         <r>p<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
-  <e>       <p><l>ppen</l>      <r>p<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
+  <e>       <p><l>ppe</l>       <r>p<s n="n"/><s n="m"/><s n="pl"/></r></p><par n="n"/></e>
 </pardef>
 
 <pardef n="Sp/uerk__n_m">
@@ -4252,7 +4257,7 @@
 
 <pardef n="Ta/ass__n_f">
   <e>       <p><l>ass</l>       <r>ass<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
-  <e>       <p><l>sen</l>       <r>ass<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
+  <e>       <p><l>se</l>        <r>ass<s n="n"/><s n="f"/><s n="pl"/></r></p><par n="n"/></e>
 </pardef>
 
 <pardef n="V/ugel__n_m">
@@ -4263,7 +4268,7 @@
 <pardef n="W/aasser__n_nt">
   <e>       <p><l>aasser</l>    <r>aasser<s n="n"/><s n="nt"/><s n="sg"/></r></p></e>
   <e>       <p><l>ässer</l>     <r>aasser<s n="n"/><s n="nt"/><s n="pl"/></r></p></e>
-  <e>       <p><l>aasseren</l>  <r>aasser<s n="n"/><s n="nt"/><s n="pl"/></r></p></e>
+  <e>       <p><l>aassere</l>   <r>aasser<s n="n"/><s n="nt"/><s n="pl"/></r></p><par n="n"/></e>
 </pardef>
 
 <pardef n="W/and__n_m">
@@ -4288,7 +4293,7 @@
 
 <pardef n="Zo/oss__n_f">
   <e>       <p><l>oss</l>       <r>oss<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
-  <e>       <p><l>sen</l>       <r>oss<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
+  <e>       <p><l>se</l>        <r>oss<s n="n"/><s n="f"/><s n="pl"/></r></p><par n="n"/></e>
 </pardef>
 
 <pardef n="CANDIDATE-eng-xxx__n_f">    <!-- paradigm for unchecked n.f-candidates (~ capitalized words preceded by eng) from a wikipedia corpus -->
@@ -6647,7 +6652,7 @@
 <e lm="Actinium">        <i>Actinium</i><par n="Agemaachtes__n_nt"/></e>
 <e lm="Adaptatioun">     <i>Adaptatioun</i><par n="Aangel__n_f"/></e>
 <e lm="Adder">           <i>Adder</i><par n="Aangel__n_f"/></e>
-<e lm="Adjektiv">        <i>Adjektiv</i><par n="A__n_nt"/></e>
+<e lm="Adjektiv">        <i>Adjektiv</i><par n="Appartement__n_nt"/></e>
 <e lm="Adler">           <i>Adler</i><par n="Abrëll__n_m"/></e>
 <e lm="Administratioun"> <i>Administratioun</i><par n="Aangel__n_f"/></e>
 <e lm="Admirol">         <i>Admir</i><par n="Admir/ol__n_m"/></e>

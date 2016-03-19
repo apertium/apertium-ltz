@@ -1,15 +1,51 @@
 # Firstly, we need to define what tags should be considered sentence delimiters. For this example, only full stop is set as delimiter.
-DELIMITERS = "<.>" ;
+DELIMITERS = "<.>" "<!>" "<?>" "<...>" "<¶>" "<:>" ;
+SOFT-DELIMITERS = "<,>" ;
 
+SETS
 # We can define sets for common tag clusters
-LIST Case = (n s) (n p) ; # A set that matches either a Noun Singular or a Noun Plural
+#LIST Case = (n s) (n p) ; # A set that matches either a Noun Singular or a Noun Plural
+
+LIST BOS = (>>>) (sent) ;
+LIST EOS = (<<<) (sent) ;
+LIST Det = (det) ;
+LIST DetDef = (det def) ;
+LIST DetInd = (det ind) ;
+LIST N = (n) ;
+LIST Rel = (rel) ;
+LIST Vblex = (vblex) ;
+LIST PrnDem = (prn dem) ;
+LIST Pr = (pr) ;
+LIST Adj = (adj) ;
+
+LIST Sg = (sg) ;
+LIST Pl = (pl) ;
+LIST M = (m) ;
+LIST F = (f) ;
+LIST Nt = (nt) ;
+LIST Mf = (mf) ;
+LIST Mfn = (mfn) ;
+LIST Imp = (imp) ;
+
+SET GENDER = M | F | Nt ;
+SET NUMBER = Sg | Pl ;
+SET CASE = (nom) | (gen) | (dat) | (acc) ;
+SET Verb = (vblex) | (vbmod) | (vaux) | (vbser) | (vbhaver) ;
+
 
 SECTION
 # If there is a singular noun to the right, I cannot be a verb or noun.
-REMOVE (n) OR (v) IF (1 (n s)) ;
+#REMOVE (n) OR (v) IF (1 (n s)) ;
 
 # If there is a conjunction followed by a certain cohort of the same CASE as me, choose me.
-SELECT $$Case IF (1 (cnjcoo) LINK 1C $$Case) ;
+#SELECT $$Case IF (1 (cnjcoo) LINK 1C $$Case) ;
+
+# remove p1/p2 verb readings if there is no p1/p2 pronoun in the same sentence
+REMOVE Verb + (p1) IF (NOT *-1 (prn pers p1) BARRIER BOS) (NOT *1 (prn pers p1) BARRIER EOS) ;
+REMOVE Verb + (p2) IF (NOT *-1 (prn pers p2) BARRIER BOS) (NOT *1 (prn pers p2) BARRIER EOS) ;
+
+# plural noun + to be + adjective --> pick 3rd person plural
+SELECT ("sinn"i p3 pl) IF (-1 N + Pl) (1 Adj) ;
 
 REMOVE (prn pers p2 sg) IF (0 (det def)) (1 (n)) ;
 
