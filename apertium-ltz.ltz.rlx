@@ -40,6 +40,13 @@ SECTION
 # If there is a conjunction followed by a certain cohort of the same CASE as me, choose me.
 #SELECT $$Case IF (1 (cnjcoo) LINK 1C $$Case) ;
 
+# handle compound parts
+SELECT (n lower) IF (-1 (n cmp)) ;
+SELECT (n cmp) IF (1 (n lower)) ;
+
+# remove lower-case over-analysis of nouns, if other readings exist
+REMOVE (n lower) ;
+
 # remove p1/p2 verb readings if there is no p1/p2 pronoun in the same sentence
 REMOVE Verb + (p1) IF (NOT *-1 (prn pers p1) BARRIER BOS) (NOT *1 (prn pers p1) BARRIER EOS) ;
 REMOVE Verb + (p2) IF (NOT *-1 (prn pers p2) BARRIER BOS) (NOT *1 (prn pers p2) BARRIER EOS) ;
