@@ -13,6 +13,5 @@
 /autogen.sh -text
 /configure.ac -text
 dev/noun_candidate_extractor.sh -text
-dev/verb_pardefs.dix -text
 /ltz.prob -text
 /modes.xml -text
