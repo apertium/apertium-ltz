@@ -41,8 +41,10 @@ SECTION
 #SELECT $$Case IF (1 (cnjcoo) LINK 1C $$Case) ;
 
 # handle compound parts
-SELECT (n lower) IF (-1 (n cmp)) ;
-SELECT (n cmp) IF (1 (n lower)) ;
+#SELECT (n lower) IF (-1 (n cmp)) ;
+#SELECT (n cmp) IF (1 (n lower)) ;
+# the above is buggy, so remove all cmp for now
+REMOVE (n cmp) ;
 
 # remove lower-case over-analysis of nouns, if other readings exist
 REMOVE (n lower) ;
