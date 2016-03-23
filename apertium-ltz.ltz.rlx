@@ -17,6 +17,7 @@ LIST Vblex = (vblex) ;
 LIST PrnDem = (prn dem) ;
 LIST Pr = (pr) ;
 LIST Adj = (adj) ;
+LIST CnjCoo = (cnjcoo) ;
 
 LIST Sg = (sg) ;
 LIST Pl = (pl) ;
@@ -31,6 +32,8 @@ SET GENDER = M | F | Nt ;
 SET NUMBER = Sg | Pl ;
 SET CASE = (nom) | (gen) | (dat) | (acc) ;
 SET Verb = (vblex) | (vbmod) | (vaux) | (vbser) | (vbhaver) ;
+
+SET An = ("an"i) | ("a"i ndel) ;
 
 
 SECTION
@@ -49,6 +52,16 @@ REMOVE (n cmp) ;
 # remove lower-case over-analysis of nouns, if other readings exist
 REMOVE (n lower) ;
 
+# remove separable verb readings
+REMOVE (vblex sep) ;
+
+# remove predicative reading if a noun follows
+REMOVE (adj pred) IF (1 N) ;
+
+# an an
+SELECT An + CnjCoo IF (1 An + Pr) ;
+SELECT An + Pr IF (-1 An + CnjCoo) ;
+
 # remove p1/p2 verb readings if there is no p1/p2 pronoun in the same sentence
 REMOVE Verb + (p1) IF (NOT *-1 (prn pers p1) BARRIER BOS) (NOT *1 (prn pers p1) BARRIER EOS) ;
 REMOVE Verb + (p2) IF (NOT *-1 (prn pers p2) BARRIER BOS) (NOT *1 (prn pers p2) BARRIER EOS) ;
@@ -57,6 +70,12 @@ REMOVE Verb + (p2) IF (NOT *-1 (prn pers p2) BARRIER BOS) (NOT *1 (prn pers p2) 
 SELECT ("sinn"i p3 pl) IF (-1 N + Pl) (1 Adj) ;
 
 REMOVE (prn pers p2 sg) IF (0 (det def)) (1 (n)) ;
+
+# Si deet
+REMOVE ("sinn"i vbser) IF (-1 BOS) (0 (prn pers)) (1 Verb) ;
+
+# Ech iesse
+SELECT Verb + (p1 sg) IF (-2 BOS) (-1 (prn pers p1 sg)) ;
 
 # Resources:
 # http://visl.sdu.dk/cg3.html

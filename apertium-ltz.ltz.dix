@@ -265,19 +265,22 @@
   <e>       <p><l>e</l>         <r>en<s n="det"/><s n="ind"/><s n="nt"/><s n="sg"/><s n="acc"/></r></p><par n="n"/></e>
 </pardef>
 
+<pardef n="/den__det_postblank">  <!-- use in postblank section -->
+  <e>       <p><l>d'</l>        <r>den<s n="det"/><s n="def"/><s n="f"/><s n="sg"/><s n="nom"/></r></p></e>
+  <e>       <p><l>d'</l>        <r>den<s n="det"/><s n="def"/><s n="f"/><s n="sg"/><s n="acc"/></r></p></e>
+  <e>       <p><l>d'</l>        <r>den<s n="det"/><s n="def"/><s n="nt"/><s n="sg"/><s n="nom"/></r></p></e>
+  <e>       <p><l>d'</l>        <r>den<s n="det"/><s n="def"/><s n="nt"/><s n="sg"/><s n="acc"/></r></p></e>
+  <e>       <p><l>d'</l>        <r>den<s n="det"/><s n="def"/><s n="mfn"/><s n="pl"/><s n="nom"/></r></p></e>
+  <e>       <p><l>d'</l>        <r>den<s n="det"/><s n="def"/><s n="mfn"/><s n="pl"/><s n="acc"/></r></p></e>
+</pardef>
 <pardef n="d/en__det">
+  <!-- note: d' is handled in /den__det_postblank -->
   <e>       <p><l>e</l>         <r>en<s n="det"/><s n="def"/><s n="m"/><s n="sg"/><s n="nom"/></r></p><par n="n"/></e>
   <e>       <p><l>em</l>        <r>en<s n="det"/><s n="def"/><s n="m"/><s n="sg"/><s n="dat"/></r></p></e>
   <e>       <p><l>e</l>         <r>en<s n="det"/><s n="def"/><s n="m"/><s n="sg"/><s n="acc"/></r></p><par n="n"/></e>
-  <e>       <p><l></l>          <r>en<s n="det"/><s n="def"/><s n="f"/><s n="sg"/><s n="nom"/></r></p></e>
   <e>       <p><l>er</l>        <r>en<s n="det"/><s n="def"/><s n="f"/><s n="sg"/><s n="dat"/></r></p></e>
-  <e>       <p><l></l>          <r>en<s n="det"/><s n="def"/><s n="f"/><s n="sg"/><s n="acc"/></r></p></e>
-  <e>       <p><l></l>          <r>en<s n="det"/><s n="def"/><s n="nt"/><s n="sg"/><s n="nom"/></r></p></e>
   <e>       <p><l>em</l>        <r>en<s n="det"/><s n="def"/><s n="nt"/><s n="sg"/><s n="dat"/></r></p></e>
-  <e>       <p><l></l>          <r>en<s n="det"/><s n="def"/><s n="nt"/><s n="sg"/><s n="acc"/></r></p></e>
-  <e>       <p><l></l>          <r>en<s n="det"/><s n="def"/><s n="mfn"/><s n="pl"/><s n="nom"/></r></p></e>
   <e>       <p><l>e</l>         <r>en<s n="det"/><s n="def"/><s n="mfn"/><s n="pl"/><s n="dat"/></r></p><par n="n"/></e>
-  <e>       <p><l></l>          <r>en<s n="det"/><s n="def"/><s n="mfn"/><s n="pl"/><s n="acc"/></r></p></e>
 
   <e>       <p><l>ee</l>        <r>en<s n="det"/><s n="def"/><s n="m"/><s n="sg"/><s n="nom"/></r></p><par n="n"/></e>
   <e>       <p><l>eem</l>       <r>en<s n="det"/><s n="def"/><s n="m"/><s n="sg"/><s n="dat"/></r></p></e>
@@ -570,7 +573,6 @@
 <!-- SECTION: Adjectives -->
 
 <pardef n="grouss__adj">    <!-- WIP -->
-  <e>       <p><l></l>          <r><s n="adj"/><s n="attr"/></r></p></e>
   <e>       <p><l></l>          <r><s n="adj"/><s n="pred"/></r></p></e>
   <e>       <p><l>e</l>         <r><s n="adj"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
   <e>       <p><l></l>          <r><s n="adj"/><s n="f"/><s n="sg"/><s n="nom"/></r></p></e>
@@ -591,6 +593,8 @@
 </pardef>
 
 <pardef n="/gutt__adj">
+  <e>       <p><l>gutt</l>      <r>gutt<s n="adj"/><s n="sint"/><s n="pred"/></r></p></e>
+
   <e>       <p><l>gudde</l>     <r>gutt<s n="adj"/><s n="sint"/><s n="m"/><s n="sg"/><s n="acc"/></r></p><par n="n"/></e>
   <e>       <p><l>gutt</l>      <r>gutt<s n="adj"/><s n="sint"/><s n="f"/><s n="sg"/><s n="acc"/></r></p></e>
   <e>       <p><l>gutt</l>      <r>gutt<s n="adj"/><s n="sint"/><s n="nt"/><s n="sg"/><s n="acc"/></r></p></e>
@@ -632,6 +636,8 @@
 </pardef>
 
 <pardef n="spéi/t__adj">
+  <e>       <p><l>t</l>         <r>t<s n="adj"/><s n="sint"/><s n="pred"/></r></p></e>
+
   <e>       <p><l>de</l>        <r>t<s n="adj"/><s n="sint"/><s n="m"/><s n="sg"/><s n="acc"/></r></p><par n="n"/></e>
   <e>       <p><l>t</l>         <r>t<s n="adj"/><s n="sint"/><s n="f"/><s n="sg"/><s n="acc"/></r></p></e>
   <e>       <p><l>t</l>         <r>t<s n="adj"/><s n="sint"/><s n="nt"/><s n="sg"/><s n="acc"/></r></p></e>
@@ -673,6 +679,8 @@
 </pardef>
 
 <pardef n="aarm__adj">
+  <e>       <p><l></l>          <r><s n="adj"/><s n="pred"/></r></p></e>
+
   <e>       <p><l>e</l>         <r><s n="adj"/><s n="m"/><s n="sg"/><s n="acc"/></r></p><par n="n"/></e>
   <e>       <p><l></l>          <r><s n="adj"/><s n="f"/><s n="sg"/><s n="acc"/></r></p></e>
   <e>       <p><l>t</l>         <r><s n="adj"/><s n="nt"/><s n="sg"/><s n="acc"/></r></p></e>
@@ -701,6 +709,8 @@
 </pardef>
 
 <pardef n="adequat__adj">
+  <e>       <p><l></l>          <r><s n="adj"/><s n="pred"/></r></p></e>
+
   <e>       <p><l>e</l>         <r><s n="adj"/><s n="m"/><s n="sg"/><s n="acc"/></r></p><par n="n"/></e>
   <e>       <p><l></l>          <r><s n="adj"/><s n="f"/><s n="sg"/><s n="acc"/></r></p></e>
   <e>       <p><l></l>          <r><s n="adj"/><s n="nt"/><s n="sg"/><s n="acc"/></r></p></e>
@@ -729,6 +739,8 @@
 </pardef>
 
 <pardef n="bläie/n__adj">
+  <e>       <p><l>n</l>         <r>n<s n="adj"/><s n="pred"/></r></p></e>
+
   <e>       <p><l>ne</l>        <r>n<s n="adj"/><s n="m"/><s n="sg"/><s n="acc"/></r></p><par n="n"/></e>
   <e>       <p><l></l>          <r>n<s n="adj"/><s n="f"/><s n="sg"/><s n="acc"/></r></p><par n="n"/></e>
   <e>       <p><l>nt</l>        <r>n<s n="adj"/><s n="nt"/><s n="sg"/><s n="acc"/></r></p></e>
@@ -757,6 +769,8 @@
 </pardef>
 
 <pardef n="bla/nn__adj">
+  <e>       <p><l></l>          <r>nn<s n="adj"/><s n="pred"/></r></p><par n="nn"/></e>
+
   <e>       <p><l>nne</l>       <r>nn<s n="adj"/><s n="m"/><s n="sg"/><s n="acc"/></r></p><par n="n"/></e>
   <e>       <p><l></l>          <r>nn<s n="adj"/><s n="f"/><s n="sg"/><s n="acc"/></r></p><par n="nn"/></e>
   <e>       <p><l>nnt</l>       <r>nn<s n="adj"/><s n="nt"/><s n="sg"/><s n="acc"/></r></p></e>
@@ -785,6 +799,8 @@
 </pardef>
 
 <pardef n="héi/ch__adj">
+  <e>       <p><l>ch</l>        <r>ch<s n="adj"/><s n="pred"/></r></p></e>
+
   <e>       <p><l>je</l>        <r>ch<s n="adj"/><s n="m"/><s n="sg"/><s n="acc"/></r></p><par n="n"/></e>
   <e>       <p><l>ch</l>        <r>ch<s n="adj"/><s n="f"/><s n="sg"/><s n="acc"/></r></p></e>
   <e>       <p><l>cht</l>       <r>ch<s n="adj"/><s n="nt"/><s n="sg"/><s n="acc"/></r></p></e>
@@ -5846,6 +5862,7 @@
 <e lm="damiddeg">        <i>damiddeg</i><par n="aarm__adj"/></e>
 <e lm="daper">           <i>daper</i><par n="aarm__adj"/></e>
 <e lm="déck">            <i>déck</i><par n="aarm__adj"/></e>
+<e lm="deier">           <i>deier</i><par n="aarm__adj"/></e>
 <e lm="dënn">            <i>dë</i><par n="bla/nn__adj"/></e>
 <e lm="dier">            <i>dier</i><par n="aarm__adj"/></e>
 <e lm="domm">            <i>domm</i><par n="aarm__adj"/></e>
@@ -10026,6 +10043,8 @@
 <e lm="Haarz">           <i>haarz</i><par n="Abléck__n_m_lower"/></e>
 <e lm="Haass">           <i>Haass</i><par n="Abgascht__n_m"/></e>
 <e lm="Haass">           <i>haass</i><par n="Abgascht__n_m_lower"/></e>
+<e lm="Haaptverb">       <i>Haaptverb</i><par n="A__n_nt"/></e>
+<e lm="Haaptverb">       <i>haaptverb</i><par n="A__n_nt"/></e>
 <e lm="Hackernoss">      <i>Hackern</i><par n="Afenn/oss__n_f"/></e>
 <e lm="Hackernoss">      <i>hackern</i><par n="Afenn/oss__n_f_lower"/></e>
 <e lm="Haff">            <i>H</i><par n="Bauerenh/aff__n_m"/></e>
@@ -11101,6 +11120,8 @@
 <e lm="Mo">              <i>m</i><par n="M/o__n_m_lower"/></e>
 <e lm="Mod">             <i>M</i><par n="M/od__n_f"/></e>
 <e lm="Mod">             <i>m</i><par n="M/od__n_f_lower"/></e>
+<e lm="Modalverb">       <i>Modalverb</i><par n="A__n_nt"/></e>
+<e lm="Modalverb">       <i>modalverb</i><par n="A__n_nt"/></e>
 <e lm="Moff">            <i>Moff</i><par n="Aangel__n_f"/></e>
 <e lm="Moff">            <i>moff</i><par n="Aangel__n_f_lower"/></e>
 <e lm="Moien">           <i>Moie</i><par n="Moie/n__n_m"/></e>
@@ -17283,6 +17304,7 @@
 
   </section>
   <section id="contractions" type="standard">
+
 <e lm="am">              <p><l>am</l>        <r>an<s n="pr"/><s n="dat"/><j/>den<s n="det"/><s n="def"/><s n="m"/><s n="sg"/><s n="dat"/></r></p></e>
 <e lm="am">              <p><l>am</l>        <r>an<s n="pr"/><s n="dat"/><j/>den<s n="det"/><s n="def"/><s n="nt"/><s n="sg"/><s n="dat"/></r></p></e>
 <e lm="beim">            <p><l>beim</l>      <r>bei<s n="pr"/><s n="dat"/><j/>den<s n="det"/><s n="def"/><s n="m"/><s n="sg"/><s n="dat"/></r></p></e>
@@ -17300,8 +17322,10 @@
 <e lm="zum">             <p><l>zum</l>       <r>zu<s n="pr"/><s n="dat"/><j/>den<s n="det"/><s n="def"/><s n="m"/><s n="sg"/><s n="dat"/></r></p></e>  <!-- correct? -->
 <e lm="zum">             <p><l>zum</l>       <r>zu<s n="pr"/><s n="dat"/><j/>den<s n="det"/><s n="def"/><s n="nt"/><s n="sg"/><s n="dat"/></r></p></e>  <!-- correct? -->
 <e lm="zur">             <p><l>zur</l>       <r>zu<s n="pr"/><s n="dat"/><j/>den<s n="det"/><s n="def"/><s n="f"/><s n="sg"/><s n="dat"/></r></p></e>  <!-- correct? -->
+
   </section>
   <section id="final" type="inconditional">
+
 <e>                      <par n="separa"/></e>
 <e>                      <par n="numeros"/></e>
 <e>                      <par n="quot"/></e>
@@ -17311,5 +17335,11 @@
 <e>                      <par n="guionet"/></e>
 <e>                      <par n="paresq"/></e>
 <e>                      <par n="pardret"/></e>
+
+  </section>
+  <section id="det_apos" type="postblank">
+
+<e lm="den">             <i></i><par n="/den__det_postblank"/></e>
+
   </section>
 </dictionary>
