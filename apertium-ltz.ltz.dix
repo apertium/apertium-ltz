@@ -16445,7 +16445,7 @@
 <e lm="De Beauvoir">     <i>De<b/>Beauvoir</i><par n="Schmidt__np"/></e>
 <e lm="Deafman">         <i>Deafman</i><par n="Schmidt__np"/></e>
 <e lm="Debs">            <i>Debs</i><par n="Schmidt__np"/></e>
-<e lm="Dee">             <i>Dee</i><par n="Schmidt__np"/></e>
+<e lm="Dee" r="RL">      <i>Dee</i><par n="Schmidt__np"/></e>
 <e lm="Delwin">          <i>Delwin</i><par n="Schmidt__np"/></e>
 <e lm="Dencel">          <i>Dencel</i><par n="Schmidt__np"/></e>
 <e lm="Denham">          <i>Denham</i><par n="Schmidt__np"/></e>
