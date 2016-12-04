@@ -162,6 +162,7 @@
 <pardef n="cmp-L" c="cmp-L, for forms that can only appear at the beginning or inside compounds">
   <e r="RL"><p><l></l>          <r><s n="cmp"/></r></p></e>
   <e r="LR"><p><l></l>          <r><s n="cmp"/><s n="compound-only-L"/></r></p></e>
+  <e>       <p><l></l>          <r></r></p></e>
 
   <e>       <p><l>-</l>         <r><s n="cmp-split"/></r></p></e>
 </pardef>
