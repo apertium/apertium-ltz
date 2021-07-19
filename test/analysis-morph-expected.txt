@@ -1,0 +1,18 @@
+[JLayeQnQRzSm#0] ^mam/mat<pr><dat>+den<det><def><m><sg><dat>/mat<pr><dat>+den<det><def><nt><sg><dat>$
+[/JLayeQnQRzSm]
+[Jl_aF6NGEbFT#0] ^'/'<apos>$
+[/Jl_aF6NGEbFT]
+[PSha32VuAfFI#0] ^virum/virun<pr><dat>+den<det><def><m><sg><dat>/virun<pr><dat>+den<det><def><nt><sg><dat>$
+[/PSha32VuAfFI]
+[RXWdQBLaGl1r#0] ^d'/den<det><def><f><sg><nom>/den<det><def><f><sg><acc>/den<det><def><nt><sg><nom>/den<det><def><nt><sg><acc>/den<det><def><mfn><pl><nom>/den<det><def><mfn><pl><acc>$
+[/RXWdQBLaGl1r]
+[RcqEVAly0MGc#0] ^“/“<rquot>$
+[/RcqEVAly0MGc]
+[glzAkUhKlllf#0] ^vum/vun<pr><dat>+den<det><def><m><sg><dat>/vun<pr><dat>+den<det><def><nt><sg><dat>$
+[/glzAkUhKlllf]
+[io3oI9XtPhJ0#0] ^?/?<sent>$
+[/io3oI9XtPhJ0]
+[q221mSNNJjZl#0] ^am/an<pr><dat>+den<det><def><m><sg><dat>/an<pr><dat>+den<det><def><nt><sg><dat>$
+[/q221mSNNJjZl]
+[u3IIvJtdfATx#0] ^!/!<sent>$
+[/u3IIvJtdfATx]
